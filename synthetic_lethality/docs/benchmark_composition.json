@@ -1,0 +1,142 @@
+{
+  "dataset": "publications/synthetic_lethality/data/data/test_cases_100.json",
+  "n_total": 100,
+  "positive": {
+    "n": 70,
+    "genes": [
+      [
+        "TP53",
+        12
+      ],
+      [
+        "CDK12",
+        10
+      ],
+      [
+        "BRCA1",
+        8
+      ],
+      [
+        "RAD51C",
+        8
+      ],
+      [
+        "BRCA2",
+        7
+      ],
+      [
+        "RAD51D",
+        7
+      ],
+      [
+        "ARID1A",
+        6
+      ],
+      [
+        "PALB2",
+        5
+      ],
+      [
+        "MBD4",
+        4
+      ],
+      [
+        "ATM",
+        3
+      ]
+    ],
+    "lineages": [
+      [
+        "breast_cancer",
+        24
+      ],
+      [
+        "prostate_cancer",
+        24
+      ],
+      [
+        "ovarian_cancer",
+        22
+      ]
+    ],
+    "consequences": [
+      [
+        "unknown",
+        39
+      ],
+      [
+        "missense",
+        20
+      ],
+      [
+        "stop_gained",
+        7
+      ],
+      [
+        "frameshift_variant",
+        4
+      ]
+    ],
+    "gt_drugs": [
+      [
+        "olaparib",
+        52
+      ],
+      [
+        "niraparib",
+        52
+      ],
+      [
+        "ceralasertib",
+        11
+      ],
+      [
+        "adavosertib",
+        7
+      ]
+    ]
+  },
+  "negative": {
+    "n": 30,
+    "genes": [
+      [
+        "KRAS",
+        15
+      ],
+      [
+        "EGFR",
+        15
+      ]
+    ],
+    "lineages": [
+      [
+        "ovarian_cancer",
+        10
+      ],
+      [
+        "breast_cancer",
+        10
+      ],
+      [
+        "prostate_cancer",
+        10
+      ]
+    ],
+    "consequences": [
+      [
+        "missense",
+        30
+      ]
+    ],
+    "gt_drugs": [
+      [
+        "trametinib",
+        15
+      ],
+      [
+        "osimertinib",
+        15
+      ]
+    ]
+  }
+}

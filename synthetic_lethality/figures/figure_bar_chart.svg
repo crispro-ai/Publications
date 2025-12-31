@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="370">
+<style>text{font-family: ui-sans-serif, system-ui, -apple-system; font-size: 12px;} .lab{font-weight:600}</style>
+<text x="10" y="18" class="lab">Pos Drug@1 (with 95% CI)</text>
+<text x="10" y="58" class="lab">Random</text>
+<rect x="220" y="46" width="420" height="10" fill="#eee"/>
+<rect x="220" y="46" width="66" height="10" fill="#4f46e5"/>
+<line x1="250" y1="51" x2="322" y2="51" stroke="#111" stroke-width="2"/>
+<text x="650" y="58" fill="#111">15.7%</text>
+<text x="10" y="86" class="lab">Rule (DDR→PARP)</text>
+<rect x="220" y="74" width="420" height="10" fill="#eee"/>
+<rect x="220" y="74" width="300" height="10" fill="#4f46e5"/>
+<line x1="478" y1="79" x2="568" y2="79" stroke="#111" stroke-width="2"/>
+<text x="650" y="86" fill="#111">71.4%</text>
+<text x="10" y="114" class="lab">Model SP</text>
+<rect x="220" y="102" width="420" height="10" fill="#eee"/>
+<rect x="220" y="102" width="390" height="10" fill="#4f46e5"/>
+<line x1="580" y1="107" x2="634" y2="107" stroke="#111" stroke-width="2"/>
+<text x="650" y="114" fill="#111">92.9%</text>
+<text x="10" y="142" class="lab">Model SPE</text>
+<rect x="220" y="130" width="420" height="10" fill="#eee"/>
+<rect x="220" y="130" width="390" height="10" fill="#4f46e5"/>
+<line x1="580" y1="135" x2="634" y2="135" stroke="#111" stroke-width="2"/>
+<text x="650" y="142" fill="#111">92.9%</text>
+<text x="10" y="170" class="lab">Ablation S</text>
+<rect x="220" y="158" width="420" height="10" fill="#eee"/>
+<rect x="220" y="158" width="78" height="10" fill="#4f46e5"/>
+<line x1="262" y1="163" x2="340" y2="163" stroke="#111" stroke-width="2"/>
+<text x="650" y="170" fill="#111">18.6%</text>
+<text x="10" y="198" class="lab">Ablation P</text>
+<rect x="220" y="186" width="420" height="10" fill="#eee"/>
+<rect x="220" y="186" width="78" height="10" fill="#4f46e5"/>
+<line x1="262" y1="191" x2="340" y2="191" stroke="#111" stroke-width="2"/>
+<text x="650" y="198" fill="#111">18.6%</text>
+<text x="10" y="226" class="lab">Ablation E</text>
+<rect x="220" y="214" width="420" height="10" fill="#eee"/>
+<rect x="220" y="214" width="42" height="10" fill="#4f46e5"/>
+<line x1="232" y1="219" x2="292" y2="219" stroke="#111" stroke-width="2"/>
+<text x="650" y="226" fill="#111">10.0%</text>
+<text x="10" y="254" class="lab">Ablation SP</text>
+<rect x="220" y="242" width="420" height="10" fill="#eee"/>
+<rect x="220" y="242" width="390" height="10" fill="#4f46e5"/>
+<line x1="580" y1="247" x2="634" y2="247" stroke="#111" stroke-width="2"/>
+<text x="650" y="254" fill="#111">92.9%</text>
+<text x="10" y="282" class="lab">Ablation SE</text>
+<rect x="220" y="270" width="420" height="10" fill="#eee"/>
+<rect x="220" y="270" width="78" height="10" fill="#4f46e5"/>
+<line x1="262" y1="275" x2="340" y2="275" stroke="#111" stroke-width="2"/>
+<text x="650" y="282" fill="#111">18.6%</text>
+<text x="10" y="310" class="lab">Ablation PE</text>
+<rect x="220" y="298" width="420" height="10" fill="#eee"/>
+<rect x="220" y="298" width="78" height="10" fill="#4f46e5"/>
+<line x1="262" y1="303" x2="340" y2="303" stroke="#111" stroke-width="2"/>
+<text x="650" y="310" fill="#111">18.6%</text>
+<text x="10" y="338" class="lab">Ablation SPE</text>
+<rect x="220" y="326" width="420" height="10" fill="#eee"/>
+<rect x="220" y="326" width="390" height="10" fill="#4f46e5"/>
+<line x1="580" y1="331" x2="634" y2="331" stroke="#111" stroke-width="2"/>
+<text x="650" y="338" fill="#111">92.9%</text>
+</svg>
