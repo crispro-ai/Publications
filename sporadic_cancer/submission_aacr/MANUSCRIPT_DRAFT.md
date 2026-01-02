@@ -19,6 +19,12 @@
 
 ---
 
+## Manuscript type
+
+**Methods/Systems + reproducibility (RUO).** This manuscript validates deterministic behavior and provenance; it does not claim clinical outcome benefit.
+
+---
+
 ## Abstract
 
 **Background:** Most oncology patients are germline-negative (sporadic) and frequently lack immediately available tumor NGS at the time therapy options are discussed. In this setting, decision support systems can silently extrapolate from incomplete inputs and emit overconfident recommendations.

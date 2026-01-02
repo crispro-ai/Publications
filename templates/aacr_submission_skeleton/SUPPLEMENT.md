@@ -1,0 +1,6 @@
+# Supplement
+
+## S1. Claims-to-Receipts Map
+
+- Claim: ...
+- Receipt(s): ...
