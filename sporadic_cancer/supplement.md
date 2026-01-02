@@ -9,7 +9,7 @@ This supplement provides executable receipts backing the manuscript claims (unit
 | PARP germline/HRD gate: germline− & HRD<42 → 0.6x; rescue at HRD≥42; unknown → 0.8x | `oncology-coPilot/oncology-backend-minimal/api/services/efficacy_orchestrator/sporadic_gates.py` | `receipts/pytest_sporadic_gates.txt`, `receipts/validate_sporadic_gates_report.json` | PASS |
 | IO boost gate (checkpoint drugs): TMB≥20 → 1.35x; MSI-high → 1.30x; TMB≥10 → 1.25x (mutually exclusive) | `.../sporadic_gates.py` | `receipts/pytest_sporadic_gates.txt`, `receipts/validate_sporadic_gates_report.json` | PASS |
 | Confidence caps: L0 cap 0.4; L1 cap 0.6; L2 no cap | `.../sporadic_gates.py` | `receipts/pytest_sporadic_gates.txt`, Fig. 3 | PASS |
-| Orchestrator attaches `sporadic_gates_provenance` per drug when context present | `oncology-coPilot/oncology-backend-minimal/api/services/efficachestrator.py` | `receipts/e2e_efficacy_response.json` | PASS |
+| Orchestrator attaches `sporadic_gates_provenance` per drug when context present | `oncology-coPilot/oncology-backend-minimal/api/services/efficacy_orchestrator/orchestrator.py` | `receipts/e2e_efficacy_response.json` | PASS |
 | E2E workflow (Quick Intake → efficacy predict) produces provenance-bearing outputs | `api/routers/tumor.py`, `.../orchestrator.py` | `receipts/e2e_tumor_context.json`, `receipts/e2e_efficacy_response.json`, `receipts/e2e_sporadic_workflow.txt` | PASS |
 | Trials search supports sporadic filtering metadata (`excluded_count`, biomarker matches) | `api/services/hybrid_trial_search.py` | Code inspection; environment-dependent (AstraDB/Neo4j) | PARTIAL |
 
@@ -17,7 +17,7 @@ This supplement provides executable receipts backing the manuscript claims (unit
 
 - Scenario suite file: `data/scenario_suite_25_20251231_080940.json`
 - Count: 25 cases
-- Gate effects benchmark receipt: `receipts/benchmark_gate_effects.json` (changed efficacy in 13/25 cases; changed confidence in 13/25 ces)
+- Gate effects benchmark receipt: `receipts/benchmark_gate_effects.json` (changed efficacy in 13/25 cases; changed confidence in 13/25 cases)
 
 | Case | Label | Germline | Completeness | Inputs (TMB/MSI/HRD) | Eff(in→out) | Conf(in→out) | Gates applied |
 |---|---|---|---:|---|---|---|---|
