@@ -1,0 +1,39 @@
+```mermaid
+flowchart TB
+  subgraph Intake[Input & Intake]
+    A0[Patient context
+(disease, line, location)]
+    A1[Germline status
+positive/negative/unknown]
+    A2[TumorContext L0
+Quick Intake (priors + optional biomarkers)]
+    A3[TumorContext L1
+Manual biomarkers (TMB/MSI/HRD)]
+    A4[TumorContext L2
+NGS ingest (Foundation/Tempus)
+(somatic variants + metrics)]
+  end
+
+  subgraph Scoring[Efficacy Orchestrator]
+    B0[Base efficacy scoring
+(existing S/P/E pipeline)]
+    B1[Sporadic gates
+(PARP penalty / HRD rescue,
+IO boost, confidence caps)]
+    B2[Per-drug provenance
+sporadic_gates_provenance]
+  end
+
+  subgraph Output[Outputs]
+    C1[Ranked drugs + confidence]
+    C2[Provenance card
+(gates applied, rationale)]
+  end
+
+  A0 --> B0
+  A1 --> B1
+  A2 --> B1
+  A3 --> B1
+  A4 --> B1
+  B0 --> B1 --> B2 --> C1
+  B2 --> C2
