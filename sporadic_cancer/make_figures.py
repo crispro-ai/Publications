@@ -1,12 +1,7 @@
 #!/usr/bin/env python3
-"""Generate figures for sporadic_cancer package.
+"""Generate figures for publications/sporadic_cancer.
 
-This script is path-robust: it can be run from any working directory.
-
-Outputs:
-- figures/figure_1_architecture.png
-- figures/figure_2_parp_gates.png
-- figures/figure_3_confidence_caps.png
+Path-robust: can be run from any working directory.
 """
 
 from __future__ import annotations
@@ -14,8 +9,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-import matplotlib.pyplot as plt
 import matplotlib.patches as patches
+import matplotlib.pyplot as plt
 import seaborn as sns
 
 
@@ -58,11 +53,10 @@ def main() -> int:
     box(0.70, 0.62, 0.28, 0.28, "Efficacy Orchestrator\nBase ranking → per-drug gates")
 
     box(0.02, 0.10, 0.28, 0.40, "Quick Intake\n(no NGS required)")
-    box(0.36, 0.10, 0.28, 0.40, "Spor Gates\n- PARP penalty/rescue\n- IO boost\n- Confidence caps")
+    box(0.36, 0.10, 0.28, 0.40, "Sporadic Gates\n- PARP penalty/rescue\n- IO boost\n- Confidence caps")
     box(0.70, 0.10, 0.28, 0.40, "Outputs\n- efficacy/confidence\n- sporadic_gates_provenance\n- receipts")
 
-    # Arrows
-    ax.annotate("", xy=(0.36, 0.76), xytext=(0.30, 0.76), arrowprops=dict(arrowstyle="->", lw=1.5))
+    ax.annotate("", xy=(0.36, 0.7xytext=(0.30, 0.76), arrowprops=dict(arrowstyle="->", lw=1.5))
     ax.annotate("", xy=(0.70, 0.76), xytext=(0.64, 0.76), arrowprops=dict(arrowstyle="->", lw=1.5))
     ax.annotate("", xy=(0.36, 0.30), xytext=(0.30, 0.30), arrowprops=dict(arrowstyle="->", lw=1.5))
     ax.annotate("", xy=(0.70, 0.30), xytext=(0.64, 0.30), arrowprops=dict(arrowstyle="->", lw=1.5))
@@ -85,7 +79,7 @@ def main() -> int:
         elif germ == "negative":
             grp = "Penalty (germline−, HRD<42 or unknown)"
         elif germ == "positive":
-            grp = "Germline+ (no penalty)"
+            grp = "Germlin penalty)"
         else:
             grp = "Unknown germline (conservative)"
 
@@ -107,7 +101,7 @@ def main() -> int:
     conf_cases = [c for c in j["cases"] if c["label"] == "CONF_cap"]
     points = []
     for c in conf_cases:
-        comp = c["]["tumor_context"]["completeness_score"]
+        comp = c["input"]["tumor_context"]["completeness_score"]
         out_conf = c["output"]["confidence"]
         level = "L0" if comp < 0.3 else ("L1" if comp < 0.7 else "L2")
         points.append((comp, out_conf, level))
@@ -133,7 +127,7 @@ def main() -> int:
     plt.close()
 
     print(f"✅ wrote {figs / 'figure_1_architecture.png'}")
-    print(f"✅ wrote {figs / 'figure_2_parp_gates.png'}")
+    print(f"✅ wrote {figs / 'figurparp_gates.png'}")
     print(f"✅ wrote {figs / 'figure_3_confidence_caps.png'}")
 
     return 0

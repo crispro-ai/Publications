@@ -21,7 +21,7 @@ def load_json(path: Path) -> dict:
 def main() -> int:
     base = Path(__file__).resolve().parent
 
-    scenari = newest(base, "scenario_suite_25_*.json")
+    scenario_path = newest(base, "scenario_suite_25_*.json")
     bench_path = base / "receipts" / "benchmark_gate_effects.json"
     bench = load_json(bench_path)
     s = bench.get("stats", {})
@@ -29,7 +29,7 @@ def main() -> int:
     md: list[str] = []
 
     md.append(
-        "# Conservative tumor-context gating for sporadic cancers: a provenance-first approach for precision oncology without tumor NGS"
+      "# Conservative tumor-context gating for sporadic cancers: a provenance-first approach for precision oncology without tumor NGS"
     )
     md.append("")
 
@@ -43,13 +43,16 @@ def main() -> int:
         "**Methods:** We implemented a conservative, provenance-first tumor-context layer consisting of (i) a structured TumorContext schema with explicit biomarker fields (TMB, MSI status, HRD score) and a completeness score mapped to three intake levels (L0/L1/L2); (ii) a Quick Intake pathway that creates TumorContext under partial information; and (iii) deterministic sporadic gates applied per drug to adjust efficacy and/or confidence. Gates include a PARP inhibitor penalty for germline-negative, HRD-low contexts with rescue for HRD-high tumors; an immunotherapy (checkpoint inhibitor) boost for strong tumor biomarkers; and confidence caps based on TumorContext completeness. Each adjustment emits structured provenance (`sporadic_gates_provenance`)."
     )
     md.append("")
-
     md.append(
-        "**Results:** Unit tests passed (8/8; receipt `receipts/pytest_sporadic_gates.txt`) and a standalone validation script passed (6/6; receipts `receipts/validate_sporadic_gates.txt` and `receipts/validate_sporadic_gates_report.json`). Quick Intake executed successfully for 15/15 cancer types (receipt `receipts/quick_intake_15cancers.json`). An end-to-end smoke test (Quick Intake → efficacy prediction) produced provenance-bearing drug outputs (recets `receipts/e2e_tumor_context.json`, `receipts/e2e_efficacy_response.json`, `receipts/e2e_sporadic_workflow.txt`)."
+        "**Results:** Unit tests passed (8/8; receipt `receipts/pytest_sporadic_gates.txt`) and a standalone validation script passed (6/6; receipts `receipts/validate_sporadic_gates.txt` and `receipts/validate_sporadic_gates_report.json`). Quick Intake executed successfully for 15/15 cancer types (receipt `receipts/quick_intake_15cancers.json`). An end-to-end smoke test (Quick Intake → efficacy prediction) produced provenance-bearing drug outputs (receipts `receipts/e2e_tumor_context.json`, `receipts/e2e_efficacy_response.json`, `receipts/e2e_sporadic_workflow.txt`)."
     )
 
     if all(k in s for k in [
-        'changed_eff_cases','changed_conf_cases','n_cases','agreement_naive_vs_system_eff','agreement_naive_vs_system_conf'
+        "changed_eff_cases",
+        "changed_conf_cases",
+      "n_cases",
+        "agreement_naive_vs_system_eff",
+        "agreement_naive_vs_system_conf",
     ]):
         md.append("")
         md.append(
@@ -82,9 +85,9 @@ def main() -> int:
 
     out = base / "sporadic_cancer_manuscript.md"
     out.write_text("\n".join(md), encoding="utf-8")
-    print(f"✅ wrote {out}")
+    print(f"✅ wrote {ou")
     return 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     raise SystemExit(main())
