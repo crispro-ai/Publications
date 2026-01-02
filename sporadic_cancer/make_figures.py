@@ -1,17 +1,75 @@
+#!/usr/bin/env python3
+"""Generate figures for sporadic_cancer package.
+
+This script is path-robust: it can be run from any working directory.
+
+Outputs:
+- figures/figure_1_architecture.png
+- figures/figure_2_parp_gates.png
+- figures/figure_3_confidence_caps.png
+"""
+
+from __future__ import annotations
+
 import json
 from pathlib import Path
 
 import matplotlib.pyplot as plt
+import matplotlib.patches as patches
 import seaborn as sns
 
 
-def main() -> None:
+def newest(base: Path, glob_pat: str) -> Path:
+    paths = list((base / "data").glob(glob_pat))
+    if not paths:
+        raise FileNotFoundError(f"No files matched {(base / 'data' / glob_pat)}")
+    return max(paths, key=lambda p: p.stat().st_mtime)
+
+
+def main() -> int:
     sns.set(style="whitegrid")
 
-    scenario_path = max(Path("data").glob("scenario_suite_25_*.json"), key=lambda x: x.stat().st_mtime)
+    base = Path(__file__).resolve().parent
+    figs = base / "figures"
+    figs.mkdir(exist_ok=True)
+
+    scenario_path = newest(base, "scenario_suite_25_*.json")
     j = json.loads(scenario_path.read_text(encoding="utf-8"))
 
-    Path("figures").mkdir(exist_ok=True)
+    # Figure 1: architecture diagram (simple schematic)
+    fig, ax = plt.subplots(figsize=(10, 5))
+    ax.axis("off")
+
+    def box(x, y, w, h, label):
+        r = patches.FancyBboxPatch(
+            (x, y),
+            w,
+            h,
+            boxstyle="round,pad=0.02",
+            linewidth=1.2,
+            edgecolor="#444",
+            facecolor="#f5f5f5",
+        )
+        ax.add_patch(r)
+        ax.text(x + w / 2, y + h / 2, label, ha="center", va="center", fontsize=10)
+
+    box(0.02, 0.62, 0.28, 0.28, "Inputs\n- Germline status\n- Tumor biomarkers (optional)\n- Disease/stage")
+    box(0.36, 0.62, 0.28, 0.28, "TumorContext\n(TMB/MSI/HRD + completeness\n→ L0/L1/L2)")
+    box(0.70, 0.62, 0.28, 0.28, "Efficacy Orchestrator\nBase ranking → per-drug gates")
+
+    box(0.02, 0.10, 0.28, 0.40, "Quick Intake\n(no NGS required)")
+    box(0.36, 0.10, 0.28, 0.40, "Spor Gates\n- PARP penalty/rescue\n- IO boost\n- Confidence caps")
+    box(0.70, 0.10, 0.28, 0.40, "Outputs\n- efficacy/confidence\n- sporadic_gates_provenance\n- receipts")
+
+    # Arrows
+    ax.annotate("", xy=(0.36, 0.76), xytext=(0.30, 0.76), arrowprops=dict(arrowstyle="->", lw=1.5))
+    ax.annotate("", xy=(0.70, 0.76), xytext=(0.64, 0.76), arrowprops=dict(arrowstyle="->", lw=1.5))
+    ax.annotate("", xy=(0.36, 0.30), xytext=(0.30, 0.30), arrowprops=dict(arrowstyle="->", lw=1.5))
+    ax.annotate("", xy=(0.70, 0.30), xytext=(0.64, 0.30), arrowprops=dict(arrowstyle="->", lw=1.5))
+
+    plt.tight_layout()
+    plt.savefig(figs / "figure_1_architecture.png", dpi=220)
+    plt.close()
 
     # Figure 2: PARP gate effects
     parp = [c for c in j["cases"] if c["label"] == "PARP_gate"]
@@ -25,7 +83,7 @@ def main() -> None:
         if germ == "negative" and (hrd is not None) and (hrd >= 42):
             grp = "HRD rescue (germline−, HRD≥42)"
         elif germ == "negative":
-            grp = "Penalty (germline−, Hor unknown)"
+            grp = "Penalty (germline−, HRD<42 or unknown)"
         elif germ == "positive":
             grp = "Germline+ (no penalty)"
         else:
@@ -42,14 +100,14 @@ def main() -> None:
     plt.ylabel("Adjusted efficacy score")
     plt.title("Figure 2. PARP gate effects: HRD rescue vs germline-negative penalty")
     plt.tight_layout()
-    plt.savefig("figures/figure_2_parp_gates.png", dpi=220)
+    plt.savefig(figs / "figure_2_parp_gates.png", dpi=220)
     plt.close()
 
     # Figure 3: Confidence caps by completeness
     conf_cases = [c for c in j["cases"] if c["label"] == "CONF_cap"]
     points = []
     for c in conf_cases:
-        comp = c["input"]["tumor_context"]["completeness_score"]
+        comp = c["]["tumor_context"]["completeness_score"]
         out_conf = c["output"]["confidence"]
         level = "L0" if comp < 0.3 else ("L1" if comp < 0.7 else "L2")
         points.append((comp, out_conf, level))
@@ -71,12 +129,15 @@ def main() -> None:
     plt.title("Figure 3. Confidence caps by data completeness (L0/L1/L2)")
     plt.legend(loc="lower right", fontsize=8)
     plt.tight_layout()
-    plt.savefig("figures/figure_3_confidence_caps.png", dpi=220)
+    plt.savefig(figs / "figure_3_confidence_caps.png", dpi=220)
     plt.close()
 
-    print("✅ wrote figures/figure_2_parp_gates.png")
-    print("✅ wrote figures/figure_3_confidence_caps.png")
+    print(f"✅ wrote {figs / 'figure_1_architecture.png'}")
+    print(f"✅ wrote {figs / 'figure_2_parp_gates.png'}")
+    print(f"✅ wrote {figs / 'figure_3_confidence_caps.png'}")
+
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
