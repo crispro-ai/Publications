@@ -1,10 +1,3 @@
-# Competing Interests
+# Competing Interests Statement
 
-[To be determined]
-
-If applicable, include:
-- employment/consulting
-- equity/stock ownership
-- patents/patent applications
-- honoraria
-- sponsored research
+The authors declare no potential conflicts of interest.

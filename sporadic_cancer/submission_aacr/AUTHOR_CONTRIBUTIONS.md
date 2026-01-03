@@ -1,11 +1,16 @@
-# Author Contributions (CRediT)
+# Author Contributions
 
-- **Conceptualization**: [Names]
-- **Methodology**: [Names]
-- **Software**: [Names]
-- **Validation**: [Names]
-- **Writing – Original Draft**: [Names]
-- **Writing – Review & Editing**: [Names]
-- **Visualization**: [Names]
-- **Supervision**: [Names]
-- **Funding acqtion**: [Names]
+**Sabreen Abeed Allah:**
+- Formal analysis: Lower cost testing needed
+- Investigation: Lack of equipment in Palestine
+
+**Fahd Kiani:**
+- Methodology
+- Conceptualization
+- Resources
+- Data curation
+- Software
+- Supervision
+- Validation
+- Investigation
+- Visualization
