@@ -529,3 +529,15 @@ Examples receipt: `receipts/api_examples_20251231_083052.json`
   - Quick Intake responses should echo `priors_version` and `priors_used` for provenance.
   - Missing priors fields must default to `null` and reduce completeness/confidence (never silently assumed).
   - Each priors update should include a short provenance note (source cohort + DOI/PMID when available).
+
+## Supplement D. Clinical Outcome Validation Receipts
+
+These receipts back the Nature Medicine-quality claims for endometrial cancer (TCGA-UCEC).
+
+| Claim | Cohort | Receipt | Result |
+|---|---|---|---|
+| TMB ≥20 mut/Mb predicts OS | TCGA-UCEC (n=516) | `receipts/clinical/baseline_comparison_io_tcga_ucec.json` | HR=0.32, p=0.001 |
+| MSI-H predicts OS | TCGA-UCEC (n=527) | `receipts/clinical/baseline_comparison_io_tcga_ucec.json` | HR=0.49, p=0.007 |
+| Combined OR-gate predicts OS | TCGA-UCEC (n=527) | `receipts/clinical/baseline_comparison_io_tcga_ucec.json` | HR=0.39, p=0.00017 |
+| Tumor-type specificity (Negative Control) | TCGA-COADREAD (n=590) | `receipts/clinical/baseline_comparison_io_tcga_coadread.json` | p>0.75 (Non-significant) |
+| Real-world trigger audit | TCGA-OV (n=469) | `receipts/clinical/real_cohort_behavioral_validation.on` | 98.1% trigger rate |
