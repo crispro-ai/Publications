@@ -80,6 +80,12 @@ A smoke test exercising Quick Intake → efficacy prediction produced:
 - `receipts/e2e_efficacy_response.json`
 - `receipts/e2e_sporadic_workflow.txt`
 
+### 3.4 Behavioral profile on real clinical cohort (n=469)
+To evaluate real-world impact, we applied sporadic gates to mutation profiles from 469 TCGA-OV patients.
+The system applied a PARP penalty to **98.1%** (460/469) of patients, reflecting a conservative stance when explicit high-DDR/HRD markers are absent in the clinical record.
+
+**Receipt:** `receipts/real_cohort_behavioral_validation.json`
+
 ---
 
 ## 4. Figures
@@ -107,7 +113,14 @@ Primary receipts referenced here:
 - `receipts/e2e_tumor_context.json`
 - `receipts/e2e_efficacy_response.json`
 - `receipts/e2e_sporadic_workflow.txt`
+
+### 3.4 Behavioral profile on real clinical cohort (n=469)
+To evaluate real-world impact, we applied sporadic gates to mutation profiles from 469 TCGA-OV patients.
+The system applied a PARP penalty to **98.1%** (460/469) of patients, reflecting a conservative stance when explicit high-DDR/HRD markers are absent in the clinical record.
+
+**Receipt:** `receipts/real_cohort_behavioral_validation.json`
 - `receipts/benchmark_gate_effects.json`
+- `receipts/real_cohort_behavioral_validation.json`
 
 ---
 
