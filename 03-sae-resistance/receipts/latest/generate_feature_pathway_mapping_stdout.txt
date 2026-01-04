@@ -1,0 +1,10 @@
+Loading feature mapping...
+Found 9 diamond features
+Saved: /Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/03-sae-resistance/figures/figure4_feature_pathway_mapping.png
+Saved: /Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/03-sae-resistance/figures/figure4_feature_pathway_mapping.pdf
+
+============================================================
+FIGURE 4 GENERATED
+============================================================
+Diamond features: 9
+All map to: DDR_bin (DNA Damage Repair)

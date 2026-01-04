@@ -1,0 +1,6 @@
+# Publication script dependencies (03-sae-resistance)
+
+numpy>=1.24
+matplotlib>=3.7
+scipy>=1.10
+scikit-learn>=1.3

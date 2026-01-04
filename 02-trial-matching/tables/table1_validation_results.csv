@@ -1,0 +1,6 @@
+Metric,Target,Actual,Notes
+DDR trials count (tag>0.5),>=20,31,Computed from trial_moa_vectors.json
+Non-DDR trials count (tag<=0.5),-,17,Computed from trial_moa_vectors.json
+Mean DDR mechanism fit (cosine),-,0.983,Computed vs fixed example patient_vector
+Mean non-DDR mechanism fit (cosine),-,0.043,Computed vs fixed example patient_vector
+Separation delta (DDR - non),>=0.60,0.940,Computed from means above

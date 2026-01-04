@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-01-03T08:21:25.353048+00:00",
+  "top_n": 15,
+  "trial_moa_path": "/Users/fahadkiani/Desktop/development/crispr-assistant-main/oncology-coPilot/oncology-backend-minimal/api/resources/trial_moa_vectors.json",
+  "cases": [
+    {
+      "case_id": "CASE_DDR_HIGH_001",
+      "disease": "solid_tumor",
+      "ranked_nct_ids": [
+        "NCT04284969",
+        "NCT04001023",
+        "NCT02655016",
+        "NCT02244879",
+        "NCT03735979",
+        "NCT00072579",
+        "NCT05042479",
+        "NCT02680379",
+        "NCT00652379",
+        "NCT04850079",
+        "NCT03470779",
+        "NCT06395779",
+        "NCT00339079",
+        "NCT04534179",
+        "NCT05338879"
+      ],
+      "instructions": "SME: mark relevant NCT IDs; paste into ground_truth.relevant_trials in labeled_eval_cases.json"
+    },
+    {
+      "case_id": "CASE_MAPK_HIGH_001",
+      "disease": "solid_tumor",
+      "ranked_nct_ids": [
+        "NCT02359279",
+        "NCT01091779",
+        "NCT00006379",
+        "NCT06638879",
+        "NCT01979679",
+        "NCT02575079",
+        "NCT04284969",
+        "NCT04001023",
+        "NCT02655016",
+        "NCT02244879",
+        "NCT03735979",
+        "NCT00072579",
+        "NCT05042479",
+        "NCT02680379",
+        "NCT00652379"
+      ],
+      "instructions": "SME: mark relevant NCT IDs; paste into ground_truth.relevant_trials in labeled_eval_cases.json"
+    },
+    {
+      "case_id": "CASE_PI3K_HIGH_001",
+      "disease": "solid_tumor",
+      "ranked_nct_ids": [
+        "NCT02575079",
+        "NCT04284969",
+        "NCT04001023",
+        "NCT02655016",
+        "NCT02244879",
+        "NCT03735979",
+        "NCT00072579",
+        "NCT05042479",
+        "NCT02680379",
+        "NCT00652379",
+        "NCT04850079",
+        "NCT03470779",
+        "NCT06395779",
+        "NCT00339079",
+        "NCT04534179"
+      ],
+      "instructions": "SME: mark relevant NCT IDs; paste into ground_truth.relevant_trials in labeled_eval_cases.json"
+    },
+    {
+      "case_id": "CASE_VEGF_HIGH_001",
+      "disease": "solid_tumor",
+      "ranked_nct_ids": [
+        "NCT01000259",
+        "NCT06332079",
+        "NCT04164979",
+        "NCT02575079",
+        "NCT04284969",
+        "NCT04001023",
+        "NCT02655016",
+        "NCT02244879",
+        "NCT03735979",
+        "NCT00072579",
+        "NCT05042479",
+        "NCT02680379",
+        "NCT00652379",
+        "NCT04850079",
+        "NCT03470779"
+      ],
+      "instructions": "SME: mark relevant NCT IDs; paste into ground_truth.relevant_trials in labeled_eval_cases.json"
+    },
+    {
+      "case_id": "CASE_HER2_HIGH_001",
+      "disease": "solid_tumor",
+      "ranked_nct_ids": [
+        "NCT06331130",
+        "NCT04986579",
+        "NCT04521179",
+        "NCT05943379",
+        "NCT04284969",
+        "NCT04001023",
+        "NCT02655016",
+        "NCT02244879",
+        "NCT03735979",
+        "NCT00072579",
+        "NCT05042479",
+        "NCT02680379",
+        "NCT00652379",
+        "NCT04850079",
+        "NCT03470779"
+      ],
+      "instructions": "SME: mark relevant NCT IDs; paste into ground_truth.relevant_trials in labeled_eval_cases.json"
+    }
+  ]
+}

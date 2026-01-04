@@ -1,0 +1,64 @@
+================================================================================
+PUBLICATION FIGURE GENERATION
+================================================================================
+Output directory: ../figures
+Format: both
+
+Generating main figures...
+--------------------------------------------------------------------------------
+Figure 1: System Architecture...
+  Saved: ../figures/figure1_system_architecture.pdf
+  Saved: ../figures/figure1_system_architecture.png
+  ✅ Complete
+Figure 2: Mechanism Fit Performance...
+  Saved: ../figures/figure2_mechanism_fit_performance.pdf
+  Saved: ../figures/figure2_mechanism_fit_performance.png
+  ✅ Complete
+Figure 3: Clinical Example (MBD4+TP53)...
+  Saved: ../figures/figure3_clinical_example.pdf
+  Saved: ../figures/figure3_clinical_example.png
+  ✅ Complete
+Figure 4: Ranking Accuracy Comparison...
+  Saved: ../figures/figure4_ranking_accuracy.pdf
+  Saved: ../figures/figure4_ranking_accuracy.png
+  ✅ Complete
+Figure 5: Shortlist Compression...
+  Saved: ../figures/figure5_shortlist_compression.pdf
+  Saved: ../figures/figure5_shortlist_compression.png
+  ✅ Complete
+
+Generating supplementary figures...
+--------------------------------------------------------------------------------
+  Supplementary Figure 1: Pathway Aggregation Algorithm...
+    ✅ Complete
+  Supplementary Figure 2: Mechanism Fit Ranking Algorithm...
+    ✅ Complete
+  Supplementary Figure 3: Trial Coverage by Pathway...
+    ✅ Complete
+  ✅ Complete
+
+Generating tables...
+--------------------------------------------------------------------------------
+  Table 1: Validation Results Summary...
+  OK Table 1 saved to ../tables
+  Table 2: Comparison with Existing Methods...
+  OK Table 2 saved to ../tables
+  Table 3: Trial Coverage by Pathway...
+  OK Table 3 saved to ../tables
+  OK All tables generated
+  ✅ Complete
+
+Writing receipts...
+--------------------------------------------------------------------------------
+✅ Wrote: /Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/02-trial-matching/receipts/20260103_095850/mechanism_sanity.json
+✅ Updated latest: /Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/02-trial-matching/receipts/latest/mechanism_sanity.json
+  ✅ mechanism_sanity.json written
+✅ Wrote: /Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/02-trial-matching/receipts/20260103_095850/repro_manifest.json
+✅ Updated latest: /Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/02-trial-matching/receipts/latest/repro_manifest.json
+  ✅ repro_manifest.json written
+
+================================================================================
+GENERATION COMPLETE
+================================================================================
+Figures saved to: ../figures
+Tables saved to: ../tables

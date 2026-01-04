@@ -1,0 +1,42 @@
+{
+  "run": {
+    "generated_at": "2026-01-03T17:27:52.244750+00:00"
+  },
+  "inputs": {
+    "/Users/fahadkiani/Desktop/development/crispr-assistant-main/oncology-coPilot/oncology-backend-minimal/api/resources/trial_moa_vectors.json": "9b1907c6f053158ca2d880e5adff65660b88436b42cc96d0e351bee870da18ae",
+    "/Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/02-trial-matching/scripts/generate_all_figures.py": "9ea47dad90fc54b73dac62cb9baf85e4a71a49989ed087cd439624bf2e271850",
+    "/Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/02-trial-matching/scripts/generate_tables.py": "507c6acaa4216ac459348811e6298462ee6166cf6b55d00c5dcadcf0976b392d",
+    "/Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/02-trial-matching/scripts/evaluate_ranking.py": "9fa62ca6c3cbf3c0b26ea650b98bcd67c8586e4adc60d69f02571887434d5f93",
+    "/Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/02-trial-matching/scripts/compute_mechanism_sanity.py": "7a5694dcd22fa5e15d2727ef9269c15599814542cce3f8220e82eee9c08f762f"
+  },
+  "outputs": {
+    "figures/figure1_system_architecture.pdf": "8ca66bc3e3d60eeac26a88990d23256ddeb49801ecf72eca9517b1d4b1d0a294",
+    "figures/figure1_system_architecture.png": "f7c31e3bb3b35f4453c020a79f099010fdc0aac5194bba59516b53e912a815ec",
+    "figures/figure2_mechanism_fit_performance.pdf": "e7e2e64263d37062348da369b1ba1e7ce74187c626e9a1b2fdf55e7c21d7c242",
+    "figures/figure2_mechanism_fit_performance.png": "244895e86f139bb05506cfce68a89abea1ac2916b1d7ae867f778ce9e69b7e87",
+    "figures/figure3_clinical_example.pdf": "43d12e418e37e9878534c29a41ac9bb33d23649504c1da4ced8d7dedff0eec97",
+    "figures/figure3_clinical_example.png": "43e23e826be6456e8bc56bec85f4d417148d251c76ed2456ad024d2b8ae5d701",
+    "figures/figure4_ranking_accuracy.pdf": "3c9d67b635468ce3816701431971ab71cc84aa089d029f46373e7ce06a6c7506",
+    "figures/figure4_ranking_accuracy.png": "cfe20d0f04a480f5e87d45b1e24d594ce8d4ed6ed2fd0c1039ac0d7c6398e5a5",
+    "figures/figure5_shortlist_compression.pdf": "aedf6c7c221ce54213aaf043e3039daebcb2e454fe439e6b40293c675a0e1e1d",
+    "figures/figure5_shortlist_compression.png": "648c058671ea758cc4aa4ceab628d96437854838a53fb57b8176c8b80a6015fa",
+    "figures/supp_figure1_pathway_aggregation.pdf": "35d19e26120c656222916f365397bc0382a19959b0431ca9bed98b1c719e3b3c",
+    "figures/supp_figure1_pathway_aggregation.png": "94da59472e9d7acacd8db2157f2db96fba7a81677c4bb291ccf7c04b8e6928d7",
+    "figures/supp_figure2_mechanism_fit_algorithm.pdf": "09265ddd10b8ba40bd9a7a646cbbc0d1abea7e87a057c1b4940a9b404a2cfd50",
+    "figures/supp_figure2_mechanism_fit_algorithm.png": "6eb4c8864a2e5ee293cd7de98b26c4ee1fa1d73f3d90081080cbcc6a2d2806c7",
+    "figures/supp_figure3_trial_coverage.pdf": "060280702c36917c6278a1ca3eaa31a2d2eaa56342673a6f2e4e06848c2333ee",
+    "figures/supp_figure3_trial_coverage.png": "fcbf5c282b5e6db507200fd611051c762e034080fed468a68e553b15c4855d1c",
+    "tables/table1_validation_results.csv": "2c82494f940e9f4279b4f610984d652a5f2961d104130780a695a3a626321385",
+    "tables/table1_validation_results.tex": "0fad4312b15ff1eb3db9471d3410c7e109fc75b57defaa0e2c5f8d7d98262918",
+    "tables/table2_method_comparison.csv": "11f5971cb11547cef160fa8cff9e884db09590be7eb2c906b7ec15be02a9c035",
+    "tables/table2_method_comparison.tex": "2dc1f636637af63298f409f7748a2cc1a82b738b9ac3d103f9f1a93b3a202047",
+    "tables/table3_trial_coverage.csv": "3601054110a1eec0e2525baf3afb78d3ecc0f0190be55db23b78d9385bff0c58",
+    "tables/table3_trial_coverage.tex": "d9e62897e944adcffa3631b6694383b47bca0fede5563d7e2a3bff1cbc64c3d5",
+    "receipts/latest/generate_all_figures_stdout.txt": "04b77edd88fb942598cb0f80c78efb4fc2fef0c57f2dc10f06ac7dc263b95983",
+    "receipts/latest/mechanism_sanity.json": "4f39b7e0ab0b400ebd5692d30d16695f8775a3cdda4d0bd273d2b93245629142",
+    "receipts/latest/pip_freeze.txt": "c01262467deea6c32061209217c6fb5ead71b344c4b0b409bb88313844915c2a",
+    "receipts/latest/repro_manifest.json": "5921b0dcdb173606a11faf6b62e73a58704e6bcd571d5e4fd85c1612d1c99d04",
+    "receipts/latest/sme_packet.json": "dfbb24e1568ae1cd7702a084349c46d94e42402ad7ccf523250058eb32f1defd",
+    "receipts/latest/table1_head.csv": "a0f25633ef3885b4c4534fd56285f4420559c5e6cf560446732aff45781e3b7c"
+  }
+}

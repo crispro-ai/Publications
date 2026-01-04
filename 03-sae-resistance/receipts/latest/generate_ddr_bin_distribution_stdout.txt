@@ -1,0 +1,12 @@
+Loading data...
+Diamond features: 9
+Resistant: n=24, mean=0.160
+Sensitive: n=125, mean=0.066
+Mann-Whitney U: p=0.0020
+Cohen's d: 0.642
+Saved: /Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/03-sae-resistance/figures/figure3_ddr_bin_distribution.png
+Saved: /Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/03-sae-resistance/figures/figure3_ddr_bin_distribution.pdf
+
+============================================================
+FIGURE 3 GENERATED
+============================================================

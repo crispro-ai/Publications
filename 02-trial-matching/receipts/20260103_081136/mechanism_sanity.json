@@ -1,0 +1,26 @@
+{
+  "run": {
+    "generated_at": "2026-01-03T08:11:36.139190+00:00",
+    "trial_moa_path": "/Users/fahadkiani/Desktop/development/crispr-assistant-main/oncology-coPilot/oncology-backend-minimal/api/resources/trial_moa_vectors.json",
+    "trial_moa_sha256": "9b1907c6f053158ca2d880e5adff65660b88436b42cc96d0e351bee870da18ae",
+    "n_trials": 59,
+    "n_skipped_zero_vector": 11,
+    "patient_vector_7d": [
+      0.88,
+      0.12,
+      0.05,
+      0.02,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ddr_tag_threshold": 0.5
+  },
+  "metrics": {
+    "ddr_trials_count": 31,
+    "non_ddr_trials_count": 17,
+    "mean_ddr_fit": 0.9827456955168787,
+    "mean_non_ddr_fit": 0.04324569496093062,
+    "separation_delta": 0.9395000005559481
+  }
+}

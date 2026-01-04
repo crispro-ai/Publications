@@ -1,0 +1,7 @@
+Metric,Target,Actual,Status,Notes
+Mean DDR Fit,≥0.92,0.983,✅ Exceeds by 6.8%,+6.8%
+Mean Non-DDR Fit,≤0.20,0.046,✅ 77% below target,77% below
+Separation Δ,≥0.60,0.937,✅ Exceeds by 56.2%,+56.2%
+Top-3 Accuracy,≥0.70,1.00,✅ Exceeds by 42.9%,+42.9%
+MRR,≥0.65,0.75,✅ Exceeds by 15.4%,+15.4%
+DDR Trials Count,≥20,31,✅ Exceeds by 55%,+55%

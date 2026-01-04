@@ -1,0 +1,13 @@
+Loading data...
+Preparing features...
+Cohort: 149 patients (24 resistant, 125 sensitive)
+Computing ROC curves...
+Saved: /Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/03-sae-resistance/figures/figure2_roc_curves.png
+Saved: /Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/03-sae-resistance/figures/figure2_roc_curves.pdf
+
+============================================================
+FIGURE 2 GENERATED
+============================================================
+PROXY SAE: AUROC = 0.628 ± 0.119
+TRUE SAE: AUROC = 0.783 ± 0.100
+DELTA: +0.155

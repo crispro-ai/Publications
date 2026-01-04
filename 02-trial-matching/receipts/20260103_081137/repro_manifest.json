@@ -1,0 +1,40 @@
+{
+  "run": {
+    "generated_at": "2026-01-03T08:11:36.316277+00:00"
+  },
+  "inputs": {
+    "/Users/fahadkiani/Desktop/development/crispr-assistant-main/oncology-coPilot/oncology-backend-minimal/api/resources/trial_moa_vectors.json": "9b1907c6f053158ca2d880e5adff65660b88436b42cc96d0e351bee870da18ae",
+    "/Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/02-trial-matching/scripts/generate_all_figures.py": "5b1b5f69e5dae0fef0e9e4f713e2d97c48e5b5bc56971ddab52df80df0d5a605",
+    "/Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/02-trial-matching/scripts/generate_tables.py": "5499301bc7557c0df8c9e597f04bb91cd698f2b2865000687db8f0e8e6ca9474",
+    "/Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/02-trial-matching/scripts/evaluate_ranking.py": "547dfe871a865e5d9b86b71bf6f715036f89fed3fbed219c47e17eaf6e565b53",
+    "/Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/02-trial-matching/scripts/compute_mechanism_sanity.py": "7a5694dcd22fa5e15d2727ef9269c15599814542cce3f8220e82eee9c08f762f"
+  },
+  "outputs": {
+    "figures/figure1_system_architecture.pdf": "f17e1249081dcc71d5e97e9c894109619ecbe4788a0968ac47e09436ee7bd3d9",
+    "figures/figure1_system_architecture.png": "f7c31e3bb3b35f4453c020a79f099010fdc0aac5194bba59516b53e912a815ec",
+    "figures/figure2_mechanism_fit_performance.pdf": "b987b7fd4ba42942ce361fbed72ae790565214b3d6a722d4059b03325df95c92",
+    "figures/figure2_mechanism_fit_performance.png": "244895e86f139bb05506cfce68a89abea1ac2916b1d7ae867f778ce9e69b7e87",
+    "figures/figure3_clinical_example.pdf": "cd6568dfb790d6652e5de5b67bf9cd6aef160de19bdb05a68c64a44412d74663",
+    "figures/figure3_clinical_example.png": "43e23e826be6456e8bc56bec85f4d417148d251c76ed2456ad024d2b8ae5d701",
+    "figures/figure4_ranking_accuracy.pdf": "d5d4a55e7460b7b854170986a54337e0e87b63661ed258f129a5e9ca5fa082ed",
+    "figures/figure4_ranking_accuracy.png": "806eb21fd249d452e8cdf6807232e97f1cd24a91638584b6a5444799b0f20c36",
+    "figures/figure5_shortlist_compression.pdf": "52060046cf2fb5dff7cbebf8d351350abaf5dc387723e8e8e4f2c65979e67754",
+    "figures/figure5_shortlist_compression.png": "eb26a91b130838d3284a8fa4e491c0e1e06842d87ab51beb30202bb9fda782ea",
+    "figures/supp_figure1_pathway_aggregation.pdf": "6d1bca3a837941e9b6992f3360f63afa3769c1045260da6cafadf9ef6ddde341",
+    "figures/supp_figure1_pathway_aggregation.png": "94da59472e9d7acacd8db2157f2db96fba7a81677c4bb291ccf7c04b8e6928d7",
+    "figures/supp_figure2_mechanism_fit_algorithm.pdf": "370afbab99ac6d1d249952cf461e1414067cd370e6c07eff0ed212490538ff4e",
+    "figures/supp_figure2_mechanism_fit_algorithm.png": "6eb4c8864a2e5ee293cd7de98b26c4ee1fa1d73f3d90081080cbcc6a2d2806c7",
+    "figures/supp_figure3_trial_coverage.pdf": "639cb347fb349284fe5472158619ab4ec1dc5b97869805b20bc9a7593e21f6e1",
+    "figures/supp_figure3_trial_coverage.png": "fcbf5c282b5e6db507200fd611051c762e034080fed468a68e553b15c4855d1c",
+    "tables/table1_validation_results.csv": "634b09ded1bd137080524c3d26034d7b1cbd5d9175642b55867d679e53e8f2b5",
+    "tables/table1_validation_results.tex": "a77659f6beb0f06ff95098e56f28758fc02aa827223e3d2ab2d231dc9f0f5cd9",
+    "tables/table2_method_comparison.csv": "06534e318ae656f5b1bb491cff628f261bf8c6ef3853b80369c089b54cac54b0",
+    "tables/table2_method_comparison.tex": "ff3d3237816eb23e806bea077508f6da51e83d23e151c3f4ff1f30f24885b88f",
+    "tables/table3_trial_coverage.csv": "6b2c13e2362c5a18a4c7c3b27dafa2b58e0ab57bfc7726895b8ce506e7b0af39",
+    "tables/table3_trial_coverage.tex": "22695f2e073f6c78e64912f478a213eee2ec201a8e256fde254c52e7690bb704",
+    "receipts/latest/generate_all_figures_stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "receipts/latest/mechanism_sanity.json": "89e7a41791b5934b55fbeced295ce2eef6173dd4698868a109470fe71ccb12d7",
+    "receipts/latest/pip_freeze.txt": "c01262467deea6c32061209217c6fb5ead71b344c4b0b409bb88313844915c2a",
+    "receipts/latest/table1_head.csv": "a0f25633ef3885b4c4534fd56285f4420559c5e6cf560446732aff45781e3b7c"
+  }
+}
