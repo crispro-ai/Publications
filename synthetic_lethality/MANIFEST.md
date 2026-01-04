@@ -1,30 +1,33 @@
-## Synthetic Lethality Publication Bundle (single folder)
+## Synthetic Lethality Publication Bundle (Unified Clinical + Benchmark)
 
-### Entry points
-- **Master doc**: `docs/SYNTHETIC_LETHALITY_PUBLICATION_MASTER.mdc`
-- **Primary results table (copy/paste)**: `docs/results_pack.md`
-- **Primary receipts (JSON)**: `results/publication_suite_20251230_192215.json`
-- **Primary receipts (MD table)**: `docs/publication_suite_20251230_131605.md`
-- **Figure (SVG)**: `figures/figure_bar_chart.svg`
-- **Error analysis**: `docs/error_analysis.md`
-- **Row-level breakdown**: `results/confusion_breakdown.csv`
+### Primary Manuscripts
+- **Clinical Nature Medicine Draft**: `manuscript/TCGA_OV_SYNTHETIC_LETHALITY_NATURE_MEDICINE.md` (Retrospective AUROC=0.70)
+- **Technical Master Manuscript**: `manuscript/main/MANUSCRIPT.md` (100-case benchmark focus)
 
-### Data
-- **100-case dataset**: `data/data/test_cases_100.json`
-- **DepMap lineage summaries**: `data/depmap_essentiality_by_context.json`
-  - Derived from `data/depmap/CRISPRGeneEffect.csv` + `data/depmap/Model.csv` in repo root.
+### Entry Points & Docs
+- **Results Pack Summary**: `docs/results_pack.md`
+- **Error Analysis**: `docs/error_analysis.md`
+- **Tables**: `manuscript/tables/tables.md`
+- **Supplement**: `manuscript/supplement/supplement.md`
 
-### Repro scripts
+### Clinical Results (TCGA-OV)
+- **Primary Clinical Report**: `results/clinical/tcga_ov_clinical_report.json`
+- **ROC Curve (Platinum)**: `figures/clinical/roc_platinum_response.png`
+- **Survival Curves**: `figures/clinical/km_os.png`, `figures/clinical/km_pfs.png`
+- **Waterfall Plot**: `figures/clinical/waterfall_ddr_bin_publication.png`
+- **DDR_bin Distribution**: `figures/clinical/ddr_bin_histogram_publication.png`
+
+### Benchmark Results (100-case)
+- **Primary Receipts (JSON)**: `results/publication_suite_20251230_192215.json`
+- **Benchmark Figure (SVG)**: `figures/figure_bar_chart.svg`
+- **DepMap grounding artifact**: `data/depmap_essentiality_by_context.json`
+
+### Repro Scripts
 - Run suite: `code/run_publication_suite.py`
 - Make results pack: `code/make_results_pack.py`
-- DepMap lineage processor: `code/generate_depmap_by_lineage.py`
 - Dataset generator: `code/create_100_case_dataset.py`
-- Dataset validator: `code/validate_test_cases.py`
 
-### Quick reproduce (from repo root)
-
-```bash
-cd oncology-coPilot/oncology-backend-minimal/scripts/benchmark_sl
-python3 run_publication_suite.py --test-file test_cases_100.json --api-root http://127.0.0.1:8000 --model-id evo2_1b
-python3 publication/make_results_pack.py
-```
+### Source Code Refinements (Backend)
+The refined S/P/E logic with functionalized DepMap grounding and PMID tie-breaking is implemented in:
+- `oncology-backend-minimal/api/services/synthetic_lethality/dependency_identifier.py`
+- `oncology-backend-minimal/api/services/synthetic_lethality/drug_recommender.py`
