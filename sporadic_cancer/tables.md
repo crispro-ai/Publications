@@ -27,3 +27,11 @@
 | Gate activations | PARP penalty/rescue | _reduced=6 | Scenario suite JSON |
 | Gate activations | IO boost | io_boosted=7 | Scenario suite JSON |
 | Gate activations | Confidence caps | conf_capped=5 | Scenario suite JSON |
+
+## Table 4. Clinical Validation Summary (TCGA-UCEC, n=527)
+
+| Strategy | Usable N | Hazard Ratio (Cox) | 95% Confidence Interval | log-rank p-value | Receipt |
+| --- | --- | --- | --- | --- | --- |
+| TMB-only (≥20 mut/Mb) | 516 | 0.32 | 0.15 - 0.65 | 0.00105 | `baseline_comparison_io_tcga_ucec.json` |
+| MSI-only (MSI-H) | 527 | 0.49 | 0.29 - 0.83 | 0.00732 | `baseline_comparison_io_tcga_ucec.json` |
+| OR-gate (TMB or MSI) | 527 | 0.39 | 0.23 - 0.65 | 0.00017 | `baseline_comparison_io_tcga_ucec.json` |
