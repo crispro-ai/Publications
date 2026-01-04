@@ -121,7 +121,7 @@ def main(argv: Optional[list[str]] = None) -> int:
         rel_list = gt.get("relevant_trials") or []
         if not rel_list:
             print(f"❌ Case {cid}: ground_truth.relevant_trials is empty (SME labels required)")
-        return 2
+            return 2
 
     # Compute metrics per case
     per_case = []

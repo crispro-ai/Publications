@@ -1,41 +1,24 @@
-## Supplementary Information
+# Supplement (Synthetic Lethality Publication)
 
-### S1. Benchmark dataset schema
-See: `publications/synthetic_lethality/data/data/test_cases_100.json`
+## Supplement A. Lineage-aware DepMap Grounding
 
-Each case has:
-- `case_id`
-- `disease`
-- `mutations`: list of variants
-- `ground_truth`:
-  - `synthetic_lethality_detected` (boolean)
-  - `effective_drugs` (list)
-  - `clinical_evidence.pmid` (string PMID when applicable)
-  - optional DepMap grounding fields
+The system functionalizes DepMap lineage data as a safety net. Below is the mapping used for lineage-specific scoring.
 
-### S2. DepMap lineage summarization
-- Raw sources:
-  - `data/depmap/CRISPRGeneEffect.csv`
-  - `data/depmap/Model.csv`
-- Output used in this bundle:
-  - `publications/synthetic_lethality/data/depmap_essentiality_by_context.json`
+| Disease Context | DepMap Lineage | Example Gene Dependency (Median Effect) |
+|---|---|---|
+| Ovarian | Ovary/Fallopian Tube | PARP1 (-0.71), ATR (-1.09), WEE1 (-2.81) |
+| Breast | Breast | BRCA1 (-0.42), BRCA2 (-0.49) |
+| Pancreatic | Pancreas | KRAS (-0.85) |
 
-### S3. Ablation diagnostic (sample-based)
-- Supplementary File S3: `publications/synthetic_lethality/docs/ablation_diagnostic_10_cases.md`
+## Supplement B. E-component (Evidence) Augmentation
 
-### S4. Benchmark composition (transparency)
-- `publications/synthetic_lethality/manuscript/tables/benchmark_composition.md`
-- `publications/synthetic_lethality/docs/benchmark_composition.json`
+The literature component (E) is used as an augmentation layer to break ties and provide clinical grounding.
 
-### S5. Ablation table
-- `publications/synthetic_lethality/manuscript/tables/ablation_table.md`
-- Receipt: `publications/synthetic_lethality/results/publication_suite_20251230_192215.json`
+- **Fast Mode (deterministic)**: `fast=True` (literature disabled, SP-only mechanistic floor).
+- **Augmented Mode**: `fast=False` (PMID-based resolver enabled, SPE performance).
 
-### S6. Full receipts
-- `publications/synthetic_lethality/results/publication_suite_20251230_192215.json`
+## Supplement C. Receipts and Reproducibility
 
-### S7. Figure asset
-- `publications/synthetic_lethality/figures/figure_bar_chart.svg`
-### S8. Baseline comparison (Tier 3)
-- `publications/synthetic_lethality/docs/baseline_comparison.md`
-- `publications/synthetic_lethality/docs/baseline_comparison.json`
+1.  **Benchmark Receipt**: `results/publication_suite_20251230_192215.json`
+2.  **Clinical Report (TCGA-OV)**: `oncology-backend-minimal/scripts/validation/out/ddr_bin_tcga_ov/report.json`
+3.  **DepMap grounding artifact**: `data/depmap_essentiality_by_context.json`

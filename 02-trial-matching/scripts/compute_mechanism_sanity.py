@@ -2,8 +2,10 @@
 """Compute receipt-backed 'mechanism sanity' metrics for trial matching.
 
 This is NOT outcome validation.
-It answers: "Given our trial MoA vectors, do DDR-tagged trials align more to a DDR-heavy
+It answers: "Given our trial MoA vectors, do DDR-tagged trials align more to a DDR-heavy 
 patient mechanism vector than non-DDR trials?" (deterministic sanity check).
+
+Zeta Protocol Update: Uses magnitude-weighted similarity instead of pure cosine.
 
 Inputs:
 - oncology-coPilot/oncology-backend-minimal/api/resources/trial_moa_vectors.json
@@ -11,8 +13,6 @@ Inputs:
 Outputs:
 - publications/02-trial-matching/receipts/<ts>/mechanism_sanity.json
 - publications/02-trial-matching/receipts/latest/mechanism_sanity.json
-
-The fixed example patient vector is the same one used by the publication scripts.
 """
 
 from __future__ import annotations
@@ -22,7 +22,7 @@ import hashlib
 import json
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 
 import numpy as np
 
@@ -39,11 +39,15 @@ def sha256_file(p: Path) -> str:
     return h.hexdigest()
 
 
-def cosine(patient_unit: np.ndarray, trial_vec: np.ndarray) -> float:
+def calculate_weighted_fit(patient_vector: np.ndarray, trial_vec: np.ndarray) -> float:
+    """
+    Magnitude-aware similarity (Zeta Protocol Fix - Option 1)
+    fit = (patient_vector · trial_vector) / ||trial_vector||
+    """
     denom = float(np.linalg.norm(trial_vec))
     if denom == 0.0:
         return 0.0
-    return float(np.dot(patient_unit, trial_vec / denom))
+    return float(np.dot(patient_vector, trial_vec / denom))
 
 
 def main(argv: Optional[list[str]] = None) -> int:
@@ -59,11 +63,8 @@ def main(argv: Optional[list[str]] = None) -> int:
 
     trial_moa: Dict[str, Any] = json.loads(trial_path.read_text())
 
+    # Patient vector for sanity check: high DDR profile
     patient_vector = np.array([0.88, 0.12, 0.05, 0.02, 0.0, 0.0, 0.0], dtype=float)
-    pn = float(np.linalg.norm(patient_vector))
-    if pn == 0.0:
-        raise ValueError("patient_vector has zero norm")
-    patient_unit = patient_vector / pn
 
     ddr = []
     non = []
@@ -85,7 +86,7 @@ def main(argv: Optional[list[str]] = None) -> int:
             skipped += 1
             continue
 
-        fit = cosine(patient_unit, tv)
+        fit = calculate_weighted_fit(patient_vector, tv)
         if float(moa.get("ddr", 0.0) or 0.0) > 0.5:
             ddr.append(fit)
         else:
@@ -106,6 +107,7 @@ def main(argv: Optional[list[str]] = None) -> int:
             "n_skipped_zero_vector": skipped,
             "patient_vector_7d": patient_vector.tolist(),
             "ddr_tag_threshold": 0.5,
+            "algorithm": "magnitude_weighted_similarity_v1"
         },
         "metrics": {
             "ddr_trials_count": len(ddr),
@@ -129,4 +131,6 @@ def main(argv: Optional[list[str]] = None) -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    import sys
+    raise SystemExit(main(sys.argv[1:]))
+

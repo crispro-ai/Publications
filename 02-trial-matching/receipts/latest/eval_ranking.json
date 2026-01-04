@@ -1,0 +1,215 @@
+{
+  "run": {
+    "generated_at": "2026-01-04T07:08:11.564273+00:00",
+    "eval_path": "/Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/02-trial-matching/data/labeled_eval_cases.json",
+    "trial_moa_path": "/Users/fahadkiani/Desktop/development/crispr-assistant-main/oncology-coPilot/oncology-backend-minimal/api/resources/trial_moa_vectors.json",
+    "n_cases": 4,
+    "n_trials": 59
+  },
+  "recall_at_3": 0.9166666666666666,
+  "recall_at_5": 0.9166666666666666,
+  "recall_at_10": 1.0,
+  "mrr": 0.875,
+  "per_case": [
+    {
+      "case_id": "CASE_DDR_HIGH_001",
+      "n_relevant": 3,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 0.5,
+      "top_10": [
+        [
+          "NCT04284969",
+          1.0
+        ],
+        [
+          "NCT04001023",
+          1.0
+        ],
+        [
+          "NCT02655016",
+          1.0
+        ],
+        [
+          "NCT02244879",
+          1.0
+        ],
+        [
+          "NCT03735979",
+          1.0
+        ],
+        [
+          "NCT00072579",
+          1.0
+        ],
+        [
+          "NCT05042479",
+          1.0
+        ],
+        [
+          "NCT02680379",
+          1.0
+        ],
+        [
+          "NCT00652379",
+          1.0
+        ],
+        [
+          "NCT04850079",
+          1.0
+        ]
+      ]
+    },
+    {
+      "case_id": "CASE_MAPK_HIGH_001",
+      "n_relevant": 3,
+      "recall_at_3": 0.6666666666666666,
+      "recall_at_5": 0.6666666666666666,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "top_10": [
+        [
+          "NCT02359279",
+          1.0
+        ],
+        [
+          "NCT01091779",
+          1.0
+        ],
+        [
+          "NCT00006379",
+          1.0
+        ],
+        [
+          "NCT06638879",
+          1.0
+        ],
+        [
+          "NCT01979679",
+          1.0
+        ],
+        [
+          "NCT02575079",
+          0.7071067811865476
+        ],
+        [
+          "NCT06331130",
+          0.0
+        ],
+        [
+          "NCT04284969",
+          0.0
+        ],
+        [
+          "NCT04001023",
+          0.0
+        ],
+        [
+          "NCT01000259",
+          0.0
+        ]
+      ]
+    },
+    {
+      "case_id": "CASE_VEGF_HIGH_001",
+      "n_relevant": 3,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "top_10": [
+        [
+          "NCT01000259",
+          1.0
+        ],
+        [
+          "NCT06332079",
+          1.0
+        ],
+        [
+          "NCT04164979",
+          0.7071067811865476
+        ],
+        [
+          "NCT06331130",
+          0.0
+        ],
+        [
+          "NCT04284969",
+          0.0
+        ],
+        [
+          "NCT04001023",
+          0.0
+        ],
+        [
+          "NCT02655016",
+          0.0
+        ],
+        [
+          "NCT04123379",
+          0.0
+        ],
+        [
+          "NCT02244879",
+          0.0
+        ],
+        [
+          "NCT06631079",
+          0.0
+        ]
+      ]
+    },
+    {
+      "case_id": "CASE_HER2_HIGH_001",
+      "n_relevant": 3,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 1.0,
+      "top_10": [
+        [
+          "NCT06331130",
+          1.0
+        ],
+        [
+          "NCT04986579",
+          1.0
+        ],
+        [
+          "NCT04521179",
+          1.0
+        ],
+        [
+          "NCT05943379",
+          1.0
+        ],
+        [
+          "NCT04284969",
+          0.0
+        ],
+        [
+          "NCT04001023",
+          0.0
+        ],
+        [
+          "NCT01000259",
+          0.0
+        ],
+        [
+          "NCT02655016",
+          0.0
+        ],
+        [
+          "NCT04164979",
+          0.0
+        ],
+        [
+          "NCT04123379",
+          0.0
+        ]
+      ]
+    }
+  ]
+}

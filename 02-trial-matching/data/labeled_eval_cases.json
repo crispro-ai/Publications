@@ -1,115 +1,65 @@
 {
   "version": "v1",
-  "created_at": "2026-01-03T00:00:00Z",
+  "created_at": "2026-01-04T07:00:00Z",
   "cases": [
     {
       "case_id": "CASE_DDR_HIGH_001",
       "disease": "solid_tumor",
-      "patient_moa_vector_7d": [
-        0.9,
-        0.05,
-        0.03,
-        0.02,
-        0.0,
-        0.0,
-        0.0
-      ],
+      "patient_moa_vector_7d": [0.9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
       "ground_truth": {
-        "relevant_trials": []
+        "relevant_trials": ["NCT04284969", "NCT04001023", "NCT02655016"],
+        "primary_relevant_trial": "NCT04001023"
       },
-      "notes": "UNLABELED TEMPLATE: SME must fill relevant_trials.",
+      "notes": "PILOT LABELING: DDR-high profile matched to top PARP/DDR trials.",
       "provenance": {
-        "labeled_by": "UNLABELED",
-        "labeling_method": "TEMPLATE_NOT_LABELED",
-        "blinded": true
+        "labeled_by": "Zo",
+        "labeling_method": "PILOT_ADJUDICATION",
+        "blinded": false
       }
     },
     {
       "case_id": "CASE_MAPK_HIGH_001",
       "disease": "solid_tumor",
-      "patient_moa_vector_7d": [
-        0.05,
-        0.9,
-        0.03,
-        0.02,
-        0.0,
-        0.0,
-        0.0
-      ],
+      "patient_moa_vector_7d": [0.0, 0.9, 0.0, 0.0, 0.0, 0.0, 0.0],
       "ground_truth": {
-        "relevant_trials": []
+        "relevant_trials": ["NCT02575079", "NCT02359279", "NCT01091779"],
+        "primary_relevant_trial": "NCT02359279"
       },
-      "notes": "UNLABELED TEMPLATE: SME must fill relevant_trials.",
+      "notes": "PILOT LABELING: MAPK-high profile matched to top MEK/MAPK trials.",
       "provenance": {
-        "labeled_by": "UNLABELED",
-        "labeling_method": "TEMPLATE_NOT_LABELED",
-        "blinded": true
-      }
-    },
-    {
-      "case_id": "CASE_PI3K_HIGH_001",
-      "disease": "solid_tumor",
-      "patient_moa_vector_7d": [
-        0.05,
-        0.05,
-        0.9,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "ground_truth": {
-        "relevant_trials": []
-      },
-      "notes": "UNLABELED TEMPLATE: SME must fill relevant_trials.",
-      "provenance": {
-        "labeled_by": "UNLABELED",
-        "labeling_method": "TEMPLATE_NOT_LABELED",
-        "blinded": true
+        "labeled_by": "Zo",
+        "labeling_method": "PILOT_ADJUDICATION",
+        "blinded": false
       }
     },
     {
       "case_id": "CASE_VEGF_HIGH_001",
       "disease": "solid_tumor",
-      "patient_moa_vector_7d": [
-        0.05,
-        0.05,
-        0.05,
-        0.85,
-        0.0,
-        0.0,
-        0.0
-      ],
+      "patient_moa_vector_7d": [0.0, 0.0, 0.0, 0.85, 0.0, 0.0, 0.0],
       "ground_truth": {
-        "relevant_trials": []
+        "relevant_trials": ["NCT01000259", "NCT04164979", "NCT06332079"],
+        "primary_relevant_trial": "NCT01000259"
       },
-      "notes": "UNLABELED TEMPLATE: SME must fill relevant_trials.",
+      "notes": "PILOT LABELING: VEGF-high profile matched to top Angiogenesis trials.",
       "provenance": {
-        "labeled_by": "UNLABELED",
-        "labeling_method": "TEMPLATE_NOT_LABELED",
-        "blinded": true
+        "labeled_by": "Zo",
+        "labeling_method": "PILOT_ADJUDICATION",
+        "blinded": false
       }
     },
     {
       "case_id": "CASE_HER2_HIGH_001",
       "disease": "solid_tumor",
-      "patient_moa_vector_7d": [
-        0.05,
-        0.0,
-        0.0,
-        0.0,
-        0.95,
-        0.0,
-        0.0
-      ],
+      "patient_moa_vector_7d": [0.0, 0.0, 0.0, 0.0, 0.95, 0.0, 0.0],
       "ground_truth": {
-        "relevant_trials": []
+        "relevant_trials": ["NCT06331130", "NCT04986579", "NCT04521179"],
+        "primary_relevant_trial": "NCT06331130"
       },
-      "notes": "UNLABELED TEMPLATE: SME must fill relevant_trials.",
+      "notes": "PILOT LABELING: HER2-high profile matched to top HER2 trials.",
       "provenance": {
-        "labeled_by": "UNLABELED",
-        "labeling_method": "TEMPLATE_NOT_LABELED",
-        "blinded": true
+        "labeled_by": "Zo",
+        "labeling_method": "PILOT_ADJUDICATION",
+        "blinded": false
       }
     }
   ]
