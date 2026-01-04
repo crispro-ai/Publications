@@ -111,7 +111,7 @@ Primary receipts referenced here:
 
 ---
 
-## 6.imitations and next steps
+## 6. Limitations and next steps
 
 - No outcomes are evaluated in this bundle; future work requires prospective logging or retrospective enrollment mapping.
 - Thresholds and caps are policy levers; the scenario suite should expand as policy evolves.
