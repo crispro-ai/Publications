@@ -1,0 +1,45 @@
+{
+  "acquisition_date": "2026-01-22",
+  "source": "European Urology Oncology 2024 - PMC11162506",
+  "title": "Co-occurring BRCA2/SPOP Mutations Predict Exceptional PARP Inhibitor Sensitivity in mCRPC",
+  "files_acquired": [
+    "NIHMS1949149-supplement-1.docx",
+    "NIHMS1949149-supplement-2.xlsx",
+    "NIHMS1949149-supplement-2 (3).xlsx",
+    "NIHMS1949149-supplement-2 (1).xlsx",
+    "NIHMS1949149-supplement-2 (2).xlsx"
+  ],
+  "dataset_summary": {
+    "total_patients": 131,
+    "brca2_spop_co_mutation": 14,
+    "brca2_alone": 117,
+    "parp_treatment": "100% (131/131)",
+    "genetic_data": [
+      "BR2 (germline/somatic, alteration types)",
+      "SPOP",
+      "TP53, PTEN, RB1, ATM, AR",
+      "TMPRSS2 fusions"
+    ],
+    "outcomes": [
+      "PSA50 response rate",
+      "PSA progression-free survival",
+      "Clinical/radiographic PFS",
+      "Overall survival"
+    ],
+    "key_finding": "BRCA2/SPOP co-mutation: HR 0.16 (0.05-0.47), p=0.001"
+  },
+  "validation_readiness": {
+    "mutations": "EXCELLENT",
+    "treatment": "EXCELLENT (100% PARP)",
+    "outcomes": "EXCELLENT (multiple metrics)",
+    "sample_size": "EXCELLENT (131 patients, exceeds 50-patient target)",
+    "overall": "\u2b50\u2b50\u2b50 EXCELLENT - EXCEEDS TARGET"
+  },
+  "next_steps": [
+    "Extract patient-level data from Excel files (may need to check all sheets/files)",
+    "Format mutations for SL pipeline (gene, variant, chrom, pos, ref, alt)",
+    "Link mutations \u2192 treatment \u2192 outcomes",
+    "Run SL pipeline validation",
+    "Compare preo actual outcomes"
+  ]
+}

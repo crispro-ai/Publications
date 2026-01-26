@@ -1,0 +1,11 @@
+sweep,threshold,io_boost_rate,parp_rescue_rate,parp_penalty_rate,n,notes,literature_range,our_choice_flag
+TMB,10,0.034623217922606926,,,491,IO boost = (TMB >= threshold) OR MSI-H; HRD fixed at 42,FDA pan-cancer: 10; KEYNOTE-158: 10; Samstein 2019 often uses 20,NO
+TMB,15,0.032586558044806514,,,491,IO boost = (TMB >= threshold) OR MSI-H; HRD fixed at 42,FDA pan-cancer: 10; KEYNOTE-158: 10; Samstein 2019 often uses 20,NO
+TMB,20,0.032586558044806514,,,491,IO boost = (TMB >= threshold) OR MSI-H; HRD fixed at 42,FDA pan-cancer: 10; KEYNOTE-158: 10; Samstein 2019 often uses 20,YES
+TMB,25,0.032586558044806514,,,491,IO boost = (TMB >= threshold) OR MSI-H; HRD fixed at 42,FDA pan-cancer: 10; KEYNOTE-158: 10; Samstein 2019 often uses 20,NO
+HRD,30,,0.7331975560081466,0.2668024439918534,491,PARP rescue/penalty defined relative to HRD threshold; TMB fixed at 20,Myriad: 42; other assays vary (30–50),NO
+HRD,35,,0.6293279022403259,0.37067209775967414,491,PARP rescue/penalty defined relative to HRD threshold; TMB fixed at 20,Myriad: 42; other assays vary (30–50),NO
+HRD,40,,0.560081466395112,0.439918533604888,491,PARP rescue/penalty defined relative to HRD threshold; TMB fixed at 20,Myriad: 42; other assays vary (30–50),NO
+HRD,42,,0.5193482688391039,0.48065173116089616,491,PARP rescue/penalty defined relative to HRD threshold; TMB fixed at 20,Myriad: 42; other assays vary (30–50),YES
+HRD,45,,0.48065173116089616,0.5193482688391039,491,PARP rescue/penalty defined relative to HRD threshold; TMB fixed at 20,Myriad: 42; other assays vary (30–50),NO
+HRD,50,,0.41140529531568226,0.5885947046843177,491,PARP rescue/penalty defined relative to HRD threshold; TMB fixed at 20,Myriad: 42; other assays vary (30–50),NO

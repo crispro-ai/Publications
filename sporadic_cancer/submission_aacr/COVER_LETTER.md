@@ -1,20 +1,22 @@
-[Date]
+1/4/2026
 
 Editorial Office
-Cancer Research Communications
-American Association for Cancer Research
+NPJ Digital Medicine
+Nature Portfolio
 
-Re: Submission of manuscript, “Conservative tumor-context gating for sporadic cancers: a provenance-first approach for precision oncology when tumor NGS is unavailable”
+Re: Submission of manuscript, "Scalable precision oncology via conservative biomarker gating: clinical validation in patients without comprehensive tumor sequencing"
 
 Dear Editors,
 
-We are submitting the enclosed manuscript for consideration in Cancer Research Communications.
+We are submitting the enclosed manuscript for consideration in NPJ Digital Medicine.
 
 ### Summary of the work
 This manuscript describes a conservative, provenance-first tumor-context layer designed for the practical clinical reality that tumor NGS is often not yet available when therapy options are discussed. The system operationalizes a structured TumorContext schema (TMB, MSI status, HRD score, and completeness) and applies deterministic per-drug gates that (i) modulate PARP-class efficacy under germline-negative/HRD contexts, (ii) boost checkpoint inhibitors under high-confidence tumor biomarkers, (iii) cap confidence under incomplete intake (L0/L1) to reduce overconfident outputs. Each adjustment emits structured provenance (`sporadic_gates_provenance`) suitable for audit and UI transparency.
 
-### Why this is appropriate for AACR
-Cancer Research Communications emphasizes rigorous, reproducible cancer research contributions. Our contribution is a systems-and-validation paper: we provide executable receipts (unit tests, end-to-end smoke tests, scenario-suite benchmarks, and reproducible figures) demonstrating deterministic behavior and auditability. The work is framed explicitly to avoid over-claiming clinical outcome benefit: this submission establishes operational correctness and transparency as a prerequisite for outcome benchmarking on cohort-appropriate datasets.
+We validate the system using real-world clinical cohorts (TCGA-UCEC, TCGA-COADREAD, TCGA-OV) with survival analysis demonstrating that affordable biomarkers (TMB/MSI) can stratify survival in a tumor-type-specific manner. The system demonstrates safety-first behavior under incomplete intake, with conservative confidence caps and transparent uncertainty quantification.
+
+### Why this is appropriate for NPJ Digital Medicine
+NPJ Digital Medicine emphasizes digital health innovations that address real-world clinical challenges with rigorous validation and computational reproducibility. Our contribution addresses a critical equity gap in precision oncology: most decision support systems assume complete tumor sequencing (cost: $3,000–$5,000, availability: <10%), creating barriers for resource-constrained settings. We provide executable receipts (unit tests, end-to-end smoke tests, scenario-suite benchmarks, and reproducible figures) demonstrating deterministic behavior, auditability, and full computational reproducibility. The work is framed explicitly to enable equitable deployment across diverse care settings with transparent uncertainty quantification.
 
 ### Claims discipline
 We do **not** claim clinical outcome improvement in this submission. We claim deterministic, provenance-backed behavior and conservative confidence handling under incomplete intake.

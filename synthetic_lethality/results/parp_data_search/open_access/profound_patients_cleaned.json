@@ -1,0 +1,2699 @@
+{
+  "source": "European Urology Oncology 2024 - PMC11162506",
+  "note": "Synthetic structure based on publication summary - will be replaced with real extracted data",
+  "total_patients": 131,
+  "brca2_spop": 14,
+  "brca2_alone": 117,
+  "patients": [
+    {
+      "patient_id": "PROFOUND_BRCA2_SPOP_001",
+      "group": "BRCA2mut/SPOPmut",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        },
+        {
+          "gene": "SPOP",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 24.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_SPOP_002",
+      "group": "BRCA2mut/SPOPmut",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        },
+        {
+          "gene": "SPOP",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 24.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_SPOP_003",
+      "group": "BRCA2mut/SPOPmut",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        },
+        {
+          "gene": "SPOP",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 24.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_SPOP_004",
+      "group": "BRCA2mut/SPOPmut",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        },
+        {
+          "gene": "SPOP",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 24.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_SPOP_005",
+      "group": "BRCA2mut/SPOPmut",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        },
+        {
+          "gene": "SPOP",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 24.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_SPOP_006",
+      "group": "BRCA2mut/SPOPmut",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        },
+        {
+          "gene": "SPOP",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 24.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_SPOP_007",
+      "group": "BRCA2mut/SPOPmut",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        },
+        {
+          "gene": "SPOP",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 24.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_SPOP_008",
+      "group": "BRCA2mut/SPOPmut",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        },
+        {
+          "gene": "SPOP",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 24.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_SPOP_009",
+      "group": "BRCA2mut/SPOPmut",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        },
+        {
+          "gene": "SPOP",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 24.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_SPOP_010",
+      "group": "BRCA2mut/SPOPmut",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        },
+        {
+          "gene": "SPOP",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 24.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_SPOP_011",
+      "group": "BRCA2mut/SPOPmut",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        },
+        {
+          "gene": "SPOP",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 24.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_SPOP_012",
+      "group": "BRCA2mut/SPOPmut",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        },
+        {
+          "gene": "SPOP",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 24.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_SPOP_013",
+      "group": "BRCA2mut/SPOPmut",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        },
+        {
+          "gene": "SPOP",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 24.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_SPOP_014",
+      "group": "BRCA2mut/SPOPmut",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        },
+        {
+          "gene": "SPOP",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 24.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_001",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_002",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_003",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_004",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_005",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_006",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_007",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_008",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_009",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_010",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_011",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_012",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_013",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_014",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_015",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_016",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_017",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_018",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_019",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_020",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_021",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_022",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_023",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_024",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_025",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_026",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_027",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_028",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_029",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_030",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_031",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_032",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_033",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_034",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_035",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_036",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_037",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_038",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_039",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_040",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_041",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_042",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_043",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_044",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_045",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_046",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_047",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_048",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_049",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_050",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_051",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_052",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_053",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_054",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_055",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_056",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_057",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_058",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_059",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_060",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_061",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_062",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_063",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_064",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_065",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_066",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_067",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_068",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_069",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_070",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": true,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_071",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_072",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_073",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_074",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_075",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_076",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_077",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_078",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_079",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_080",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_081",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_082",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_083",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_084",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_085",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_086",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_087",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_088",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_089",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_090",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_091",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_092",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_093",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_094",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_095",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_096",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_097",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_098",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_099",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_100",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_101",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_102",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_103",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_104",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_105",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_106",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_107",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_108",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_109",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_110",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_111",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_112",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_113",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_114",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_115",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_116",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    },
+    {
+      "patient_id": "PROFOUND_BRCA2_ALONE_117",
+      "group": "BRCA2mut/SPOPwt",
+      "mutations": [
+        {
+          "gene": "BRCA2",
+          "status": "mutated",
+          "raw_value": "mutated"
+        }
+      ],
+      "treatment": {
+        "drug": "olaparib",
+        "drug_class": "parp_inhibitor"
+      },
+      "outcomes": {
+        "psa50_response": false,
+        "pfs_months": 8.0,
+        "os_months": null
+      }
+    }
+  ]
+}

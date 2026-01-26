@@ -1,88 +1,90 @@
-# [Title]
+# [Manuscript Title]
 
 **Authors:** [To be determined]
 
 **Affiliations:** [To be determined]
 
-**Correspoor:** [To be determined]
+**Corresponding Author:** [To be determined]
 
-**Running Title:** [To be determined]
+**Running Title:** [Running title, max 50 characters]
 
-**Keywords:** [To be determined]
+**Keywords:** [5-10 keywords]
 
 **Abbreviations:**
-- [To be determined]
-
----
-
-## Manuscript type
-
-**Methods/Systems + reproducibility (RUO).** This manuscript validates deterministic behavior, provenance, and reproducibility. It does not claim clinical outcome benefit unless supported by outcome-labeled cohort benchmarks.
+- [Abbreviation]: [Full term]
 
 ---
 
 ## Abstract
 
-**Background:** [1–3 sentences]
+**Background:** [Background paragraph - 2-3 sentences]
 
-**Methods:** [1–4 sentences]
+**Methods:** [Methods paragraph - 2-3 sentences]
 
-**Results:** [1–4 sentences; include exact counts + receipts pointers]
+**Results:** [Results paragraph - 2-3 sentences]
 
-**Conclusions:** [1–2 sentences]
+**Conclusions:** [Conclusions paragraph - 1-2 sentences]
 
 ---
 
 ## Introduction
 
+[Introduction section - typically 3-4 paragraphs covering:
+1. Clinical problem/context
+2. Existing approaches and limitations
+3. Rationale for current study
+4. Study objectives]
+
 ---
 
 ## Methods
 
-### System overview
+### Study Design
 
-### Inputs and schemas
+[Study design description]
 
-### Core algorithms / gates / policies
+### Data Sources
 
-### Provenance and auditability
+[Data sources and cohorts]
 
-### Validation plan
+### Statistical Analysis
 
-- Unit tests: `receipts/...`
-- Integration/E2E smoke: `receipts/...`
-- Scenario suite: `data/...`
+[Statistical methods]
+
+### Reproducibility and Data Availability
+
+[Data and code availability statement]
 
 ---
 
 ## Results
 
-### Deterministic correctness receipts
-
-### End-to-end workflow receipts
-
-### Scenario-suite benchmark
-
-### Figures
-
-- Figure 1: `figures/...## Discussion
-
-### Limitations
-
-### Future work
+[Results section with subsections as needed]
 
 ---
 
-## Data Availability
+## Discussion
 
-## Code Availability
+[Discussion section covering:
+1. Clinical significance
+2. Biological plausibility
+3. Limitations
+4. Future directions]
 
 ---
 
-## Author Contributions
+## Conclusions
 
-## Competing Interests
+[Conclusions paragraph summarizing key findings and implications]
 
 ---
 
 ## References
+
+[Reference list - format per journal guidelines]
+
+---
+
+**Manuscript Status**: Draft  
+**Last Updated**: [Date]  
+**Receipts Validated**: [Status]

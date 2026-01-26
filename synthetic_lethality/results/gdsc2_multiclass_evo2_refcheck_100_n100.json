@@ -1,0 +1,1563 @@
+{
+  "n_cell_lines": 100,
+  "max_variants_per_line": 10,
+  "thresholds": {
+    "PARP": 0.000883769989013673,
+    "ATR": 0.0063744306564331105,
+    "WEE1": 0.004954546689987183,
+    "DNA_PK": 0.0001059055328369231
+  },
+  "accuracy": 0.07,
+  "parp_false_positive_rate": 0.06060606060606061,
+  "labels": [
+    "PARP",
+    "ATR",
+    "WEE1",
+    "DNA_PK",
+    "NONE"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      8,
+      4,
+      6,
+      68
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      2
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      3
+    ]
+  ],
+  "notes": [
+    "Ground truth is in-vitro: best class = minimum mean AUC across drugs in class; NONE if best mean AUC >= 0.9.",
+    "Predictor uses Evo2 disruption on capped DDR SNVs per cell line via deployed Modal app variant-analysis-evo2.",
+    "Thresholds are set to 90th percentile of observed scores (safety-first; not yet held-out)."
+  ],
+  "per_cell_line": [
+    {
+      "ModelID": "ACH-001089",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.00252610445022583,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.00252610445022583,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000893",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.004953324794769287,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.004953324794769287,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-001702",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000627",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0021459460258483887,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0021459460258483887,
+        "n_variants_scored": 3,
+        "n_variants_considered": 3
+      }
+    },
+    {
+      "ModelID": "ACH-000950",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000971",
+      "gt": "WEE1",
+      "pred": "DNA_PK",
+      "features": {
+        "hrr_max": 0.0012093782424926758,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.003493666648864746,
+        "ddr_broad_max": 0.003493666648864746,
+        "n_variants_scored": 8,
+        "n_variants_considered": 8
+      }
+    },
+    {
+      "ModelID": "ACH-002107",
+      "gt": "WEE1",
+      "pred": "WEE1",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.005318105220794678,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.005318105220794678,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000295",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0013657212257385254,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0013657212257385254,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-002153",
+      "gt": "NONE",
+      "pred": "ATR",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.008214950561523438,
+        "ddr_broad_max": 0.008214950561523438,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-002211",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0036818981170654297,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0036818981170654297,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000573",
+      "gt": "WEE1",
+      "pred": "PARP",
+      "features": {
+        "hrr_max": 0.005938410758972168,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0021141767501831055,
+        "ddr_broad_max": 0.005938410758972168,
+        "n_variants_scored": 4,
+        "n_variants_considered": 4
+      }
+    },
+    {
+      "ModelID": "ACH-000654",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.002686142921447754,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.002686142921447754,
+        "n_variants_scored": 4,
+        "n_variants_considered": 4
+      }
+    },
+    {
+      "ModelID": "ACH-001227",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-002168",
+      "gt": "DNA_PK",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.002238035202026367,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.002238035202026367,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000620",
+      "gt": "WEE1",
+      "pred": "PARP",
+      "features": {
+        "hrr_max": 0.009698331356048584,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.009698331356048584,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-000536",
+      "gt": "WEE1",
+      "pred": "PARP",
+      "features": {
+        "hrr_max": 0.0010067224502563477,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0026375651359558105,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0026375651359558105,
+        "n_variants_scored": 4,
+        "n_variants_considered": 4
+      }
+    },
+    {
+      "ModelID": "ACH-000665",
+      "gt": "WEE1",
+      "pred": "DNA_PK",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0015168190002441406,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0010590553283691406,
+        "ddr_broad_max": 0.0015168190002441406,
+        "n_variants_scored": 4,
+        "n_variants_considered": 4
+      }
+    },
+    {
+      "ModelID": "ACH-001625",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0033437013626098633,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0033437013626098633,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-000360",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.00046008825302124023,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.003777027130126953,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.003777027130126953,
+        "n_variants_scored": 4,
+        "n_variants_considered": 4
+      }
+    },
+    {
+      "ModelID": "ACH-002139",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-001364",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.003750443458557129,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.003750443458557129,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-002251",
+      "gt": "WEE1",
+      "pred": "DNA_PK",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0025405287742614746,
+        "ddr_broad_max": 0.0025405287742614746,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000626",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0011382102966308594,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0011382102966308594,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000198",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0011536478996276855,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000722",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.003901958465576172,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.003901958465576172,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-002207",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-002304",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.003637552261352539,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.003637552261352539,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000677",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000117",
+      "gt": "NONE",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000855",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0013657212257385254,
+        "atr_axis_max": 0.003632843494415283,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.003632843494415283,
+        "n_variants_scored": 6,
+        "n_variants_considered": 6
+      }
+    },
+    {
+      "ModelID": "ACH-001630",
+      "gt": "WEE1",
+      "pred": "PARP",
+      "features": {
+        "hrr_max": 0.0013564229011535645,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.003361642360687256,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.003361642360687256,
+        "n_variants_scored": 5,
+        "n_variants_considered": 5
+      }
+    },
+    {
+      "ModelID": "ACH-001417",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000603",
+      "gt": "DNA_PK",
+      "pred": "WEE1",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.006303668022155762,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.006303668022155762,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-002278",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000684",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-002279",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-002183",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0007587671279907227,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-002113",
+      "gt": "PARP",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0004382133483886719,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0004382133483886719,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-002182",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000546",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0013657212257385254,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0013657212257385254,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-001398",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000042",
+      "gt": "WEE1",
+      "pred": "ATR",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0013657212257385254,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.008214950561523438,
+        "ddr_broad_max": 0.008214950561523438,
+        "n_variants_scored": 7,
+        "n_variants_considered": 7
+      }
+    },
+    {
+      "ModelID": "ACH-002219",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000611",
+      "gt": "WEE1",
+      "pred": "WEE1",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.004965543746948242,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0050383806228637695,
+        "n_variants_scored": 6,
+        "n_variants_considered": 6
+      }
+    },
+    {
+      "ModelID": "ACH-000983",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 3.2961368560791016e-05,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 3.2961368560791016e-05,
+        "n_variants_scored": 3,
+        "n_variants_considered": 3
+      }
+    },
+    {
+      "ModelID": "ACH-000218",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000786",
+      "gt": "WEE1",
+      "pred": "ATR",
+      "features": {
+        "hrr_max": 0.0010292530059814453,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0020666122436523438,
+        "atr_axis_max": 0.0011702775955200195,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.013023793697357178,
+        "n_variants_scored": 7,
+        "n_variants_considered": 7
+      }
+    },
+    {
+      "ModelID": "ACH-000427",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0013657212257385254,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0013657212257385254,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-000308",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0014851093292236328,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0014851093292236328,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-002177",
+      "gt": "WEE1",
+      "pred": "PARP",
+      "features": {
+        "hrr_max": 0.0011184215545654297,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0011184215545654297,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-002239",
+      "gt": "WEE1",
+      "pred": "ATR",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.013409554958343506,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.013409554958343506,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000551",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-001500",
+      "gt": "WEE1",
+      "pred": "ATR",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.007247328758239746,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.007247328758239746,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-001578",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-001002",
+      "gt": "WEE1",
+      "pred": "PARP",
+      "features": {
+        "hrr_max": 0.0024816393852233887,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.003252565860748291,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.003252565860748291,
+        "n_variants_scored": 3,
+        "n_variants_considered": 3
+      }
+    },
+    {
+      "ModelID": "ACH-000781",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0016631484031677246,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0016631484031677246,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-000998",
+      "gt": "WEE1",
+      "pred": "ATR",
+      "features": {
+        "hrr_max": 0.009647488594055176,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.010094642639160156,
+        "n_variants_scored": 10,
+        "n_variants_considered": 10
+      }
+    },
+    {
+      "ModelID": "ACH-000451",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.003252565860748291,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.003252565860748291,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-002187",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000356",
+      "gt": "WEE1",
+      "pred": "ATR",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.006902933120727539,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.006902933120727539,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-000917",
+      "gt": "WEE1",
+      "pred": "ATR",
+      "features": {
+        "hrr_max": 0.0013221502304077148,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.007710456848144531,
+        "atr_axis_max": 0.012344658374786377,
+        "dnapk_max": 0.0023252367973327637,
+        "ddr_broad_max": 0.012344658374786377,
+        "n_variants_scored": 8,
+        "n_variants_considered": 8
+      }
+    },
+    {
+      "ModelID": "ACH-000120",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-001306",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.004718482494354248,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.004718482494354248,
+        "n_variants_scored": 4,
+        "n_variants_considered": 4
+      }
+    },
+    {
+      "ModelID": "ACH-000881",
+      "gt": "WEE1",
+      "pred": "DNA_PK",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0021162033081054688,
+        "ddr_broad_max": 0.0021162033081054688,
+        "n_variants_scored": 3,
+        "n_variants_considered": 3
+      }
+    },
+    {
+      "ModelID": "ACH-001106",
+      "gt": "WEE1",
+      "pred": "DNA_PK",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0013657212257385254,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.005356311798095703,
+        "ddr_broad_max": 0.005356311798095703,
+        "n_variants_scored": 6,
+        "n_variants_considered": 6
+      }
+    },
+    {
+      "ModelID": "ACH-000960",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0026099681854248047,
+        "atr_axis_max": 0.0006197690963745117,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0026099681854248047,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-002152",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.00022017955780029297,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.00022017955780029297,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000087",
+      "gt": "WEE1",
+      "pred": "WEE1",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.006062507629394531,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.006062507629394531,
+        "n_variants_scored": 3,
+        "n_variants_considered": 3
+      }
+    },
+    {
+      "ModelID": "ACH-000135",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0021459460258483887,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0021459460258483887,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000694",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0024666786193847656,
+        "n_variants_scored": 3,
+        "n_variants_considered": 3
+      }
+    },
+    {
+      "ModelID": "ACH-001359",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-001107",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.003777027130126953,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.003777027130126953,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000104",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0008751749992370605,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0008751749992370605,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-001490",
+      "gt": "WEE1",
+      "pred": "WEE1",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.005066990852355957,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.005066990852355957,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-000040",
+      "gt": "DNA_PK",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.002686142921447754,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.002686142921447754,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-002288",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000352",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-002234",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000192",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0023213624954223633,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0023213624954223633,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-000489",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.00369107723236084,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.00369107723236084,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-002233",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0019005537033081055,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0019005537033081055,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000772",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-002126",
+      "gt": "NONE",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-002180",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0011386871337890625,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000948",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0008300542831420898,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0015289783477783203,
+        "n_variants_scored": 4,
+        "n_variants_considered": 4
+      }
+    },
+    {
+      "ModelID": "ACH-002259",
+      "gt": "NONE",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000021",
+      "gt": "WEE1",
+      "pred": "ATR",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.012457728385925293,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.012457728385925293,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-002262",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0020954012870788574,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0020954012870788574,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-001049",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.004676342010498047,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.004676342010498047,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000574",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0034207701683044434,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0034207701683044434,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-000740",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000951",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0008701086044311523,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.003252565860748291,
+        "atr_axis_max": 0.006315708160400391,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.006315708160400391,
+        "n_variants_scored": 3,
+        "n_variants_considered": 3
+      }
+    },
+    {
+      "ModelID": "ACH-002170",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0033219456672668457,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0033219456672668457,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-000394",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0005553960800170898,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0005553960800170898,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-000919",
+      "gt": "WEE1",
+      "pred": "DNA_PK",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0010770559310913086,
+        "ddr_broad_max": 0.0010770559310913086,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-000091",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-002154",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000929",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0036409497261047363,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.005427718162536621,
+        "n_variants_scored": 10,
+        "n_variants_considered": 10
+      }
+    },
+    {
+      "ModelID": "ACH-002100",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.002263307571411133,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.002263307571411133,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-001338",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    }
+  ]
+}

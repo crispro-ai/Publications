@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-01-04T09:15:29Z",
+  "cohort": {
+    "n_total": 59,
+    "by_source": {
+      "PubMed": 10,
+      "cBioPortal": 1,
+      "GDC/TCGA": 48
+    },
+    "by_gene": {
+      "DPYD": 44,
+      "TPMT": 9,
+      "UGT1A1": 6
+    },
+    "drug_present_n": 6,
+    "drug_missing_n": 53,
+    "drug_distribution_present_only": {
+      "capecitabine": 3,
+      "5-fluorouracil": 2,
+      "mercaptopurine": 1
+    },
+    "toxicity_labels": {
+      "tox_true": 6,
+      "tox_false": 0,
+      "tox_unknown": 53
+    }
+  },
+  "cpic": {
+    "cases_with_cpic_match": 10,
+    "non_cpic_cases": 49,
+    "concordant_in_cpic_matched": 10,
+    "cpic_concordance_rate_in_matched": 1.0
+  },
+  "clinical_validation_scope": {
+    "clinically_evaluable_definition": "cases with (drug present) AND (toxicity_occurred is True/False)",
+    "clinically_evaluable_n": 6,
+    "toxicity_positive_n": 6,
+    "toxicity_negative_n": 0,
+    "toxicity_sensitivity": 0.6666666666666666,
+    "toxicity_specificity": null,
+    "confusion": {
+      "tp": 4,
+      "fn": 2,
+      "tn": 0,
+      "fp": 0
+    },
+    "note": "If toxicity_negative_n is 0, specificity cannot be estimated clinically from this cohort."
+  },
+  "clinvar_bridge": {
+    "coverage_report_path": "publications/05-pgx-dosing-guidance/reports/clinvar_bridge_coverage.json",
+    "non_cpic_cases": 49,
+    "fetched_200": 49,
+    "heuristic_labeled": 49,
+    "label_distribution": {
+      "conflicting": 49
+    },
+    "meaning": "This validates evidence retrieval coverage, not correctness of dosing guidance."
+  }
+}

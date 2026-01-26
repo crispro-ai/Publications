@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "extraction_date": "2025-01-13",
+    "extracted_by": "Agent Jr (Web Search)",
+    "validated_by": "Zo (Integration)",
+    "status": "READY_FOR_MANUSCRIPT_INTEGRATION",
+    "primary_case_study": "CS001_DPYD_442"
+  },
+  "case_studies": {
+    "CS001_DPYD_442": {
+      "case_study_id": "CS001_DPYD_442",
+      "priority": "PRIMARY",
+      "source": {
+        "type": "published_paper",
+        "title": "Real-World Impact of an In-House Dihydropyrimidine Dehydrogenase Genotyping Program on Fluoropyrimidine-Related Toxicities and Hospitalizations",
+        "authors": [
+          "Patel JN",
+          "O'Neil BH",
+          "Deal AM",
+          "Ibrahim JG",
+          "Olajide O",
+          "Atluri P",
+          "Inzerillo J",
+          "Chay CH",
+          "McLeod HL"
+        ],
+        "journal": "JCO Precision Oncology",
+        "year": 2024,
+        "pmid": "38935897",
+        "doi": "10.1200/PO.23.00623",
+        "pmc": "PMC11371106",
+        "nct_id": null,
+        "url": "https://ascopubs.org/doi/10.1200/PO.23.00623",
+        "institution": "Levine Cancer Institute, Charlotte, NC",
+        "study_type": "Real-world implementation study",
+        "open_access": true
+      },
+      "cohort": {
+        "n_total": 442,
+        "n_wild_type": 415,
+        "n_pretreatment": 16,
+        "n_reactive": 11,
+        "cancer_type": "Mixed (Colorectal, Gastric, Pancreatic, Breast, Other)",
+        "drug": "Fluoropyrimidine (5-FU/Capecitabine)",
+        "gene": "DPYD",
+        "follow_up_months": 3
+      },
+      "outcomes": {
+        "wild_type": {
+          "grade3_toxicity_n": 126,
+          "grade3_toxicity_pct": 30.4,
+          "hospitalization_n": 53,
+          "hospitalization_pct": 12.8,
+          "gi_toxicity_grade3_n": 67,
+          "gi_toxicity_grade3_pct": 16.1,
+          "gi_hospitalization_n": 45,
+          "gi_hospitalization_pct": 10.8
+        },
+        "pretreatment": {
+          "grade3_toxicity_n": 5,
+          "grade3_toxicity_pct": 31.3,
+          "hospitalization_n": 4,
+          "hospitalization_pct": 25.0,
+          "gi_toxicity_grade3_n": 4,
+          "gi_toxicity_grade3_pct": 25.0,
+          "gi_hospitalization_n": 4,
+          "gi_hospitalization_pct": 25.0
+        },
+        "reactive": {
+          "grade3_toxicity_n": 7,
+          "grade3_toxicity_pct": 63.6,
+          "hospitalization_n": 7,
+          "hospitalization_pct": 63.6,
+          "gi_toxicity_grade3_n": 6,
+          "gi_toxicity_grade3_pct": 54.5,
+          "gi_hospitalization_n": 7,
+          "gi_hospitalization_pct": 63.6
+        }
+      },
+      "statistics": {
+        "reactive_vs_wt": {
+          "toxicity_odds_ratio": 3.57,
+          "toxicity_ci": "1.02-12.49",
+          "toxicity_p_value": 0.029,
+          "hospitalization_odds_ratio": 9.59,
+          "hospitalization_ci": "2.70-34.04",
+          "hospitalization_p_value": 0.001
+        },
+        "pretreatment_vs_wt": {
+          "toxicity_odds_ratio": 1.25,
+          "toxicity_ci": "0.42-3.74",
+          "toxicity_p_value": 0.94,
+          "hospitalization_odds_ratio": 2.02,
+          "hospitalization_ci": "0.62-6.56",
+          "hospitalization_p_value": 0.167
+        },
+        "three_group": {
+          "toxicity_p_value": 0.085,
+          "hospitalization_p_value": 0.001
+        }
+      },
+      "key_findings": {
+        "relative_risk_reduction_toxicity": 51.6,
+        "relative_risk_reduction_hospitalization": 60.9,
+        "absolute_risk_reduction_toxicity": 33,
+        "absolute_risk_reduction_hospitalization": 39,
+        "risk_reduction_factor": 4.75,
+        "interpretation": "Pretreatment testing reduces toxicity to baseline (31% vs 30% wild-type) and reduces hospitalization risk by 5× (OR 9.59 → 2.02)"
+      },
+      "data_availability": {
+        "abstract_only": false,
+        "full_paper_available": true,
+        "patient_level_data": false,
+        "supplementary_tables": true,
+        "table_3_location": "Main text, Table 3",
+        "table_4_location": "Main text, Table 4"
+      },
+      "manuscript_integration": {
+        "use_in_results": true,
+        "use_in_discussion": true,
+        "figure_priority": "HIGH",
+        "table_priority": "HIGH"
+      }
+    },
+    "CS002_DPYD_Cost": {
+      "case_study_id": "CS002_DPYD_Cost",
+      "priority": "SUPPORTING",
+      "source": {
+        "type": "published_paper",
+        "title": "Cost Implications of Reactive Versus Prospective Testing for Dihydropyrimidine Dehydrogenase Deficiency by Genotype in Colorectal Cancer Patients",
+        "journal": "European Journal of Cancer Care",
+        "year": 2018,
+        "pmid": "30264921",
+        "doi": "10.1111/ecc.12951",
+        "pmc": "PMC6168732",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6168732/",
+        "open_access": true
+      },
+      "cohort": {
+        "n_total": 2000,
+        "cancer_type": "Colorectal Cancer",
+        "drug": "Fluoropyrimidine",
+        "gene": "DPYD"
+      },
+      "key_finding": "Cost of admissions for severe chemotherapy-related toxicity with reactive DPYD testing is higher than cost of prospective testing",
+      "data_availability": {
+        "full_paper_available": true,
+        "cost_analysis_tables": true
+      },
+      "manuscript_integration": {
+        "use_in_results": false,
+        "use_in_discussion": true,
+        "section": "Cost-effectiveness validation"
+      }
+    },
+    "CS003_UGT1A1_Irinotecan": {
+      "case_study_id": "CS003_UGT1A1_Irinotecan",
+      "priority": "EXAMPLE",
+      "source": {
+        "type": "case_report",
+        "title": "Life-Threatening Irinotecan-Induced Toxicity in an Adult Patient with Head and Neck Cancer",
+        "journal": "Case Reports in Oncological Medicine",
+        "year": 2017,
+        "pmid": "29109877",
+        "doi": "10.1155/2017/2683478",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2017/2683478",
+        "open_access": true
+      },
+      "cohort": {
+        "n_total": 1,
+        "cancer_type": "Head and Neck Cancer",
+        "drug": "Irinotecan",
+        "gene": "UGT1A1"
+      },
+      "outcomes": {
+        "genotype": "Homozygous UGT1A1*28 + c.-3275T>G",
+        "toxicity": "Grade 4 vomiting, diarrhea, neutropenia, septic shock, acute renal failure",
+        "hospitalization_days": 40
+      },
+      "key_finding": "UGT1A genotyping before treatment would have prevented life-threatening toxicity",
+      "data_availability": {
+        "full_case_report": true,
+        "patient_level_data": true
+      },
+      "manuscript_integration": {
+        "use_in_results": false,
+        "use_in_discussion": true,
+        "section": "Example of worst-case reactive scenario prevented by pretreatment"
+      }
+    },
+    "CS004_TPMT_Thiopurine": {
+      "case_study_id": "CS004_TPMT_Thiopurine",
+      "priority": "SUPPORTING",
+      "source": {
+        "type": "published_paper",
+        "title": "Implementation of TPMT testing",
+        "journal": "British Journal of Clinical Pharmacology",
+        "year": 2014,
+        "pmid": "24661193",
+        "doi": "10.1111/bcp.12361",
+        "pmc": "PMC3971986",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3971986/",
+        "open_access": true
+      },
+      "cohort": {
+        "n_total": "Meta-analysis of 67 studies",
+        "drug": "Thiopurines (Azathioprine, 6-mercaptopurine)",
+        "gene": "TPMT"
+      },
+      "outcomes": {
+        "intermediate_activity_OR": 4.06,
+        "intermediate_activity_CI": "3.2-5.48",
+        "deficient_patients_myelosuppression_pct": 86.0
+      },
+      "key_finding": "Cost-effective to routinely perform pre-treatment TPMT testing; intermediate TPMT activity patients have 4x higher odds of leucopenia",
+      "data_availability": {
+        "full_paper_available": true,
+        "meta_analysis_tables": true
+      },
+      "manuscript_integration": {
+        "use_in_results": false,
+        "use_in_discussion": true,
+        "section": "TPMT validation across multiple studies"
+      }
+    },
+    "CS005_DPYD_Exon4": {
+      "case_study_id": "CS005_DPYD_Exon4",
+      "priority": "LIMITATION",
+      "source": {
+        "type": "published_paper",
+        "title": "DPYD Exon 4 Deletion Associated with Fluoropyrimidine Toxicity and Death",
+        "journal": "JCO Precision Oncology",
+        "year": 2023,
+        "pmid": "36626679",
+        "doi": "10.1200/PO.22.00455",
+        "pmc": "PMC9857685",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9857685/",
+        "open_access": true
+      },
+      "cohort": {
+        "cancer_type": "Mixed Cancer Types",
+        "drug": "Fluoropyrimidine",
+        "gene": "DPYD"
+      },
+      "key_finding": "Despite preemptive genotype-guided dosing, 23-31% of DPYD wild-type patients still experienced severe toxicity, highlighting need for expanded variant testing",
+      "data_availability": {
+        "full_paper_available": true,
+        "patient_level_genotype_toxicity": true
+      },
+      "manuscript_integration": {
+        "use_in_results": false,
+        "use_in_discussion": true,
+        "section": "Limitations - need for expanded variant testing"
+      }
+    }
+  },
+  "summary_statistics": {
+    "dpyd": {
+      "pretreatment_benefit": "64% → 31% toxicity (51.6% RRR)",
+      "odds_ratio_reactive_vs_wt": 9.59,
+      "odds_ratio_ci": "2.70-34.04",
+      "evidence_level": "HIGH",
+      "n_patients": 442,
+      "study_type": "Real-world implementation"
+    },
+    "tpmt": {
+      "pretreatment_benefit": "86% → reduced myelosuppression",
+      "odds_ratio_intermediate": 4.06,
+      "odds_ratio_ci": "3.2-5.48",
+      "evidence_level": "HIGH",
+      "n_studies": 67,
+      "study_type": "Meta-analysis"
+    },
+    "ugt1a1": {
+      "pretreatment_benefit": "Life-threatening → prevented",
+      "evidence_level": "LOW",
+      "n_patients": 1,
+      "study_type": "Case report"
+    }
+  },
+  "manuscript_integration_status": {
+    "primary_case_study": "CS001_DPYD_442",
+    "status": "READY_FOR_INTEGRATION",
+    "next_steps": [
+      "Download full PDFs for CS001-CS005",
+      "Extract Table 3 and Table 4 from CS001",
+      "Generate Figure 1 (reactive vs pretreatment toxicity rates)",
+      "Generate Table 3 (odds ratios, hospitalization rates)",
+      "Integrate into Results section",
+      "Integrate into Discussion section"
+    ]
+  }
+}

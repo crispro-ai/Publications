@@ -1,0 +1,34 @@
+
+TIMING ENGINE VALIDATION - STATISTICS SUMMARY
+=============================================
+
+Dataset: Villalobos 2018 TCGA-OV (Data Supplement 1)
+File: ds_cci.17.00096-1.xlsx
+
+COHORT SUMMARY
+--------------
+Total rows in data: 603
+Unique patients: 599
+Validation cohort (all fields): 274
+Valid for category analysis: 265
+
+PRIMARY OUTCOMES
+----------------
+Exact-day match: 262/274 (95.6%; 95% CI: 92.5%-97.5%)
+Category agreement: 262/265 (98.9%; 95% CI: 96.7%-99.6%)
+Invalid (negative PFI): 9/274 (3.3%; 95% CI: 1.7%-6.1%)
+
+CATEGORY BREAKDOWN
+------------------
+Category mismatches: 3/265
+Mismatches at boundaries: 0/3
+
+ERROR DISTRIBUTION
+------------------
+0 days (exact): 262
+1-7 days: 0
+8-30 days: 0
+31-90 days: 1
+>90 days: 11
+
+Generated: 2026-01-25 05:24:01

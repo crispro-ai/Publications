@@ -1,0 +1,12 @@
+gene,source,nct_id,fda_approval_date,pmid,priority_score,indication,notes
+RET,FDA + ClinicalTrials.gov,NCT03157128,2024-09-27,39471424,50,Metastatic medullary thyroid cancer,Selpercatinib full approval for RET-mutant MTC; also approved for RET fusion+ NSCLC
+IDH1,FDA + Literature,NCT04164901,2024-08-06,,40,Metastatic/progressive IDH-mutant glioma,Vorasidenib dual IDH1/IDH2 inhibitor; first new glioma drug since 1999
+IDH2,FDA + Literature,NCT04164901,2024-08-06,,40,Metastatic/progressive IDH-mutant glioma,Vorasidenib dual IDH1/IDH2 inhibitor co-targets IDH2 mutations
+PIK3CA,FDA + ClinicalTrials.gov,NCT04252339,2024-10-10,,50,Metastatic PIK3CA-mutant breast cancer,Inavolisib + palbociclib + fulvestrant; ~40% of HR+ MBC have PIK3CA mutations
+ERBB2,FDA + Literature,NCT04466891,2024-11-20,,50,Metastatic HER2+ biliary tract cancer,Zanidatamab bispecific HER2 antibody; first HER2-targeted BTC therapy
+KMT2A,FDA + ClinicalTrials.gov,NCT04065399,2024-11-15,,50,Relapsed/refractory acute leukemia (metastatic),Revumenib menin inhibitor for KMT2A translocations; breakthrough designation
+FGFR3,FDA + ClinicalTrials.gov,NCT03410693,2024-01-19,,50,Metastatic urothelial carcinoma,Erdafitinib full approval; first oral FGFR kinase inhibitor for FGFR3-altered mUC
+NRG1,FDA + Literature,NCT02912949,2024-12-04,,50,Metastatic NRG1 fusion+ pancreatic cancer and NSCLC,Zenocutuzumab (BIZENGRI) accelerated approval; ~3% of PDAC have NRG1 fusions
+FOLR1,FDA,,2024-03-01,,30,Metastatic platinum-resistant ovarian cancer,Mirvetuximab soravtansine-gynx full approval for FRα+ ovarian/fallopian tube cancer
+ESR1,FDA,NCT03778931,2023-01-27,38381994,30,Metastatic ESR1-mutant breast cancer,Elacestrant first oral ER antagonist for ESR1 mutations (approved late 2023)
+FGFR2,ClinicalTrials.gov + Literature,,,,20,Metastatic cholangiocarcinoma,Lirafugratinib Phase 3 discussions with FDA 2024; breakthrough designation

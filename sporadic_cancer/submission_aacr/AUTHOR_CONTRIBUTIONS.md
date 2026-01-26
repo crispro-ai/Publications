@@ -4,7 +4,7 @@
 - Formal analysis: Lower cost testing needed
 - Investigation: Lack of equipment in Palestine
 
-**Fahd Kiani:**
+**Fahad Kiani:**
 - Methodology
 - Conceptualization
 - Resources

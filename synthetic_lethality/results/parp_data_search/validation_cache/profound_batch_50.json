@@ -1,0 +1,459 @@
+{
+  "batch_size": 50,
+  "total": 50,
+  "correct": 50,
+  "accuracy": 100.0,
+  "timestamp": "2026-01-22T23:17:36.494329",
+  "results": [
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_001",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_002",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_003",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_004",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_005",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_006",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_007",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_008",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_009",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_010",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_011",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_012",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_013",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_014",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_001",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_002",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_003",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_004",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_005",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_006",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_007",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_008",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_009",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_010",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_011",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_012",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_013",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_014",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_015",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_016",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_017",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_018",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_019",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_020",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_021",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_022",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_023",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_024",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_025",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_026",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_027",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_028",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_029",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_030",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_031",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_032",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_033",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_034",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_035",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_ALONE_036",
+      "group": "BRCA2mut/SPOPwt",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    }
+  ]
+}

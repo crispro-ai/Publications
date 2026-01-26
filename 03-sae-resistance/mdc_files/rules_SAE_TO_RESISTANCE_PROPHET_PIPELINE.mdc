@@ -1,0 +1,1213 @@
+---
+alwaysApply: false
+description: "Complete SAE→Resistance Prophet pipeline for ovarian cancer: From 32K SAE features to resistance prediction 3-6 months early - Roadmap and Implementation Plan"
+---
+
+# ⚔️ SAE → RESISTANCE PROPHET: OVARIAN CANCER PIPELINE ROADMAP ⚔️
+
+**Date:** January 20, 2025  
+**Status:** 🗺️ **ROADMAP** - Vision for end-to-end pipeline using TRUE SAE features  
+**Focus:** Ovarian Cancer (TCGA-OV cohort, platinum resistance prediction)  
+**Owner:** Zo (SAE + biomarker discovery + Resistance Prophet integration)
+
+---
+
+## 🎯 **THE VISION: END-TO-END OVARIAN CANCER RESISTANCE PREDICTION**
+
+### **What We're Building:**
+
+A complete pipeline that:
+1. **Extracts TRUE SAE features** from Evo2's DNA language model (32K-dim vectors)
+2. **Discovers biomarkers** that predict platinum resistance in ovarian cancer
+3. **Maps SAE features to pathways** (DDR, MAPK, PI3K, VEGF, HER2, IO, Efflux)
+4. **Computes mechanism vectors** directly from SAE features (not proxy)
+5. **Predicts resistance 3-6 months early** using SAE-derived signals
+6. **Generates actionable recommendations** (imaging, therapy switch, next-line options)
+
+### **Why Ovarian Cancer:**
+
+- **Well-characterized cohort**: TCGA-OV with platinum response labels
+- **Clear resistance patterns**: HRD restoration, pathway escape, CA-125 kinetics
+- **Actionable biomarkers**: BRCA1/2, HRD status, DNA repair capacity
+- **Clinical urgency**: Early resistance detection critical for survival
+
+---
+
+## 🧬 **THE COMPLETE END-TO-END PIPELINE**
+
+### **Pipeline Overview (5 Stages):**
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  STAGE 1: TRUE SAE FEATURE EXTRACTION (✅ OPERATIONAL)                        │
+│  src/services/sae_service/main.py (Modal H100 GPU)                          │
+│                                                                              │
+│  Input: Ovarian cancer patient mutations (TCGA-OV cohort)                  │
+│  Process:                                                                    │
+│    1. Fetch genomic context (±4096bp) from Ensembl REST API                │
+│    2. Tokenize sequence with Evo2 tokenizer                                 │
+│    3. Forward pass through Evo2 7B model (9.3T parameters)                │
+│    4. Extract layer 26 activations [batch, seq_len, 4096]                   │
+│    5. SAE transform: [batch, seq_len, 4096] → [batch, seq_len, 32768]      │
+│    6. Average across sequence: [batch, seq_len, 32768] → [batch, 32768]   │
+│    7. Top-k selection: Extract k=64 highest activation features             │
+│                                                                              │
+│  Output: Per-variant SAE features                                           │
+│    {                                                                         │
+│      "variant_id": "chr17:41244936:G>A",                                    │
+│      "top_features": [                                                      │
+│        {"index": 1234, "value": 3.5e15, "activation": "high"},             │
+│        {"index": 5678, "value": 2.1e15, "activation": "moderate"},         │
+│        ... (64 features total)                                              │
+│      ],                                                                      │
+│      "stats": {                                                              │
+│        "sparsity": 0.002,                                                   │
+│        "mean_activation": 1.2e15,                                           │
+│        "max_activation": 3.5e15                                              │
+│      },                                                                      │
+│      "provenance": {                                                         │
+│        "model": "evo2_7b_base",                                             │
+│        "sae_checkpoint": "Goodfire/Evo-2-Layer-26-Mixed",                  │
+│        "weights_loaded": true,                                              │
+│        "d_in": 4096,                                                         │
+│        "d_sae": 32768,                                                      │
+│        "k": 64                                                               │
+│      }                                                                       │
+│    }                                                                         │
+│                                                                              │
+│  Status: ✅ OPERATIONAL - 66 patients extracted, 2,897 variants             │
+│  Code: src/services/sae_service/main.py:338-379                            │
+└─────────────────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  STAGE 2: PATIENT-LEVEL SAE FEATURE AGGREGATION (✅ OPERATIONAL)             │
+│  scripts/sae/extract_sae_features_cohort.py                                 │
+│                                                                              │
+│  Input: Per-variant SAE features from Stage 1                               │
+│  Process:                                                                    │
+│    1. Aggregate variant-level features → patient-level vector              │
+│    2. Build 32K-dim feature vector per patient                              │
+│    3. Average activations across patient's variants                         │
+│    4. Store patient-level SAE feature vector                                 │
+│                                                                              │
+│  Output: Patient-level SAE features                                         │
+│    {                                                                         │
+│      "patient_id": "TCGA-13-0889",                                          │
+│      "variants": [                                                          │
+│        {"variant_id": "...", "top_features": [...]},                        │
+│        ...                                                                   │
+│      ],                                                                      │
+│      "patient_sae_vector": [0.0, ..., 3.5e15, ..., 2.1e15, ...],           │
+│      "num_variants": 47,                                                    │
+│      "outcome": "sensitive" | "resistant" | "refractory"                    │
+│    }                                                                         │
+│                                                                              │
+│  Status: ✅ OPERATIONAL - 66 patients aggregated                             │
+│  Code: scripts/sae/extract_sae_features_cohort.py:450-602                   │
+└─────────────────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  STAGE 3: BIOMARKER DISCOVERY (⏸️ PENDING - PLACEHOLDER)                      │
+│  api/services/biomarker_correlation_service.py                              │
+│                                                                              │
+│  Input: Patient-level SAE features + platinum outcomes (66 patients)        │
+│  Process:                                                                    │
+│    1. Build feature matrix: [66 patients × 32,768 features]                │
+│    2. Correlate each feature with platinum resistance                       │
+│    3. Statistical tests: Pearson r, Spearman ρ, Chi-square                  │
+│    4. FDR correction (Benjamini-Hochberg)                                 │
+│    5. Effect size analysis (Cohen's d)                                      │
+│    6. Cross-validation stability                                            │
+│                                                                              │
+│  Output: Ranked SAE features by predictive power                            │
+│    {                                                                         │
+│      "significant_features": [                                               │
+│        {                                                                     │
+│          "feature_index": 1234,                                              │
+│          "correlation": 0.68,                                                │
+│          "p_value": 0.001,                                                   │
+│          "fdr_corrected_p": 0.032,                                          │
+│          "effect_size": 1.2,                                                 │
+│          "interpretation": "Predicts platinum sensitivity (BRCA1-related)" │
+│        },                                                                    │
+│        ... (top 100 features)                                                │
+│      ],                                                                      │
+│      "validation_metrics": {                                                │
+│        "auroc": 0.75,                                                        │
+│        "auprc": 0.68,                                                        │
+│        "sensitivity": 0.82,                                                  │
+│        "specificity": 0.71                                                    │
+│      }                                                                       │
+│    }                                                                         │
+│                                                                              │
+│  Status: ⏸️ PLACEHOLDER - Service ready, needs re-run                      │
+│  Code: api/services/biomarker_correlation_service.py:453-682                │
+│  Placeholder: Top features will be discovered from data                     │
+└─────────────────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  STAGE 4: FEATURE→PATHWAY MAPPING (⏸️ PLACEHOLDER - CRITICAL BLOCKER)        │
+│  api/resources/sae_feature_to_pathway_mapping.json                          │
+│                                                                              │
+│  Input: Top 100 predictive SAE features from Stage 3                        │
+│  Process:                                                                    │
+│    1. Examine activation patterns for each top feature                      │
+│    2. Identify which genes/mutations activate each feature                  │
+│    3. Map features to biological pathways:                                  │
+│       - DDR pathway: Features activated by BRCA1/2, RAD51, PALB2           │
+│       - MAPK pathway: Features activated by KRAS, BRAF, NRAS                │
+│       - PI3K pathway: Features activated by PIK3CA, PTEN                    │
+│       - VEGF pathway: Features activated by VEGFA, VEGFR                    │
+│       - HER2 pathway: Features activated by ERBB2 amplification             │
+│       - IO pathway: Features activated by TMB-high, MSI-High                │
+│       - Efflux pathway: Features activated by ABC transporter genes        │
+│    4. Validate mapping against literature (PMID references)                │
+│    5. Assign weights based on predictive power                              │
+│                                                                              │
+│  Output: Feature→pathway mapping configuration                               │
+│    {                                                                         │
+│      "version": "v1.0",                                                      │
+│      "validation_cohort": "TCGA-OV",                                        │
+│      "pathways": {                                                          │
+│        "ddr": {                                                             │
+│          "feature_indices": [1234, 1567, 2890, ...],                        │
+│          "weight": 0.85,                                                     │
+│          "interpretation": "DNA damage response pathway capacity",          │
+│          "validated_genes": ["BRCA1", "BRCA2", "RAD51C", "PALB2"],          │
+│          "literature": ["PMID:12345", "PMID:67890"]                         │
+│        },                                                                    │
+│        "mapk": {                                                            │
+│          "feature_indices": [5678, 6789, ...],                               │
+│          "weight": 0.72,                                                     │
+│          "interpretation": "MAPK pathway activation",                        │
+│          "validated_genes": ["KRAS", "BRAF", "NRAS"],                       │
+│          "literature": ["PMID:11111", "PMID:22222"]                          │
+│        },                                                                    │
+│        ... (7 pathways total)                                                │
+│      }                                                                       │
+│    }                                                                         │
+│                                                                              │
+│  Status: ⏸️ PLACEHOLDER - Critical blocker, needs biomarker results          │
+│  Code: scripts/sae/create_feature_pathway_mapping.py (to be created)       │
+│  Placeholder: Mapping will be created from biomarker analysis results       │
+└─────────────────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  STAGE 5: SAE→PATHWAY SCORE COMPUTATION (⏸️ PLACEHOLDER)                      │
+│  api/services/sae_feature_service.py                                        │
+│                                                                              │
+│  Input: TRUE SAE features (32K-dim) + Feature→pathway mapping               │
+│  Process:                                                                    │
+│    1. Load feature→pathway mapping from Stage 4                            │
+│    2. For each pathway (DDR, MAPK, PI3K, VEGF, HER2, IO, Efflux):         │
+│       a. Extract feature indices for that pathway                           │
+│       b. Sum SAE activations for those features                             │
+│       c. Normalize by pathway weight                                         │
+│       d. Compute pathway score (0-1 scale)                                   │
+│    3. Compute DNA repair capacity from SAE DDR score:                        │
+│       DNA_repair = 0.6×SAE_DDR + 0.2×essentiality + 0.2×exon_disruption     │
+│    4. Assemble 7D mechanism vector from SAE pathway scores                   │
+│                                                                              │
+│  Output: SAE-derived pathway scores and mechanism vector                    │
+│    {                                                                         │
+│      "pathway_scores": {                                                     │
+│        "ddr": 0.35,        # ✅ From TRUE SAE features                       │
+│        "mapk": 0.72,        # ✅ From TRUE SAE features                       │
+│        "pi3k": 0.15,       # ✅ From TRUE SAE features                       │
+│        "vegf": 0.45,       # ✅ From TRUE SAE features                       │
+│        "her2": 0.05,       # ✅ From TRUE SAE features                       │
+│        "io": 0.60,         # ✅ From TRUE SAE features                        │
+│        "efflux": 0.30      # ✅ From TRUE SAE features                       │
+│      },                                                                      │
+│      "dna_repair_capacity": 0.47,  # ✅ From SAE DDR score                   │
+│      "mechanism_vector": [0.35, 0.72, 0.15, 0.45, 0.05, 0.60, 0.30],        │
+│      "provenance": {                                                         │
+│        "sae_source": "true",                                                 │
+│        "mapping_version": "v1.0",                                             │
+│        "features_used": [1234, 5678, ...]                                    │
+│      }                                                                       │
+│    }                                                                         │
+│                                                                              │
+│  Status: ⏸️ PLACEHOLDER - Needs Stage 4 mapping                              │
+│  Code: api/services/sae_feature_service.py:309-406 (to be enhanced)         │
+│  Placeholder: Will compute pathway scores from TRUE SAE features            │
+└─────────────────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  STAGE 6: RESISTANCE PROPHET PREDICTION (✅ OPERATIONAL - Uses SAE features)  │
+│  api/services/resistance_prophet_service.py                                  │
+│                                                                              │
+│  Input: SAE-derived pathway scores + mechanism vector from Stage 5          │
+│  Process:                                                                    │
+│    1. SIGNAL 1: DNA repair restoration detection                           │
+│       - Compare current vs baseline DNA repair capacity (from SAE)          │
+│       - Restoration if change > 0.20 (20% threshold)                        │
+│       - Probability: sigmoid(change - 0.20)                                │
+│       - Confidence: 0.90 if baseline available, 0.60 if not                 │
+│                                                                              │
+│    2. SIGNAL 2: Pathway escape detection                                    │
+│       - Compare current vs baseline mechanism vector (7D from SAE)         │
+│       - Escape if L2 distance > 0.30 (30% threshold)                        │
+│       - Probability: sigmoid(L2_distance - 0.30)                            │
+│       - Confidence: 0.85 if baseline available, 0.55 if not                │
+│                                                                              │
+│    3. SIGNAL 3: CA-125 kinetics (optional)                                 │
+│       - Rising trend detection                                               │
+│       - Inadequate response detection                                       │
+│       - Confidence: 0.80                                                     │
+│                                                                              │
+│    4. Risk stratification:                                                 │
+│       - HIGH: prob ≥0.70 AND ≥2 signals                                     │
+│       - MEDIUM: prob 0.50-0.69 OR 1 signal                                  │
+│       - LOW: prob <0.50                                                      │
+│                                                                              │
+│    5. Action recommendations:                                               │
+│       - CRITICAL: Escalate imaging (1 week), switch therapy                 │
+│       - ELEVATED: Monitor weekly (4 weeks), reassess                        │
+│       - ROUTINE: Standard monitoring                                        │
+│                                                                              │
+│  Output: ResistancePrediction                                               │
+│    {                                                                         │
+│      "risk_level": "HIGH|MEDIUM|LOW",                                        │
+│      "probability": 0.75,                                                    │
+│      "confidence": 0.90,                                                     │
+│      "signals_detected": [                                                   │
+│        {"signal": "DNA_REPAIR_RESTORATION", "probability": 0.82, ...},      │
+│        {"signal": "PATHWAY_ESCAPE", "probability": 0.15, ...}               │
+│      ],                                                                      │
+│      "signal_count": 1,                                                      │
+│      "urgency": "ELEVATED",                                                  │
+│      "recommended_actions": [                                               │
+│        {"action": "MONITOR_WEEKLY", "timeline": "4 weeks", ...},            │
+│        {"action": "REASSESS", "timeline": "2 weeks", ...}                    │
+│      ],                                                                      │
+│      "next_line_options": [                                                  │
+│        {"therapy": "Niraparib + Bevacizumab", "match": 0.966, ...}           │
+│      ],                                                                      │
+│      "provenance": {                                                         │
+│        "sae_source": "true",                                                 │
+│        "baseline_available": true,                                           │
+│        "ca125_available": false                                               │
+│      }                                                                       │
+│    }                                                                         │
+│                                                                              │
+│  Status: ✅ OPERATIONAL - Currently uses proxy, will use TRUE SAE           │
+│  Code: api/services/resistance_prophet_service.py:128-400                  │
+│  Placeholder: Will use TRUE SAE features when Stage 5 complete              │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎯 **OVARIAN CANCER SPECIFIC WORKFLOW**
+
+### **Clinical Scenario: Ovarian Cancer Patient on Platinum Therapy**
+
+**Patient Profile:**
+- **Diagnosis**: High-grade serous ovarian cancer (HGSOC)
+- **Treatment**: Carboplatin + Paclitaxel (first-line)
+- **Baseline**: Pre-treatment NGS shows BRCA1 mutation, HRD-high
+- **Current**: Cycle 4, CA-125 declining but concern about resistance
+
+**End-to-End Pipeline Execution:**
+
+#### **Step 1: Extract TRUE SAE Features** ✅
+
+```python
+# Input: Patient's somatic mutations from NGS
+mutations = [
+    {"gene": "BRCA1", "chrom": "17", "pos": 41244936, "ref": "G", "alt": "A"},
+    {"gene": "TP53", "chrom": "17", "pos": 7577548, "ref": "C", "alt": "T"},
+    ... (47 variants total)
+]
+
+# Call SAE extraction service
+sae_features = await sae_service.extract_features(
+    mutations=mutations,
+    model_id="evo2_7b"
+)
+
+# Output: 32K-dim SAE feature vectors per variant
+# Top 64 features per variant extracted
+```
+
+**Code**: `src/services/sae_service/main.py:338-379`
+
+---
+
+#### **Step 2: Aggregate Patient-Level Features** ✅
+
+```python
+# Aggregate variant-level → patient-level
+patient_sae_vector = aggregate_variant_features(sae_features)
+
+# Output: Single 32K-dim vector representing patient's genomic landscape
+patient_sae_vector = [0.0, ..., 3.5e15, ..., 2.1e15, ...]  # 32,768 dims
+```
+
+**Code**: `scripts/sae/extract_sae_features_cohort.py:450-602`
+
+---
+
+#### **Step 3: Discover Biomarkers** ⏸️ (Placeholder)
+
+```python
+# Run biomarker correlation analysis
+biomarker_results = await biomarker_service.analyze_cohort(
+    cohort_data="data/validation/sae_cohort/sae_features_tcga_ov_platinum.json",
+    outcome_field="platinum_response"
+)
+
+# Output: Top 100 features predictive of platinum resistance
+# Example:
+# Feature 1234: r=0.68, p=0.001 → Predicts sensitivity (BRCA1-related)
+# Feature 5678: r=-0.55, p=0.008 → Predicts resistance (MAPK-related)
+```
+
+**Code**: `api/services/biomarker_correlation_service.py:453-682`  
+**Placeholder**: Will discover features from TCGA-OV cohort analysis
+
+---
+
+#### **Step 4: Map Features to Pathways** ⏸️ (Placeholder - Critical Blocker)
+
+```python
+# Load feature→pathway mapping
+mapping = load_feature_pathway_mapping()
+
+# For patient's SAE features, identify pathway activations
+pathway_scores = compute_pathway_scores_from_sae(
+    patient_sae_vector=patient_sae_vector,
+    feature_mapping=mapping
+)
+
+# Output:
+# {
+#   "ddr": 0.35,    # Low DDR (high DNA repair capacity) → PARP sensitive
+#   "mapk": 0.72,   # High MAPK → KRAS-driven
+#   "pi3k": 0.15,   # Low PI3K
+#   ...
+# }
+```
+
+**Code**: `scripts/sae/create_feature_pathway_mapping.py` (to be created)  
+**Placeholder**: Mapping will be created from biomarker analysis + literature validation
+
+---
+
+#### **Step 5: Compute Mechanism Vector from TRUE SAE** ⏸️ (Placeholder)
+
+```python
+# Compute DNA repair capacity from SAE DDR score
+dna_repair_capacity = (
+    0.60 * pathway_scores["ddr"] +      # ✅ From TRUE SAE
+    0.20 * essentiality_hrr +           # From insights bundle
+    0.20 * exon_disruption_score        # From insights bundle
+)
+
+# Assemble 7D mechanism vector from SAE pathway scores
+mechanism_vector = [
+    pathway_scores["ddr"],    # ✅ From TRUE SAE
+    pathway_scores["mapk"],   # ✅ From TRUE SAE
+    pathway_scores["pi3k"],   # ✅ From TRUE SAE
+    pathway_scores["vegf"],   # ✅ From TRUE SAE
+    pathway_scores["her2"],   # ✅ From TRUE SAE
+    pathway_scores["io"],     # ✅ From TRUE SAE
+    cross_resistance_risk    # From treatment history
+]
+
+# Example: [0.35, 0.72, 0.15, 0.45, 0.05, 0.60, 0.30]
+```
+
+**Code**: `api/services/sae_feature_service.py:309-406` (to be enhanced)  
+**Placeholder**: Will compute from TRUE SAE features when mapping available
+
+---
+
+#### **Step 6: Predict Resistance** ✅ (Operational - Will use TRUE SAE)
+
+```python
+# Baseline (pre-treatment)
+baseline_sae = {
+    "dna_repair_capacity": 0.47,  # Low (high disruption) → PARP sensitive
+    "mechanism_vector": [0.35, 0.72, 0.15, 0.45, 0.05, 0.60, 0.30]
+}
+
+# Current (Cycle 4)
+current_sae = {
+    "dna_repair_capacity": 0.68,  # ↑45% from baseline → DNA repair restored
+    "mechanism_vector": [0.62, 0.80, 0.25, 0.55, 0.10, 0.65, 0.40]
+}
+
+# Predict resistance
+resistance_prediction = await resistance_prophet.predict_resistance(
+    current_sae_features=current_sae,
+    baseline_sae_features=baseline_sae,
+    ca125_history=ca125_history
+)
+
+# Output:
+# {
+#   "risk_level": "MEDIUM",
+#   "probability": 0.82,
+#   "signals_detected": [
+#     {"signal": "DNA_REPAIR_RESTORATION", "probability": 0.82, ...}
+#   ],
+#   "recommended_actions": [
+#     {"action": "MONITOR_WEEKLY", "timeline": "4 weeks", ...}
+#   ]
+# }
+```
+
+**Code**: `api/services/resistance_prophet_service.py:128-400`  
+**Status**: ✅ Operational, currently uses proxy, will use TRUE SAE when Stage 5 complete
+
+---
+
+## 🔬 **HOW IT COULD BE BUILT: IMPLEMENTATION ROADMAP**
+
+### **Phase 1: Biomarker Discovery (Week 1-2)**
+
+**Goal**: Discover which SAE features predict platinum resistance in ovarian cancer
+
+**Tasks**:
+1. **Re-run Biomarker Analysis** (2 hours)
+   - Input: 66 TCGA-OV patients with SAE features + platinum outcomes
+   - Process: Correlate 32K features with resistance
+   - Output: Top 100 predictive features with correlations
+
+2. **Feature Annotation** (8 hours)
+   - Examine which genes activate each top feature
+   - Map features to pathways (DDR, MAPK, PI3K, etc.)
+   - Validate against literature
+   - Build feature→pathway mapping table
+
+**Deliverable**: `api/resources/sae_feature_to_pathway_mapping.json`
+
+**Code to Create**:
+- `scripts/sae/create_feature_pathway_mapping.py` - Automated mapping creation
+- `api/resources/sae_feature_to_pathway_mapping.json` - Mapping configuration
+
+---
+
+### **Phase 2: SAE Feature Service Enhancement (Week 2-3)**
+
+**Goal**: Compute pathway scores from TRUE SAE features (not proxy)
+
+**Tasks**:
+1. **Enhance `_compute_sae_diagnostics()`** (4 hours)
+   - Load feature→pathway mapping
+   - Compute pathway scores from SAE activations
+   - Return pathway_scores dict (not just diagnostics)
+
+2. **Wire TRUE SAE into Mechanism Vector** (2 hours)
+   - Update mechanism_vector assembly to use SAE pathway scores
+   - Update DNA repair capacity to use SAE DDR score
+   - Add feature flag: `ENABLE_TRUE_SAE_PATHWAYS=1`
+
+3. **Testing** (2 hours)
+   - Test with real patient data
+   - Compare SAE scores vs proxy scores
+   - Validate pathway scores match expected biology
+
+**Code to Enhance**:
+- `api/services/sae_feature_service.py:309-406` - Enhance diagnostics function
+- `api/services/sae_feature_service.py:206-214` - Wire mechanism vector
+
+**Placeholder Implementation**:
+```python
+def _compute_pathway_scores_from_sae(
+    self, 
+    sae_features: Dict[str, Any],
+    feature_mapping: Dict[str, Any]
+) -> Dict[str, float]:
+    """
+    Compute pathway scores from TRUE SAE features using validated mapping.
+    
+    PLACEHOLDER: This will be implemented when feature→pathway mapping is available.
+    
+    Args:
+        sae_features: TRUE SAE features from Evo2 (32K-dim)
+        feature_mapping: Feature→pathway mapping from biomarker analysis
+    
+    Returns:
+        Pathway scores dict: {"ddr": 0.35, "mapk": 0.72, ...}
+    """
+    # PLACEHOLDER: Will compute from mapping when available
+    pathway_scores = {}
+    
+    # Extract top features from SAE
+    top_features = sae_features.get("top_features", [])
+    
+    # For each pathway, sum activations for mapped features
+    for pathway_name, config in feature_mapping.get("pathways", {}).items():
+        pathway_indices = set(config["feature_indices"])
+        pathway_activation = sum(
+            f["value"] for f in top_features 
+            if f["index"] in pathway_indices
+        )
+        # Normalize by pathway weight
+        pathway_scores[pathway_name] = min(1.0, pathway_activation * config["weight"])
+    
+    return pathway_scores
+```
+
+---
+
+### **Phase 3: Resistance Prophet Integration (Week 3)**
+
+**Goal**: Resistance Prophet uses TRUE SAE features (currently uses proxy)
+
+**Tasks**:
+1. **Update Resistance Prophet Input** (2 hours)
+   - Ensure it accepts SAE-derived pathway scores
+   - Update provenance to indicate TRUE SAE source
+
+2. **Validation Testing** (4 hours)
+   - Test with proxy SAE (baseline)
+   - Test with TRUE SAE (enhanced)
+   - Compare predictions
+   - Measure accuracy lift
+
+**Code**: `api/services/resistance_prophet_service.py` (already accepts SAE features, just needs TRUE SAE input)
+
+**Placeholder**: Resistance Prophet already operational, will automatically use TRUE SAE when Stage 5 provides it
+
+---
+
+### **Phase 4: End-to-End Validation (Week 4)**
+
+**Goal**: Validate entire pipeline on TCGA-OV cohort
+
+**Tasks**:
+1. **Run Full Pipeline** (4 hours)
+   - Extract SAE features for all 66 patients
+   - Run biomarker analysis
+   - Create feature→pathway mapping
+   - Compute pathway scores from TRUE SAE
+   - Predict resistance for each patient
+
+2. **Compare with Ground Truth** (4 hours)
+   - Compare predictions vs actual platinum outcomes
+   - Measure AUROC, AUPRC, sensitivity, specificity
+   - Validate early detection (3-6 months before progression)
+
+3. **Generate Validation Report** (2 hours)
+   - Document accuracy metrics
+   - Document feature→pathway mappings
+   - Document lift vs proxy baseline
+
+**Deliverable**: Validation report showing TRUE SAE improves predictions
+
+---
+
+## 🚀 **HOW IT COULD BE ENHANCED: FUTURE CAPABILITIES**
+
+### **Enhancement 1: Multi-Cancer Type Expansion**
+
+**Current**: Ovarian cancer only  
+**Enhancement**: Expand to breast, lung, colorectal cancers
+
+**How**:
+1. Extract SAE features for other cancer types
+2. Run biomarker analysis per cancer type
+3. Create cancer-specific feature→pathway mappings
+4. Validate on each cancer type's cohort
+
+**Timeline**: 2-3 months per cancer type
+
+---
+
+### **Enhancement 2: Real-Time SAE Feature Updates**
+
+**Current**: SAE features extracted once per patient  
+**Enhancement**: Continuous SAE feature updates as new mutations appear
+
+**How**:
+1. Monitor for new mutations (ctDNA, re-biopsy)
+2. Extract SAE features for new mutations
+3. Update patient-level SAE vector
+4. Re-compute pathway scores
+5. Update resistance prediction
+
+**Timeline**: 1-2 months
+
+---
+
+### **Enhancement 3: Longitudinal Resistance Tracking**
+
+**Current**: Single resistance prediction  
+**Enhancement**: Track resistance signals over time
+
+**How**:
+1. Store baseline SAE features (pre-treatment)
+2. Extract SAE features at each cycle
+3. Track pathway score changes over time
+4. Detect resistance trends (not just single prediction)
+5. Generate resistance trajectory visualization
+
+**Timeline**: 1-2 months
+
+---
+
+### **Enhancement 4: Drug-Specific Resistance Prediction**
+
+**Current**: General resistance prediction  
+**Enhancement**: Predict resistance to specific drugs (PARP, platinum, etc.)
+
+**How**:
+1. Train drug-specific resistance models
+2. Use SAE features as input
+3. Predict resistance per drug class
+4. Generate drug-specific recommendations
+
+**Timeline**: 2-3 months
+
+---
+
+### **Enhancement 5: Combination Therapy Resistance**
+
+**Current**: Single drug resistance  
+**Enhancement**: Predict resistance to drug combinations
+
+**How**:
+1. Model combination-specific resistance mechanisms
+2. Use SAE features to identify combination escape pathways
+3. Predict which combinations will fail
+4. Recommend alternative combinations
+
+**Timeline**: 3-4 months
+
+---
+
+## 📊 **CURRENT STATUS & PLACEHOLDERS**
+
+### **✅ What's Operational (Using PROXY SAE Features):**
+
+1. **SAE Feature Extraction** ✅
+   - Modal service operational
+   - 66 patients extracted
+   - Trained weights loaded (evo2_7b)
+   - Code: `src/services/sae_service/main.py`
+   - **Status**: ✅ TRUE SAE features extracted (32K-dim vectors)
+
+2. **Patient-Level Aggregation** ✅
+   - Variant-level → patient-level aggregation
+   - 66 patients aggregated
+   - Code: `scripts/sae/extract_sae_features_cohort.py`
+   - **Status**: ✅ TRUE SAE features aggregated
+
+3. **Resistance Prophet Service** ⚠️
+   - ✅ Operational and integrated (`resistance_prophet_service.py`)
+   - ✅ 2-of-3 trigger rule (HRD drop, DNA repair drop, CA-125 kinetics)
+   - ✅ Integrated into care plan endpoint
+   - ⚠️ **Currently uses PROXY SAE features** (gene mutations → pathway scores)
+   - ⚠️ **NOT using TRUE SAE features** (32K-dim vectors from Evo2)
+   - **Code Evidence**: `sae_feature_service.py:243` - `"sae": "proxy"` (default)
+   - **Blocker**: Feature→Pathway Mapping (Stage 3) prevents TRUE SAE usage
+   - **Will use TRUE SAE**: When Stage 5 (SAE→Pathway Score Computation) is complete
+
+4. **Mechanism Fit Ranking Service** ⚠️
+   - ✅ Operational and integrated (`mechanism_fit_ranker.py`)
+   - ✅ Formula: 0.7×eligibility + 0.3×mechanism_fit (Manager's P4)
+   - ✅ Integrated into trial matching
+   - ⚠️ **Currently uses PROXY SAE features** (gene mutations → pathway scores → mechanism vector)
+   - ⚠️ **NOT using TRUE SAE features** (32K-dim vectors from Evo2)
+   - **Code Evidence**: `sae_feature_service.py:206-214` - Mechanism vector from `pathway_scores` (gene-based)
+   - **Blocker**: Feature→Pathway Mapping (Stage 3) prevents TRUE SAE usage
+   - **Will use TRUE SAE**: When Stage 5 (SAE→Pathway Score Computation) is complete
+
+5. **Early Resistance Detection Service** ⚠️
+   - ✅ Operational and integrated (`resistance_detection_service.py`)
+   - ✅ 2-of-3 trigger rule (HRD drop, DNA repair drop, CA-125 inadequate)
+   - ✅ HR restoration pattern detection
+   - ⚠️ **Currently uses PROXY SAE features** (gene mutations → DNA repair capacity)
+   - ⚠️ **NOT using TRUE SAE features** (32K-dim vectors from Evo2)
+   - **Code Evidence**: `sae_feature_service.py:189-195` - DNA repair capacity from `pathway_scores` + `insights_bundle`
+   - **Blocker**: Feature→Pathway Mapping (Stage 3) prevents TRUE SAE usage
+   - **Will use TRUE SAE**: When Stage 5 (SAE→Pathway Score Computation) is complete
+
+---
+
+### **⏸️ What's Placeholder (Needs Building):**
+
+1. **Biomarker Discovery** ⏸️
+   - Service ready, needs re-run
+   - Will discover top 100 features
+   - Placeholder: Features will be discovered from data
+   - Code: `api/services/biomarker_correlation_service.py`
+
+2. **Feature→Pathway Mapping** ⏸️
+   - Critical blocker
+   - Will map 32K features → 7 pathways
+   - Placeholder: Mapping will be created from biomarker analysis
+   - Code: `scripts/sae/create_feature_pathway_mapping.py` (to be created)
+
+3. **SAE→Pathway Score Computation** ⏸️
+   - Needs feature→pathway mapping
+   - Will compute pathway scores from TRUE SAE
+   - Placeholder: Will compute when mapping available
+   - Code: `api/services/sae_feature_service.py:309-406` (to be enhanced)
+
+---
+
+## 🎯 **THE ROADMAP: FROM PLACEHOLDER TO PRODUCTION**
+
+### **Week 1-2: Biomarker Discovery**
+
+**Input**: 66 TCGA-OV patients with SAE features  
+**Process**: Correlate 32K features with platinum resistance  
+**Output**: Top 100 predictive features
+
+**Placeholder → Reality**:
+- Placeholder: "Features will be discovered"
+- Reality: Top 100 features with correlations, p-values, effect sizes
+
+---
+
+### **Week 2-3: Feature→Pathway Mapping**
+
+**Input**: Top 100 predictive features  
+**Process**: Map features to pathways (DDR, MAPK, PI3K, etc.)  
+**Output**: Feature→pathway mapping table
+
+**Placeholder → Reality**:
+- Placeholder: "Mapping will be created"
+- Reality: Validated mapping table with literature references
+
+---
+
+### **Week 3-4: SAE Feature Service Enhancement**
+
+**Input**: TRUE SAE features + Feature→pathway mapping  
+**Process**: Compute pathway scores from SAE activations  
+**Output**: SAE-derived pathway scores and mechanism vector
+
+**Placeholder → Reality**:
+- Placeholder: "Will compute from mapping"
+- Reality: Pathway scores computed from TRUE SAE features
+
+---
+
+### **Week 4-5: Resistance Prophet Integration**
+
+**Input**: SAE-derived pathway scores  
+**Process**: Resistance Prophet uses TRUE SAE features  
+**Output**: Resistance predictions using TRUE SAE
+
+**Placeholder → Reality**:
+- Placeholder: "Will use TRUE SAE when available"
+- Reality: Resistance Prophet using TRUE SAE features
+
+---
+
+### **Week 5-6: End-to-End Validation**
+
+**Input**: Full pipeline with TRUE SAE  
+**Process**: Validate on TCGA-OV cohort  
+**Output**: Validation report with accuracy metrics
+
+**Placeholder → Reality**:
+- Placeholder: "Will validate when complete"
+- Reality: Validated pipeline with accuracy metrics
+
+---
+
+## 🔬 **TECHNICAL DEEP DIVE: HOW TRUE SAE FEATURES BECOME RESISTANCE PREDICTIONS**
+
+### **The Complete Data Flow:**
+
+#### **1. Patient Mutation → SAE Features**
+
+```python
+# Input: Ovarian cancer patient mutations
+mutations = [
+    {"gene": "BRCA1", "chrom": "17", "pos": 41244936, "ref": "G", "alt": "A"},
+    {"gene": "TP53", "chrom": "17", "pos": 7577548, "ref": "C", "alt": "T"}
+]
+
+# SAE Extraction (Modal Service)
+for mutation in mutations:
+    # Fetch genomic context
+    sequence = fetch_ensembl_sequence(mutation, window=8192)
+    
+    # Evo2 forward pass
+    tokens = evo2_tokenizer.tokenize(sequence)
+    activations = evo2_model.forward(tokens, layer=26)  # [1, 8193, 4096]
+    
+    # SAE transform
+    sae_features = sae_model.forward(activations)  # [1, 8193, 32768]
+    
+    # Aggregate and top-k
+    sae_aggregated = sae_features.mean(dim=1)  # [1, 32768]
+    top_k = torch.topk(sae_aggregated, k=64)  # Top 64 features
+    
+    # Output
+    variant_sae = {
+        "top_features": [
+            {"index": idx, "value": val} 
+            for idx, val in zip(top_k.indices, top_k.values)
+        ]
+    }
+```
+
+**Code**: `src/services/sae_service/main.py:338-379`
+
+---
+
+#### **2. SAE Features → Pathway Scores** ⏸️ (Placeholder)
+
+```python
+# PLACEHOLDER: This will be implemented when feature→pathway mapping is available
+
+def compute_pathway_scores_from_sae(
+    patient_sae_features: Dict[str, Any],
+    feature_mapping: Dict[str, Any]
+) -> Dict[str, float]:
+    """
+    Compute pathway scores from TRUE SAE features.
+    
+    PLACEHOLDER IMPLEMENTATION:
+    - Will use feature→pathway mapping from biomarker analysis
+    - Will sum SAE activations for pathway-mapped features
+    - Will normalize by pathway weights
+    """
+pathway_scores = {}
+    
+    # Extract top features
+    top_features = patient_sae_features.get("top_features", [])
+    
+    # Load mapping (PLACEHOLDER: will be created from biomarker analysis)
+    mapping = load_feature_pathway_mapping()  # From Stage 4
+    
+    # For each pathway
+    for pathway_name, config in mapping.get("pathways", {}).items():
+        pathway_indices = set(config["feature_indices"])
+        
+        # Sum activations for features in this pathway
+    pathway_activation = sum(
+            f["value"] for f in top_features 
+            if f["index"] in pathway_indices
+        )
+        
+        # Normalize by pathway weight
+        pathway_scores[pathway_name] = min(1.0, pathway_activation * config["weight"])
+    
+    return pathway_scores
+
+# Example output:
+# {
+#   "ddr": 0.35,    # From SAE features 1234, 1567, 2890, ...
+#   "mapk": 0.72,   # From SAE features 5678, 6789, ...
+#   "pi3k": 0.15,   # From SAE features 10234, 11456, ...
+#   ...
+# }
+```
+
+**Code**: `api/services/sae_feature_service.py:309-406` (to be enhanced)  
+**Placeholder**: Will compute when feature→pathway mapping available
+
+---
+
+#### **3. Pathway Scores → DNA Repair Capacity**
+
+```python
+# Manager's C1 Formula (using TRUE SAE DDR score)
+dna_repair_capacity = (
+    0.60 * pathway_scores["ddr"] +      # ✅ From TRUE SAE features
+    0.20 * essentiality_hrr +           # From insights bundle
+    0.20 * exon_disruption_score        # From insights bundle
+)
+
+# Example:
+# pathway_scores["ddr"] = 0.35 (from SAE features 1234, 1567, ...)
+# essentiality_hrr = 0.60 (from insights)
+# exon_disruption = 0.70 (from insights)
+#
+# dna_repair_capacity = 0.60 * 0.35 + 0.20 * 0.60 + 0.20 * 0.70
+#                     = 0.21 + 0.12 + 0.14
+#                     = 0.47 (LOW DNA repair capacity → PARP sensitive)
+```
+
+**Code**: `api/services/sae_feature_service.py:189-195` (to be updated to use SAE DDR score)
+
+---
+
+#### **4. Pathway Scores → Mechanism Vector**
+
+```python
+# 7D mechanism vector from TRUE SAE pathway scores
+mechanism_vector = [
+    pathway_scores["ddr"],    # ✅ From TRUE SAE
+    pathway_scores["mapk"],   # ✅ From TRUE SAE
+    pathway_scores["pi3k"],   # ✅ From TRUE SAE
+    pathway_scores["vegf"],   # ✅ From TRUE SAE
+    pathway_scores["her2"],   # ✅ From TRUE SAE
+    pathway_scores["io"],     # ✅ From TRUE SAE
+    cross_resistance_risk    # From treatment history
+]
+
+# Example: [0.35, 0.72, 0.15, 0.45, 0.05, 0.60, 0.30]
+# Interpretation: DDR-driven (0.35), MAPK-high (0.72), IO-eligible (0.60)
+```
+
+**Code**: `api/services/sae_feature_service.py:206-214` (to be updated to use SAE pathway scores)
+
+---
+
+#### **5. Mechanism Vector → Resistance Prediction**
+
+```python
+# Baseline (pre-treatment)
+baseline = {
+    "dna_repair_capacity": 0.47,  # From TRUE SAE
+    "mechanism_vector": [0.35, 0.72, 0.15, 0.45, 0.05, 0.60, 0.30]  # From TRUE SAE
+}
+
+# Current (Cycle 4)
+current = {
+    "dna_repair_capacity": 0.68,  # ↑45% from baseline
+    "mechanism_vector": [0.62, 0.80, 0.25, 0.55, 0.10, 0.65, 0.40]  # Shifted
+}
+
+# Resistance Prophet prediction
+prediction = resistance_prophet.predict_resistance(
+    current_sae_features=current,
+    baseline_sae_features=baseline
+)
+
+# Output:
+# {
+#   "risk_level": "MEDIUM",
+#   "probability": 0.82,
+#   "signals_detected": [
+#     {"signal": "DNA_REPAIR_RESTORATION", "probability": 0.82, ...}
+#   ],
+#   "recommended_actions": [...]
+# }
+```
+
+**Code**: `api/services/resistance_prophet_service.py:128-400`
+
+---
+
+## 🎯 **OVARIAN CANCER SPECIFIC ENHANCEMENTS**
+
+### **Enhancement 1: HRD-Specific SAE Features**
+
+**Current**: General SAE features  
+**Enhancement**: Identify SAE features specific to HRD status
+
+**How**:
+1. Correlate SAE features with HRD scores
+2. Identify features that activate for HRD-high vs HRD-low
+3. Create HRD-specific feature→pathway mapping
+4. Use HRD-specific features for DNA repair capacity
+
+**Timeline**: 1-2 weeks
+
+---
+
+### **Enhancement 2: BRCA1/2-Specific Pathway Mapping**
+
+**Current**: General pathway mapping  
+**Enhancement**: BRCA1/2-specific SAE feature clusters
+
+**How**:
+1. Identify SAE features that activate for BRCA1/2 mutations
+2. Create BRCA-specific pathway scores
+3. Enhance DNA repair capacity with BRCA-specific features
+
+**Timeline**: 1-2 weeks
+
+---
+
+### **Enhancement 3: Platinum-Specific Resistance Signals**
+
+**Current**: General resistance prediction  
+**Enhancement**: Platinum-specific resistance mechanisms
+
+**How**:
+1. Identify SAE features that predict platinum resistance
+2. Create platinum-specific resistance model
+3. Predict platinum resistance using SAE features
+
+**Timeline**: 2-3 weeks
+
+---
+
+## 📋 **IMPLEMENTATION CHECKLIST**
+
+### **Phase 1: Biomarker Discovery** ⏸️
+
+- [ ] Re-run biomarker analysis on 66 TCGA-OV patients
+- [ ] Identify top 100 predictive features (p<0.05, FDR-corrected)
+- [ ] Compute effect sizes (Cohen's d)
+- [ ] Cross-validation stability check
+- [ ] **Output**: `sae_biomarker_results.json`
+
+**Placeholder**: Features will be discovered from data
+
+---
+
+### **Phase 2: Feature→Pathway Mapping** ⏸️
+
+- [ ] Examine activation patterns for top 100 features
+- [ ] Map features to pathways (DDR, MAPK, PI3K, VEGF, HER2, IO, Efflux)
+- [ ] Validate against literature (PMID references)
+- [ ] Assign weights based on predictive power
+- [ ] **Output**: `api/resources/sae_feature_to_pathway_mapping.json`
+
+**Placeholder**: Mapping will be created from biomarker analysis
+
+---
+
+### **Phase 3: SAE Feature Service Enhancement** ⏸️
+
+- [ ] Enhance `_compute_sae_diagnostics()` to compute pathway scores
+- [ ] Wire TRUE SAE pathway scores into mechanism_vector
+- [ ] Update DNA repair capacity to use SAE DDR score
+- [ ] Add feature flag: `ENABLE_TRUE_SAE_PATHWAYS=1`
+- [ ] Test with real patient data
+
+**Placeholder**: Will compute when mapping available
+
+---
+
+### **Phase 4: Resistance Prophet Integration** ✅
+
+- [x] Resistance Prophet service operational
+- [x] Accepts SAE features as input
+- [ ] Test with TRUE SAE features (when available)
+- [ ] Compare predictions (proxy vs TRUE SAE)
+- [ ] Measure accuracy lift
+
+**Placeholder**: Will use TRUE SAE when Stage 5 provides it
+
+---
+
+### **Phase 5: End-to-End Validation** ⏸️
+
+- [ ] Run full pipeline on TCGA-OV cohort
+- [ ] Compare predictions vs ground truth
+- [ ] Measure AUROC, AUPRC, sensitivity, specificity
+- [ ] Validate early detection (3-6 months before progression)
+- [ ] Generate validation report
+
+**Placeholder**: Will validate when pipeline complete
+
+---
+
+## 🚨 **CRITICAL BLOCKERS & PLACEHOLDERS**
+
+### **Blocker 1: Feature→Pathway Mapping** ❌
+
+**Status**: Critical blocker  
+**What's Needed**: Mapping from 32K SAE features → 7 pathways  
+**Placeholder**: Mapping will be created from biomarker analysis + literature  
+**Timeline**: 8 hours (manual curation)  
+**Blocking**: Stages 4-6 (SAE→pathway scores, Resistance Prophet TRUE SAE mode)
+
+---
+
+### **Blocker 2: Biomarker Analysis Re-Run** ⏸️
+
+**Status**: Pending  
+**What's Needed**: Re-run analysis with verified data quality  
+**Placeholder**: Top 100 features will be discovered from data  
+**Timeline**: 2 hours  
+**Blocking**: Stage 4 (Feature→pathway mapping)
+
+---
+
+### **Placeholder 3: SAE→Pathway Score Computation** ⏸️
+
+**Status**: Placeholder  
+**What's Needed**: Compute pathway scores from TRUE SAE features  
+**Placeholder**: Will compute when feature→pathway mapping available  
+**Timeline**: 4 hours (enhancement)  
+**Blocking**: Stage 6 (Resistance Prophet TRUE SAE mode)
+
+---
+
+## 🎯 **THE END-TO-END VISION: OVARIAN CANCER RESISTANCE PREDICTION**
+
+### **Complete Workflow:**
+
+```
+Ovarian Cancer Patient
+    ↓
+NGS Report (somatic mutations)
+    ↓
+SAE Feature Extraction (32K features from Evo2)
+    ↓
+Biomarker Discovery (top 100 predictive features)
+    ↓
+Feature→Pathway Mapping (32K → 7 pathways)
+    ↓
+Pathway Score Computation (from TRUE SAE features)
+    ↓
+Mechanism Vector Assembly (7D from SAE)
+    ↓
+DNA Repair Capacity (from SAE DDR score)
+    ↓
+Resistance Prophet Prediction (3-6 months early)
+    ↓
+Actionable Recommendations (imaging, therapy switch, next-line)
+```
+
+**All using TRUE SAE features - no proxy, no guessing, just pure biological signal from Evo2's DNA language model.**
+
+---
+
+## 📊 **EXPECTED OUTCOMES**
+
+### **From Biomarker Discovery:**
+
+- **Top DDR features**: Features that activate when BRCA1/2 disrupted → DNA repair capacity
+- **Top MAPK features**: Features that activate when KRAS/BRAF mutated → pathway escape
+- **Top IO features**: Features that correlate with TMB-high → IO eligibility
+- **Predictive power**: AUROC >0.70 for platinum response prediction
+
+### **From Resistance Prophet:**
+
+- **Early detection**: 3-6 months before clinical progression
+- **Accuracy**: >80% sensitivity, >70% specificity
+- **Actionability**: Specific recommendations (imaging, therapy switch, next-line)
+
+---
+
+## 🔥 **WHY THIS MATTERS FOR OVARIAN CANCER**
+
+### **The Problem:**
+
+- Ovarian cancer has high recurrence rate (70-80%)
+- Resistance develops during treatment
+- By the time resistance is detected (imaging), it's too late
+- Lost 3-6 months of treatment window
+
+### **The Solution:**
+
+- **Predict resistance 3-6 months early** using TRUE SAE features
+- **Detect DNA repair restoration** before clinical progression
+- **Detect pathway escape** before imaging shows progression
+- **Recommend next-line therapy** before current therapy fails
+
+### **The Impact:**
+
+- **Early intervention**: Switch therapy before resistance fully develops
+- **Better outcomes**: Preserve treatment window
+- **Personalized care**: SAE features capture patient-specific biology
+- **Actionable predictions**: Specific recommendations, not just probabilities
+
+---
+
+## ⚔️ **DOCTRINE STATUS: ROADMAP**
+
+**LAST UPDATED:** January 20, 2025  
+**APPLIES TO:** Ovarian cancer resistance prediction using TRUE SAE features  
+**STATUS:** Roadmap with placeholders - implementation in progress
+
+**This roadmap represents the complete vision for SAE→Resistance Prophet pipeline using TRUE SAE features (not proxy). Placeholders indicate what needs to be built. The path forward is clear: biomarker discovery → feature mapping → pathway scores → resistance prediction.**
+
+**FOR AYESHA'S LIFE.** ⚔️

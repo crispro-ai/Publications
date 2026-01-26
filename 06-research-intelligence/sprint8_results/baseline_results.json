@@ -1,0 +1,1707 @@
+{
+  "timestamp": "2026-01-07T16:05:58.237255",
+  "total_queries": 81,
+  "baseline_results": {
+    "pubmed_abstract_only": [
+      {
+        "query_id": "DG_001",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_002",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_003",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_004",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_005",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_006",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_007",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_008",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_009",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_010",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_011",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_012",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_013",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_014",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_015",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_016",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_017",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_018",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_019",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_020",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_021",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_022",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_023",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_024",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_025",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_026",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_027",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_028",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_029",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_030",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_031",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_032",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_033",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_034",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_035",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_036",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_037",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_038",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_039",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "DG_040",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "fluoropyrimidine",
+          "testing",
+          "variants",
+          "clinical",
+          "study",
+          "chemotherapy",
+          "severe",
+          "sites",
+          "gastrointestinal"
+        ],
+        "paper_count": 98
+      },
+      {
+        "query_id": "SL_001",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "cancer",
+          "parpi",
+          "clinical",
+          "ovarian",
+          "olaparib",
+          "tumor",
+          "maintenance",
+          "treatment",
+          "therapy"
+        ],
+        "paper_count": 100
+      },
+      {
+        "query_id": "SL_002",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "breast",
+          "olaparib",
+          "cancer",
+          "pembrolizumab",
+          "efficacy",
+          "repair",
+          "inhibitors",
+          "these",
+          "clinical"
+        ],
+        "paper_count": 100
+      },
+      {
+        "query_id": "SL_003",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "olaparib",
+          "cancer",
+          "prostate",
+          "clinical",
+          "repair",
+          "metastatic",
+          "treatment",
+          "inhibitor",
+          "mcrpc"
+        ],
+        "paper_count": 100
+      },
+      {
+        "query_id": "SL_004",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "cancer",
+          "treatment",
+          "clinical",
+          "olaparib",
+          "parpi",
+          "primary",
+          "therapy",
+          "response",
+          "maintenance"
+        ],
+        "paper_count": 100
+      },
+      {
+        "query_id": "SL_005",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [],
+        "paper_count": 0
+      },
+      {
+        "query_id": "SL_006",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [],
+        "paper_count": 0
+      },
+      {
+        "query_id": "SL_007",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "cancer",
+          "patients",
+          "ovarian",
+          "efficacy",
+          "adavosertib",
+          "clinical",
+          "response",
+          "phase",
+          "treatment",
+          "gemcitabine"
+        ],
+        "paper_count": 9
+      },
+      {
+        "query_id": "SL_008",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "cancer",
+          "olaparib",
+          "breast",
+          "inhibitor",
+          "approved",
+          "treatment",
+          "mutations",
+          "these",
+          "cells"
+        ],
+        "paper_count": 54
+      },
+      {
+        "query_id": "SL_009",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "prostate",
+          "patients",
+          "olaparib",
+          "cancer",
+          "treatment",
+          "group",
+          "mutations",
+          "genes",
+          "pathogenic",
+          "metastatic"
+        ],
+        "paper_count": 19
+      },
+      {
+        "query_id": "SL_010",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "ovarian",
+          "cancer",
+          "patients",
+          "variants",
+          "olaparib",
+          "tumors",
+          "missense",
+          "identified",
+          "genomic",
+          "analysis"
+        ],
+        "paper_count": 11
+      },
+      {
+        "query_id": "SL_011",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "olaparib",
+          "cancer",
+          "group",
+          "patients",
+          "control",
+          "variants",
+          "median",
+          "ovarian",
+          "homologous",
+          "recombination"
+        ],
+        "paper_count": 5
+      },
+      {
+        "query_id": "SL_012",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [],
+        "paper_count": 0
+      },
+      {
+        "query_id": "SL_013",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "ovarian",
+          "olaparib",
+          "cancer",
+          "patients",
+          "genes",
+          "expression",
+          "could",
+          "combination",
+          "sensitivity",
+          "inhibitors"
+        ],
+        "paper_count": 8
+      },
+      {
+        "query_id": "SL_014",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "breast",
+          "olaparib",
+          "cancer",
+          "pembrolizumab",
+          "efficacy",
+          "repair",
+          "inhibitors",
+          "these",
+          "clinical"
+        ],
+        "paper_count": 100
+      },
+      {
+        "query_id": "SL_015",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "cancer",
+          "treatment",
+          "repair",
+          "olaparib",
+          "parpi",
+          "inhibitors",
+          "prostate",
+          "clinical",
+          "survival"
+        ],
+        "paper_count": 100
+      },
+      {
+        "query_id": "SL_016",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "cancer",
+          "treatment",
+          "clinical",
+          "olaparib",
+          "parpi",
+          "primary",
+          "therapy",
+          "response",
+          "maintenance"
+        ],
+        "paper_count": 100
+      },
+      {
+        "query_id": "SL_017",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "cancer",
+          "olaparib",
+          "breast",
+          "treatment",
+          "pembrolizumab",
+          "ctdna",
+          "clinical",
+          "testing",
+          "response"
+        ],
+        "paper_count": 100
+      },
+      {
+        "query_id": "SL_018",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [],
+        "paper_count": 0
+      },
+      {
+        "query_id": "SL_019",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [],
+        "paper_count": 0
+      },
+      {
+        "query_id": "SL_020",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "mitotic",
+          "clinical",
+          "inhibition",
+          "kinase",
+          "entry",
+          "preclinical",
+          "cancer",
+          "checkpoint",
+          "premature",
+          "synergizes"
+        ],
+        "paper_count": 2
+      },
+      {
+        "query_id": "SL_021",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "clinical",
+          "olaparib",
+          "mutations",
+          "tumor",
+          "cancer",
+          "response",
+          "prostate",
+          "tumors",
+          "survival"
+        ],
+        "paper_count": 65
+      },
+      {
+        "query_id": "SL_022",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "cancer",
+          "pathogenic",
+          "olaparib",
+          "ovarian",
+          "homologous",
+          "repair",
+          "mutations",
+          "recombination",
+          "tumors"
+        ],
+        "paper_count": 20
+      },
+      {
+        "query_id": "SL_023",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "cancer",
+          "olaparib",
+          "breast",
+          "group",
+          "control",
+          "variants",
+          "missense",
+          "ovarian",
+          "clinical"
+        ],
+        "paper_count": 9
+      },
+      {
+        "query_id": "SL_024",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "olaparib",
+          "group",
+          "control",
+          "patients",
+          "survival",
+          "progression",
+          "cohort",
+          "median",
+          "months",
+          "cancer"
+        ],
+        "paper_count": 1
+      },
+      {
+        "query_id": "SL_025",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "clear",
+          "patients",
+          "combination",
+          "ovarian",
+          "against",
+          "carcinoma",
+          "clinical",
+          "treatment",
+          "compounds",
+          "other"
+        ],
+        "paper_count": 2
+      },
+      {
+        "query_id": "SL_026",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "olaparib",
+          "patients",
+          "group",
+          "cancer",
+          "control",
+          "sensitivity",
+          "genes",
+          "months",
+          "homologous",
+          "disease"
+        ],
+        "paper_count": 7
+      },
+      {
+        "query_id": "SL_027",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "cancer",
+          "treatment",
+          "repair",
+          "olaparib",
+          "parpi",
+          "inhibitors",
+          "prostate",
+          "clinical",
+          "survival"
+        ],
+        "paper_count": 100
+      },
+      {
+        "query_id": "SL_028",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "cancer",
+          "parpi",
+          "clinical",
+          "ovarian",
+          "olaparib",
+          "tumor",
+          "maintenance",
+          "treatment",
+          "therapy"
+        ],
+        "paper_count": 100
+      },
+      {
+        "query_id": "SL_029",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "cancer",
+          "olaparib",
+          "breast",
+          "treatment",
+          "pembrolizumab",
+          "ctdna",
+          "clinical",
+          "testing",
+          "response"
+        ],
+        "paper_count": 100
+      },
+      {
+        "query_id": "SL_030",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "olaparib",
+          "cancer",
+          "prostate",
+          "clinical",
+          "repair",
+          "metastatic",
+          "treatment",
+          "inhibitor",
+          "mcrpc"
+        ],
+        "paper_count": 100
+      },
+      {
+        "query_id": "SL_031",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [],
+        "paper_count": 0
+      },
+      {
+        "query_id": "SL_032",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [],
+        "paper_count": 0
+      },
+      {
+        "query_id": "SL_033",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [],
+        "paper_count": 0
+      },
+      {
+        "query_id": "SL_034",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "cancer",
+          "ovarian",
+          "olaparib",
+          "cells",
+          "which",
+          "parpi",
+          "resistance",
+          "inhibitors",
+          "inhibition",
+          "treatment"
+        ],
+        "paper_count": 42
+      },
+      {
+        "query_id": "SL_035",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "olaparib",
+          "cancer",
+          "ctdna",
+          "treatment",
+          "mutations",
+          "inhibitor",
+          "these",
+          "genes",
+          "pathogenic"
+        ],
+        "paper_count": 32
+      },
+      {
+        "query_id": "SL_036",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "olaparib",
+          "patients",
+          "group",
+          "control",
+          "cancer",
+          "homologous",
+          "progression",
+          "patient",
+          "survival",
+          "repair"
+        ],
+        "paper_count": 3
+      },
+      {
+        "query_id": "SL_037",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "cancer",
+          "ovarian",
+          "variants",
+          "genomic",
+          "homologous",
+          "recombination",
+          "tumors",
+          "patients",
+          "olaparib",
+          "identified"
+        ],
+        "paper_count": 6
+      },
+      {
+        "query_id": "SL_038",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "clear",
+          "patients",
+          "combination",
+          "gynecological",
+          "activity",
+          "other",
+          "relapsed",
+          "carcinoma",
+          "mutations",
+          "subtypes"
+        ],
+        "paper_count": 1
+      },
+      {
+        "query_id": "SL_039",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "olaparib",
+          "survival",
+          "repair",
+          "months",
+          "cohort",
+          "control",
+          "prostate",
+          "treatment",
+          "cancer"
+        ],
+        "paper_count": 12
+      },
+      {
+        "query_id": "SL_040",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [
+          "patients",
+          "cancer",
+          "parpi",
+          "clinical",
+          "ovarian",
+          "olaparib",
+          "tumor",
+          "maintenance",
+          "treatment",
+          "therapy"
+        ],
+        "paper_count": 100
+      },
+      {
+        "query_id": "HV_001",
+        "baseline": "pubmed_abstract_only",
+        "mechanisms": [],
+        "paper_count": 0
+      }
+    ],
+    "chatgpt_direct": [],
+    "keyword_matching": [
+      {
+        "query_id": "DG_001",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_002",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_003",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_004",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_005",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_006",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_007",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_008",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_009",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_010",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_011",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_012",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_013",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_014",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_015",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_016",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_017",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_018",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_019",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_020",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_021",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_022",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_023",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_024",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_025",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_026",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_027",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_028",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_029",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_030",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_031",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_032",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_033",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_034",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_035",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_036",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_037",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_038",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_039",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "DG_040",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_001",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_002",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_003",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_004",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_005",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_006",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_007",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_008",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_009",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_010",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_011",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_012",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_013",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_014",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_015",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_016",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_017",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_018",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_019",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_020",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_021",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_022",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_023",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_024",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_025",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_026",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_027",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_028",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_029",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_030",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_031",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_032",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_033",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_034",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_035",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_036",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_037",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_038",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_039",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "SL_040",
+        "baseline": "keyword_matching",
+        "mechanisms": []
+      },
+      {
+        "query_id": "HV_001",
+        "baseline": "keyword_matching",
+        "mechanisms": [
+          "apoptosis",
+          "angiogenesis",
+          "metabolism",
+          "resistance",
+          "inhibition",
+          "activation",
+          "pathway",
+          "signaling",
+          "dna repair",
+          "inflammation",
+          "oxidative stress",
+          "autophagy"
+        ]
+      }
+    ]
+  }
+}

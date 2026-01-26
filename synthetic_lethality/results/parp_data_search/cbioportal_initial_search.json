@@ -1,0 +1,21 @@
+{
+  "search_date": "2026-01-22",
+  "total_studies_searched": 200,
+  "candidates_found": 1,
+  "candidates": [
+    {
+      "name": "Breast Invasive Carcinoma (TCGA, Firehose Legacy)",
+      "description": "TCGA Breast Invasive Carcinoma. Source data from <A HREF=\"http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/BRCA/20160128/\">GDAC Firehose</A>. Previously known as TCGA Provisional.",
+      "publicStudy": true,
+      "groups": "PUBLIC",
+      "status": 0,
+      "importDate": "2025-05-13 16:33:24",
+      "allSampleCount": 1,
+      "readPermission": true,
+      "resourceCounts": [],
+      "studyId": "brca_tcga",
+      "cancerTypeId": "brca",
+      "referenceGenome": "hg19"
+    }
+  ]
+}

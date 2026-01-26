@@ -1,0 +1,78 @@
+{
+  "receipt_type": "recompute_outcome_metrics_verification",
+  "timestamp": "2026-01-09T02:01:17.423354Z",
+  "inputs": {
+    "prepare_receipt": "/Users/fahadkiani/.cursor/worktrees/crispr-assistant-main/kly/publications/05-pgx-dosing-guidance/reports/prepare_outcome_validation.json",
+    "cyp2c19_receipt": "/Users/fahadkiani/.cursor/worktrees/crispr-assistant-main/kly/publications/05-pgx-dosing-guidance/reports/cyp2c19_clopidogrel_efficacy_validation.json"
+  },
+  "recomputed": {
+    "prepare": {
+      "actionable": {
+        "control_rate": 0.348,
+        "intervention_rate": 0.059,
+        "rrr": 0.83,
+        "counts": {
+          "control": {
+            "toxic_events": 8,
+            "total": 23
+          },
+          "intervention": {
+            "toxic_events": 1,
+            "total": 17
+          }
+        }
+      },
+      "nonactionable_negative_controls": {
+        "control_rate": 0.16,
+        "intervention_rate": 0.153,
+        "rrr": 0.044,
+        "counts": {
+          "control": {
+            "toxic_events": 46,
+            "total": 288
+          },
+          "intervention": {
+            "toxic_events": 36,
+            "total": 235
+          }
+        }
+      }
+    },
+    "cyp2c19": {
+      "pm_im_vs_em": 4.3,
+      "rates": {
+        "pm_im": 0.202,
+        "em": 0.047
+      },
+      "counts": {
+        "pm_im": {
+          "events": 21,
+          "total": 104
+        },
+        "em": {
+          "events": 5,
+          "total": 106
+        }
+      }
+    }
+  },
+  "stored_receipt_metrics": {
+    "prepare": {
+      "actionable_rrr": 0.831,
+      "nonactionable_rrr": 0.041
+    },
+    "cyp2c19": {
+      "pm_im_vs_em_risk_ratio": 4.28
+    }
+  },
+  "comparisons": {
+    "prepare_actionable_rrr_match": false,
+    "prepare_nonactionable_rrr_match": false,
+    "cyp2c19_rr_match": false
+  },
+  "overall_verified": false,
+  "notes": {
+    "scope": "Recomputes only effect sizes from receipt raw tables; does not fetch PMC XML.",
+    "interpretation": "If all comparisons match, manuscript effect sizes are computationally reproducible from embedded tables."
+  }
+}

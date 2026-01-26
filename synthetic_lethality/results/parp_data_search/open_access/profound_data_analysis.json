@@ -1,0 +1,38 @@
+{
+  "Sheet1": {
+    "shape": [
+      15254,
+      5
+    ],
+    "columns": [
+      "Supplementalry Table 4 \u2013 Iterative linear regression of BRCA2 mutations paired with other genes to predict SBS3",
+      "Unnamed: 1",
+      "Unnamed: 2",
+      "Unnamed: 3",
+      "Unnamed: 4"
+    ],
+    "sample": [
+      {
+        "Supplementalry Table 4 \u2013 Iterative linear regression of BRCA2 mutations paired with other genes to predict SBS3": "Gene",
+        "Unnamed: 1": "estimate",
+        "Unnamed: 2": "pval_BRCA2",
+        "Unnamed: 3": "pval_model",
+        "Unnamed: 4": "percentile"
+      },
+      {
+        "Supplementalry Table 4 \u2013 Iterative linear regression of BRCA2 mutations paired with other genes to predict SBS3": "KIAA1109",
+        "Unnamed: 1": 0.5211183,
+        "Unnamed: 2": 0.2988701,
+        "Unnamed: 3": 0.0001149,
+        "Unnamed: 4": 1
+      },
+      {
+        "Supplementalry Table 4 \u2013 Iterative linear regression of BRCA2 mutations paired with other genes to predict SBS3": "CYP11B1",
+        "Unnamed: 1": 0.5203524,
+        "Unnamed: 2": 0.4252305,
+        "Unnamed: 3": 0.0002432,
+        "Unnamed: 4": 0.999
+      }
+    ]
+  }
+}

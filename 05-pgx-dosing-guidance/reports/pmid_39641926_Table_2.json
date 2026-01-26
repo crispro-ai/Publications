@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-01-04T09:46:46Z",
+  "pmid": "39641926",
+  "pmc_id": "11624585",
+  "requested_label_prefix": "Table 2",
+  "table": {
+    "label": "Table 2.",
+    "title": "Difference in the Incidence of Clinically Relevant Toxic Effects Between Arms a",
+    "n_rows": 10,
+    "rows": [
+      [
+        "Variable",
+        "Patients, No.",
+        "Patients with clinically relevant toxic effects, No. (%)",
+        "OR (95% CI) b",
+        "P value b"
+      ],
+      [
+        "Any actionable genotype carriers",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Control arm",
+        "23",
+        "8 (34.8)",
+        "1 [Reference]",
+        ".04"
+      ],
+      [
+        "Intervention arm",
+        "17",
+        "1 (5.9)",
+        "0.1 (0.0-0.8)"
+      ],
+      [
+        "All patients",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Control arm",
+        "311",
+        "54 (17.4)",
+        "1 [Reference]",
+        ".41"
+      ],
+      [
+        "Intervention arm",
+        "252",
+        "37 (14.7)",
+        "0.8 (0.5-1.3)"
+      ],
+      [
+        "Subanalysis focusing only on the actionable DPYD genotype carriers",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Control arm",
+        "14",
+        "5 (35.7)",
+        "1 [Reference]",
+        ".04"
+      ],
+      [
+        "Intervention arm",
+        "13",
+        "0",
+        "NA"
+      ]
+    ]
+  }
+}

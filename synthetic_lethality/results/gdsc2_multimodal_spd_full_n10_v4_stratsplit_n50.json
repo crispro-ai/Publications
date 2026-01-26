@@ -1,0 +1,395 @@
+{
+  "n_cell_lines": 50,
+  "n_per_class_requested": 10,
+  "seed": 1337,
+  "max_variants_per_line": 20,
+  "z_sensitive_threshold": -0.8,
+  "min_margin": 0.25,
+  "split": {
+    "n_train": 40,
+    "n_test": 10,
+    "test_frac": 0.2
+  },
+  "none_threshold": 0.0,
+  "tune_none_threshold": true,
+  "max_parp_fpr": 0.2,
+  "tuning": {
+    "SP": {
+      "none_threshold": 0.8,
+      "macro_f1": 0.1098901098901099,
+      "parp_fpr": 0.125,
+      "accuracy": 0.15
+    },
+    "SPD": {
+      "none_threshold": 0.0,
+      "macro_f1": 0.07954545454545454,
+      "parp_fpr": 0.0,
+      "accuracy": 0.175
+    }
+  },
+  "use_cache_only": false,
+  "cache_path": "gdsc2_multimodal_spd_full_n10_v4_stratsplit_evo2_cache.json",
+  "label_distribution": {
+    "DNA_PK": 10,
+    "WEE1": 10,
+    "NONE": 10,
+    "PARP": 10,
+    "ATR": 10
+  },
+  "methods": [
+    {
+      "name": "Always NONE",
+      "train": {
+        "accuracy": 0.2,
+        "macro_f1": 0.0,
+        "parp_false_positive_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.2,
+        "macro_f1": 0.0,
+        "parp_false_positive_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "name": "P-only",
+      "train": {
+        "accuracy": 0.225,
+        "macro_f1": 0.13469827586206898,
+        "parp_false_positive_rate": 0.21875,
+        "confusion_matrix": [
+          [
+            1,
+            5,
+            0,
+            0,
+            2
+          ],
+          [
+            1,
+            6,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            4
+          ],
+          [
+            3,
+            3,
+            0,
+            0,
+            2
+          ],
+          [
+            3,
+            3,
+            0,
+            0,
+            2
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.2,
+        "macro_f1": 0.0625,
+        "parp_false_positive_rate": 0.125,
+        "confusion_matrix": [
+          [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "name": "SP",
+      "train": {
+        "accuracy": 0.15,
+        "macro_f1": 0.1098901098901099,
+        "parp_false_positive_rate": 0.125,
+        "confusion_matrix": [
+          [
+            1,
+            1,
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            2,
+            3,
+            0,
+            0,
+            3
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.2,
+        "macro_f1": 0.0,
+        "parp_false_positive_rate": 0.125,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "name": "SPD",
+      "train": {
+        "accuracy": 0.175,
+        "macro_f1": 0.07954545454545454,
+        "parp_false_positive_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            8,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            7,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            8,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            7,
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.2,
+        "macro_f1": 0.08333333333333334,
+        "parp_false_positive_rate": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "notes": [
+    "Preclinical benchmark: labels derived from GDSC2 Z_SCORE per class with ambiguity gating.",
+    "S = Evo2 disruption; P = mechanistic pathway aggregation; D = DepMap lineage essentiality penalty.",
+    "Use_cache_only is intended for fast smoke runs; full runs should enable Evo2 calls and persist cache.",
+    "If tune_none_threshold is enabled, tuning occurs on TRAIN only and metrics are reported separately for TRAIN and TEST."
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "validation_type": "7D_pathway_mapping",
+  "timestamp": "2026-01-18T12:04:28.353421",
+  "n_cell_lines": 50,
+  "label_distribution": {
+    "NONE": 639,
+    "DNA_PK": 74,
+    "ATR": 73,
+    "PARP": 103,
+    "WEE1": 56
+  },
+  "parameters": {
+    "min_ddr_threshold": 0.25,
+    "min_fit_threshold": 0.25,
+    "z_sensitive_threshold": -0.8,
+    "min_margin": 0.25,
+    "use_6d": true,
+    "dimension": "6D",
+    "evo2_enabled": true,
+    "evo2_api_base": "http://127.0.0.1:8000",
+    "evo2_model_id": "evo2_1b",
+    "max_variants_per_line": 20
+  },
+  "metrics": {
+    "accuracy": 0.4,
+    "macro_f1": 0.17686486486486488,
+    "precision_per_class": {
+      "PARP": 0.23076923076923078,
+      "ATR": 0.0,
+      "WEE1": 0.0,
+      "DNA_PK": 0.0,
+      "NONE": 0.6086956521739131
+    },
+    "recall_per_class": {
+      "PARP": 0.5454545454545454,
+      "ATR": 0.0,
+      "WEE1": 0.0,
+      "DNA_PK": 0.0,
+      "NONE": 0.5185185185185185
+    },
+    "f1_per_class": {
+      "PARP": 0.32432432432432434,
+      "ATR": 0.0,
+      "WEE1": 0.0,
+      "DNA_PK": 0.0,
+      "NONE": 0.56
+    },
+    "parp_fpr": 0.5128205128205128,
+    "parp_ddr_correlation": 0.10522725804130262
+  },
+  "drug_moa_vectors": {
+    "PARP": {
+      "ddr": 0.95,
+      "ras_mapk": 0.05,
+      "pi3k": 0.0,
+      "vegf": 0.0,
+      "her2": 0.0,
+      "io": 0.0,
+      "efflux": 0.0
+    },
+    "ATR": {
+      "ddr": 0.8,
+      "ras_mapk": 0.2,
+      "pi3k": 0.0,
+      "vegf": 0.0,
+      "her2": 0.0,
+      "io": 0.0,
+      "efflux": 0.0
+    },
+    "WEE1": {
+      "ddr": 0.7,
+      "ras_mapk": 0.3,
+      "pi3k": 0.0,
+      "vegf": 0.0,
+      "her2": 0.0,
+      "io": 0.0,
+      "efflux": 0.0
+    },
+    "DNA_PK": {
+      "ddr": 0.9,
+      "ras_mapk": 0.1,
+      "pi3k": 0.0,
+      "vegf": 0.0,
+      "her2": 0.0,
+      "io": 0.0,
+      "efflux": 0.0
+    },
+    "NONE": {
+      "ddr": 0.0,
+      "ras_mapk": 0.0,
+      "pi3k": 0.0,
+      "vegf": 0.0,
+      "her2": 0.0,
+      "io": 0.0,
+      "efflux": 0.0
+    }
+  },
+  "predictions": {
+    "ACH-000001": {
+      "true_label": "NONE",
+      "predicted": "NONE",
+      "fit_scores": {
+        "PARP": 0.0,
+        "ATR": 0.0,
+        "WEE1": 0.0,
+        "DNA_PK": 0.0,
+        "NONE": 1.0
+      },
+      "ddr_score": 0.0
+    },
+    "ACH-000002": {
+      "true_label": "DNA_PK",
+      "predicted": "NONE",
+      "fit_scores": {
+        "PARP": 0.0,
+        "ATR": 0.0,
+        "WEE1": 0.0,
+        "DNA_PK": 0.0,
+        "NONE": 1.0
+      },
+      "ddr_score": 0.0
+    },
+    "ACH-000004": {
+      "true_label": "ATR",
+      "predicted": "PARP",
+      "fit_scores": {
+        "PARP": 0.4993089146662549,
+        "ATR": 0.4850712500726659,
+        "WEE1": 0.45957251500902896,
+        "DNA_PK": 0.49694186733680945,
+        "NONE": 0.0
+      },
+      "ddr_score": 0.5
+    },
+    "ACH-000006": {
+      "true_label": "NONE",
+      "predicted": "PARP",
+      "fit_scores": {
+        "PARP": 0.4993089146662549,
+        "ATR": 0.4850712500726659,
+        "WEE1": 0.45957251500902896,
+        "DNA_PK": 0.49694186733680945,
+        "NONE": 0.0
+      },
+      "ddr_score": 0.5
+    },
+    "ACH-000007": {
+      "true_label": "NONE",
+      "predicted": "NONE",
+      "fit_scores": {
+        "PARP": 0.0,
+        "ATR": 0.0,
+        "WEE1": 0.0,
+        "DNA_PK": 0.0,
+        "NONE": 1.0
+      },
+      "ddr_score": 0.0
+    },
+    "ACH-000008": {
+      "true_label": "NONE",
+      "predicted": "NONE",
+      "fit_scores": {
+        "PARP": 0.0,
+        "ATR": 0.0,
+        "WEE1": 0.0,
+        "DNA_PK": 0.0,
+        "NONE": 1.0
+      },
+      "ddr_score": 0.0
+    },
+    "ACH-000009": {
+      "true_label": "NONE",
+      "predicted": "PARP",
+      "fit_scores": {
+        "PARP": 0.4993089146662549,
+        "ATR": 0.4850712500726659,
+        "WEE1": 0.45957251500902896,
+        "DNA_PK": 0.49694186733680945,
+        "NONE": 0.0
+      },
+      "ddr_score": 0.5
+    },
+    "ACH-000012": {
+      "true_label": "NONE",
+      "predicted": "NONE",
+      "fit_scores": {
+        "PARP": 0.0,
+        "ATR": 0.0,
+        "WEE1": 0.0,
+        "DNA_PK": 0.0,
+        "NONE": 1.0
+      },
+      "ddr_score": 0.0
+    },
+    "ACH-000015": {
+      "true_label": "NONE",
+      "predicted": "PARP",
+      "fit_scores": {
+        "PARP": 0.4993089146662549,
+        "ATR": 0.4850712500726659,
+        "WEE1": 0.45957251500902896,
+        "DNA_PK": 0.49694186733680945,
+        "NONE": 0.0
+      },
+      "ddr_score": 0.5
+    },
+    "ACH-000018": {
+      "true_label": "NONE",
+      "predicted": "PARP",
+      "fit_scores": {
+        "PARP": 0.4993089146662549,
+        "ATR": 0.4850712500726659,
+        "WEE1": 0.45957251500902896,
+        "DNA_PK": 0.49694186733680945,
+        "NONE": 0.0
+      },
+      "ddr_score": 0.5
+    },
+    "ACH-000019": {
+      "true_label": "DNA_PK",
+      "predicted": "PARP",
+      "fit_scores": {
+        "PARP": 0.543101771245389,
+        "ATR": 0.527615364670124,
+        "WEE1": 0.49988021360270396,
+        "DNA_PK": 0.5405271174399332,
+        "NONE": 0.0
+      },
+      "ddr_score": 0.5438534695584255
+    },
+    "ACH-000020": {
+      "true_label": "PARP",
+      "predicted": "NONE",
+      "fit_scores": {
+        "PARP": 0.0,
+        "ATR": 0.0,
+        "WEE1": 0.0,
+        "DNA_PK": 0.0,
+        "NONE": 1.0
+      },
+      "ddr_score": 0.0
+    },
+    "ACH-000021": {
+      "true_label": "NONE",
+      "predicted": "PARP",
+      "fit_scores": {
+        "PARP": 0.4993089146662549,
+        "ATR": 0.4850712500726659,
+        "WEE1": 0.45957251500902896,
+        "DNA_PK": 0.49694186733680945,
+        "NONE": 0.0
+      },
+      "ddr_score": 0.5
+    },
+    "ACH-000023": {
+      "true_label": "NONE",
+      "predicted": "PARP",
+      "fit_scores": {
+        "PARP": 0.4993089146662549,
+        "ATR": 0.4850712500726659,
+        "WEE1": 0.45957251500902896,
+        "DNA_PK": 0.49694186733680945,
+        "NONE": 0.0
+      },
+      "ddr_score": 0.5
+    },
+    "ACH-000024": {
+      "true_label": "ATR",
+      "predicted": "PARP",
+      "fit_scores": {
+        "PARP": 0.4993089146662549,
+        "ATR": 0.4850712500726659,
+        "WEE1": 0.45957251500902896,
+        "DNA_PK": 0.49694186733680945,
+        "NONE": 0.0
+      },
+      "ddr_score": 0.5
+    },
+    "ACH-000030": {
+      "true_label": "WEE1",
+      "predicted": "PARP",
+      "fit_scores": {
+        "PARP": 0.4993089146662549,
+        "ATR": 0.4850712500726659,
+        "WEE1": 0.45957251500902896,
+        "DNA_PK": 0.49694186733680945,
+        "NONE": 0.0
+      },
+      "ddr_score": 0.5
+    },
+    "ACH-000035": {
+      "true_label": "NONE",
+      "predicted": "PARP",
+      "fit_scores": {
+        "PARP": 0.4993089146662549,
+        "ATR": 0.4850712500726659,
+        "WEE1": 0.45957251500902896,
+        "DNA_PK": 0.49694186733680945,
+        "NONE": 0.0
+      },
+      "ddr_score": 0.5
+    },
+    "ACH-000040": {
+      "true_label": "NONE",
+      "predicted": "PARP",
+      "fit_scores": {
+        "PARP": 0.4993089146662549,
+        "ATR": 0.4850712500726659,
+        "WEE1": 0.45957251500902896,
+        "DNA_PK": 0.49694186733680945,
+        "NONE": 0.0
+      },
+      "ddr_score": 0.5
+    },
+    "ACH-000042": {
+      "true_label": "NONE",
+      "predicted": "PARP",
+      "fit_scores": {
+        "PARP": 1.0,
+        "ATR": 1.0,
+        "WEE1": 1.0,
+        "DNA_PK": 1.0,
+        "NONE": 0.0
+      },
+      "ddr_score": 1.5
+    },
+    "ACH-000045": {
+      "true_label": "NONE",
+      "predicted": "NONE",
+      "fit_scores": {
+        "PARP": 0.0,
+        "ATR": 0.0,
+        "WEE1": 0.0,
+        "DNA_PK": 0.0,
+        "NONE": 1.0
+      },
+      "ddr_score": 0.0
+    }
+  },
+  "comparison": {}
+}

@@ -1,0 +1,22 @@
+{
+  "extraction_date": "2026-01-25T03:59:09.001500",
+  "n_patients": 173,
+  "n_features_analyzed": 32768,
+  "n_significant_features": 17,
+  "n_top_features": 17,
+  "pathway_diamonds": {
+    "ddr": [],
+    "proliferation": [],
+    "immune": []
+  },
+  "statistical_thresholds": {
+    "p_value": 0.05,
+    "cohen_d": 0.5,
+    "top_n": 100
+  },
+  "provenance": {
+    "brca_checkpoint": "/Users/fahadkiani/Desktop/development/crispr-assistant-main/oncology-coPilot/oncology-backend-minimal/data/validation/sae_cohort/checkpoints/BRCA_TCGA_TRUE_SAE_cohort.json",
+    "recurrence_labels": "/Users/fahadkiani/Desktop/development/crispr-assistant-main/oncology-coPilot/oncology-backend-minimal/data/validation/sae_cohort/brca_recurrence_labels.json",
+    "outcome": "recurrence (binary: True/False)"
+  }
+}

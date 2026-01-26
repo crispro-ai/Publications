@@ -1,0 +1,10 @@
+{
+  "n_genes": 11,
+  "n_data_points": 88,
+  "auroc": NaN,
+  "auprc": 1.0,
+  "precision_at_3": 1.0,
+  "precision_at_5": 1.0,
+  "spearman_rho": 0.10466040463356996,
+  "spearman_p": 0.7594171558496418
+}

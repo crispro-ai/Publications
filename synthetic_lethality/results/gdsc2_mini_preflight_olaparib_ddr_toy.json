@@ -1,0 +1,9 @@
+{
+  "n": 50,
+  "drug": "Olaparib",
+  "label": "AUC <= median (sensitive)",
+  "median_auc": 0.9611369999999999,
+  "toy_score": "ddr_lofish_count (not Evo2)",
+  "auroc": 0.5272,
+  "notes": "Pipeline sanity-check only. Next step swaps toy_score for Evo2-based disruption scoring on allele-resolved variants."
+}

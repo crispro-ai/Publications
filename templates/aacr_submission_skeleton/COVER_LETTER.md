@@ -1,29 +1,33 @@
 [Date]
 
 Editorial Office
-Cancer Research Communications
-American Association for Cancer Research
+[Journal Name]
+[Publisher]
 
-Re: Submission of manuscript, “[Title]”
+Re: Submission of manuscript, "[Manuscript Title]"
 
 Dear Editors,
 
-We are submitting the enclosed manuscript for consideration in *Cancer Research Communications*.
+We are submitting the enclosed manuscript for consideration in *[Journal Name]*.
 
 ### Summary of the work
-[What you built and what problem it solves.]
+
+[2-3 paragraph summary of key findings and significance]
 
 ### Manuscript type and scope
-This submission is a **Methods/Systems + reproducibility** package. It provides executable receipts and an auditable provenance trail. It does not claim clinical outcome benefit unless supported by outcome-labeled cohort benchmarks.
+
+[Manuscript type description]
 
 ### Data and code availability
-[List exactly where the artifacts and code live; include one-command reproduction.]
+
+[Data and code availability summary]
 
 ### Conflicts of interest
+
 [To be completed]
 
 Sincerely,
 
-[Corresponding Authome, degrees]
+[Corresponding Author, degrees]
 [Institution]
 [Email]

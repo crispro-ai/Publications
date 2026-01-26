@@ -1,0 +1,65 @@
+{
+  "receipt_id": "topacio_citations_verified",
+  "date": "2026-01-17",
+  "task": "Citation [6] update and verification",
+  "status": "complete",
+  "citations": [
+    {
+      "citation_number": 4,
+      "description": "Synthetic data reconstruction methodology",
+      "status": "placeholder",
+      "note": "Reference needs to be filled in"
+    },
+    {
+      "citation_number": 5,
+      "description": "Retrospective validation approaches",
+      "status": "placeholder",
+      "note": "Reference needs to be filled in"
+    },
+    {
+      "citation_number": 6,
+      "author": "El Emam K, Mosquera L, Zheng M, Pilote L, Azizi Z",
+      "title": "Can synthetic data be a proxy for real clinical trial data? A validation study",
+      "journal": "BMJ Open",
+      "year": 2021,
+      "volume": 11,
+      "issue": 4,
+      "pages": "e043497",
+      "pmid": "33863713",
+      "doi": "10.1136/bmjopen-2020-043497",
+      "status": "verified",
+      "verification_timestamp": "2026-01-17T00:00:00Z",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33863713/",
+      "note": "Updated from placeholder; full citation added to manuscript References section"
+    }
+  ],
+  "changes_made": [
+    {
+      "file": "publications/04-holistic-score/manuscript/TOPACIO_MANUSCRIPT_DRAFT.md",
+      "line": 122,
+      "old_text": "This reconstruction approach is standard when individual patient data are unavailable (4,5) and has been validated in previous retrospective studies (6).",
+      "new_text": "This reconstruction approach is standard when individual patient data are unavailable (4,5) and has been validated for oncology clinical trials using synthetic data proxies (6).",
+      "status": "updated"
+    },
+    {
+      "file": "publications/04-holistic-score/manuscript/TOPACIO_MANUSCRIPT_DRAFT.md",
+      "section": "References",
+      "citation": "[6]",
+      "old_text": "[Reference for similar validation studies]",
+      "new_text": "El Emam K, Mosquera L, Zheng M, Pilote L, Azizi Z. Can synthetic data be a proxy for real clinical trial data? A validation study. *BMJ Open*. 2021;11(4):e043497. PMID: 33863713. DOI: 10.1136/bmjopen-2020-043497.",
+      "status": "updated"
+    }
+  ],
+  "search_results": {
+    "nowok_references": "No instances of 'Nowok B, et al.' found in manuscript",
+    "el_emam_references": "Full citation added to References section",
+    "citation_6_text_updated": true
+  },
+  "verification_summary": {
+    "total_citations_checked": 3,
+    "citations_updated": 1,
+    "citations_verified": 1,
+    "citations_placeholder": 2,
+    "all_changes_complete": true
+  }
+}

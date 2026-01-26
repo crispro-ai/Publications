@@ -1,0 +1,117 @@
+{
+  "validation_date": "2026-01-25T04:21:26.196458",
+  "method": "nested_cv_sum_aggregation",
+  "aggregation": "sum",
+  "outer_cv_folds": 5,
+  "feature_selection": "inside_cv_fold",
+  "fdr_correction": true,
+  "max_features": 10,
+  "performance": {
+    "cv_auroc_mean": 0.5942204301075269,
+    "cv_auroc_std": 0.07813106260440156,
+    "cv_scores": [
+      0.5208333333333333,
+      0.6666666666666666,
+      0.5362903225806451,
+      0.7096774193548387,
+      0.5376344086021505
+    ],
+    "n_folds": 5
+  },
+  "stable_features": [
+    8848,
+    2737,
+    7220,
+    13562
+  ],
+  "fold_results": [
+    {
+      "fold": 1,
+      "n_features": 6,
+      "features": [
+        8917,
+        8848,
+        2737,
+        7220,
+        19758,
+        13562
+      ],
+      "auroc": 0.5208333333333333,
+      "n_train": 138,
+      "n_test": 35,
+      "n_pos_train": 13,
+      "n_pos_test": 3
+    },
+    {
+      "fold": 2,
+      "n_features": 1,
+      "features": [
+        2737
+      ],
+      "auroc": 0.6666666666666666,
+      "n_train": 138,
+      "n_test": 35,
+      "n_pos_train": 13,
+      "n_pos_test": 3
+    },
+    {
+      "fold": 3,
+      "n_features": 10,
+      "features": [
+        8848,
+        7220,
+        13562,
+        7359,
+        6878,
+        3765,
+        2737,
+        11048,
+        327,
+        19758
+      ],
+      "auroc": 0.5362903225806451,
+      "n_train": 138,
+      "n_test": 35,
+      "n_pos_train": 12,
+      "n_pos_test": 4
+    },
+    {
+      "fold": 4,
+      "n_features": 7,
+      "features": [
+        10065,
+        7220,
+        13562,
+        7359,
+        3670,
+        2737,
+        8848
+      ],
+      "auroc": 0.7096774193548387,
+      "n_train": 139,
+      "n_test": 34,
+      "n_pos_train": 13,
+      "n_pos_test": 3
+    },
+    {
+      "fold": 5,
+      "n_features": 4,
+      "features": [
+        1728,
+        2737,
+        7220,
+        5827
+      ],
+      "auroc": 0.5376344086021505,
+      "n_train": 139,
+      "n_test": 34,
+      "n_pos_train": 13,
+      "n_pos_test": 3
+    }
+  ],
+  "comparison": {
+    "mean_aggregation_auroc": 0.607,
+    "sum_aggregation_auroc": 0.5942204301075269,
+    "improvement": -0.012779569892473086
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "n_genes": 19,
+  "n_data_points": 152,
+  "n_positives": 88,
+  "n_negatives": 64,
+  "auroc": 1.0,
+  "auprc": 1.0,
+  "precision_at_3": 1.0,
+  "precision_at_5": 1.0
+}

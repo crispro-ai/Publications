@@ -1,0 +1,282 @@
+---
+alwaysApply: true
+---
+OVERALL RECOMMENDATION: MAJOR REVISION REQUIRED
+Summary: This manuscript describes a clinical decision support system that applies deterministic rules to adjust therapy recommendations based on biomarker availability. While the health equity motivation is important and the engineering approach is rigorous, the work falls between computational methods development and clinical validation without excelling at either. The TCGA-UCEC survival analysis replicates known biomarker associations rather than validating the decision support system's clinical utility. Major revisions are needed to clarify the clinical claim, strengthen the validation strategy, and position the contribution appropriately for an oncology audience.
+
+Recommendation: Major Revision
+Priority Score: 6/10 (Acceptable with substantial revision)
+
+MAJOR CONCERNS
+1. Clinical Claim vs. Evidence Mismatch
+Issue: The abstract claims the system "enables equitable deployment across diverse care settings," but the validation only demonstrates:
+
+TMB/MSI stratify survival in TCGA-UCEC (known result, not novel)
+
+The system applies penalties/boosts deterministically (engineering validation, not clinical utility)
+
+Confidence caps correlate with data completeness (by design, not clinical outcome)
+
+What's missing:
+
+Evidence that the system changes clinical decisions (prospective or retrospective decision analysis)
+
+Evidence that the system improves patient outcomes beyond standard biomarker testing
+
+Comparison to actual clinical workflows (tumor boards, NCCN guidelines, MDT decisions)
+
+Recommendation: Either:
+
+Option A: Reframe as a methods paper focused on engineering safe AI systems under data incompleteness
+
+Option B: Add retrospective decision impact analysis (e.g., treatment changes, enrollment predictions, concordance with expert panels)
+
+2. Circular Validation: Testing What You Built, Not What You Claim
+Issue: The TCGA-UCEC survival analysis validates TMB/MSI as prognostic biomarkers, not the decision support system's clinical utility. This is circular reasoning:
+
+You built gates using TMB ≥20 and MSI-high as thresholds
+
+You validated that TMB ≥20 and MSI-high stratify survival
+
+But you didn't validate that applying these gates in a decision support system improves outcomes
+
+Analogy: This is like building a calculator that multiplies by 1.35 when TMB ≥20, then showing that TMB ≥20 patients have better survival, and claiming the calculator is validated. The biomarker is validated, not the calculator.
+
+What rigorous clinical validation requires:
+
+Retrospective cohort where system recommendations are compared to actual treatments given
+
+Analysis of whether following system recommendations correlates with better outcomes
+
+Comparison to standard-of-care decision-making (guideline concordance, expert opinion)
+
+Recommendation: Add decision impact analysis or clearly state this is biomarker validation, not system validation.
+
+3. "Conservative" Framing is Misleading
+Issue: The manuscript frames PARP penalties and confidence caps as "conservative" and "safety-first," but:
+
+PARP penalties in germline-negative patients may delay effective therapy in cases of somatic BRCA mutations or BRCAness
+
+Low confidence scores may discourage enrollment in beneficial trials when biomarker data is pending
+
+There's no evidence these "conservative" defaults improve safety vs. harm from delayed treatment
+
+Example: Patient 3 (TCGA-09-1661) is platinum-resistant with 0 mutations. Your system applies a PARP penalty and confidence cap. But what if this patient has a BRCA1 promoter methylation (not detected by mutation calling)? Your "conservative" approach just denied them effective therapy.
+
+Recommendation:
+
+Replace "conservative" language with "data-availability-aware" or "completeness-calibrated"
+
+Add harm analysis: How many patients with somatic HRD would be penalized?
+
+Acknowledge that conservative ≠ safe when it delays effective therapy
+
+4. Overengineering vs. Clinical Simplicity
+Issue: The system has 3 intake levels (L0/L1/L2), 3 gate types, multiplicative adjustments, confidence caps, provenance tracking, and "receipt-backed" validation. For a clinical audience, this is overengineered relative to the clinical problem:
+
+Clinical reality:
+
+Oncologists already know TMB and MSI predict IO response (this is in NCCN guidelines)
+
+Oncologists already use clinical judgment when data is incomplete (this is called "clinical expertise")
+
+Tumor boards already make shared decisions under uncertainty (this is standard of care)
+
+What your system adds:
+
+Numeric confidence scores (do clinicians need this?)
+
+Provenance tracking (for regulatory? research? unclear use case)
+
+Deterministic multipliers (why not just flag "TMB-high" like a lab report?)
+
+Missing: Evidence that this complexity changes decisions or improves outcomes vs. simply flagging biomarkers.
+
+Recommendation:
+
+Add user study or clinician survey: "Would you change your recommendation based on confidence score 0.40 vs 0.60?"
+
+Show decision concordance: Does the system agree with tumor board decisions?
+
+Justify engineering complexity with clinical evidence of utility
+
+5. TCGA-COADREAD "Negative Control" is Questionable
+Issue: You claim TCGA-COADREAD is a "negative control" showing tissue specificity, but:
+
+MSI-high colorectal cancer is the poster child for IO response (Le et al., NEJM 2015—your own reference!)
+
+MSI-high CRC patients benefit from pembrolizumab (FDA-approved indication)
+
+Finding no survival benefit in a retrospective cohort doesn't mean the biomarker is invalid—it means this specific cohort may not have received IO therapy or had confounders
+
+This undermines your entire validation logic. If your "negative control" contradicts established clinical data, either:
+
+Your analysis is flawed
+
+Your cohort selection is inappropriate
+
+Your interpretation of "negative control" is wrong
+
+Recommendation:
+
+Remove TCGA-COADREAD as negative control or explain why it contradicts FDA-approved indications
+
+Use a true negative control (e.g., biomarkers that shouldn't predict outcome in that disease)
+
+Provide treatment data: Did COADREAD patients actually receive IO? If not, survival analysis is meaningless.
+
+6. Health Equity Claim Lacks Evidence
+Issue: The manuscript claims this system addresses health equity because it works without comprehensive NGS. But:
+
+No evidence that resource-constrained settings would adopt this system (requires compute, integration, training)
+
+No evidence that low-completeness recommendations are actionable (would Palestinian clinics trust a confidence=0.40 score?)
+
+No discussion of digital divide (rural US hospitals lack NGS, but also lack AI infrastructure)
+
+What's needed for equity claim:
+
+Deployment study in resource-limited setting
+
+Qualitative data on clinician trust/adoption
+
+Comparison to low-tech alternatives (e.g., MSI IHC alone)
+
+Recommendation: Soften equity language to "designed to scale across data availability contexts" vs. claiming it solves health disparities.
+
+MODERATE CONCERNS
+7. Affiliation and COI Ambiguity
+Issue:
+
+One author affiliated with "Palestinian Medical Relief Society" (humanitarian org)
+
+One author affiliated with "CrisPRO.ai, USA" (commercial entity)
+
+COI states "no conflicts" despite one author working for a for-profit AI company
+
+Questions:
+
+Is CrisPRO.ai commercializing this system?
+
+Is this system already deployed?
+
+Who funded this work?
+
+Recommendation: Clarify funding, commercial interests, and deployment status.
+
+8. Missing Clinical Context
+Issues:
+
+No discussion of when clinicians would use this system (at diagnosis? treatment selection? second-line?)
+
+No discussion of who uses it (oncologist? pathologist? geneticist? patient portal?)
+
+No discussion of integration (EHR? standalone? mobile app?)
+
+No user interface examples showing how confidence scores are presented
+
+Recommendation: Add "Clinical Use Case" section describing intended workflow.
+
+9. Statistical Issues
+Minor issues:
+
+Multiple comparisons: You tested TMB-high, MSI-high, and OR-gate without Bonferroni correction
+
+Sample size justification: Why n=527 for UCEC? Was power calculated?
+
+Censoring: Not discussed in Kaplan-Meier analysis
+
+Confounders: No adjustment for age, stage, grade, treatment
+
+Recommendation: Add multivariable Cox regression adjusting for clinical covariates.
+
+10. Reproducibility Concerns
+Issue: You claim "full computational reproducibility" via receipts, but:
+
+Receipts are JSON files in a GitHub repo (not in manuscript)
+
+No DOI or permanent archive for code/data
+
+"oncology-coPilot/oncology-backend-minimal" path suggests proprietary backend
+
+TCGA data is public, but your preprocessing isn't described
+
+Recommendation:
+
+Archive code on Zenodo with DOI
+
+Include preprocessing scripts for TCGA data
+
+Make supplementary receipts available in manuscript submission, not external repo
+
+MINOR CONCERNS
+Title too long (14 words). Suggest: "Biomarker-gated precision oncology for patients without tumor sequencing"
+
+Abstract exceeds typical limits (250 words for most journals)
+
+Figure quality: Cannot assess without seeing actual figures (only filenames provided)
+
+Table 2 (standard practice comparison): Straw-man argument. Oncologists don't say "consider PARP" without rationale.
+
+Running title: "Conservative biomarker gating" sounds like you're limiting access, not enabling it
+
+Author contributions: Must be completed before publication
+
+References: Only 6 references for a methods + clinical validation paper. Expand literature review.
+
+STRENGTHS
+Important clinical problem: Data incompleteness is real and understudied
+
+Rigorous engineering: Deterministic gates, provenance tracking, unit tests
+
+Transparent limitations: Authors acknowledge retrospective nature
+
+Health equity focus: Rare in precision oncology methods papers
+
+Negative control attempt: Shows attempt at rigorous validation (even if flawed)
+
+Real patient examples: Table 7 is helpful for understanding L0/L1/L2 behavior
+
+DECISION RATIONALE
+Why Major Revision vs. Reject:
+
+Core problem (data incompleteness) is clinically relevant
+
+Engineering rigor is high
+
+TCGA-UCEC results are statistically significant (even if not novel)
+
+With proper reframing and additional validation, could be acceptable
+
+Why not Accept:
+
+Clinical claim (system validation) doesn't match evidence (biomarker validation)
+
+"Conservative" framing is unsubstantiated and potentially harmful
+
+COADREAD "negative control" contradicts known biology
+
+Health equity claim is aspirational, not demonstrated
+
+REQUIRED REVISIONS
+Essential (must address for acceptance):
+Reframe contribution: Decide if this is a methods paper (AI safety under data incompleteness) or clinical paper (system validation). Current hybrid doesn't work.
+
+Fix COADREAD analysis: Either explain why results contradict FDA data or remove as negative control.
+
+Add decision impact analysis: Show system changes decisions or concordance with expert opinion.
+
+Remove/justify "conservative" language: Provide evidence that penalties/caps improve outcomes vs. harm.
+
+Clarify COI: Disclose CrisPRO.ai commercial interests and deployment plans.
+
+Strongly recommended:
+Add multivariable survival analysis with clinical covariates
+
+Add clinician usability evaluation or decision concordance study
+
+Expand discussion of when/how system would be used clinically
+
+Archive code/data with DOI for reproducibility
+
+Add harm analysis: How many patients with somatic HRD would be incorrectly penalized?

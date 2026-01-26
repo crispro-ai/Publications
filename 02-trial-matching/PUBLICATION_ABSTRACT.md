@@ -1,25 +1,15 @@
-# Mechanism-Based Trial Matching — Publication Abstract (Receipt-Backed, Non-Outcome)
+## Abstract
 
-**Last updated:** 2026-01-04  
-**Scope:** **Non-outcome validation** (reproducibility + mechanism sanity; optional SME adjudication)  
+**Background:** A patient with ovarian cancer faces hundreds of open trials but lacks a systematic method to identify which trials match her tumor's molecular vulnerabilities. Current trial navigation relies on eligibility filters (histology, stage) but does not quantify mechanism alignment between tumor profiles and drug mechanisms of action. Phase 2 oncology trials have a 71% failure rate, partly because eligibility filters enroll patients without targetable vulnerabilities alongside those with mechanism-aligned features, diluting trial signal.
 
----
+**Methods:** We represent patient tumor profiles and trial drugs as 7-dimensional mechanism vectors spanning DNA damage repair (DDR), MAPK, PI3K, VEGF, HER2, immunotherapy, and efflux pathways. Trial drugs (n=59) were manually curated with mechanism of action annotations. Patient vectors were computed from somatic mutations and pathway aggregation. Mechanism fit was calculated using magnitude-weighted similarity to prevent false positives in low-burden patients. We validated (1) mechanism discrimination using a high-DDR reference patient profile and (2) matchability prevalence in a real ovarian cancer cohort (TCGA-OV, n=585).
 
-## Abstract (AACR-style, ~250 words)
+**Results:** In a DDR-high reference profile, DDR-targeting trials (n=31) achieved mean fit of 0.874 compared to 0.038 for non-DDR trials (n=17), yielding a 23-fold discrimination ratio (Δ=0.836). Applied to 585 ovarian cancer patients (TCGA-OV), the system identified **271 patients (46.3%) as 'precision-eligible'**—possessing at least one mechanism-aligned trial (best_fit >0.5). The remaining **314 patients (53.7%)** lacked strong mechanism alignment, representing patients who would be trial-eligible by traditional criteria but lack targetable molecular features aligned with available drugs. Survival outcomes did not differ between groups (HR=1.122, p=0.288), as expected—TCGA patients were not enrolled via mechanism matching.
 
-**Background:** Clinical trial matching is often performed using keyword search, broad eligibility filters, or single biomarkers. These approaches can miss mechanistically aligned studies and are difficult to audit when inputs are incomplete.
-
-**Methods:** We represent trials with a 7-dimensional mechanism-of-action (MoA) vector over pathway axes: DNA damage repair (DDR), MAPK, PI3K, VEGF, HER2, immuno-oncology (IO), and efflux. Given a patient mechanism vector, we compute cosine similarity to rank trials by mechanism fit. This publicaon bundle validates **non-outcome** properties only: (i) reproducibility (same inputs → same outputs, verified via cryptographic hashes) and (ii) mechanism signal sanity (DDR-tagged trials should score higher than non-DDR trials against a DDR-heavy patient vector). Ranking accuracy against blinded subject matter expert (SME) labels is supported as an **optional** evaluation step when SME labels are present; enrollment/outcome validation is explicitly out of scope.
-
-**Results (receipt-backed):** Using the current MoA vector corpus (`oncology-coPilot/oncology-backend-minimal/api/resources/trial_moa_vectors.json`, SHA256 recorded in receipts), the mechanism sanity check compared DDR-tagged trials (n=31) vs non-DDR trials (n=17) under a fixed DDR-heavy patient vector. Mean mechanism fit was **0.983** for DDR-tagged trials and **0.043** for non-DDR trials, with separation Δ = **0.940** (`receipts/latest/mechanism_sanity.json`). A reproducibility manifest records hashes of key inputs, scripts, and generated aracts (`receipts/latest/repro_manifest.json`).
-
-**Conclusions:** Mechanism-based ranking with explicit provenance enables reproducible, auditable trial shortlisting behavior under a pathway-vector representation. Outcome validation (enrollment/benefit) requires separate clinical datasets and is planned as future work; this bundle provides a receipt-backed foundation for safe iteration.
+**Conclusions:** Mechanism-based trial matching quantifies the "precision-eligible minority" (46.3% in ovarian cancer) who possess targetable vulnerabilities aligned with available trials. This stratification enables counseling when mechanism fit is low, redirecting patients toward standard-of-care or alternative strategies. Prospective validation is required to demonstrate enrollment and outcome benefits.
 
 ---
 
-## Receipts referenced by this abstract
-
-- Mechanism sanity: `publications/02-trial-matching/receipts/latest/mechanism_sanity.json`
-- Repro manifest: `publications/02-trial-matching/receipts/latest/repro_manifest.json`
-- SME packet (blinded Top-N trial IDs per case): `publications/02-trial-matching/receipts/latest/sme_packet.json`
-- SME ranking metrics (only after SME labels exist): `publications/02-trial-matching/receipts/latest/eval_ranking.json`
+**Claim Guardrails:**
+- **Validated**: mechanism discrimination, real-cohort matchability prevalence, magnitude-weighted similarity safety fix
+- **Not validated**: enrollment lift, response rates, PFS/OS benefit, causal treatment efficacy

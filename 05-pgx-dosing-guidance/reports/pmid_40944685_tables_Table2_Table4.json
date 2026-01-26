@@ -1,0 +1,393 @@
+{
+  "generated_at": "2026-01-04T09:50:34Z",
+  "pmid": "40944685",
+  "pmc_id": "12673833",
+  "tables": {
+    "Table 2": {
+      "label": "Table 2",
+      "title": "Association Between CYP2C19 Metabolized Phenotype Status and Clinical Outcomes",
+      "n_rows": 31,
+      "rows": [
+        [
+          "",
+          "Extensive Metabolizer (n = 205)",
+          "Poor/Intermediate Metabolizer (n = 164)",
+          "P Value"
+        ],
+        [
+          "Symptomatic ischemic stroke/TIA",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Events",
+          "19 (3.3)",
+          "33 (20.1)",
+          ""
+        ],
+        [
+          "Incidence rate per 100 person-years, %",
+          "2.12 (1.33-3.36)",
+          "4.82 (3.42-6.78)",
+          ""
+        ],
+        [
+          "Univariate HR",
+          "[Reference]",
+          "2.26 (1.27-4.03)",
+          "<0.01"
+        ],
+        [
+          "Multivariate HR",
+          "[Reference]",
+          "2.33 (1.28-4.24)",
+          "<0.01"
+        ],
+        [
+          "Symptomatic ischemic stroke",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Events",
+          "15 (7.3)",
+          "26 (15.9)",
+          ""
+        ],
+        [
+          "Incidence rate per 100 person-years, %",
+          "1.65 (0.97-2.78)",
+          "3.80 (2.58-5.77)",
+          ""
+        ],
+        [
+          "Univariate HR",
+          "[Reference]",
+          "2.31 (1.21-4.44)",
+          "<0.01"
+        ],
+        [
+          "Multivariate HR",
+          "[Reference]",
+          "2.41 (1.22-4.76)",
+          "<0.01"
+        ],
+        [
+          "Intracerebral hemorrhage",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Events",
+          "6 (2.9)",
+          "2 (1.2)",
+          ""
+        ],
+        [
+          "Incidence rate per 100 person-years, %",
+          "0.71 (0.32-1.57)",
+          "0.29 (0.07-1.17)",
+          ""
+        ],
+        [
+          "Univariate HR",
+          "[Reference]",
+          "0.37 (0.07-1.87)",
+          "0.23"
+        ],
+        [
+          "Multivariate HR",
+          "[Reference]",
+          "0.04 (0.01-0.64)",
+          "0.02"
+        ],
+        [
+          "Cardiovascular death",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Events",
+          "5 (2.4)",
+          "9 (5.5)",
+          ""
+        ],
+        [
+          "Incidence rate per 100 person-years",
+          "0.59 (0.24-1.41)",
+          "1.31 (0.68-2.52)",
+          ""
+        ],
+        [
+          "Univariate HR",
+          "[Reference]",
+          "2.27 (0.76-6.80)",
+          "0.14"
+        ],
+        [
+          "Multivariate HR",
+          "[Reference]",
+          "2.04 (0.57-7.30)",
+          "0.27"
+        ],
+        [
+          "All-cause death",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Events",
+          "10 (4.9)",
+          "10 (6.1)",
+          ""
+        ],
+        [
+          "Incidence rate per 100 person-years, %",
+          "1.18 (0.63-2.18)",
+          "1.46 (0.79-2.71)",
+          ""
+        ],
+        [
+          "Univariate HR",
+          "[Reference]",
+          "1.30 (0.54-3.13)",
+          "0.56"
+        ],
+        [
+          "Multivariate HR",
+          "[Reference]",
+          "1.12 (0.41-3.07)",
+          "0.83"
+        ],
+        [
+          "Net clinical outcomes a",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Events",
+          "34 (16.6)",
+          "30 (18.3)",
+          ""
+        ],
+        [
+          "Incidence rate per 100 person-years, %",
+          "3.88 (2.76-5.45)",
+          "4.38 (3.06-6.26)",
+          ""
+        ],
+        [
+          "Univariate HR",
+          "[Reference]",
+          "1.14 (0.69-1.89)",
+          "0.71"
+        ],
+        [
+          "Multivariate HR",
+          "[Reference]",
+          "1.19 (0.71-2.00)",
+          "0.58"
+        ]
+      ]
+    },
+    "Table 4": {
+      "label": "Table 4",
+      "title": "Association of CYP2C19 Phenotype With Clinical Outcomes in Clopidogrel-Treated Patients With LAA Stroke",
+      "n_rows": 31,
+      "rows": [
+        [
+          "",
+          "Extensive Metabolizer (n = 106)",
+          "Poor/Intermediate Metabolizer (n = 104)",
+          "P Value"
+        ],
+        [
+          "Symptomatic ischemic stroke/TIA",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Events",
+          "5 (4.7)",
+          "21 (20.2)",
+          ""
+        ],
+        [
+          "Incidence rate per 100 person-years, %",
+          "1.19 (0.49-2.85)",
+          "5.09 (3.32-7.81)",
+          ""
+        ],
+        [
+          "Univariate HR",
+          "[Reference]",
+          "4.34 (1.61-11.36)",
+          "<0.01"
+        ],
+        [
+          "Multivariate HR",
+          "[Reference]",
+          "5.26 (1.87-14.56)",
+          "<0.01"
+        ],
+        [
+          "Symptomatic ischemic stroke",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Events",
+          "4 (3.8)",
+          "17 (16.4)",
+          ""
+        ],
+        [
+          "Incidence rate per 100 person-years, %",
+          "0.95 (0.36-2.53)",
+          "4.12 (2.56-6.63)",
+          ""
+        ],
+        [
+          "Univariate HR",
+          "[Reference]",
+          "4.50 (1.74-13.37)",
+          "<0.01"
+        ],
+        [
+          "Multivariate HR",
+          "[Reference]",
+          "5.88 (1.89-18.24)",
+          "<0.01"
+        ],
+        [
+          "Intracerebral hemorrhage",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Events",
+          "5 (4.7)",
+          "2 (1.9)",
+          ""
+        ],
+        [
+          "Incidence rate per 100 person-years, %",
+          "1.19 (0.49-2.85)",
+          "0.49 (0.12-1.94)",
+          ""
+        ],
+        [
+          "Univariate HR",
+          "[Reference]",
+          "0.28 (0.05-1.56)",
+          "0.15"
+        ],
+        [
+          "Multivariate HR",
+          "[Reference]",
+          "0.07 (0.01-1.96)",
+          "0.12"
+        ],
+        [
+          "Cardiovascular death",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Events",
+          "2 (1.9)",
+          "5 (4.8)",
+          ""
+        ],
+        [
+          "Incidence rate per 100 person-years, %",
+          "0.47 (0.12-1.90)",
+          "1.21 (0.50-2.91)",
+          ""
+        ],
+        [
+          "Univariate HR",
+          "[Reference]",
+          "2.04 (0.37-11.12)",
+          "0.41"
+        ],
+        [
+          "Multivariate HR",
+          "[Reference]",
+          "1.50 (0.15-14.95)",
+          "0.73"
+        ],
+        [
+          "All-cause death",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Events",
+          "3 (2.8)",
+          "7 (6.7)",
+          ""
+        ],
+        [
+          "Incidence rate per 100 person-years, %",
+          "0.71 (0.23-2.21)",
+          "1.70 (0.81-3.56)",
+          ""
+        ],
+        [
+          "Univariate HR",
+          "[Reference]",
+          "2.13 (0.52-8.40)",
+          "0.30"
+        ],
+        [
+          "Multivariate HR",
+          "[Reference]",
+          "1.25 (0.24-6.56)",
+          "0.79"
+        ],
+        [
+          "Net clinical outcomes a",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Events",
+          "15 (14.2)",
+          "20 (19.2)",
+          ""
+        ],
+        [
+          "Incidence rate per 100 person-years, %",
+          "3.56 (2.15-5.90)",
+          "4.85 (3.13-7.52)",
+          ""
+        ],
+        [
+          "Univariate HR",
+          "[Reference]",
+          "1.23 (0.63-2.45)",
+          "0.54"
+        ],
+        [
+          "Multivariate HR",
+          "[Reference]",
+          "1.22 (0.59-2.56)",
+          "0.59"
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,9386 @@
+{
+  "run": {
+    "generated_at": "2026-01-04T09:05:29.240010+00:00",
+    "trial_moa_path": "/Users/fahadkiani/Desktop/development/crispr-assistant-main/oncology-coPilot/oncology-backend-minimal/api/resources/trial_moa_vectors.json",
+    "trial_moa_sha256": "9b1907c6f053158ca2d880e5adff65660b88436b42cc96d0e351bee870da18ae",
+    "tcga_ov_path": "/Users/fahadkiani/Desktop/development/crispr-assistant-main/oncology-coPilot/oncology-backend-minimal/biomarker_enriched_cohorts/data/tcga_ov_enriched_v2.json",
+    "tcga_ov_sha256": "11f5428eb7c3d238efa8b2329ee8f8d6942f98a162898099ad93f7b1d2f2791d",
+    "n_trials": 59,
+    "n_patients": 585,
+    "threshold": {
+      "best_fit_gt": 0.5
+    },
+    "algorithm": "magnitude_weighted_similarity_v1",
+    "patient_vector_source": "tcga_ov_enriched_v2 (hrd_proxy/brca_somatic/tmb/msi_status)"
+  },
+  "metrics": {
+    "n_matchable": 271,
+    "pct_matchable": 46.325
+  },
+  "raw_results": [
+    {
+      "patient_id": "TCGA-04-1331",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1337,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1332",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1247,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1335",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 37,
+      "os_days": 55,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1336",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1496,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1337",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 61,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1338",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1419,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1341",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 33,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1342",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 6,
+      "os_days": 563,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1343",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 361,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1346",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1994,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1347",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 37,
+      "os_days": 1920,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1348",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1484,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1349",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 656,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1350",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1947,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1351",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1992,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1353",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 16,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1356",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1500,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1357",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": null,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1360",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": null,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1361",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 989,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1362",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1349,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1364",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1024,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1365",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2330,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1367",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 3147,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1369",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 642,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1371",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2507,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1514",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1721,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1516",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1265,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1517",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 608,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1519",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 24,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1525",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1167,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1530",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 3624,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1536",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 885,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1542",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2562,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1638",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1687,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1644",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1488,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1646",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 37,
+      "os_days": 848,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1648",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 871,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1649",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1967,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-04-1651",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1102,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1652",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 969,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1654",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1452,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-04-1655",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1381,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-09-0364",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 6,
+      "os_days": 887,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-09-0365",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 288,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-09-0366",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1758,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-09-0367",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 547,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-09-0369",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1082,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-09-1659",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 304,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-09-1661",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1169,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-09-1662",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2719,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-09-1664",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2280,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-09-1665",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1266,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-09-1666",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1753,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-09-1667",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1883,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-09-1668",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1685,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-09-1669",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 928,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-09-1670",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 547,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-09-1672",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 178,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-09-1673",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 92,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-09-1674",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 260,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-09-1675",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2969,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-09-2043",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 188,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-09-2044",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 37,
+      "os_days": 186,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-09-2045",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1069,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-09-2049",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 3421,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-09-2050",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2164,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-09-2051",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1920,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-09-2053",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1209,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-09-2054",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 637,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-09-2055",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 819,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-10-0925",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1653,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-10-0926",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 788,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-10-0927",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2491,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-10-0928",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 6,
+      "os_days": 563,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-10-0930",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1040,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-10-0931",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1000,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-10-0933",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 446,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-10-0934",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 204,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-10-0935",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1078,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-10-0936",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1123,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-10-0937",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 6,
+      "os_days": 608,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-10-0938",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 636,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0714",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 189,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0717",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 748,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0720",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1356,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0723",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1204,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0724",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 83,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0725",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 377,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0726",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 949,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0727",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 462,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0730",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 542,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0751",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1679,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0755",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 76,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0757",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 37,
+      "os_days": 340,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0758",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 346,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0760",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 351,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0761",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1156,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0762",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 3402,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0764",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1882,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0765",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1390,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0766",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1726,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0768",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1785,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0791",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1224,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0792",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 3604,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0793",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 3265,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0794",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1920,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0795",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 619,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0797",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2122,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0799",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2536,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0800",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2663,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0801",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1400,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0802",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1553,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0803",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1335,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0804",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1073,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0805",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1074,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0807",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 414,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0883",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2098,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0884",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 3262,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0885",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 3390,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0886",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 4668,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0887",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2029,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0888",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2813,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0889",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 37,
+      "os_days": 2896,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0890",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 4427,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0891",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 3130,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0893",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1319,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0894",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1510,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0897",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2183,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0899",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2013,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0900",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 4080,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0901",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 589,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0903",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 3889,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0904",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 6,
+      "os_days": 1533,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0905",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 3748,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0906",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 6,
+      "os_days": 3621,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0908",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1844,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0910",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 3550,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0911",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1356,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0912",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1145,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0913",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 3327,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0916",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1786,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0919",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2572,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0920",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1485,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0921",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1484,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-0923",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 6,
+      "os_days": 2548,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-0924",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2615,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-1403",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2346,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1404",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2470,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-1405",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 868,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1407",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2535,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-1408",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1681,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1409",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1743,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1410",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2465,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-1411",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 531,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1412",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 984,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1477",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1663,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1481",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2650,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1482",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1878,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1483",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 895,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1484",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 3787,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1485",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 629,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1487",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 681,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1488",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2155,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1489",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2554,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1491",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1596,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1492",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 3821,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1494",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2858,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1495",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2751,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1496",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 129,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1497",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 3873,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-1498",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2013,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1499",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 3502,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-1500",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 425,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1501",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1314,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1504",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1059,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1505",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1999,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-1506",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1039,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1507",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1994,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1509",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2439,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-1510",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1360,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1511",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1651,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1512",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 442,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-1817",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1024,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-1819",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2026,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-2057",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2435,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-2059",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2388,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-2060",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2370,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-2061",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2340,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-2065",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1994,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-2066",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2134,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-2071",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 773,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-13-A5FT",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2144,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-13-A5FU",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 256,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-20-0987",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 701,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-20-0990",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 789,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-20-0991",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 797,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-20-0996",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2197,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-20-1682",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 837,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-20-1683",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 772,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-20-1684",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 581,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-20-1685",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 508,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-20-1686",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 89,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-20-1687",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 81,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-1021",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1447,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-1022",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1512,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-1023",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1233,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-1024",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 468,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-1026",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 816,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-1027",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 976,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-1028",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1504,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-1029",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 268,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-1030",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 886,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-1031",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 575,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-1032",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 84,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-1109",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1563,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-1110",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1659,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-1111",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 98,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-1113",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 949,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-1114",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2090,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-1116",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 592,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-1117",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1013,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-1118",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2617,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-1119",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 3955,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-1120",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 130,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-1121",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 194,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-1122",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1189,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-1123",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1018,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-1124",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1769,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-1809",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 16,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-2072",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 759,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-2077",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 3527,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-2078",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2663,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-2079",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2790,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-2081",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2343,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-2084",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1517,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-23-2641",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 84,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-2643",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 143,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-2645",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 137,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-2647",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 135,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-23-2649",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 116,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-0966",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 232,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-0968",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": null,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-0970",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 354,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-0975",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 663,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-0979",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1264,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-0980",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 233,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-0982",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 679,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1103",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1647,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1104",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1934,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1105",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1443,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1413",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 192,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1416",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 194,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1417",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 238,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1418",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 243,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1419",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 239,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1422",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 23,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1423",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 190,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1424",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 183,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1425",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 181,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1426",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 163,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1427",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 147,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1428",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 529,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1430",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 863,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1431",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 567,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1434",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 568,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1435",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1325,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1436",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 260,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1463",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2219,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1464",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 379,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1466",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1374,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1467",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 3226,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1469",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 277,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1470",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 105,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1471",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 36,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1474",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 676,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1544",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 820,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1545",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1747,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1546",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1956,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1548",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 493,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1549",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1722,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1550",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 6,
+      "os_days": 1249,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1551",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1580,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1552",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1259,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1553",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1768,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1555",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2694,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1556",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2149,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1557",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1213,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1558",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 594,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1560",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1342,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1562",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1385,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1563",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1452,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1564",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 787,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1565",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 312,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1567",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 524,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1603",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2744,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1604",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2690,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1614",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1471,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1616",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1163,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1842",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 253,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1843",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 106,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1844",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 113,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1845",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 116,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1846",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 133,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1847",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 343,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1849",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 176,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1850",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 168,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1852",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2202,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1920",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 298,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-1923",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 690,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1924",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 919,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1927",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 500,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1928",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 336,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-1930",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2468,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2019",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 37,
+      "os_days": 148,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-2020",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 4627,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2023",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1365,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2024",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1770,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2026",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1059,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2027",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 3339,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2029",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 439,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2030",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1702,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2033",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 562,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2035",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 857,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2038",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1355,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2254",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1737,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2260",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1100,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2261",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 24,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2262",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 11,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2267",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1447,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2271",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 962,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2280",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2144,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-2281",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1358,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-24-2288",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 25,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2289",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2050,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2290",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1102,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2293",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 506,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2295",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1007,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2297",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1700,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-24-2298",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1621,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1312",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 37,
+      "os_days": 31,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1313",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 820,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1314",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1004,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1315",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1584,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1316",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1279,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1317",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 61,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1318",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1064,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1319",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1978,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1320",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1155,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1321",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1033,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1322",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 91,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1323",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 395,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1324",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1035,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1326",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1249,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1328",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2010,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1329",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 457,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1623",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 565,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1625",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 840,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1626",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 518,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1627",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 394,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1628",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 627,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1630",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1162,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1631",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 9,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1632",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1800,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1633",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1892,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1634",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1091,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1635",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1584,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1870",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 455,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1871",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 760,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1877",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 730,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-1878",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2588,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-2042",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 396,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-2391",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1493,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-2392",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 31,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-2393",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1157,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-2396",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 92,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-2397",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 365,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-2398",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1370,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-2399",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 608,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-2400",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1278,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-2401",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 90,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-2404",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 883,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-2408",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 943,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-25-2409",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 821,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1688",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2401,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1690",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 6,
+      "os_days": 1449,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1691",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1471,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1692",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2874,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1693",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 3098,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1694",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1187,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1695",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1229,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1696",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1032,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1697",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 949,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1698",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2079,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1699",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1106,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1701",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 515,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1702",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 728,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1703",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1816,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1704",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1588,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1705",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 555,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1707",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1277,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1710",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 951,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1711",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1053,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1761",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 528,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1762",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2635,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1763",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2033,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1764",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1915,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1766",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1199,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1768",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 952,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-1769",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 699,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1770",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 741,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1771",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 686,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1774",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 527,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1775",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 376,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1776",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 360,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1777",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 374,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1778",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 454,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1781",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 255,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1783",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 220,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1784",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 163,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-1785",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1104,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-2425",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1978,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-2427",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1901,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-2428",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1373,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-2429",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 421,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-2431",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1285,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-2432",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 653,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-29-2434",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 349,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-2436",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 297,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-29-A5NZ",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1088,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1714",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1158,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1718",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1580,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1853",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1103,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1855",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 75,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1856",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 477,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1857",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 8,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1859",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1464,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1860",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1367,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1861",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1058,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1862",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 186,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1866",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1114,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1867",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 37,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1880",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1752,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1887",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 738,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1891",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 914,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-30-1892",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1485,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-31-1944",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1387,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-31-1946",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 918,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-31-1950",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 571,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-31-1951",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 684,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-31-1953",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 204,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-31-1955",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1293,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-31-1956",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1343,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-31-1959",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 67,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-1568",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 875,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-1569",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 885,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-1570",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 655,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-1571",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 695,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-36-1574",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 686,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-1575",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 260,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-1576",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 915,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-1577",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 783,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-1578",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 847,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-1580",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 737,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-36-1581",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 751,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-2529",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1066,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-2530",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1004,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-2532",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 897,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-2533",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": null,
+      "os_event": null
+    },
+    {
+      "patient_id": "TCGA-36-2534",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 907,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-2537",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 788,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-2538",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 763,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-2540",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 724,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-2542",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 657,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-2543",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 68,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-36-2544",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 638,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-2545",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 557,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-2547",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 624,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-2548",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 431,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-2549",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 184,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-2551",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 492,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-36-2552",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 349,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-3P-A9WA",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 420,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-42-2582",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1448,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-42-2587",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 722,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-42-2588",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 880,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-42-2589",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1278,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-42-2590",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 317,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-42-2591",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1240,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-42-2593",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 45,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-57-1582",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 731,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-57-1583",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 346,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-57-1584",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 643,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-57-1585",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 53,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-57-1586",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 679,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-57-1992",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 882,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-57-1993",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 763,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-57-1994",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 761,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-59-2348",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 5485,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-59-2349",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 6,
+      "os_days": 2438,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-59-2350",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 679,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-59-2351",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 3534,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-59-2352",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 286,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-59-2354",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1046,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-59-2355",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 65,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-59-2363",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 165,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-59-2372",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1364,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-59-A5PD",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 624,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-5X-AA5U",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 361,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1721",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 338,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1722",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 246,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1724",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 637,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-1725",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 956,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1727",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 564,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1728",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 848,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1730",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "best_fit": 1.0,
+      "n_matches_gt_threshold": 37,
+      "os_days": 132,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-1733",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 967,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1734",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 866,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1736",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1485,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-1737",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1365,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1738",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1089,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-1740",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 74,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-1741",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1024,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-1743",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1330,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-1895",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 44,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1899",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 256,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1900",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 176,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1901",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 347,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-1903",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 396,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1904",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 276,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1906",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1038,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-1907",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 952,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1910",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1127,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1911",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1293,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1913",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1489,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1914",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1723,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1915",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 2062,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1917",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1321,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-1918",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 479,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-1919",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1161,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-1995",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 61,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-1998",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 168,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2000",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 441,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2002",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 547,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2003",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 122,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2008",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 932,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2009",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1212,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2012",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 932,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2016",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 36,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-2017",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1399,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2018",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1382,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2087",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 146,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2088",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 145,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2092",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1574,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2094",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2183,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2095",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1876,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-2096",
+      "vector": [
+        0.95,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.95,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1777,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2097",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1845,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2098",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1994,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2101",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1689,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-2102",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 197,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-2104",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 2339,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2109",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 629,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-2110",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1355,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-2111",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": 3827,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-61-2113",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 676,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-2610",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 1580,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-2611",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 483,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-2612",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 193,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-2613",
+      "vector": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.1,
+      "n_matches_gt_threshold": 0,
+      "os_days": 945,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-61-2614",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 262,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-72-4231",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": null,
+      "os_event": null
+    },
+    {
+      "patient_id": "TCGA-72-4232",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": null,
+      "os_event": null
+    },
+    {
+      "patient_id": "TCGA-72-4233",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": null,
+      "os_event": null
+    },
+    {
+      "patient_id": "TCGA-72-4234",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": null,
+      "os_event": null
+    },
+    {
+      "patient_id": "TCGA-72-4235",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": null,
+      "os_event": null
+    },
+    {
+      "patient_id": "TCGA-72-4236",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": null,
+      "os_event": null
+    },
+    {
+      "patient_id": "TCGA-72-4237",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": null,
+      "os_event": null
+    },
+    {
+      "patient_id": "TCGA-72-4238",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": null,
+      "os_event": null
+    },
+    {
+      "patient_id": "TCGA-72-4240",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": null,
+      "os_event": null
+    },
+    {
+      "patient_id": "TCGA-72-4241",
+      "vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.0,
+      "n_matches_gt_threshold": 0,
+      "os_days": null,
+      "os_event": null
+    },
+    {
+      "patient_id": "TCGA-OY-A56P",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 1207,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-OY-A56Q",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 576,
+      "os_event": false
+    },
+    {
+      "patient_id": "TCGA-VG-A8LO",
+      "vector": [
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.4,
+      "n_matches_gt_threshold": 0,
+      "os_days": 24,
+      "os_event": true
+    },
+    {
+      "patient_id": "TCGA-WR-A838",
+      "vector": [
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "best_fit": 0.8,
+      "n_matches_gt_threshold": 31,
+      "os_days": 304,
+      "os_event": true
+    }
+  ],
+  "notes": [
+    "This is a real-cohort prevalence computation, not an outcomes validation.",
+    "Non-DDR axes are 0.0 here because the cohort JSON lacks full somatic mutation lists."
+  ]
+}

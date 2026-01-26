@@ -1,0 +1,251 @@
+{
+  "generated_at": "2026-01-04T23:38:05.473120+00:00",
+  "description": "Three real TCGA-OV patients showing L0/L1/L2 behavior with sporadic gates",
+  "cohort_source": "data/validation/sae_cohort/tcga_ov_platinum_with_mutations.json",
+  "patients": [
+    {
+      "patient_id": "TCGA-23-2078",
+      "mutations_count": 187,
+      "platinum_response": "sensitive",
+      "ddr_genes_found": [
+        "TP53"
+      ],
+      "hrd_proxy": 30.0,
+      "levels": {
+        "L0": {
+          "completeness": 0.2,
+          "description": "Disease priors only (no tumor biomarkers)",
+          "tumor_context": {
+            "completeness_score": 0.2
+          },
+          "input": {
+            "efficacy_score": 0.7,
+            "confidence": 0.65
+          },
+          "output": {
+            "efficacy_score": 0.56,
+            "confidence": 0.4
+          },
+          "efficacy_delta": -0.14,
+          "confidence_delta": -0.25,
+          "gates_applied": [
+            "PARP_UNKNOWN_HRD",
+            "CONFIDENCE_CAP_L0",
+            "SPORADIC_SUMMARY"
+          ]
+        },
+        "L1": {
+          "completeness": 0.5,
+          "description": "Partial biomarkers (HRD proxy, fixed TMB/MSI)",
+          "tumor_context": {
+            "completeness_score": 0.5,
+            "hrd_score": 30.0,
+            "tmb": 5.0,
+            "msi_status": "MSI-Stable"
+          },
+          "input": {
+            "efficacy_score": 0.7,
+            "confidence": 0.65
+          },
+          "output": {
+            "efficacy_score": 0.42,
+            "confidence": 0.6
+          },
+          "efficacy_delta": -0.28,
+          "confidence_delta": -0.05,
+          "gates_applied": [
+            "PARP_HRD_LOW",
+            "CONFIDENCE_CAP_L1",
+            "SPORADIC_SUMMARY"
+          ]
+        },
+        "L2": {
+          "completeness": 0.9,
+          "description": "Full NGS (HRD, TMB, MSI from lab)",
+          "tumor_context": {
+            "completeness_score": 0.9,
+            "hrd_score": 30.0,
+            "tmb": 25.0,
+            "msi_status": "MSI-Stable"
+          },
+          "input": {
+            "efficacy_score": 0.7,
+            "confidence": 0.65
+          },
+          "output": {
+            "efficacy_score": 0.42,
+            "confidence": 0.65
+          },
+          "efficacy_delta": -0.28,
+          "confidence_delta": 0.0,
+          "gates_applied": [
+            "PARP_HRD_LOW",
+            "SPORADIC_SUMMARY"
+          ]
+        }
+      }
+    },
+    {
+      "patient_id": "TCGA-13-1482",
+      "mutations_count": 56,
+      "platinum_response": "sensitive",
+      "ddr_genes_found": [
+        "TP53"
+      ],
+      "hrd_proxy": 30.0,
+      "levels": {
+        "L0": {
+          "completeness": 0.2,
+          "description": "Disease priors only (no tumor biomarkers)",
+          "tumor_context": {
+            "completeness_score": 0.2
+          },
+          "input": {
+            "efficacy_score": 0.7,
+            "confidence": 0.65
+          },
+          "output": {
+            "efficacy_score": 0.56,
+            "confidence": 0.4
+          },
+          "efficacy_delta": -0.14,
+          "confidence_delta": -0.25,
+          "gates_applied": [
+            "PARP_UNKNOWN_HRD",
+            "CONFIDENCE_CAP_L0",
+            "SPORADIC_SUMMARY"
+          ]
+        },
+        "L1": {
+          "completeness": 0.5,
+          "description": "Partial biomarkers (HRD proxy, fixed TMB/MSI)",
+          "tumor_context": {
+            "completeness_score": 0.5,
+            "hrd_score": 30.0,
+            "tmb": 5.0,
+            "msi_status": "MSI-Stable"
+          },
+          "input": {
+            "efficacy_score": 0.7,
+            "confidence": 0.65
+          },
+          "output": {
+            "efficacy_score": 0.42,
+            "confidence": 0.6
+          },
+          "efficacy_delta": -0.28,
+          "confidence_delta": -0.05,
+          "gates_applied": [
+            "PARP_HRD_LOW",
+            "CONFIDENCE_CAP_L1",
+            "SPORADIC_SUMMARY"
+          ]
+        },
+        "L2": {
+          "completeness": 0.9,
+          "description": "Full NGS (HRD, TMB, MSI from lab)",
+          "tumor_context": {
+            "completeness_score": 0.9,
+            "hrd_score": 30.0,
+            "tmb": 8.0,
+            "msi_status": "MSI-Stable"
+          },
+          "input": {
+            "efficacy_score": 0.7,
+            "confidence": 0.65
+          },
+          "output": {
+            "efficacy_score": 0.42,
+            "confidence": 0.65
+          },
+          "efficacy_delta": -0.28,
+          "confidence_delta": 0.0,
+          "gates_applied": [
+            "PARP_HRD_LOW",
+            "SPORADIC_SUMMARY"
+          ]
+        }
+      }
+    },
+    {
+      "patient_id": "TCGA-09-1661",
+      "mutations_count": 0,
+      "platinum_response": "resistant",
+      "ddr_genes_found": [],
+      "hrd_proxy": 0.0,
+      "levels": {
+        "L0": {
+          "completeness": 0.2,
+          "description": "Disease priors only (no tumor biomarkers)",
+          "tumor_context": {
+            "completeness_score": 0.2
+          },
+          "input": {
+            "efficacy_score": 0.7,
+            "confidence": 0.65
+          },
+          "output": {
+            "efficacy_score": 0.56,
+            "confidence": 0.4
+          },
+          "efficacy_delta": -0.14,
+          "confidence_delta": -0.25,
+          "gates_applied": [
+            "PARP_UNKNOWN_HRD",
+            "CONFIDENCE_CAP_L0",
+            "SPORADIC_SUMMARY"
+          ]
+        },
+        "L1": {
+          "completeness": 0.5,
+          "description": "Partial biomarkers (HRD proxy, fixed TMB/MSI)",
+          "tumor_context": {
+            "completeness_score": 0.5,
+            "hrd_score": 0.0,
+            "tmb": 5.0,
+            "msi_status": "MSI-Stable"
+          },
+          "input": {
+            "efficacy_score": 0.7,
+            "confidence": 0.65
+          },
+          "output": {
+            "efficacy_score": 0.42,
+            "confidence": 0.6
+          },
+          "efficacy_delta": -0.28,
+          "confidence_delta": -0.05,
+          "gates_applied": [
+            "PARP_HRD_LOW",
+            "CONFIDENCE_CAP_L1",
+            "SPORADIC_SUMMARY"
+          ]
+        },
+        "L2": {
+          "completeness": 0.9,
+          "description": "Full NGS (HRD, TMB, MSI from lab)",
+          "tumor_context": {
+            "completeness_score": 0.9,
+            "hrd_score": 0.0,
+            "tmb": 8.0,
+            "msi_status": "MSI-Stable"
+          },
+          "input": {
+            "efficacy_score": 0.7,
+            "confidence": 0.65
+          },
+          "output": {
+            "efficacy_score": 0.42,
+            "confidence": 0.65
+          },
+          "efficacy_delta": -0.28,
+          "confidence_delta": 0.0,
+          "gates_applied": [
+            "PARP_HRD_LOW",
+            "SPORADIC_SUMMARY"
+          ]
+        }
+      }
+    }
+  ]
+}

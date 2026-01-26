@@ -1,0 +1,1282 @@
+{
+  "extraction_date": "2026-01-05T00:10:58.753215",
+  "total_pmids_searched": 138,
+  "total_cases_extracted": 21,
+  "genes": [
+    "UGT1A1",
+    "DPYD"
+  ],
+  "variants_found": [
+    "*6",
+    "*37",
+    "c.85T>C",
+    "c.2194G>A",
+    "c.496A>G",
+    "c.2846A>T"
+  ],
+  "cases": [
+    {
+      "case_id": "CASE-001",
+      "pmid": "30723313",
+      "title": "DPYD*6 plays an important role in fluoropyrimidine toxicity in addition to DPYD*2A and c.2846A>T: a comprehensive analysis in 1254 patients.",
+      "authors": [
+        {
+          "name": "Del Re M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Cinieri S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Michelucci A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Salvadori S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Loupakis F",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Schirripa M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Cremolini C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Crucitta S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Barbara C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Di Leo A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Latiano TP",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Pietrantonio F",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Di Donato S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Simi P",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Passardi A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "De Braud F",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Altavilla G",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zamagni C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bordonaro R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Butera A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Maiello E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Pinto C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Falcone A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mazzotti V",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Morganti R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Danesi R",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2019 Dec",
+      "gene": "DPYD",
+      "variant": "c.2846A>T",
+      "variant_hgvs": "c.2846A>T",
+      "drug": "5-fluorouracil",
+      "toxicity_grade": null,
+      "toxicity_occurred": false,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.752793"
+    },
+    {
+      "case_id": "CASE-002",
+      "pmid": "25877315",
+      "title": "[Association of UGT1A1 (*28, *60 and * 93) polymorphism with the adverse reactions of irinotecan chemotherapy in extensive stage small cell lung cancer].",
+      "authors": [
+        {
+          "name": "Ma L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chen Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yang C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jiang H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhu J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Cheng Y",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2015 Jan",
+      "gene": "UGT1A1",
+      "variant": "*6",
+      "variant_hgvs": "*6",
+      "drug": "irinotecan",
+      "toxicity_grade": null,
+      "toxicity_occurred": false,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.752847"
+    },
+    {
+      "case_id": "CASE-003",
+      "pmid": "23783485",
+      "title": "Associations between UGT1A1*6/*28 polymorphisms and irinotecan-induced severe toxicity in Chinese gastric or esophageal cancer patients.",
+      "authors": [
+        {
+          "name": "Gao J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhou J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Peng Z",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wang X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shen L",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2013",
+      "gene": "UGT1A1",
+      "variant": "*6",
+      "variant_hgvs": "*6",
+      "drug": "irinotecan",
+      "toxicity_grade": 3,
+      "toxicity_occurred": true,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.752865"
+    },
+    {
+      "case_id": "CASE-004",
+      "pmid": "39171626",
+      "title": "Meta-analysis revisiting the influence of UGT1A1*28 and UGT1A1*6 on irinotecan safety in colorectal cancer patients.",
+      "authors": [
+        {
+          "name": "Nguyen CTT",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nguyen TMT",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Phung TH",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2024",
+      "gene": "UGT1A1",
+      "variant": "*6",
+      "variant_hgvs": "*6",
+      "drug": "irinotecan",
+      "toxicity_grade": null,
+      "toxicity_occurred": false,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.752880"
+    },
+    {
+      "case_id": "CASE-005",
+      "pmid": "41269318",
+      "title": "Severe toxicity following genotype-guided reduced 5-FU dose in a heterozygous DPYD c.2846A>T carrier with stage III anal carcinoma: A case report.",
+      "authors": [
+        {
+          "name": "Norris ML",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "DeRemer DL",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Duarte JD",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kim GP",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "George TJ",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2025 Nov 21",
+      "gene": "DPYD",
+      "variant": "c.2846A>T",
+      "variant_hgvs": "c.2846A>T",
+      "drug": "5-fluorouracil",
+      "toxicity_grade": 3,
+      "toxicity_occurred": true,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.752894"
+    },
+    {
+      "case_id": "CASE-006",
+      "pmid": "39329936",
+      "title": "Dihydropyrimidine Dehydrogenase Polymorphism c.2194G>A Screening Is a Useful Tool for Decreasing Gastrointestinal and Hematological Adverse Drug Reaction Risk in Fluoropyrimidine-Treated Patients.",
+      "authors": [
+        {
+          "name": "Ardizzone A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bulzom\u00ec M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "De Luca F",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Silvestris N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Esposito E",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Capra AP",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2024 Sep 4",
+      "gene": "DPYD",
+      "variant": "c.2194G>A",
+      "variant_hgvs": "c.2194G>A",
+      "drug": "5-fluorouracil",
+      "toxicity_grade": null,
+      "toxicity_occurred": false,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.752914"
+    },
+    {
+      "case_id": "CASE-007",
+      "pmid": "36357798",
+      "title": "Fluoropyrimidine-associated toxicity and DPYD variants c.85T>C, c.496A>G, and c.1236G>A: impact of haplotype.",
+      "authors": [
+        {
+          "name": "Medwid S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wigle TJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kim RB",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2023 Jan",
+      "gene": "DPYD",
+      "variant": "c.496A>G",
+      "variant_hgvs": "c.496A>G",
+      "drug": "5-fluorouracil",
+      "toxicity_grade": null,
+      "toxicity_occurred": false,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.752928"
+    },
+    {
+      "case_id": "CASE-008",
+      "pmid": "35506159",
+      "title": "Association of UGT1A1*6, UGT1A1*28, or ABCC2 c.3972C>T genetic polymorphisms with irinotecan-induced toxicity in Asian cancer patients: Meta-analysis.",
+      "authors": [
+        {
+          "name": "Atasilp C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Biswas M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jinda P",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nuntharadthanaphong N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Rachanakul J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hongkaew Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Vanwong N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Saokaew S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sukasem C",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2022 Jul",
+      "gene": "UGT1A1",
+      "variant": "*6",
+      "variant_hgvs": "*6",
+      "drug": "irinotecan",
+      "toxicity_grade": null,
+      "toxicity_occurred": false,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.752943"
+    },
+    {
+      "case_id": "CASE-009",
+      "pmid": "41133273",
+      "title": "Severe fluoropyrimidine toxicity in a patient with rectal adenocarcinoma with DPYD c.2846A>T heterozygous mutation: A case report.",
+      "authors": [
+        {
+          "name": "Tunc S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Karhan O",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2025 Dec",
+      "gene": "DPYD",
+      "variant": "c.2846A>T",
+      "variant_hgvs": "c.2846A>T",
+      "drug": "5-fluorouracil",
+      "toxicity_grade": 3,
+      "toxicity_occurred": true,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.752953"
+    },
+    {
+      "case_id": "CASE-010",
+      "pmid": "32936306",
+      "title": "Association of UGT1A1*6 polymorphism with irinotecan-based chemotherapy reaction in colorectal cancer patients: a systematic review and a meta-analysis.",
+      "authors": [
+        {
+          "name": "Zhu X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ma R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ma X",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yang G",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2020 Oct 30",
+      "gene": "UGT1A1",
+      "variant": "*6",
+      "variant_hgvs": "*6",
+      "drug": "irinotecan",
+      "toxicity_grade": null,
+      "toxicity_occurred": false,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.752966"
+    },
+    {
+      "case_id": "CASE-011",
+      "pmid": "31160238",
+      "title": "The Prevalence of DPYD*9A(c.85T>C) Genotype and the Genotype-Phenotype Correlation in Patients with Gastrointestinal Malignancies Treated With Fluoropyrimidines: Updated Analysis.",
+      "authors": [
+        {
+          "name": "Maharjan AS",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "McMillin GA",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Patel GK",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Awan S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Taylor WR",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Pai S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Frankel AE",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nelson C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wang B",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hosein PJ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Singh AP",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Khushman M",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2019 Sep",
+      "gene": "DPYD",
+      "variant": "c.85T>C",
+      "variant_hgvs": "c.85T>C",
+      "drug": "5-fluorouracil",
+      "toxicity_grade": null,
+      "toxicity_occurred": false,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.752980"
+    },
+    {
+      "case_id": "CASE-012",
+      "pmid": "34780066",
+      "title": "DPYD polymorphisms c.496A>G, c.2194G>A and c.85T>C and risk of severe adverse drug reactions in patients treated with fluoropyrimidine-based protocols.",
+      "authors": [
+        {
+          "name": "Bo\u017eina N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Bili\u0107 I",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ganoci L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "\u0160imi\u010devi\u0107 L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ple\u0161tina S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Le\u0161njakovi\u0107 L",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Trkulja V",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2022 May",
+      "gene": "DPYD",
+      "variant": "c.496A>G",
+      "variant_hgvs": "c.496A>G",
+      "drug": "5-fluorouracil",
+      "toxicity_grade": 3,
+      "toxicity_occurred": true,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.753007"
+    },
+    {
+      "case_id": "CASE-013",
+      "pmid": "25967674",
+      "title": "Prevalence of the UGT1A1*6 (c.211G>A) Polymorphism and Prediction of Irinotecan Toxicity in Iranian Populations of Different Ethnicities.",
+      "authors": [
+        {
+          "name": "Shakibi R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kamalidehghan B",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ahmadipour F",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Meng GY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Houshmand M",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2014",
+      "gene": "UGT1A1",
+      "variant": "*6",
+      "variant_hgvs": "*6",
+      "drug": "irinotecan",
+      "toxicity_grade": null,
+      "toxicity_occurred": false,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.753014"
+    },
+    {
+      "case_id": "CASE-014",
+      "pmid": "34654938",
+      "title": "Generation of Caco-2 cells stably expressing CYP3A4\u00b7POR\u00b7UGT1A1 and\u00a0CYP3A4\u00b7POR\u00b7UGT1A1*6\u00a0using a PITCh system.",
+      "authors": [
+        {
+          "name": "Negoro R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yamada N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Watanabe K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kono Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Fujita T",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2022 Feb",
+      "gene": "UGT1A1",
+      "variant": "*6",
+      "variant_hgvs": "*6",
+      "drug": "Unknown",
+      "toxicity_grade": null,
+      "toxicity_occurred": false,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.753033"
+    },
+    {
+      "case_id": "CASE-015",
+      "pmid": "29504153",
+      "title": "Relevance of CYP3A4*20, UGT1A1*37 and UGT1A1*28 variants in irinotecan-induced severe toxicity.",
+      "authors": [
+        {
+          "name": "Riera P",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Salazar J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Virgili AC",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tobe\u00f1a M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sebio A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Gallano P",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Barnadas A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "P\u00e1ez D",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2018 Jun",
+      "gene": "UGT1A1",
+      "variant": "*37",
+      "variant_hgvs": "*37",
+      "drug": "irinotecan",
+      "toxicity_grade": 3,
+      "toxicity_occurred": true,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.753043"
+    },
+    {
+      "case_id": "CASE-016",
+      "pmid": "24033692",
+      "title": "UGT1A1*6, 1A7*3, and 1A9*22 genotypes predict severe neutropenia in FOLFIRI-treated metastatic colorectal cancer in two prospective studies in Japan.",
+      "authors": [
+        {
+          "name": "Hazama S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Mishima H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Tsunedomi R",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Okuyama Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kato T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Takahashi K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nozawa H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ando H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kobayashi M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Takemoto H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nagata N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kanekiyo S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Inoue Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hamamoto Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Fujita Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Hinoda Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Okayama N",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Oba K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sakamoto J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Oka M",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2013 Dec",
+      "gene": "UGT1A1",
+      "variant": "*6",
+      "variant_hgvs": "*6",
+      "drug": "Unknown",
+      "toxicity_grade": 3,
+      "toxicity_occurred": true,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.753053"
+    },
+    {
+      "case_id": "CASE-017",
+      "pmid": "24519753",
+      "title": "Associations between UGT1A1*6 or UGT1A1*6/*28 polymorphisms and irinotecan-induced neutropenia in Asian cancer patients.",
+      "authors": [
+        {
+          "name": "Han FF",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Guo CL",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yu D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhu J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Gong LL",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Li GR",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Lv YL",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Liu H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "An GY",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Liu LH",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2014 Apr",
+      "gene": "UGT1A1",
+      "variant": "*6",
+      "variant_hgvs": "*6",
+      "drug": "irinotecan",
+      "toxicity_grade": null,
+      "toxicity_occurred": false,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.753065"
+    },
+    {
+      "case_id": "CASE-018",
+      "pmid": "26229432",
+      "title": "Relationship between UGT1A1*6/*28 polymorphisms and severe toxicities in Chinese patients with pancreatic or biliary tract cancer treated with irinotecan-containing regimens.",
+      "authors": [
+        {
+          "name": "Yang C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Liu Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Xi WQ",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhou CF",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Jiang JL",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ma T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Ye ZB",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhang J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhu ZG",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2015",
+      "gene": "UGT1A1",
+      "variant": "*6",
+      "variant_hgvs": "*6",
+      "drug": "irinotecan",
+      "toxicity_grade": 3,
+      "toxicity_occurred": true,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.753093"
+    },
+    {
+      "case_id": "CASE-019",
+      "pmid": "38497131",
+      "title": "Individual Irinotecan Therapy Under the Guidance of Pre-Treated UGT1A1*6 Genotyping in Gastric Cancer.",
+      "authors": [
+        {
+          "name": "Lv H",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nie C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "He Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chen B",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Liu Y",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Zhang J",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Chen X",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2024 Jan-Dec",
+      "gene": "UGT1A1",
+      "variant": "*6",
+      "variant_hgvs": "*6",
+      "drug": "irinotecan",
+      "toxicity_grade": null,
+      "toxicity_occurred": false,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.753158"
+    },
+    {
+      "case_id": "CASE-020",
+      "pmid": "19390945",
+      "title": "UGT1A1*6 polymorphism is most predictive of severe neutropenia induced by irinotecan in Japanese cancer patients.",
+      "authors": [
+        {
+          "name": "Onoue M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Terada T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kobayashi M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Katsura T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Matsumoto S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Yanagihara K",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nishimura T",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Kanai M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Teramukai S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Shimizu A",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Fukushima M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Inui K",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2009 Apr",
+      "gene": "UGT1A1",
+      "variant": "*6",
+      "variant_hgvs": "*6",
+      "drug": "irinotecan",
+      "toxicity_grade": 3,
+      "toxicity_occurred": true,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.753171"
+    },
+    {
+      "case_id": "CASE-021",
+      "pmid": "33491253",
+      "title": "Haplotype structure defines effects of common DPYD variants c.85T > C (rs1801265) and c.496A > G (rs2297595) on dihydropyrimidine dehydrogenase activity: Implication for 5-fluorouracil toxicity.",
+      "authors": [
+        {
+          "name": "Hamzic S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sch\u00e4rer D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Offer SM",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Meulendijks D",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Nakas C",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Diasio RB",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Fontana S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Wehrli M",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Sch\u00fcrch S",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Amstutz U",
+          "authtype": "Author",
+          "clusterid": ""
+        },
+        {
+          "name": "Largiad\u00e8r CR",
+          "authtype": "Author",
+          "clusterid": ""
+        }
+      ],
+      "publication_date": "2021 Aug",
+      "gene": "DPYD",
+      "variant": "c.85T>C",
+      "variant_hgvs": "c.85T>C",
+      "drug": "5-fluorouracil",
+      "toxicity_grade": null,
+      "toxicity_occurred": false,
+      "extraction_method": "automated_from_abstract",
+      "status": "needs_manual_curation",
+      "notes": "Variant and toxicity grade extracted from abstract. Requires manual verification.",
+      "extraction_date": "2026-01-05T00:10:58.753181"
+    }
+  ]
+}

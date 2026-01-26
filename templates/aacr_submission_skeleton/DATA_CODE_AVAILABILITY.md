@@ -1,18 +1,44 @@
 # Data and Code Availability
 
-## Data availability
+## Data Availability
 
-- Figures: `figures/`
-- Receipts: `receipts/`
-- Scenario suites / configs: `data/`
+### Primary Data Artifacts
 
-## Code availability
+[Description of data artifacts and locations]
 
-- Production code: [path]
-- Validation scripts: [path]
+### Public Data Sources
+
+[Public data repository information]
+
+### Receipts and Validation
+
+[Receipt files and validation information]
+
+## Code Availability
+
+### Analysis Scripts
+
+[Analysis script descriptions and locations]
+
+### Dependencies
+
+[Required packages and installation instructions]
 
 ## Reproducibility
 
-```bash
-# Add exact commands to regenerate receipts and figures
-```
+### One-Command Reproduction
+
+[Reproduce command and instructions]
+
+### Validation
+
+[Validation commands and expected outputs]
+
+### Provenance Tracking
+
+[Provenance tracking information]
+
+---
+
+**Last Updated**: [Date]  
+**Reproducibility Status**: [Status]

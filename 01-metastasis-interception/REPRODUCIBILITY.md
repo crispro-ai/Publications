@@ -9,13 +9,39 @@
 
 ## ✅ ONE-COMMAND REPRODUCTION
 
+**Note:** The code repository will be made publicly available upon manuscript acceptance. GitHub URL and Zenodo DOI will be added at that time.
+
+### For Repository Access (Upon Acceptance)
+
 ```bash
-git clone https://github.com/[org]/metastasis-interception
+git clone https://github.com/[URL_TO_BE_ADDED]
 cd metastasis-interception
-./scripts/reproduce_all.sh
+./scripts/reproduce_all_resubmission.sh
 ```
 
-**Output:** All figures, tables, and datasets regenerated in `publication/` directory.
+### For Current Codebase Access
+
+If you have access to the current codebase:
+
+```bash
+cd publications/01-metastasis-interception
+./scripts/reproduce_all_resubmission.sh
+```
+
+**Output:** All primary validation figures, tables, and datasets regenerated in `data/` and `figures/` directories.
+
+### What Gets Reproduced
+
+**✅ Fully Reproducible (No External Services):**
+- Primary validation (38 genes, 304 data points): per-step AUROC/AUPRC, specificity matrix, precision@K, ablation study, confounders, effect sizes
+- Hold-out validation (28 train / 10 test): training and test set metrics
+- All validation figures (7 figures: 2A-D, S1-S3)
+- All validation tables (Table S2)
+
+**⚠️ Requires External Services/Data:**
+- **Prospective validation** (11 FDA-approved genes): Requires Evo2 API access (`EVO2_API_BASE` environment variable)
+- **TCGA external validation**: Requires TCGA dataset files
+- **Structural validation** (15 guides): Requires AlphaFold 3 Server API access (structures are pre-computed and provided in Supplementary Data S1)
 
 ---
 
@@ -39,18 +65,26 @@ All dependencies are automatically installed by `reproduce_all.sh`:
 
 ## 🔧 DETAILED REPRODUCTION STEPS
 
-### Step 1: Clone Repository
+### Step 1: Access Code Repository
+
+**Upon Acceptance:**
 ```bash
-git clone https://github.com/[org]/metastasis-interception
+git clone https://github.com/[URL_TO_BE_ADDED]
 cd metastasis-interception
+```
+
+**Current Codebase:**
+```bash
+cd publications/01-metastasis-interception
 ```
 
 ### Step 2: Verify Ground Truth
 ```bash
-# Ground truth file with 24 genes + citations
-cat oncology-coPilot/oncology-backend-minimal/api/config/metastasis_rules_v1.0.0.json
+# Ground truth file with 38 genes + citations
+# Location depends on repository structure - check data/ directory
+cat data/metastasis_rules_v1.0.1.json
 
-# Expected: 8 metastatic steps, 24 genes with NCT IDs and PMIDs
+# Expected: 8 metastatic steps, 38 genes with NCT IDs and PMIDs
 ```
 
 ### Step 3: Environment Setup
@@ -67,44 +101,81 @@ export PYTHONPATH=$(pwd)
 export SEED=42
 
 # Per-step ROC/PR with bootstrap CIs
-venv/bin/python scripts/metastasis/compute_per_step_validation.py
+venv/bin/python scripts/compute_per_step_validation.py
 
 # Specificity matrix + enrichment p-values
-venv/bin/python scripts/metastasis/compute_specificity_matrix.py
+venv/bin/python scripts/compute_specificity_matrix.py
 
 # Precision@K (K=3,5,10)
-venv/bin/python scripts/metastasis/compute_precision_at_k.py
+venv/bin/python scripts/compute_precision_at_k.py
 
 # Ablation study (signal importance)
-venv/bin/python scripts/metastasis/compute_ablation_study.py
+venv/bin/python scripts/compute_ablation_study.py
 
 # Confounder analysis (gene properties)
-venv/bin/python scripts/metastasis/compute_confounder_analysis.py
+venv/bin/python scripts/compute_confounder_analysis.py
 ```
 
 ### Step 5: Enhanced Validation (Day 2 - 3 tasks)
 ```bash
 # Calibration curves (reliability diagrams)
-venv/bin/python scripts/metastasis/generate_calibration_curves.py
+venv/bin/python scripts/generate_calibration_curves.py
 
 # Effect sizes (Cohen's d)
-venv/bin/python scripts/metastasis/compute_effect_sizes.py
+venv/bin/python scripts/compute_effect_sizes.py
 
 # Table S2 (comprehensive metrics)
-venv/bin/python scripts/metastasis/generate_table_s2.py
+venv/bin/python scripts/generate_table_s2.py
 ```
 
-### Step 6: Verify Outputs
+### Step 6: Hold-Out Validation
+```bash
+# Hold-out validation (28 train / 10 test)
+venv/bin/python scripts/compute_holdout_validation.py
+
+# Outputs:
+# - data/holdout_validation_metrics.csv
+# - data/holdout_train_test_split.json
+```
+
+### Step 7: Optional Validations (Require External Services/Data)
+
+**Prospective Validation (Requires Evo2 API):**
+```bash
+export EVO2_API_BASE=https://crispro--evo-service-evoservice1b-api-1b.modal.run
+venv/bin/python scripts/compute_prospective_validation_direct_evo2.py
+
+# Outputs:
+# - data/prospective_validation_target_lock_scores.csv
+# - data/prospective_validation_with_negatives_scores.csv
+# - PROSPECTIVE_VALIDATION_RESULTS.md
+```
+
+**TCGA External Validation (Requires TCGA Data Files):**
+```bash
+venv/bin/python scripts/compute_tcga_external_validation.py
+
+# Outputs:
+# - data/tcga_external_validation_metrics.csv
+# - TCGA_EXTERNAL_VALIDATION_RESULTS.md
+```
+
+### Step 8: Verify Outputs
 ```bash
 # Check generated files
-ls -lh publication/figures/
-ls -lh publication/data/
-ls -lh publication/tables/
+ls -lh figures/
+ls -lh data/
+ls -lh tables/
 
-# Expected outputs (15 total):
+# Expected outputs (required - 17 total):
 # - 7 figures (PNG + SVG): Figure 2A-D, S1-S3
-# - 6 datasets (CSV): per_step_validation, specificity, precision, ablation, confounders, effect_sizes
+# - 8 datasets (CSV): per_step_validation, specificity, precision, ablation, confounders, effect_sizes, holdout_validation_metrics, holdout_train_test_split
 # - 2 tables (CSV + LaTeX): Table S2
+
+# Optional outputs (if external services/data available):
+# - prospective_validation_target_lock_scores.csv
+# - prospective_validation_with_negatives_scores.csv
+# - tcga_external_validation_metrics.csv
 ```
 
 ---
@@ -113,9 +184,9 @@ ls -lh publication/tables/
 
 ### Fixed Seeds
 All stochastic processes use `seed=42`:
-- Bootstrap resampling (1000 iterations, stratified)
+- Bootstrap resampling (5,000 iterations, stratified)
 - Random variant generation for calibration
-- AlphaFold3 predictions (Week 2)
+- AlphaFold3 predictions
 
 ### Locked Dependencies
 - **Container Digests:** Enformer and AlphaFold3 containers pinned to specific SHA256 digests (see `PUBLICATION_SPEC_LOCKED.md`)
@@ -136,7 +207,7 @@ All outputs include provenance metadata:
 ```
 
 ### Deterministic Stubs
-When external services (Enformer, AlphaFold3) are unavailable, deterministic stubs ensure reproducible fallback:
+When external services (AlphaFold3) are unaable, deterministic stubs ensure reproducible fallback:
 - Chromatin: Position-based deterministic values in [0.4, 0.7]
 - Structure: Placeholder pLDDT/PAE values with clear warnings
 
@@ -206,15 +277,16 @@ venv/bin/python scripts/metastasis/validate_structures_week2.py
 
 ### Automated Checks
 The reproduction script verifies:
-1. All 15 expected files generated
+1. All 17 required files generated (primary validation + hold-out validation)
 2. No errors during execution
-3. Runtime <10 minutes (typically 5-7 minutes)
+3. Runtime <10 minutes (typically 5-7 minutes for required validations)
+4. Optional files noted if missing (TCGA/Prospective validations require external services)
 
 ### Manual Verification
 Compare your outputs with published figures:
 ```bash
 # Check AUROC values match publication
-head -n 5 publication/data/per_step_validation_metrics.csv
+head -n 5 data/per_step_validation_metrics.csv
 
 # Expected (example):
 # step,n_samples,n_positive,auroc_mean,auroc_lower,auroc_upper,...
@@ -226,7 +298,7 @@ head -n 5 publication/data/per_step_validation_metrics.csv
 # Verify bootstrap CIs are symmetric around mean
 venv/bin/python -c "
 import pandas as pd
-df = pd.read_csv('publication/data/per_step_validation_metrics.csv')
+df = pd.read_csv('data/per_step_validation_metrics.csv')
 for _, row in df.iterrows():
     lower_dist = row['auroc_mean'] - row['auroc_lower']
     upper_dist = row['auroc_upper'] - row['auroc_mean']
@@ -246,10 +318,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Issue: "FileNotFoundError: metastasis_rules_v1.0.0.json"
+### Issue: "FileNotFoundError: metastasis_rules_v1.0.1.json"
 **Solution:** Verify ground truth file exists:
 ```bash
-ls oncology-coPilot/oncology-backend-minimal/api/config/metastasis_rules_v1.0.0.json
+# Check data/ directory for ground truth file
+ls data/metastasis_rules_v1.0.1.json
 ```
 
 ### Issue: "MemoryError during bootstrap"
@@ -259,11 +332,19 @@ ls oncology-coPilot/oncology-backend-minimal/api/config/metastasis_rules_v1.0.0.
 # Or increase system RAM allocation
 ```
 
-### Issue: "Enformer service timeout"
-**Solution:** Either fix service or use stub fallback:
+### Issue: "Evo2 service timeout" (for Prospective Validation)
+**Solution:** Verify Evo2 service URL is correct:
 ```bash
-unset ENFORMER_URL  # Use deterministic stub
+# Check EVO2_API_BASE environment variable
+echo $EVO2_API_BASE
+# Should be: https://crispro--evo-service-evoservice1b-api-1b.modal.run
+
+# Note: Prospective validation is optional and requires Evo2 API access
+# Primary and hold-out validations do NOT require external services
 ```
+
+### Issue: "TCGA data files not found"
+**Solution:** TCGA external validation requires TCGA dataset files. This validation is optional and results are provided in the manuscript. If you have TCGA data access, ensure files are in the expected location.
 
 ---
 
@@ -277,22 +358,19 @@ unset ENFORMER_URL  # Use deterministic stub
 ### Code Structure
 ```
 .
-├── scripts/metastasis/          # Reproduction scripts (9 files)
-├── publication/
-│   ├── figures/                 # Generated figures
-│   ├── data/                    # Generated datasets
-│   ├── tables/                  # Generated tables
-│   └── manuscript/              # Manuscript drafts
-├── oncology-coPilot/
-│   └── oncology-backend-minimal/
-│       └── api/config/          # Ground truth (metastasis_rules_v1.0.0.json)
-└── services/                    # Optional external services (Enformer, AF3)
+├── scripts/                     # Reproduction scripts (all validation scripts)
+│   └── reproduce_all_resubmission.sh  # One-command reproduction
+├── data/                        # Input data and generated outputs
+│   └── metastasis_rules_v1.0.1.json  # Ground truth (38 genes, 8 steps)
+├── figures/                     # Generated figures (PNG + SVG)
+├── tables/                      # Generated tables (CSV + LaTeX)
+└── manuscript/                  # Manuscript files
 ```
 
 ### Support
-- **Issues:** GitHub Issues tracker
-- **Zenodo:** Permanent archive with DOI
-- **Preprint:** bioRxiv link (post-submission)
+- **Repository:** GitHub URL and Zenodo DOI will be added upon manuscript acceptance
+- **Issues:** GitHub Issues tracker (upon repository publication)
+- **Contact:** See manuscript for corresponding author information
 
 ---
 
@@ -302,7 +380,7 @@ This reproduction guide ensures:
 - **Bit-for-bit reproducibility** of all validation metrics (fixed seeds)
 - **Statistical reproducibility** of bootstrap CIs (1000 iterations, seed=42)
 - **Provenance tracking** of all model versions, parameters, and configurations
-- **Graceful degradation** to deterministic stubs when external services unavailable
+- **Graceful degradation** to deterministic stubs when AlphaFold3 unavailable
 - **Complete transparency** with all code, data, and methods publicly available
 
 **Tested on:** macOS 13.5, Ubuntu 22.04, Windows 11 (WSL2)  
@@ -311,7 +389,8 @@ This reproduction guide ensures:
 
 ---
 
-**Last Updated:** October 13, 2025  
+**Last Updated:** January 20, 2026  
 **Version:** 1.0.0  
-**Status:** ✅ Publication Ready
+**Status:** ✅ Publication Ready  
+**Note:** Repository URL will be added upon manuscript acceptance
 

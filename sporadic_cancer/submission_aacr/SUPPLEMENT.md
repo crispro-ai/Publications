@@ -521,7 +521,85 @@ Examples receipt: `receipts/api_examples_20251231_083052.json`
             "germl
 ```
 
-## Supplement D. Disease priors format and versioning policy
+## Supplement D. Clinical validation receipts
+
+### TCGA-UCEC overall survival analysis
+
+**Receipt:** `receipts/clinical/baseline_comparison_io_tcga_ucec.json`
+
+This receipt contains:
+- Kaplan–Meier survival curves for TMB-high (≥20 mut/Mb) vs TMB-low
+- Kaplan–Meier survival curves for MSI-high vs MSS
+- Combined OR gate (TMB-high OR MSI-high) survival curves
+- Cox proportional hazards regression results (HR, 95% CI, p-values)
+- Log-rank test results
+- Sample sizes per stratification
+
+**Key findings:**
+- TMB-high: HR = 0.32 (95% CI 0.15–0.65), log-rank p = 0.00105, n=516
+- MSI-high: HR = 0.49 (95% CI 0.29–0.83), log-rank p = 0.00732, n=527
+- OR gate: HR = 0.39 (95% CI 0.23–0.65), log-rank p = 0.000168, n=527
+
+**Figures:**
+- `figures/clinical/figure_io_tmb_tcga_ucec_os.png` — TMB stratification survival curve
+- `figures/clinical/figure_io_msi_tcga_ucec_os.png` — MSI stratification survival curve
+- `figures/clinical/figure_baseline_comparison_io_tcga_ucec.png` — Combined biomarker comparison
+
+### TCGA-COADREAD negative control
+
+**Receipt:** `receipts/clinical/baseline_comparison_io_tcga_coadread.json`
+
+This receipt contains:
+- Same stratification analysis applied to TCGA-COADREAD cohort (n=590)
+- No significant survival differences (all p-values > 0.6)
+- Demonstrates tumor-type specificity of TMB/MSI prognostic signals
+
+**Figure:**
+- `figures/clinical/figure_baseline_comparison_io_tcga_coadread.png` — Negative control survival curves
+
+### Real-cohort safety audit (TCGA-OV)
+
+**Receipt:** `receipts/clinical/real_cohort_behavioral_validation.json`
+
+This receipt contains:
+- Behavioral analysis of sporadic gates applied to 469 TCGA-OV patients
+- PARP penalty application rate: 460/469 (98.1%)
+- Confidence cap application rate: 469/469 (100%)
+- Demonstrates conservative "safety-first" behavior under incomplete intake
+
+### L0/L1/L2 patient-level examples (TCGA-OV)
+
+**Receipt:** `receipts/clinical/tcga_ov_l0_l1_l2_examples.json`
+
+This receipt contains three real TCGA-OV patients demonstrating how sporadic gates behave differently at each data completeness level (L0/L1/L2):
+
+**Patient 1: TCGA-23-2078**
+- **Mutations**: 187 (platinum-sensitive)
+- **DDR genes**: TP53 (HRD proxy: 30.0)
+- **L0 behavior** (completeness=0.2): Efficacy 0.70→0.56 (-0.14), Confidence 0.65→0.40 (-0.25, capped at L0)
+- **L1 behavior** (completeness=0.5): Efficacy 0.70→0.42 (-0.28, PARP penalty), Confidence 0.65→0.60 (-0.05, capped at L1)
+- **L2 behavior** (completeness=0.9): Efficacy 0.70→0.42 (-0.28, PARP penalty), Confidence 0.65→0.65 (no cap)
+
+**Patient 2: TCGA-13-1482**
+- **Mutations**: 56 (platinum-sensitive)
+- **DDR genes**: TP53 (HRD proxy: 30.0)
+- **L0 behavior**: Same as Patient 1 (conservative penalty, confidence capped at 0.4)
+- **L1 behavior**: Same as Patient 1 (PARP penalty, confidence capped at 0.6)
+- **L2 behavior**: Same as Patient 1 (PARP penalty, no confidence cap)
+
+**Patient 3: TCGA-09-1661**
+- **Mutations**: 0 (platinum-resistant)
+- **DDR genes**: None (HRD proxy: 0.0)
+- **L0 behavior**: Same pattern (conservative penalty, confidence capped at 0.4)
+- **L1 behavior**: Same pattern (PARP penalty, confidence capped at 0.6)
+- **L2 behavior**: Same pattern (PARP penalty, no confidence cap)
+
+**Key observations:**
+- **L0 (completeness <0.3)**: All patients receive conservative PARP penalty (0.8x) and confidence capped at 0.4
+- **L1 (0.3 ≤ completeness <0.7)**: HRD proxy available → PARP penalty (0.6x) if HRD <42, confidence capped at 0.6
+- **L2 (completeness ≥0.7)**: Full biomarker data → PARP penalty/rescue based on HRD, no confidence cap
+
+## Supplement E. Disease priors format and versioning policy
 
 - **Priors file**: `oncology-coPilot/oncology-backend-minimal/api/resources/disease_priors.json`
 - **Versioning policy (minimal)**:
@@ -529,3 +607,97 @@ Examples receipt: `receipts/api_examples_20251231_083052.json`
   - Quick Intake responses should echo `priors_version` and `priors_used` for provenance.
   - Missing priors fields must default to `null` and reduce completeness/confidence (never silently assumed).
   - Each priors update should include a short provenance note (source cohort + DOI/PMID when available).
+
+## Supplement F. Reproduction Instructions
+
+All validation artifacts can be reproduced by running the following commands from the repository root:
+
+### Unit tests
+
+```bash
+pytest tests/test_sporadic_gates.py -v > receipts/pytest_sporadic_gates.txt
+```
+
+This generates a receipt file containing all unit test outputs, including:
+- Gate behavior validation
+- Confidence cap calculations
+- PARP penalty/rescue logic
+- IO boost application
+
+### Scenario suite validation
+
+```bash
+python scripts/validation/sporadic_gates_publication/scripts/run_scenario_suite.py \
+  --output data/scenario_suite_25_$(date +%Y%m%d_%H%M%S).json
+```
+
+This generates a scenario suite receipt containing 25 synthetic test cases with input/output pairs for all gate behaviors.
+
+### Real-cohort behavioral audit
+
+```bash
+python scripts/validation/sporadic_gates_publication/scripts/validate_on_real_cohort.py \
+  --cohort data/validation/sae_cohort/tcga_ov_platinum_with_mutations.json \
+  --output receipts/clinical/real_cohort_behavioral_validation.json
+```
+
+This generates a receipt containing aggregate metrics from applying sporadic gates to 469 real TCGA-OV patients.
+
+### L0/L1/L2 patient-level examples
+
+```bash
+python scripts/validation/sporadic_gates_publication/scripts/generate_l0_l1_l2_examples.py \
+  --cohort data/validation/sae_cohort/tcga_ov_platinum_with_mutations.json \
+  --output receipts/clinical/tcga_ov_l0_l1_l2_examples.json \
+  --patients TCGA-23-2078 TCGA-13-1482 TCGA-09-1661
+```
+
+This generates a receipt containing three real TCGA-OV patients with simulated L0/L1/L2 behavior.
+
+### Clinical validation (TCGA-UCEC)
+
+```bash
+python scripts/validation/sporadic_gates_publication/scripts/validate_tcga_ucec.py \
+  --output receipts/clinical/tcga_ucec_validation.json
+```
+
+This generates a receipt containing survival analysis results for TCGA-UCEC cohort.
+
+### Clinical validation (TCGA-COADREAD negative control)
+
+```bash
+python scripts/validation/sporadic_gates_publication/scripts/validate_tcga_coadread.py \
+  --output receipts/clinical/tcga_coadread_validation.json
+```
+
+This generates a receipt containing survival analysis results for TCGA-COADREAD cohort (negative control).
+
+### End-to-end workflow validation
+
+```bash
+python scripts/validation/sporadic_gates_publication/scripts/validate_e2e_workflow.py \
+  --output receipts/e2e_sporadic_workflow.txt
+```
+
+This generates a receipt containing end-to-end workflow validation from Quick Intake to efficacy prediction.
+
+### API examples
+
+All API examples referenced in the manuscript can be reproduced by calling the endpoints with the provided request payloads. See `scripts/validation/sporadic_gates_publication/api_examples/` for curl commands and expected responses.
+
+### Dependencies
+
+All validation scripts require:
+- Python 3.11+
+- pytest (for unit tests)
+- pandas, numpy (for data processing)
+- requests (for API calls)
+
+Install dependencies:
+```bash
+pip install pytest pandas numpy requests
+```
+
+### Fixed seeds and reproducibility
+
+All validation scripts use fixed random seeds (seed=42) for reproducibility. Receipt files include timestamps and version information for full provenance tracking.

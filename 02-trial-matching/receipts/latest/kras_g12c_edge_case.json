@@ -1,0 +1,159 @@
+{
+  "run": {
+    "generated_at": "2026-01-04T09:05:31.159477+00:00"
+  },
+  "patient_vector": [
+    0.0,
+    0.9,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "top_10": [
+    {
+      "nct_id": "NCT02359279",
+      "fit": 0.9,
+      "primary_moa": "MAPK pathway (ras)",
+      "moa_vector": {
+        "ddr": 0.0,
+        "mapk": 0.9,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.0,
+        "io": 0.0,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT01091779",
+      "fit": 0.9,
+      "primary_moa": "MAPK pathway (ras)",
+      "moa_vector": {
+        "ddr": 0.0,
+        "mapk": 0.9,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.0,
+        "io": 0.0,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT00006379",
+      "fit": 0.9,
+      "primary_moa": "MAPK pathway (raf)",
+      "moa_vector": {
+        "ddr": 0.0,
+        "mapk": 0.9,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.0,
+        "io": 0.0,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT06638879",
+      "fit": 0.9,
+      "primary_moa": "MAPK pathway (raf)",
+      "moa_vector": {
+        "ddr": 0.0,
+        "mapk": 0.9,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.0,
+        "io": 0.0,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT01979679",
+      "fit": 0.9,
+      "primary_moa": "MAPK pathway (ras)",
+      "moa_vector": {
+        "ddr": 0.0,
+        "mapk": 0.9,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.0,
+        "io": 0.0,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT02575079",
+      "fit": 0.636396,
+      "primary_moa": "DDR pathway (atr)",
+      "moa_vector": {
+        "ddr": 0.9,
+        "mapk": 0.9,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.0,
+        "io": 0.0,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT06331130",
+      "fit": 0.0,
+      "primary_moa": "HER2-targeted therapy (Trastuzumab deruxtecan with Zanidatamab)",
+      "moa_vector": {
+        "ddr": 0.0,
+        "mapk": 0.0,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.95,
+        "io": 0.0,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT04284969",
+      "fit": 0.0,
+      "primary_moa": "DNA Damage Repair (PARP + ATR inhibitors)",
+      "moa_vector": {
+        "ddr": 0.95,
+        "mapk": 0.0,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.0,
+        "io": 0.0,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT04001023",
+      "fit": 0.0,
+      "primary_moa": "DNA Damage Repair (PARP inhibitor Olaparib)",
+      "moa_vector": {
+        "ddr": 0.9,
+        "mapk": 0.0,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.0,
+        "io": 0.0,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT01000259",
+      "fit": 0.0,
+      "primary_moa": "VEGF Angiogenesis Inhibition (Bevacizumab)",
+      "moa_vector": {
+        "ddr": 0.0,
+        "mapk": 0.0,
+        "pi3k": 0.0,
+        "vegf": 0.9,
+        "her2": 0.0,
+        "io": 0.0,
+        "efflux": 0.0
+      }
+    }
+  ],
+  "notes": [
+    "This is a synthetic edge-case prototype for discrimination testing."
+  ]
+}

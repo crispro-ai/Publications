@@ -1,0 +1,40 @@
+{
+  "run": {
+    "generated_at": "2026-01-04T09:05:30.980318+00:00",
+    "input_receipt": "/Users/fahadkiani/Desktop/development/crispr-assistant-main/publications/02-trial-matching/receipts/latest/real_world_tcga_ov_validation.json",
+    "n_total_with_os": 571,
+    "threshold": {
+      "best_fit_gt": 0.5
+    }
+  },
+  "groups": {
+    "matchable": {
+      "n": 269,
+      "n_events": 165,
+      "median_days": 1330.0
+    },
+    "non_matchable": {
+      "n": 302,
+      "n_events": 176,
+      "median_days": 1471.0
+    }
+  },
+  "km": {
+    "logrank": {
+      "test_statistic": 1.1298870576659712,
+      "p_value": 0.28779943096791294
+    }
+  },
+  "cox": {
+    "model": "univariate_matchable",
+    "hazard_ratio": 1.1220703730199935,
+    "p_value": 0.28834691058935635,
+    "interpretation": {
+      "hr_lt_1_better_survival_for_matchable": false
+    }
+  },
+  "notes": [
+    "This tests association with OS, not treatment benefit. TCGA-OV is not a trial enrollment dataset.",
+    "Group definition is purely best_fit > 0.5 against the 59-trial MoA bank."
+  ]
+}

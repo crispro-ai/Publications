@@ -1,0 +1,3133 @@
+{
+  "timestamp": "2026-01-07T17:07:32.683377",
+  "total_queries": 86,
+  "source_breakdown": {
+    "dosing_guidance": 40,
+    "synthetic_lethality": 40,
+    "hypothesis_validator": 6
+  },
+  "queries": [
+    {
+      "query_id": "DG_001",
+      "question": "How does capecitabine interact with DPYD c.2846A>T in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-DPYD-001",
+        "pmid": "41133273",
+        "drug": "capecitabine",
+        "gene": "DPYD",
+        "variant": "c.2846A>T",
+        "disease": "cancer",
+        "toxicity_occurred": true,
+        "toxicity_confidence": "high"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "c.2846A>T"
+        }
+      }
+    },
+    {
+      "query_id": "DG_002",
+      "question": "How does capecitabine interact with DPYD c.2846A>T in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-DPYD-002",
+        "pmid": "39376610",
+        "drug": "capecitabine",
+        "gene": "DPYD",
+        "variant": "c.2846A>T",
+        "disease": "cancer",
+        "toxicity_occurred": true,
+        "toxicity_confidence": "high"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "c.2846A>T"
+        }
+      }
+    },
+    {
+      "query_id": "DG_003",
+      "question": "How does 5-fluorouracil interact with DPYD in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-DPYD-003",
+        "pmid": "38528593",
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "",
+        "disease": "cancer",
+        "toxicity_occurred": true,
+        "toxicity_confidence": "high"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "WILDTYPE"
+        }
+      }
+    },
+    {
+      "query_id": "DG_004",
+      "question": "How does 5-fluorouracil interact with DPYD in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-DPYD-004",
+        "pmid": "36160401",
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "WILDTYPE"
+        }
+      }
+    },
+    {
+      "query_id": "DG_005",
+      "question": "How does 5-fluorouracil interact with DPYD in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-DPYD-005",
+        "pmid": "31486738",
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "WILDTYPE"
+        }
+      }
+    },
+    {
+      "query_id": "DG_006",
+      "question": "How does 5-fluorouracil interact with DPYD in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-DPYD-006",
+        "pmid": "31382864",
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "WILDTYPE"
+        }
+      }
+    },
+    {
+      "query_id": "DG_007",
+      "question": "How does 5-fluorouracil interact with DPYD in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-DPYD-007",
+        "pmid": "31149530",
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "",
+        "disease": "cancer",
+        "toxicity_occurred": true,
+        "toxicity_confidence": "moderate"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "WILDTYPE"
+        }
+      }
+    },
+    {
+      "query_id": "DG_008",
+      "question": "How does capecitabine interact with DPYD c.1903A>G in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-DPYD-008",
+        "pmid": "30915274",
+        "drug": "capecitabine",
+        "gene": "DPYD",
+        "variant": "c.1903A>G",
+        "disease": "cancer",
+        "toxicity_occurred": true,
+        "toxicity_confidence": "moderate"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "c.1903A>G"
+        }
+      }
+    },
+    {
+      "query_id": "DG_009",
+      "question": "How does 5-fluorouracil interact with DPYD in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-DPYD-009",
+        "pmid": "28929491",
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "WILDTYPE"
+        }
+      }
+    },
+    {
+      "query_id": "DG_010",
+      "question": "How does mercaptopurine interact with TPMT *3A in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-TPMT-001",
+        "pmid": "31464791",
+        "drug": "mercaptopurine",
+        "gene": "TPMT",
+        "variant": "*3A",
+        "disease": "cancer",
+        "toxicity_occurred": true,
+        "toxicity_confidence": "moderate"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "TPMT": "*3A"
+        }
+      }
+    },
+    {
+      "query_id": "DG_011",
+      "question": "How does 5-fluorouracil interact with DPYD A348T in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "CBIO-coad_cptac_gdc-11CO036",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "A348T",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "A348T"
+        }
+      }
+    },
+    {
+      "query_id": "DG_012",
+      "question": "How does 5-fluorouracil interact with DPYD chr6:g.18139713G>T in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-001",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr6:g.18139713G>T",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr6:g.18139713G>T"
+        }
+      }
+    },
+    {
+      "query_id": "DG_013",
+      "question": "How does 5-fluorouracil interact with DPYD chr6:g.18130698delA in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-002",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr6:g.18130698delA",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr6:g.18130698delA"
+        }
+      }
+    },
+    {
+      "query_id": "DG_014",
+      "question": "How does 5-fluorouracil interact with DPYD chr6:g.18149023G>A in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-003",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr6:g.18149023G>A",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr6:g.18149023G>A"
+        }
+      }
+    },
+    {
+      "query_id": "DG_015",
+      "question": "How does 5-fluorouracil interact with DPYD chr6:g.18130729C>T in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-004",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr6:g.18130729C>T",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr6:g.18130729C>T"
+        }
+      }
+    },
+    {
+      "query_id": "DG_016",
+      "question": "How does 5-fluorouracil interact with DPYD chr6:g.18133864G>A in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-005",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr6:g.18133864G>A",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr6:g.18133864G>A"
+        }
+      }
+    },
+    {
+      "query_id": "DG_017",
+      "question": "How does 5-fluorouracil interact with DPYD chr6:g.18143662delA in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-006",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr6:g.18143662delA",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr6:g.18143662delA"
+        }
+      }
+    },
+    {
+      "query_id": "DG_018",
+      "question": "How does 5-fluorouracil interact with DPYD chr6:g.18143717C>A in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-007",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr6:g.18143717C>A",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr6:g.18143717C>A"
+        }
+      }
+    },
+    {
+      "query_id": "DG_019",
+      "question": "How does 5-fluorouracil interact with DPYD chr6:g.18130763G>A in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-008",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr6:g.18130763G>A",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr6:g.18130763G>A"
+        }
+      }
+    },
+    {
+      "query_id": "DG_020",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97679174G>A in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-009",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97679174G>A",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97679174G>A"
+        }
+      }
+    },
+    {
+      "query_id": "DG_021",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97828158C>A in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-010",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97828158C>A",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97828158C>A"
+        }
+      }
+    },
+    {
+      "query_id": "DG_022",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97573967C>A in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-011",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97573967C>A",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97573967C>A"
+        }
+      }
+    },
+    {
+      "query_id": "DG_023",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97721603A>G in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-012",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97721603A>G",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97721603A>G"
+        }
+      }
+    },
+    {
+      "query_id": "DG_024",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97079145G>T in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-013",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97079145G>T",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97079145G>T"
+        }
+      }
+    },
+    {
+      "query_id": "DG_025",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97306282G>A in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-014",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97306282G>A",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97306282G>A"
+        }
+      }
+    },
+    {
+      "query_id": "DG_026",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97593336A>G in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-015",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97593336A>G",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97593336A>G"
+        }
+      }
+    },
+    {
+      "query_id": "DG_027",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97306235delA in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-016",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97306235delA",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97306235delA"
+        }
+      }
+    },
+    {
+      "query_id": "DG_028",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97573918C>T in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-017",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97573918C>T",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97573918C>T"
+        }
+      }
+    },
+    {
+      "query_id": "DG_029",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97079073C>T in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-018",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97079073C>T",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97079073C>T"
+        }
+      }
+    },
+    {
+      "query_id": "DG_030",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97883365C>T in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-019",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97883365C>T",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97883365C>T"
+        }
+      }
+    },
+    {
+      "query_id": "DG_031",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97679126T>G in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-020",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97679126T>G",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97679126T>G"
+        }
+      }
+    },
+    {
+      "query_id": "DG_032",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97082458T>C in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-021",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97082458T>C",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97082458T>C"
+        }
+      }
+    },
+    {
+      "query_id": "DG_033",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97721543A>G in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-022",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97721543A>G",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97721543A>G"
+        }
+      }
+    },
+    {
+      "query_id": "DG_034",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97699457G>A in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-023",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97699457G>A",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97699457G>A"
+        }
+      }
+    },
+    {
+      "query_id": "DG_035",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97515906T>G in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-024",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97515906T>G",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97515906T>G"
+        }
+      }
+    },
+    {
+      "query_id": "DG_036",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97234900A>G in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-025",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97234900A>G",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97234900A>G"
+        }
+      }
+    },
+    {
+      "query_id": "DG_037",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97721569A>C in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-026",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97721569A>C",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97721569A>C"
+        }
+      }
+    },
+    {
+      "query_id": "DG_038",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97549703G>T in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-027",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97549703G>T",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97549703G>T"
+        }
+      }
+    },
+    {
+      "query_id": "DG_039",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97595138G>T in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-028",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97595138G>T",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97595138G>T"
+        }
+      }
+    },
+    {
+      "query_id": "DG_040",
+      "question": "How does 5-fluorouracil interact with DPYD chr1:g.97306195C>T in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "GDC-TCGA-COAD-029",
+        "pmid": null,
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "chr1:g.97306195C>T",
+        "disease": "cancer",
+        "toxicity_occurred": false,
+        "toxicity_confidence": "inferred_from_lack_of_evidence"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "chr1:g.97306195C>T"
+        }
+      }
+    },
+    {
+      "query_id": "SL_001",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.C61G?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_001",
+        "drug": "Olaparib",
+        "gene": "BRCA1",
+        "mutation": "p.C61G",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA1+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA1": 0.44405918068595746
+          },
+          "clinical_evidence": {
+            "pmid": "25366685",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA1",
+            "hgvs_p": "p.C61G",
+            "chrom": "17",
+            "pos": 43070943,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA1": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_002",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.C61G?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_002",
+        "drug": "Olaparib",
+        "gene": "BRCA1",
+        "mutation": "p.C61G",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA1+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA1": 0.5136549385283461
+          },
+          "clinical_evidence": {
+            "pmid": "28569902",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA1",
+            "hgvs_p": "p.C61G",
+            "chrom": "17",
+            "pos": 43070943,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA1": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_003",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.K3326*?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_003",
+        "drug": "Olaparib",
+        "gene": "BRCA2",
+        "mutation": "p.K3326*",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA2": 0.5785124303033135
+          },
+          "clinical_evidence": {
+            "pmid": "25366685",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA2",
+            "hgvs_p": "p.K3326*",
+            "chrom": "13",
+            "pos": 32936750,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "stop_gained"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_004",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.K3326*?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_004",
+        "drug": "Olaparib",
+        "gene": "BRCA2",
+        "mutation": "p.K3326*",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA2": 0.49663622684497655
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA2",
+            "hgvs_p": "p.K3326*",
+            "chrom": "13",
+            "pos": 32936750,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "stop_gained"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_005",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.R346fs?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_005",
+        "drug": "Olaparib",
+        "gene": "MBD4",
+        "mutation": "p.R346fs",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "MBD4+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "BER"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "MBD4": 0.12484960719544597
+          },
+          "clinical_evidence": {
+            "pmid": "30111527",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "MBD4",
+            "hgvs_p": "p.R346fs",
+            "chrom": "3",
+            "pos": 129430488,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "frameshift_variant"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "MBD4": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_006",
+      "question": "What mechanisms does Ceralasertib target in prostate cancer with p.R175H?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_006",
+        "drug": "Ceralasertib",
+        "gene": "TP53",
+        "mutation": "p.R175H",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "TP53+ATR"
+          ],
+          "effective_drugs": [
+            "Ceralasertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "TP53": 0.0
+          },
+          "clinical_evidence": {
+            "pmid": "33115855",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "TP53",
+            "hgvs_p": "p.R175H",
+            "chrom": "17",
+            "pos": 7577120,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "TP53": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_007",
+      "question": "What mechanisms does Adavosertib target in ovarian cancer with p.R175H?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_007",
+        "drug": "Adavosertib",
+        "gene": "TP53",
+        "mutation": "p.R175H",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "TP53+WEE1"
+          ],
+          "effective_drugs": [
+            "Adavosertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "TP53": 0.0
+          },
+          "clinical_evidence": {
+            "pmid": "32592347",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "TP53",
+            "hgvs_p": "p.R175H",
+            "chrom": "17",
+            "pos": 7577120,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "TP53": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_008",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_008",
+        "drug": "Olaparib",
+        "gene": "ATM",
+        "mutation": "p.?",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "ATM+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "ATM": 0.03199998891214332
+          },
+          "clinical_evidence": {
+            "pmid": "29880560",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "ATM",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "ATM": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_009",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_009",
+        "drug": "Olaparib",
+        "gene": "PALB2",
+        "mutation": "p.?",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "PALB2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "PALB2": 0.4837245019947514
+          },
+          "clinical_evidence": {
+            "pmid": "32592347",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "PALB2",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "PALB2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_010",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_010",
+        "drug": "Olaparib",
+        "gene": "RAD51C",
+        "mutation": "p.?",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "RAD51C+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "RAD51C": 0.7061312400750432
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "RAD51C",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "RAD51C": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_011",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_011",
+        "drug": "Olaparib",
+        "gene": "RAD51D",
+        "mutation": "p.?",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "RAD51D+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "RAD51D": 0.7293221853155034
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "RAD51D",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "RAD51D": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_012",
+      "question": "What mechanisms does Ceralasertib target in prostate cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_012",
+        "drug": "Ceralasertib",
+        "gene": "ARID1A",
+        "mutation": "p.?",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "ARID1A+ATR"
+          ],
+          "effective_drugs": [
+            "Ceralasertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "ARID1A": 0.375561921664032
+          },
+          "clinical_evidence": {
+            "pmid": "30510156",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "ARID1A",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "ARID1A": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_013",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_013",
+        "drug": "Olaparib",
+        "gene": "CDK12",
+        "mutation": "p.?",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "CDK12+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "CDK12": 0.4085607197529356
+          },
+          "clinical_evidence": {
+            "pmid": "31320749",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "CDK12",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "CDK12": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_014",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.C61G?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_014",
+        "drug": "Olaparib",
+        "gene": "BRCA1",
+        "mutation": "p.C61G",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA1+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA1": 0.5136549385283461
+          },
+          "clinical_evidence": {
+            "pmid": "25366685",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA1",
+            "hgvs_p": "p.C61G",
+            "chrom": "17",
+            "pos": 43070943,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA1": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_015",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.C61G?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_015",
+        "drug": "Olaparib",
+        "gene": "BRCA1",
+        "mutation": "p.C61G",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA1+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA1": 0.31676202596271663
+          },
+          "clinical_evidence": {
+            "pmid": "28569902",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA1",
+            "hgvs_p": "p.C61G",
+            "chrom": "17",
+            "pos": 43070943,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA1": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_016",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.K3326*?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_016",
+        "drug": "Olaparib",
+        "gene": "BRCA2",
+        "mutation": "p.K3326*",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA2": 0.49663622684497655
+          },
+          "clinical_evidence": {
+            "pmid": "25366685",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA2",
+            "hgvs_p": "p.K3326*",
+            "chrom": "13",
+            "pos": 32936750,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "stop_gained"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_017",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.K3326*?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_017",
+        "drug": "Olaparib",
+        "gene": "BRCA2",
+        "mutation": "p.K3326*",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA2": 0.5194046762092465
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA2",
+            "hgvs_p": "p.K3326*",
+            "chrom": "13",
+            "pos": 32936750,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "stop_gained"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_018",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.R346fs?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_018",
+        "drug": "Olaparib",
+        "gene": "MBD4",
+        "mutation": "p.R346fs",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "MBD4+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "BER"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "MBD4": 0.1133053958772785
+          },
+          "clinical_evidence": {
+            "pmid": "30111527",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "MBD4",
+            "hgvs_p": "p.R346fs",
+            "chrom": "3",
+            "pos": 129430488,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "frameshift_variant"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "MBD4": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_019",
+      "question": "What mechanisms does Ceralasertib target in ovarian cancer with p.R175H?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_019",
+        "drug": "Ceralasertib",
+        "gene": "TP53",
+        "mutation": "p.R175H",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "TP53+ATR"
+          ],
+          "effective_drugs": [
+            "Ceralasertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "TP53": 0.0
+          },
+          "clinical_evidence": {
+            "pmid": "33115855",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "TP53",
+            "hgvs_p": "p.R175H",
+            "chrom": "17",
+            "pos": 7577120,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "TP53": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_020",
+      "question": "What mechanisms does Adavosertib target in breast cancer with p.R175H?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_020",
+        "drug": "Adavosertib",
+        "gene": "TP53",
+        "mutation": "p.R175H",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "TP53+WEE1"
+          ],
+          "effective_drugs": [
+            "Adavosertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "TP53": 0.0
+          },
+          "clinical_evidence": {
+            "pmid": "32592347",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "TP53",
+            "hgvs_p": "p.R175H",
+            "chrom": "17",
+            "pos": 7577120,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "TP53": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_021",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_021",
+        "drug": "Olaparib",
+        "gene": "ATM",
+        "mutation": "p.?",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "ATM+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "ATM": 0.05858248553710228
+          },
+          "clinical_evidence": {
+            "pmid": "29880560",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "ATM",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "ATM": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_022",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_022",
+        "drug": "Olaparib",
+        "gene": "PALB2",
+        "mutation": "p.?",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "PALB2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "PALB2": 0.33189795944643924
+          },
+          "clinical_evidence": {
+            "pmid": "32592347",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "PALB2",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "PALB2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_023",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_023",
+        "drug": "Olaparib",
+        "gene": "RAD51C",
+        "mutation": "p.?",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "RAD51C+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "RAD51C": 0.7042390620749244
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "RAD51C",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "RAD51C": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_024",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_024",
+        "drug": "Olaparib",
+        "gene": "RAD51D",
+        "mutation": "p.?",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "RAD51D+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "RAD51D": 0.5788916280524823
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "RAD51D",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "RAD51D": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_025",
+      "question": "What mechanisms does Ceralasertib target in ovarian cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_025",
+        "drug": "Ceralasertib",
+        "gene": "ARID1A",
+        "mutation": "p.?",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "ARID1A+ATR"
+          ],
+          "effective_drugs": [
+            "Ceralasertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "ARID1A": 0.2596675073474911
+          },
+          "clinical_evidence": {
+            "pmid": "30510156",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "ARID1A",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "ARID1A": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_026",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_026",
+        "drug": "Olaparib",
+        "gene": "CDK12",
+        "mutation": "p.?",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "CDK12+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "CDK12": 0.48274278092286904
+          },
+          "clinical_evidence": {
+            "pmid": "31320749",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "CDK12",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "CDK12": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_027",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.C61G?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_027",
+        "drug": "Olaparib",
+        "gene": "BRCA1",
+        "mutation": "p.C61G",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA1+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA1": 0.31676202596271663
+          },
+          "clinical_evidence": {
+            "pmid": "25366685",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA1",
+            "hgvs_p": "p.C61G",
+            "chrom": "17",
+            "pos": 43070943,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA1": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_028",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.C61G?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_028",
+        "drug": "Olaparib",
+        "gene": "BRCA1",
+        "mutation": "p.C61G",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA1+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA1": 0.44405918068595746
+          },
+          "clinical_evidence": {
+            "pmid": "28569902",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA1",
+            "hgvs_p": "p.C61G",
+            "chrom": "17",
+            "pos": 43070943,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA1": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_029",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.K3326*?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_029",
+        "drug": "Olaparib",
+        "gene": "BRCA2",
+        "mutation": "p.K3326*",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA2": 0.5194046762092465
+          },
+          "clinical_evidence": {
+            "pmid": "25366685",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA2",
+            "hgvs_p": "p.K3326*",
+            "chrom": "13",
+            "pos": 32936750,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "stop_gained"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_030",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.K3326*?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_030",
+        "drug": "Olaparib",
+        "gene": "BRCA2",
+        "mutation": "p.K3326*",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA2": 0.5785124303033135
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA2",
+            "hgvs_p": "p.K3326*",
+            "chrom": "13",
+            "pos": 32936750,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "stop_gained"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_031",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.R346fs?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_031",
+        "drug": "Olaparib",
+        "gene": "MBD4",
+        "mutation": "p.R346fs",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "MBD4+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "BER"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "MBD4": 0.1174664233026257
+          },
+          "clinical_evidence": {
+            "pmid": "30111527",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "MBD4",
+            "hgvs_p": "p.R346fs",
+            "chrom": "3",
+            "pos": 129430488,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "frameshift_variant"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "MBD4": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_032",
+      "question": "What mechanisms does Ceralasertib target in breast cancer with p.R175H?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_032",
+        "drug": "Ceralasertib",
+        "gene": "TP53",
+        "mutation": "p.R175H",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "TP53+ATR"
+          ],
+          "effective_drugs": [
+            "Ceralasertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "TP53": 0.0
+          },
+          "clinical_evidence": {
+            "pmid": "33115855",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "TP53",
+            "hgvs_p": "p.R175H",
+            "chrom": "17",
+            "pos": 7577120,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "TP53": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_033",
+      "question": "What mechanisms does Adavosertib target in prostate cancer with p.R175H?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_033",
+        "drug": "Adavosertib",
+        "gene": "TP53",
+        "mutation": "p.R175H",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "TP53+WEE1"
+          ],
+          "effective_drugs": [
+            "Adavosertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "TP53": 0.0
+          },
+          "clinical_evidence": {
+            "pmid": "32592347",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "TP53",
+            "hgvs_p": "p.R175H",
+            "chrom": "17",
+            "pos": 7577120,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "TP53": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_034",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_034",
+        "drug": "Olaparib",
+        "gene": "ATM",
+        "mutation": "p.?",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "ATM+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "ATM": 0.028631024194835045
+          },
+          "clinical_evidence": {
+            "pmid": "29880560",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "ATM",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "ATM": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_035",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_035",
+        "drug": "Olaparib",
+        "gene": "PALB2",
+        "mutation": "p.?",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "PALB2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "PALB2": 0.3409024137324467
+          },
+          "clinical_evidence": {
+            "pmid": "32592347",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "PALB2",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "PALB2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_036",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_036",
+        "drug": "Olaparib",
+        "gene": "RAD51C",
+        "mutation": "p.?",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "RAD51C+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "RAD51C": 0.6334293589307343
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "RAD51C",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "RAD51C": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_037",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_037",
+        "drug": "Olaparib",
+        "gene": "RAD51D",
+        "mutation": "p.?",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "RAD51D+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "RAD51D": 0.7360546282435787
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "RAD51D",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "RAD51D": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_038",
+      "question": "What mechanisms does Ceralasertib target in breast cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_038",
+        "drug": "Ceralasertib",
+        "gene": "ARID1A",
+        "mutation": "p.?",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "ARID1A+ATR"
+          ],
+          "effective_drugs": [
+            "Ceralasertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "ARID1A": 0.2762992755625062
+          },
+          "clinical_evidence": {
+            "pmid": "30510156",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "ARID1A",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "ARID1A": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_039",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_039",
+        "drug": "Olaparib",
+        "gene": "CDK12",
+        "mutation": "p.?",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "CDK12+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "CDK12": 0.42475616619423795
+          },
+          "clinical_evidence": {
+            "pmid": "31320749",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "CDK12",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "CDK12": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_040",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.C61G?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_040",
+        "drug": "Olaparib",
+        "gene": "BRCA1",
+        "mutation": "p.C61G",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA1+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA1": 0.44405918068595746
+          },
+          "clinical_evidence": {
+            "pmid": "25366685",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA1",
+            "hgvs_p": "p.C61G",
+            "chrom": "17",
+            "pos": 43070943,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA1": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "HV_001",
+      "question": "How does Vitamin D help with ovarian cancer?",
+      "source": "hypothesis_validator",
+      "source_data": {
+        "food": "Vitamin D",
+        "cancer": "ovarian cancer",
+        "targets": [
+          "VDR",
+          "TP53 pathway",
+          "DNA repair",
+          "Immune function",
+          "BRCA1"
+        ],
+        "pathways": []
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {}
+      }
+    },
+    {
+      "query_id": "HV_002",
+      "question": "How does Omega-3 Fatty Acids (EPA/DHA) help with ovarian cancer?",
+      "source": "hypothesis_validator",
+      "source_data": {
+        "food": "Omega-3 Fatty Acids (EPA/DHA)",
+        "cancer": "ovarian cancer",
+        "targets": [
+          "NF-\u03baB",
+          "COX-2",
+          "IL-6",
+          "Membrane integrity",
+          "Prostaglandins"
+        ],
+        "pathways": []
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {}
+      }
+    },
+    {
+      "query_id": "HV_003",
+      "question": "How does Folate + Vitamin B12 help with ovarian cancer?",
+      "source": "hypothesis_validator",
+      "source_data": {
+        "food": "Folate + Vitamin B12",
+        "cancer": "ovarian cancer",
+        "targets": [
+          "DNA synthesis",
+          "DNA repair",
+          "Methylation",
+          "One-carbon metabolism",
+          "Homocysteine metabolism"
+        ],
+        "pathways": []
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {}
+      }
+    },
+    {
+      "query_id": "HV_004",
+      "question": "How does Curcumin (Turmeric) help with ovarian cancer?",
+      "source": "hypothesis_validator",
+      "source_data": {
+        "food": "Curcumin (Turmeric)",
+        "cancer": "ovarian cancer",
+        "targets": [
+          "NF-\u03baB",
+          "COX-2",
+          "STAT3",
+          "Apoptosis",
+          "HSP90"
+        ],
+        "pathways": []
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {}
+      }
+    },
+    {
+      "query_id": "HV_005",
+      "question": "How does Green Tea (EGCG) help with ovarian cancer?",
+      "source": "hypothesis_validator",
+      "source_data": {
+        "food": "Green Tea (EGCG)",
+        "cancer": "ovarian cancer",
+        "targets": [
+          "Proteasome",
+          "Autophagy",
+          "STAT3",
+          "VEGF",
+          "HSP90"
+        ],
+        "pathways": []
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {}
+      }
+    },
+    {
+      "query_id": "HV_006",
+      "question": "How does NAC (N-Acetylcysteine) help with ovarian cancer?",
+      "source": "hypothesis_validator",
+      "source_data": {
+        "food": "NAC (N-Acetylcysteine)",
+        "cancer": "ovarian cancer",
+        "targets": [
+          "Glutathione",
+          "Oxidative stress",
+          "Mitochondria",
+          "ROS buffering"
+        ],
+        "pathways": []
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {}
+      }
+    }
+  ]
+}

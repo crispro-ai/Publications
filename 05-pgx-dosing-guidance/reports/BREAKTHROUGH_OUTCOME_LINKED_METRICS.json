@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-01-04T09:52:09Z",
+  "breakthroughs": {
+    "dpyd_ugt1a1_prepare_rct": {
+      "pmid": "39641926",
+      "pmc_id": "11624585",
+      "endpoint": "clinically relevant toxic effects",
+      "arms": {
+        "control": {
+          "all_patients": {
+            "n": 311,
+            "tox_events": 54,
+            "tox_cell": "54 (17.4)"
+          },
+          "actionable_carriers": {
+            "n": 23,
+            "tox_events": 8,
+            "tox_cell": "8 (34.8)"
+          },
+          "nonactionable": {
+            "n": 288,
+            "tox_events": 46
+          }
+        },
+        "intervention": {
+          "all_patients": {
+            "n": 252,
+            "tox_events": 37,
+            "tox_cell": "37 (14.7)"
+          },
+          "actionable_carriers": {
+            "n": 17,
+            "tox_events": 1,
+            "tox_cell": "1 (5.9)"
+          },
+          "nonactionable": {
+            "n": 235,
+            "tox_events": 36
+          }
+        }
+      },
+      "note": "Derived from Table 2 by subtraction; provides true negative controls (nonactionable) and carrier vs noncarrier event counts."
+    },
+    "cyp2c19_clopidogrel_outcomes": {
+      "overall": {
+        "pmid": "40944685",
+        "pmc_id": "12673833",
+        "population": "overall",
+        "endpoint": "symptomatic ischemic stroke/TIA",
+        "groups": {
+          "extensive_metabolizer": {
+            "n": 205,
+            "events": 19
+          },
+          "poor_or_intermediate_metabolizer": {
+            "n": 164,
+            "events": 33
+          }
+        },
+        "note": "Counts extracted directly from outcome table; provides borderline IM cases and outcome-linked efficacy signal."
+      },
+      "clopidogrel_treated": {
+        "pmid": "40944685",
+        "pmc_id": "12673833",
+        "population": "clopidogrel-treated",
+        "endpoint": "symptomatic ischemic stroke/TIA",
+        "groups": {
+          "extensive_metabolizer": {
+            "n": 106,
+            "events": 5
+          },
+          "poor_or_intermediate_metabolizer": {
+            "n": 104,
+            "events": 21
+          }
+        },
+        "note": "Counts extracted directly from outcome table; provides borderline IM cases and outcome-linked efficacy signal."
+      }
+    }
+  },
+  "why_this_matters": [
+    "Adds true outcome-linked negatives (nonactionable genotypes with observed toxicity vs no toxicity).",
+    "Adds borderline CYP2C19 intermediate metabolizer efficacy outcomes on clopidogrel.",
+    "Supports moving beyond DPYD-only cohorts toward more representative PGx validation."
+  ]
+}

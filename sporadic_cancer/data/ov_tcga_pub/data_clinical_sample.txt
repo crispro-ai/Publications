@@ -1,0 +1,494 @@
+#Sample Identifier	Patient Identifier	Tumor Stage 2009	Neoplasm Histologic Grade	Tumor Residual Disease	ACGH Data	MRNA Data	Sequenced	Complete Data	Cancer Type	Cancer Type Detailed	Oncotree Code	Sample Type	Somatic Status	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Tumor stage 2009.	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	Tumor residual disease.	ACGH Data.	MRNA data.	Sequenced.	Complete data.	Cancer Type	Cancer Type Detailed	Oncotree Code	The type of sample (i.e., normal, primary, met, recurrence).	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER
+#1	1	1	1	1	1	1	1	1	1	1	1	9	1	1
+SAMPLE_ID	PATIENT_ID	TUMOR_STAGE_2009	GRADE	TUMOR_RESIDUAL_DISEASE	ACGH_DATA	MRNA_DATA	SEQUENCED	COMPLETE_DATA	CANCER_TYPE	CANCER_TYPE_DETAILED	ONCOTREE_CODE	SAMPLE_TYPE	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+TCGA-61-1895-01	TCGA-61-1895	IIIB	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1510-01	TCGA-13-1510	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.966666667
+TCGA-23-1809-01	TCGA-23-1809	IIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-20-1687-01	TCGA-20-1687	IV	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1404-01	TCGA-13-1404	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.466666667
+TCGA-13-1506-01	TCGA-13-1506	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.733333333
+TCGA-23-1116-01	TCGA-23-1116	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.566666667
+TCGA-20-1686-01	TCGA-20-1686	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1505-01	TCGA-13-1505	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.6
+TCGA-24-1846-01	TCGA-24-1846	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1412-01	TCGA-13-1412	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.933333333
+TCGA-23-1111-01	TCGA-23-1111	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1843-01	TCGA-24-1843	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1844-01	TCGA-24-1844	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-23-1120-01	TCGA-23-1120	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.566666667
+TCGA-13-1507-01	TCGA-13-1507	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.4
+TCGA-24-1845-01	TCGA-24-1845	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1842-01	TCGA-24-1842	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1847-01	TCGA-24-1847	IV	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1512-01	TCGA-13-1512	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.6
+TCGA-61-2088-01	TCGA-61-2088	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.5
+TCGA-13-1407-01	TCGA-13-1407	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.833333333
+TCGA-23-1121-01	TCGA-23-1121	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1509-01	TCGA-13-1509	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.333333333
+TCGA-29-1781-01	TCGA-29-1781	IIIC	G3	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0921-01	TCGA-13-0921	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1410-01	TCGA-13-1410	IV	NA	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.766666667
+TCGA-24-1426-01	TCGA-24-1426	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.6
+TCGA-24-1416-01	TCGA-24-1416	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.366666667
+TCGA-24-1470-01	TCGA-24-1470	IIIB	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.033333333
+TCGA-29-1784-01	TCGA-29-1784	IIIC	G3	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1850-01	TCGA-24-1850	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-09-2044-01	TCGA-09-2044	IIB	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.533333333
+TCGA-24-1425-01	TCGA-24-1425	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.766666667
+TCGA-24-1849-01	TCGA-24-1849	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1423-01	TCGA-24-1423	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.933333333
+TCGA-13-0924-01	TCGA-13-0924	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.833333333
+TCGA-13-0923-01	TCGA-13-0923	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.8
+TCGA-24-1413-01	TCGA-24-1413	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.033333333
+TCGA-13-0802-01	TCGA-13-0802	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-29-1783-01	TCGA-29-1783	IIIC	G3	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1424-01	TCGA-24-1424	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.3
+TCGA-13-1405-01	TCGA-13-1405	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.833333333
+TCGA-24-1417-01	TCGA-24-1417	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.433333333
+TCGA-24-1418-01	TCGA-24-1418	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.2
+TCGA-13-0799-01	TCGA-13-0799	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1496-01	TCGA-13-1496	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.566666667
+TCGA-61-1899-01	TCGA-61-1899	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-1900-01	TCGA-61-1900	IIIB	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0801-01	TCGA-13-0801	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0800-01	TCGA-13-0800	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.166666667
+TCGA-13-0768-01	TCGA-13-0768	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-1904-01	TCGA-61-1904	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1419-01	TCGA-24-1419	IIIC	G3	11-20 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.166666667
+TCGA-13-2060-01	TCGA-13-2060	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.266666667
+TCGA-13-0797-01	TCGA-13-0797	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1469-01	TCGA-24-1469	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.7
+TCGA-24-1920-01	TCGA-24-1920	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-23-1024-01	TCGA-23-1024	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.033333333
+TCGA-23-1029-01	TCGA-23-1029	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1403-01	TCGA-13-1403	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.5
+TCGA-13-1504-01	TCGA-13-1504	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.933333333
+TCGA-09-2056-01	TCGA-09-2056	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.233333333
+TCGA-13-0919-01	TCGA-13-0919	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.6
+TCGA-29-1778-01	TCGA-29-1778	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-20-1685-01	TCGA-20-1685	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-20-1684-01	TCGA-20-1684	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0916-01	TCGA-13-0916	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.966666667
+TCGA-29-1769-01	TCGA-29-1769	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-20-1682-01	TCGA-20-1682	IIIC	NA	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0910-01	TCGA-13-0910	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.7
+TCGA-13-0762-01	TCGA-13-0762	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.966666667
+TCGA-29-1711-01	TCGA-29-1711	IIIC	G2	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-1910-01	TCGA-61-1910	IIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-09-2053-01	TCGA-09-2053	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.266666667
+TCGA-61-1737-01	TCGA-61-1737	IV	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0906-01	TCGA-13-0906	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.733333333
+TCGA-29-2428-01	TCGA-29-2428	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0905-01	TCGA-13-0905	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.6
+TCGA-25-2391-01	TCGA-25-2391	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.6
+TCGA-61-1913-01	TCGA-61-1913	IIIB	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-2092-01	TCGA-61-2092	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.733333333
+TCGA-13-0900-01	TCGA-13-0900	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3
+TCGA-61-2097-01	TCGA-61-2097	IIC	G2	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.3
+TCGA-13-0889-01	TCGA-13-0889	IV	NA	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.933333333
+TCGA-04-1347-01	TCGA-04-1347	IV	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.1
+TCGA-13-0890-01	TCGA-13-0890	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.633333333
+TCGA-61-2098-01	TCGA-61-2098	IIIC	G2	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0888-01	TCGA-13-0888	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-1915-01	TCGA-61-1915	IIC	G3	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-04-1367-01	TCGA-04-1367	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.433333333
+TCGA-13-1492-01	TCGA-13-1492	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.1
+TCGA-13-0886-01	TCGA-13-0886	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.6
+TCGA-61-2094-01	TCGA-61-2094	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.4
+TCGA-09-2050-01	TCGA-09-2050	IIA	G2	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.066666667
+TCGA-13-1481-01	TCGA-13-1481	IIIC	G2	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.933333333
+TCGA-23-1118-01	TCGA-23-1118	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.066666667
+TCGA-23-2078-01	TCGA-23-2078	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3
+TCGA-13-0885-01	TCGA-13-0885	IIIC	G3	11-20 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	4.166666667
+TCGA-24-2293-01	TCGA-24-2293	NA	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.8
+TCGA-36-1577-01	TCGA-36-1577	IIC	G2	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.933333333
+TCGA-24-2019-01	TCGA-24-2019	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.966666667
+TCGA-24-1546-01	TCGA-24-1546	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1428-01	TCGA-24-1428	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.433333333
+TCGA-04-1357-01	TCGA-04-1357	IIIB	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.766666667
+TCGA-36-1569-01	TCGA-36-1569	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.266666667
+TCGA-13-0807-01	TCGA-13-0807	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.666666667
+TCGA-04-1336-01	TCGA-04-1336	IIIB	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.733333333
+TCGA-24-2297-01	TCGA-24-2297	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-57-1993-01	TCGA-57-1993	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.466666667
+TCGA-29-1699-01	TCGA-29-1699	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-25-2397-01	TCGA-25-2397	IV	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-1917-01	TCGA-61-1917	IIIB	G3	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1471-01	TCGA-24-1471	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.766666667
+TCGA-29-1695-01	TCGA-29-1695	IIIC	G2	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0760-01	TCGA-13-0760	IV	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	4.933333333
+TCGA-25-2401-01	TCGA-25-2401	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.8
+TCGA-25-1317-01	TCGA-25-1317	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.266666667
+TCGA-24-2281-01	TCGA-24-2281	IIA	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.533333333
+TCGA-25-1312-01	TCGA-25-1312	IV	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-25-2396-01	TCGA-25-2396	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.7
+TCGA-25-1631-01	TCGA-25-1631	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.7
+TCGA-25-1627-01	TCGA-25-1627	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.8
+TCGA-04-1346-01	TCGA-04-1346	IIIC	G2	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.133333333
+TCGA-25-1630-01	TCGA-25-1630	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.2
+TCGA-25-1324-01	TCGA-25-1324	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.266666667
+TCGA-30-1861-01	TCGA-30-1861	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-25-2392-01	TCGA-25-2392	IV	G3	11-20 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.766666667
+TCGA-25-1329-01	TCGA-25-1329	IIIC	G3	11-20 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1
+TCGA-25-1325-01	TCGA-25-1325	IV	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-20-0991-01	TCGA-20-0991	IIB	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.933333333
+TCGA-61-2012-01	TCGA-61-2012	IIC	G2	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.933333333
+TCGA-24-1422-01	TCGA-24-1422	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.333333333
+TCGA-36-1575-01	TCGA-36-1575	IIIB	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.066666667
+TCGA-04-1341-01	TCGA-04-1341	NA	G3	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-59-2363-01	TCGA-59-2363	IIIA	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.1
+TCGA-59-2348-01	TCGA-59-2348	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.3
+TCGA-24-1928-01	TCGA-24-1928	IIIC	G3	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-29-1698-01	TCGA-29-1698	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-0980-01	TCGA-24-0980	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1
+TCGA-24-0970-01	TCGA-24-0970	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.7
+TCGA-13-0725-01	TCGA-13-0725	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-23-1027-01	TCGA-23-1027	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.266666667
+TCGA-13-0755-01	TCGA-13-0755	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.566666667
+TCGA-25-1315-01	TCGA-25-1315	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.4
+TCGA-61-1738-01	TCGA-61-1738	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-31-1953-01	TCGA-31-1953	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.133333333
+TCGA-13-0723-01	TCGA-13-0723	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.1
+TCGA-13-0724-01	TCGA-13-0724	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.166666667
+TCGA-13-1485-01	TCGA-13-1485	IV	G2	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1565-01	TCGA-24-1565	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.833333333
+TCGA-23-1028-01	TCGA-23-1028	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.3
+TCGA-24-1560-01	TCGA-24-1560	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.766666667
+TCGA-30-1856-01	TCGA-30-1856	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0757-01	TCGA-13-0757	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1558-01	TCGA-24-1558	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.666666667
+TCGA-24-0982-01	TCGA-24-0982	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.1
+TCGA-04-1525-01	TCGA-04-1525	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.6
+TCGA-13-0805-01	TCGA-13-0805	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-25-1328-01	TCGA-25-1328	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.333333333
+TCGA-13-1477-01	TCGA-13-1477	IV	G2	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.433333333
+TCGA-13-1500-01	TCGA-13-1500	IIIC	G3	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-1901-01	TCGA-61-1901	IV	G3	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-30-1891-01	TCGA-30-1891	IIIC	G2	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.766666667
+TCGA-04-1349-01	TCGA-04-1349	IV	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1
+TCGA-61-1733-01	TCGA-61-1733	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-2110-01	TCGA-61-2110	IIIC	NA	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.166666667
+TCGA-04-1362-01	TCGA-04-1362	IIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.9
+TCGA-24-1431-01	TCGA-24-1431	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.466666667
+TCGA-10-0934-01	TCGA-10-0934	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.7
+TCGA-25-1316-01	TCGA-25-1316	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.466666667
+TCGA-13-1483-01	TCGA-13-1483	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.5
+TCGA-25-2399-01	TCGA-25-2399	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.2
+TCGA-25-1318-01	TCGA-25-1318	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.533333333
+TCGA-09-0366-01	TCGA-09-0366	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.066666667
+TCGA-24-1562-01	TCGA-24-1562	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.833333333
+TCGA-13-0904-01	TCGA-13-0904	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.833333333
+TCGA-61-1906-01	TCGA-61-1906	IIIC	G3	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1548-01	TCGA-24-1548	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.9
+TCGA-10-0937-01	TCGA-10-0937	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.066666667
+TCGA-29-1702-01	TCGA-29-1702	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0911-01	TCGA-13-0911	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.666666667
+TCGA-36-1580-01	TCGA-36-1580	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.466666667
+TCGA-36-1578-01	TCGA-36-1578	IV	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.566666667
+TCGA-57-1586-01	TCGA-57-1586	IIIC	G3	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-04-1364-01	TCGA-04-1364	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.166666667
+TCGA-24-1564-01	TCGA-24-1564	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.2
+TCGA-04-1638-01	TCGA-04-1638	IV	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-25-1628-01	TCGA-25-1628	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.533333333
+TCGA-24-1923-01	TCGA-24-1923	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1434-01	TCGA-24-1434	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.233333333
+TCGA-13-0764-01	TCGA-13-0764	IV	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-25-1626-01	TCGA-25-1626	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.2
+TCGA-61-2000-01	TCGA-61-2000	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.1
+TCGA-13-0720-01	TCGA-13-0720	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.433333333
+TCGA-13-0803-01	TCGA-13-0803	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-29-1705-01	TCGA-29-1705	IIIC	G2	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-2033-01	TCGA-24-2033	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0717-01	TCGA-13-0717	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.233333333
+TCGA-30-1892-01	TCGA-30-1892	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-30-1714-01	TCGA-30-1714	IV	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-25-2409-01	TCGA-25-2409	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.666666667
+TCGA-13-0795-01	TCGA-13-0795	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.8
+TCGA-23-1117-01	TCGA-23-1117	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.533333333
+TCGA-24-1552-01	TCGA-24-1552	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.066666667
+TCGA-13-0727-01	TCGA-13-0727	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.733333333
+TCGA-29-1701-01	TCGA-29-1701	IIIC	G3	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0791-01	TCGA-13-0791	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.966666667
+TCGA-10-0926-01	TCGA-10-0926	IIIC	G3	11-20 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.133333333
+TCGA-13-0920-01	TCGA-13-0920	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.866666667
+TCGA-24-1567-01	TCGA-24-1567	IIIB	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.333333333
+TCGA-24-1924-01	TCGA-24-1924	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-23-2079-01	TCGA-23-2079	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.466666667
+TCGA-30-1866-01	TCGA-30-1866	IV	G2	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1464-01	TCGA-24-1464	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.333333333
+TCGA-29-1703-01	TCGA-29-1703	IIIC	G2	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1557-01	TCGA-24-1557	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.366666667
+TCGA-13-0804-01	TCGA-13-0804	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.966666667
+TCGA-29-1696-01	TCGA-29-1696	IIIC	G2	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-10-0938-01	TCGA-10-0938	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.466666667
+TCGA-10-0931-01	TCGA-10-0931	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.9
+TCGA-29-1775-01	TCGA-29-1775	IIIC	G2	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0893-01	TCGA-13-0893	IIIC	G3	11-20 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2
+TCGA-09-0369-01	TCGA-09-0369	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.766666667
+TCGA-25-1634-01	TCGA-25-1634	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.8
+TCGA-04-1338-01	TCGA-04-1338	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.966666667
+TCGA-25-2393-01	TCGA-25-2393	IIIC	G3	11-20 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.5
+TCGA-13-1488-01	TCGA-13-1488	IV	G3	11-20 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.066666667
+TCGA-13-0793-01	TCGA-13-0793	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.6
+TCGA-30-1860-01	TCGA-30-1860	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-30-1880-01	TCGA-30-1880	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-04-1530-01	TCGA-04-1530	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.833333333
+TCGA-29-1774-01	TCGA-29-1774	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-36-1571-01	TCGA-36-1571	IIIB	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.3
+TCGA-24-2290-01	TCGA-24-2290	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.333333333
+TCGA-13-0761-01	TCGA-13-0761	IV	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.566666667
+TCGA-23-1122-01	TCGA-23-1122	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.1
+TCGA-25-1623-01	TCGA-25-1623	IV	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.333333333
+TCGA-13-1487-01	TCGA-13-1487	IV	NA	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.133333333
+TCGA-31-1950-01	TCGA-31-1950	IIIC	G2	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.233333333
+TCGA-04-1517-01	TCGA-04-1517	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.566666667
+TCGA-09-0364-01	TCGA-09-0364	IIC	G3	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1501-01	TCGA-13-1501	IV	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.033333333
+TCGA-24-1474-01	TCGA-24-1474	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.7
+TCGA-04-1332-01	TCGA-04-1332	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.766666667
+TCGA-23-1110-01	TCGA-23-1110	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.066666667
+TCGA-13-0726-01	TCGA-13-0726	IIIC	NA	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.966666667
+TCGA-10-0933-01	TCGA-10-0933	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.066666667
+TCGA-13-0901-01	TCGA-13-0901	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0894-01	TCGA-13-0894	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.566666667
+TCGA-29-1770-01	TCGA-29-1770	IIIC	G2	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1616-01	TCGA-24-1616	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.633333333
+TCGA-25-1323-01	TCGA-25-1323	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-36-1570-01	TCGA-36-1570	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.733333333
+TCGA-24-0979-01	TCGA-24-0979	IV	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.533333333
+TCGA-25-1326-01	TCGA-25-1326	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.833333333
+TCGA-25-1313-01	TCGA-25-1313	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.766666667
+TCGA-25-1320-01	TCGA-25-1320	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.3
+TCGA-13-0887-01	TCGA-13-0887	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.666666667
+TCGA-24-1563-01	TCGA-24-1563	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.733333333
+TCGA-09-1665-01	TCGA-09-1665	IIIC	G2	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.266666667
+TCGA-04-1648-01	TCGA-04-1648	IIIC	G2	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-04-1536-01	TCGA-04-1536	IV	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-1918-01	TCGA-61-1918	IV	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1930-01	TCGA-24-1930	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-04-1646-01	TCGA-04-1646	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-25-1321-01	TCGA-25-1321	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.066666667
+TCGA-24-1105-01	TCGA-24-1105	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.633333333
+TCGA-23-1022-01	TCGA-23-1022	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	5.266666667
+TCGA-04-1331-01	TCGA-04-1331	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.5
+TCGA-24-2024-01	TCGA-24-2024	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.233333333
+TCGA-25-2404-01	TCGA-25-2404	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.233333333
+TCGA-09-1666-01	TCGA-09-1666	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.533333333
+TCGA-13-0908-01	TCGA-13-0908	IV	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1484-01	TCGA-13-1484	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.066666667
+TCGA-61-1741-01	TCGA-61-1741	IIIB	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-2029-01	TCGA-24-2029	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-29-1785-01	TCGA-29-1785	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-29-1697-01	TCGA-29-1697	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1498-01	TCGA-13-1498	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.9
+TCGA-13-0912-01	TCGA-13-0912	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.8
+TCGA-23-2072-01	TCGA-23-2072	IV	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.4
+TCGA-29-1763-01	TCGA-29-1763	IIC	G2	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-1728-01	TCGA-61-1728	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.833333333
+TCGA-25-1632-01	TCGA-25-1632	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.233333333
+TCGA-24-1430-01	TCGA-24-1430	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-09-1667-01	TCGA-09-1667	IIC	G2	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1466-01	TCGA-24-1466	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.366666667
+TCGA-24-2280-01	TCGA-24-2280	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.766666667
+TCGA-24-2027-01	TCGA-24-2027	IV	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1491-01	TCGA-13-1491	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.033333333
+TCGA-24-1435-01	TCGA-24-1435	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.066666667
+TCGA-23-1023-01	TCGA-23-1023	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.066666667
+TCGA-09-1670-01	TCGA-09-1670	IIIA	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-2109-01	TCGA-61-2109	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.866666667
+TCGA-23-1030-01	TCGA-23-1030	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.2
+TCGA-25-1635-01	TCGA-25-1635	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.566666667
+TCGA-24-2289-01	TCGA-24-2289	IV	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.966666667
+TCGA-13-0751-01	TCGA-13-0751	IIIC	NA	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1
+TCGA-09-2045-01	TCGA-09-2045	IV	G2	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.033333333
+TCGA-04-1348-01	TCGA-04-1348	IIIB	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.2
+TCGA-25-2400-01	TCGA-25-2400	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2
+TCGA-13-1499-01	TCGA-13-1499	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.666666667
+TCGA-24-1553-01	TCGA-24-1553	IIIB	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.933333333
+TCGA-24-0968-01	TCGA-24-0968	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.6
+TCGA-13-0897-01	TCGA-13-0897	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.4
+TCGA-29-2414-01	TCGA-29-2414	IIIC	G2	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0899-01	TCGA-13-0899	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1
+TCGA-25-2398-01	TCGA-25-2398	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.266666667
+TCGA-09-2051-01	TCGA-09-2051	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.8
+TCGA-36-1568-01	TCGA-36-1568	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.133333333
+TCGA-25-1633-01	TCGA-25-1633	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.366666667
+TCGA-24-2254-01	TCGA-24-2254	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.3
+TCGA-24-1544-01	TCGA-24-1544	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.6
+TCGA-13-0766-01	TCGA-13-0766	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-36-1574-01	TCGA-36-1574	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.6
+TCGA-29-1768-01	TCGA-29-1768	IV	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-23-1124-01	TCGA-23-1124	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	4.066666667
+TCGA-31-1944-01	TCGA-31-1944	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1482-01	TCGA-13-1482	IV	G2	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.6
+TCGA-23-1114-01	TCGA-23-1114	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-29-1771-01	TCGA-29-1771	IIIC	G2	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1614-01	TCGA-24-1614	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.066666667
+TCGA-23-2084-01	TCGA-23-2084	IV	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0883-01	TCGA-13-0883	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.833333333
+TCGA-29-1691-01	TCGA-29-1691	IIIC	G2	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-20-1683-01	TCGA-20-1683	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-29-1766-01	TCGA-29-1766	IIIC	G2	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-29-1693-01	TCGA-29-1693	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0765-01	TCGA-13-0765	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.633333333
+TCGA-30-1853-01	TCGA-30-1853	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.133333333
+TCGA-31-1951-01	TCGA-31-1951	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1494-01	TCGA-13-1494	IV	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.366666667
+TCGA-24-2030-01	TCGA-24-2030	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.466666667
+TCGA-24-2260-01	TCGA-24-2260	IIIB	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.3
+TCGA-13-1489-01	TCGA-13-1489	IIIC	G2	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.5
+TCGA-61-2113-01	TCGA-61-2113	IIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.866666667
+TCGA-24-1103-01	TCGA-24-1103	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.866666667
+TCGA-10-0930-01	TCGA-10-0930	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	4.266666667
+TCGA-36-1581-01	TCGA-36-1581	IIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1545-01	TCGA-24-1545	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.6
+TCGA-13-0891-01	TCGA-13-0891	IV	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.833333333
+TCGA-61-1907-01	TCGA-61-1907	IIIC	G3	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-36-1576-01	TCGA-36-1576	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.466666667
+TCGA-31-1946-01	TCGA-31-1946	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-1736-01	TCGA-61-1736	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.066666667
+TCGA-29-1764-01	TCGA-29-1764	IIIC	G2	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1497-01	TCGA-13-1497	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.7
+TCGA-24-1551-01	TCGA-24-1551	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.966666667
+TCGA-20-0990-01	TCGA-20-0990	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.2
+TCGA-61-1743-01	TCGA-61-1743	IIC	G2	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0792-01	TCGA-13-0792	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.866666667
+TCGA-61-2008-01	TCGA-61-2008	IIC	G2	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.566666667
+TCGA-04-1655-01	TCGA-04-1655	IIIB	G2	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-1725-01	TCGA-61-1725	IIIC	G3	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-04-1652-01	TCGA-04-1652	IIIC	G2	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-23-1026-01	TCGA-23-1026	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.9
+TCGA-61-1911-01	TCGA-61-1911	IIA	G3	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0913-01	TCGA-13-0913	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.4
+TCGA-13-0794-01	TCGA-13-0794	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-30-1718-01	TCGA-30-1718	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1550-01	TCGA-24-1550	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-2009-01	TCGA-61-2009	IIIC	G3	11-20 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.833333333
+TCGA-04-1654-01	TCGA-04-1654	IIIC	G2	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-2036-01	TCGA-24-2036	IIIA	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-09-2049-01	TCGA-09-2049	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.333333333
+TCGA-24-1104-01	TCGA-24-1104	IV	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.433333333
+TCGA-13-1495-01	TCGA-13-1495	IIIC	G2	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.066666667
+TCGA-04-1542-01	TCGA-04-1542	IIIB	G2	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.8
+TCGA-04-1651-01	TCGA-04-1651	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1463-01	TCGA-24-1463	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.833333333
+TCGA-10-0927-01	TCGA-10-0927	IIIC	G2	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.733333333
+TCGA-09-1662-01	TCGA-09-1662	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.9
+TCGA-13-0884-01	TCGA-13-0884	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.5
+TCGA-04-1514-01	TCGA-04-1514	IIIA	G2	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.833333333
+TCGA-29-1707-01	TCGA-29-1707	IIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-23-2077-01	TCGA-23-2077	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.033333333
+TCGA-04-1365-01	TCGA-04-1365	IIIB	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.166666667
+TCGA-29-1762-01	TCGA-29-1762	IV	G2	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-29-2425-01	TCGA-29-2425	IIIC	G2	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-2101-01	TCGA-61-2101	IIIC	G2	11-20 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.8
+TCGA-61-1914-01	TCGA-61-1914	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-2111-01	TCGA-61-2111	IV	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.233333333
+TCGA-24-1467-01	TCGA-24-1467	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-23-1119-01	TCGA-23-1119	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-25-2408-01	TCGA-25-2408	IV	G2	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.466666667
+TCGA-29-1688-01	TCGA-29-1688	IIIC	G2	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-25-1314-01	TCGA-25-1314	IV	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-0903-01	TCGA-13-0903	IV	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.766666667
+TCGA-61-1995-01	TCGA-61-1995	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.633333333
+TCGA-23-1021-01	TCGA-23-1021	IV	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.133333333
+TCGA-29-1694-01	TCGA-29-1694	IIIC	NA	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-04-1350-01	TCGA-04-1350	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.066666667
+TCGA-61-2002-01	TCGA-61-2002	IIIC	G3	11-20 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.133333333
+TCGA-30-1867-01	TCGA-30-1867	IV	NA	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-1724-01	TCGA-61-1724	IIIC	G3	No Macroscopic disease	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-57-1584-01	TCGA-57-1584	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.833333333
+TCGA-29-1777-01	TCGA-29-1777	IIIC	G2	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-23-1113-01	TCGA-23-1113	IV	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-1998-01	TCGA-61-1998	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.7
+TCGA-23-2081-01	TCGA-23-2081	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.3
+TCGA-31-1959-01	TCGA-31-1959	IV	G2	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.266666667
+TCGA-24-1555-01	TCGA-24-1555	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.433333333
+TCGA-24-1556-01	TCGA-24-1556	IIB	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.466666667
+TCGA-09-1673-01	TCGA-09-1673	IV	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-09-1659-01	TCGA-09-1659	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.5
+TCGA-61-2016-01	TCGA-61-2016	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.533333333
+TCGA-13-1511-01	TCGA-13-1511	IV	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-2104-01	TCGA-61-2104	IIC	G2	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.4
+TCGA-61-2003-01	TCGA-61-2003	IIIC	G2	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.2
+TCGA-24-1603-01	TCGA-24-1603	IIIB	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.8
+TCGA-61-2095-01	TCGA-61-2095	IIIC	G2	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	3.533333333
+TCGA-24-2023-01	TCGA-24-2023	IIIA	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-29-1710-01	TCGA-29-1710	IIIC	G2	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-09-1669-01	TCGA-09-1669	IIIA	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.366666667
+TCGA-13-0714-01	TCGA-13-0714	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.033333333
+TCGA-24-2271-01	TCGA-24-2271	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.833333333
+TCGA-24-2298-01	TCGA-24-2298	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.233333333
+TCGA-30-1859-01	TCGA-30-1859	NA	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-04-1361-01	TCGA-04-1361	IIIB	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.733333333
+TCGA-24-2262-01	TCGA-24-2262	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.866666667
+TCGA-57-1585-01	TCGA-57-1585	IIIC	G3	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1436-01	TCGA-24-1436	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.066666667
+TCGA-09-1668-01	TCGA-09-1668	IIIC	G3	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-57-1583-01	TCGA-57-1583	IIIC	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.3
+TCGA-61-1919-01	TCGA-61-1919	IIIC	G2	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1
+TCGA-09-2054-01	TCGA-09-2054	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-2267-01	TCGA-24-2267	IIB	G3	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.933333333
+TCGA-24-0975-01	TCGA-24-0975	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.633333333
+TCGA-24-1427-01	TCGA-24-1427	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.5
+TCGA-24-1549-01	TCGA-24-1549	IIIB	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.933333333
+TCGA-25-1870-01	TCGA-25-1870	IIIC	G3	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-23-1123-01	TCGA-23-1123	IIIC	G3	11-20 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.433333333
+TCGA-23-1107-01	TCGA-23-1107	IV	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1408-01	TCGA-13-1408	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.666666667
+TCGA-29-2427-01	TCGA-29-2427	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.6
+TCGA-25-1878-01	TCGA-25-1878	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-31-1956-01	TCGA-31-1956	IIIB	G3	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-25-2042-01	TCGA-25-2042	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.966666667
+TCGA-23-1031-01	TCGA-23-1031	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.566666667
+TCGA-20-0987-01	TCGA-20-0987	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.666666667
+TCGA-30-1855-01	TCGA-30-1855	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-25-1322-01	TCGA-25-1322	IV	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.933333333
+TCGA-04-1356-01	TCGA-04-1356	IIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.533333333
+TCGA-23-1109-01	TCGA-23-1109	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-29-1776-01	TCGA-29-1776	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-09-2048-01	TCGA-09-2048	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-30-1857-01	TCGA-30-1857	IV	G3	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-2035-01	TCGA-24-2035	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.3
+TCGA-30-1862-01	TCGA-30-1862	IV	G2	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.066666667
+TCGA-25-1625-01	TCGA-25-1625	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.033333333
+TCGA-29-1690-01	TCGA-29-1690	IIIC	G2	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-1604-01	TCGA-24-1604	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.666666667
+TCGA-09-0367-01	TCGA-09-0367	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-30-1887-01	TCGA-30-1887	IIIC	G2	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-2020-01	TCGA-24-2020	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-2038-01	TCGA-24-2038	IIIA	NA	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.333333333
+TCGA-10-0935-01	TCGA-10-0935	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.266666667
+TCGA-10-0936-01	TCGA-10-0936	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-25-1871-01	TCGA-25-1871	IIIC	G3	11-20 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-2288-01	TCGA-24-2288	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.866666667
+TCGA-10-0928-01	TCGA-10-0928	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.2
+TCGA-13-0730-01	TCGA-13-0730	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1
+TCGA-61-1740-01	TCGA-61-1740	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-04-1343-01	TCGA-04-1343	IV	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.566666667
+TCGA-23-1032-01	TCGA-23-1032	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.433333333
+TCGA-25-1319-01	TCGA-25-1319	IIIC	G3	11-20 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.6
+TCGA-13-1409-01	TCGA-13-1409	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.466666667
+TCGA-04-1649-01	TCGA-04-1649	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-2102-01	TCGA-61-2102	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.533333333
+TCGA-09-1661-01	TCGA-09-1661	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.133333333
+TCGA-24-2261-01	TCGA-24-2261	IIIC	G3	11-20 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1
+TCGA-24-0966-01	TCGA-24-0966	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.966666667
+TCGA-04-1337-01	TCGA-04-1337	IIIC	G2	No Macroscopic disease	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.933333333
+TCGA-09-1674-01	TCGA-09-1674	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-24-2026-01	TCGA-24-2026	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-29-1761-01	TCGA-29-1761	IIIC	G3	>20mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-04-1342-01	TCGA-04-1342	IV	G2	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.4
+TCGA-25-1877-01	TCGA-25-1877	IIIC	G3	1-10 mm	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-13-1411-01	TCGA-13-1411	IIIC	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.233333333
+TCGA-59-2350-01	TCGA-59-2350	IV	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.766666667
+TCGA-59-2354-01	TCGA-59-2354	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.366666667
+TCGA-59-2351-01	TCGA-59-2351	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.3
+TCGA-59-2355-01	TCGA-59-2355	IV	G3	>20mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	0.666666667
+TCGA-59-2352-01	TCGA-59-2352	IIIC	G3	NA	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	2.166666667
+TCGA-57-1582-01	TCGA-57-1582	IIIC	G3	1-10 mm	Yes	Yes	Yes	Yes	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	1.6
+TCGA-04-1519-01	TCGA-04-1519	IIIC	G3	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-57-1994-01	TCGA-57-1994	NA	NA	NA	Yes	Yes	No	No	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA
+TCGA-61-1721-01	TCGA-04-1370	NA	NA	NA	NA	NA	NA	NA	Ovarian Cancer	High-Grade Serous Ovarian Cancer	HGSOC	Primary	Matched	NA

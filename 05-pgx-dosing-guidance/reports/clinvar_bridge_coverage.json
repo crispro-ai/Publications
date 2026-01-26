@@ -1,0 +1,900 @@
+{
+  "generated_at": "2026-01-04T09:13:18Z",
+  "definition": {
+    "metric": "ClinVar bridge coverage",
+    "coverage_meaning": "Whether the system can retrieve a ClinVar search page for the variant and extract any classification signal using the current heuristic (NOT clinical accuracy).",
+    "algorithm_note": "This uses a simplistic HTML term-count heuristic mirroring api/routers/evidence/clinvar.py; it is evidence retrieval, not expert adjudication."
+  },
+  "non_cpic_cases": 49,
+  "fetched_200": 49,
+  "heuristic_labeled": 49,
+  "coverage_rate_fetched": 1.0,
+  "coverage_rate_labeled": 1.0,
+  "label_distribution": {
+    "conflicting": 49
+  },
+  "rows": [
+    {
+      "case_id": "CBIO-coad_cptac_gdc-11CO036",
+      "gene": "DPYD",
+      "variant": "A348T",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20A348T",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-001",
+      "gene": "DPYD",
+      "variant": "chr6:g.18139713G>T",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr6%3Ag.18139713G%3ET",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-002",
+      "gene": "DPYD",
+      "variant": "chr6:g.18130698delA",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr6%3Ag.18130698delA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-003",
+      "gene": "DPYD",
+      "variant": "chr6:g.18149023G>A",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr6%3Ag.18149023G%3EA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-004",
+      "gene": "DPYD",
+      "variant": "chr6:g.18130729C>T",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr6%3Ag.18130729C%3ET",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-005",
+      "gene": "DPYD",
+      "variant": "chr6:g.18133864G>A",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr6%3Ag.18133864G%3EA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-006",
+      "gene": "DPYD",
+      "variant": "chr6:g.18143662delA",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr6%3Ag.18143662delA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-007",
+      "gene": "DPYD",
+      "variant": "chr6:g.18143717C>A",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr6%3Ag.18143717C%3EA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-008",
+      "gene": "DPYD",
+      "variant": "chr6:g.18130763G>A",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr6%3Ag.18130763G%3EA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-009",
+      "gene": "DPYD",
+      "variant": "chr1:g.97679174G>A",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97679174G%3EA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-010",
+      "gene": "DPYD",
+      "variant": "chr1:g.97828158C>A",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97828158C%3EA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-011",
+      "gene": "DPYD",
+      "variant": "chr1:g.97573967C>A",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97573967C%3EA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-012",
+      "gene": "DPYD",
+      "variant": "chr1:g.97721603A>G",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97721603A%3EG",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-013",
+      "gene": "DPYD",
+      "variant": "chr1:g.97079145G>T",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97079145G%3ET",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-014",
+      "gene": "DPYD",
+      "variant": "chr1:g.97306282G>A",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97306282G%3EA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-015",
+      "gene": "DPYD",
+      "variant": "chr1:g.97593336A>G",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97593336A%3EG",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-016",
+      "gene": "DPYD",
+      "variant": "chr1:g.97306235delA",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97306235delA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-017",
+      "gene": "DPYD",
+      "variant": "chr1:g.97573918C>T",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97573918C%3ET",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-018",
+      "gene": "DPYD",
+      "variant": "chr1:g.97079073C>T",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97079073C%3ET",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-019",
+      "gene": "DPYD",
+      "variant": "chr1:g.97883365C>T",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97883365C%3ET",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-020",
+      "gene": "DPYD",
+      "variant": "chr1:g.97679126T>G",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97679126T%3EG",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-021",
+      "gene": "DPYD",
+      "variant": "chr1:g.97082458T>C",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97082458T%3EC",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-022",
+      "gene": "DPYD",
+      "variant": "chr1:g.97721543A>G",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97721543A%3EG",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-023",
+      "gene": "DPYD",
+      "variant": "chr1:g.97699457G>A",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97699457G%3EA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-024",
+      "gene": "DPYD",
+      "variant": "chr1:g.97515906T>G",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97515906T%3EG",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-025",
+      "gene": "DPYD",
+      "variant": "chr1:g.97234900A>G",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97234900A%3EG",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-026",
+      "gene": "DPYD",
+      "variant": "chr1:g.97721569A>C",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97721569A%3EC",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-027",
+      "gene": "DPYD",
+      "variant": "chr1:g.97549703G>T",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97549703G%3ET",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-028",
+      "gene": "DPYD",
+      "variant": "chr1:g.97595138G>T",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97595138G%3ET",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-029",
+      "gene": "DPYD",
+      "variant": "chr1:g.97306195C>T",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97306195C%3ET",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-030",
+      "gene": "DPYD",
+      "variant": "chr1:g.97515899delG",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97515899delG",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-031",
+      "gene": "DPYD",
+      "variant": "chr1:g.97699431T>C",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97699431T%3EC",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-032",
+      "gene": "DPYD",
+      "variant": "chr1:g.97098520A>C",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97098520A%3EC",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-033",
+      "gene": "DPYD",
+      "variant": "chr1:g.97079031G>T",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97079031G%3ET",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-034",
+      "gene": "DPYD",
+      "variant": "chr1:g.97573950T>C",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=DPYD%20chr1%3Ag.97573950T%3EC",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-001",
+      "gene": "UGT1A1",
+      "variant": "chr6:g.18139713G>T",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=UGT1A1%20chr6%3Ag.18139713G%3ET",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-002",
+      "gene": "UGT1A1",
+      "variant": "chr6:g.18130698delA",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=UGT1A1%20chr6%3Ag.18130698delA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-003",
+      "gene": "UGT1A1",
+      "variant": "chr6:g.18149023G>A",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=UGT1A1%20chr6%3Ag.18149023G%3EA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-004",
+      "gene": "UGT1A1",
+      "variant": "chr6:g.18130729C>T",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=UGT1A1%20chr6%3Ag.18130729C%3ET",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-005",
+      "gene": "UGT1A1",
+      "variant": "chr6:g.18133864G>A",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=UGT1A1%20chr6%3Ag.18133864G%3EA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-006",
+      "gene": "UGT1A1",
+      "variant": "chr6:g.18143662delA",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=UGT1A1%20chr6%3Ag.18143662delA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-001",
+      "gene": "TPMT",
+      "variant": "chr6:g.18139713G>T",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=TPMT%20chr6%3Ag.18139713G%3ET",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-002",
+      "gene": "TPMT",
+      "variant": "chr6:g.18130698delA",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=TPMT%20chr6%3Ag.18130698delA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-003",
+      "gene": "TPMT",
+      "variant": "chr6:g.18149023G>A",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=TPMT%20chr6%3Ag.18149023G%3EA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-004",
+      "gene": "TPMT",
+      "variant": "chr6:g.18130729C>T",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=TPMT%20chr6%3Ag.18130729C%3ET",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-005",
+      "gene": "TPMT",
+      "variant": "chr6:g.18133864G>A",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=TPMT%20chr6%3Ag.18133864G%3EA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-006",
+      "gene": "TPMT",
+      "variant": "chr6:g.18143662delA",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=TPMT%20chr6%3Ag.18143662delA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-007",
+      "gene": "TPMT",
+      "variant": "chr6:g.18143717C>A",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=TPMT%20chr6%3Ag.18143717C%3EA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    },
+    {
+      "case_id": "GDC-TCGA-COAD-008",
+      "gene": "TPMT",
+      "variant": "chr6:g.18130763G>A",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=TPMT%20chr6%3Ag.18130763G%3EA",
+      "http_status": 200,
+      "fetched": true,
+      "counts": {
+        "pathogenic": 6,
+        "likely_pathogenic": 1,
+        "benign": 6,
+        "likely_benign": 1,
+        "vus": 1,
+        "conflicting": 0
+      },
+      "heuristic_label": "conflicting",
+      "error": null
+    }
+  ]
+}

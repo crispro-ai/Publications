@@ -1,0 +1,118 @@
+{
+  "n_requested": 10,
+  "source": "publications/synthetic_lethality/data/OmicsSomaticMutations.csv",
+  "service": "modal:variant-analysis-evo2.Evo2Model.analyze_single_variant(pos, alt, genome, chrom)",
+  "notes": "This scorer fetches reference base from UCSC and does not take ref/alt pair. Next step: use evo-service score_variant_multi for strict REF validation.",
+  "results": [
+    {
+      "ModelID": "ACH-002157",
+      "gene": "TP53",
+      "chrom": "chr17",
+      "pos": 7674241,
+      "alt": "C",
+      "status": "ok",
+      "delta_score": -0.002591371536254883,
+      "confidence": 1.0,
+      "classification": null
+    },
+    {
+      "ModelID": "ACH-002197",
+      "gene": "RAD51C",
+      "chrom": "chr17",
+      "pos": 58724069,
+      "alt": "T",
+      "status": "ok",
+      "delta_score": -0.0040991902351379395,
+      "confidence": 1.0,
+      "classification": null
+    },
+    {
+      "ModelID": "ACH-000921",
+      "gene": "PRKDC",
+      "chrom": "chr8",
+      "pos": 47785113,
+      "alt": "A",
+      "status": "ok",
+      "delta_score": -0.002884805202484131,
+      "confidence": 1.0,
+      "classification": null
+    },
+    {
+      "ModelID": "ACH-001061",
+      "gene": "CHEK2",
+      "chrom": "chr22",
+      "pos": 28711961,
+      "alt": "T",
+      "status": "ok",
+      "delta_score": -0.006316721439361572,
+      "confidence": 1.0,
+      "classification": null
+    },
+    {
+      "ModelID": "ACH-000887",
+      "gene": "ARID1A",
+      "chrom": "chr1",
+      "pos": 26780198,
+      "alt": "T",
+      "status": "ok",
+      "delta_score": -0.0009545087814331055,
+      "confidence": 0.024211544543504715,
+      "classification": null
+    },
+    {
+      "ModelID": "ACH-001699",
+      "gene": "TP53",
+      "chrom": "chr17",
+      "pos": 7675993,
+      "alt": "T",
+      "status": "ok",
+      "delta_score": -0.016738414764404297,
+      "confidence": 1.0,
+      "classification": null
+    },
+    {
+      "ModelID": "ACH-002681",
+      "gene": "TP53",
+      "chrom": "chr17",
+      "pos": 7676273,
+      "alt": "G",
+      "status": "ok",
+      "delta_score": -0.0022745132446289062,
+      "confidence": 0.8960633873939514,
+      "classification": null
+    },
+    {
+      "ModelID": "ACH-000467",
+      "gene": "ATM",
+      "chrom": "chr11",
+      "pos": 108327679,
+      "alt": "A",
+      "status": "ok",
+      "delta_score": -0.004182577133178711,
+      "confidence": 1.0,
+      "classification": null
+    },
+    {
+      "ModelID": "ACH-000668",
+      "gene": "TP53",
+      "chrom": "chr17",
+      "pos": 7674220,
+      "alt": "T",
+      "status": "ok",
+      "delta_score": -0.0013657212257385254,
+      "confidence": 0.2958138883113861,
+      "classification": null
+    },
+    {
+      "ModelID": "ACH-000366",
+      "gene": "TP53",
+      "chrom": "chr17",
+      "pos": 7676040,
+      "alt": "A",
+      "status": "ok",
+      "delta_score": -0.005956292152404785,
+      "confidence": 1.0,
+      "classification": null
+    }
+  ]
+}

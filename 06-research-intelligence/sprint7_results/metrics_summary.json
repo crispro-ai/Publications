@@ -1,0 +1,657 @@
+{
+  "timestamp": "2026-01-07T16:00:27.702468",
+  "total_queries": 81,
+  "average_precision": 0.0,
+  "average_recall": 0.0,
+  "average_f1": 0.0,
+  "per_query_metrics": [
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_001",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_002",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_003",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_004",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_005",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_006",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_007",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_008",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_009",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_010",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_011",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_012",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_013",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_014",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_015",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_016",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_017",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_018",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_019",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_020",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_021",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_022",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_023",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_024",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_025",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_026",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_027",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_028",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_029",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_030",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_031",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_032",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_033",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_034",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_035",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_036",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_037",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_038",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_039",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "DG_040",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 2
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_001",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_002",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_003",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_004",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_005",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_006",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_007",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_008",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_009",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_010",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_011",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_012",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_013",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_014",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_015",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_016",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_017",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_018",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_019",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_020",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_021",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_022",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_023",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_024",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_025",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_026",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_027",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_028",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_029",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_030",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_031",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_032",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_033",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_034",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_035",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_036",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_037",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_038",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_039",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "SL_040",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "query_id": "HV_001",
+      "mechanism_count": 0,
+      "ground_truth_keyword_count": 20
+    }
+  ]
+}

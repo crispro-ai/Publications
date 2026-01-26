@@ -1,0 +1,153 @@
+gene,step,label,priority_score,indication,fda_approval_date,nct_id,category
+RET,primary_growth,1,50,Metastatic medullary thyroid cancer,2024-09-27,NCT03157128,
+RET,local_invasion,1,50,Metastatic medullary thyroid cancer,2024-09-27,NCT03157128,
+RET,intravasation,1,50,Metastatic medullary thyroid cancer,2024-09-27,NCT03157128,
+RET,circulation_survival,1,50,Metastatic medullary thyroid cancer,2024-09-27,NCT03157128,
+RET,extravasation,1,50,Metastatic medullary thyroid cancer,2024-09-27,NCT03157128,
+RET,micrometastasis,1,50,Metastatic medullary thyroid cancer,2024-09-27,NCT03157128,
+RET,angiogenesis,1,50,Metastatic medullary thyroid cancer,2024-09-27,NCT03157128,
+RET,colonization,1,50,Metastatic medullary thyroid cancer,2024-09-27,NCT03157128,
+IDH1,primary_growth,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+IDH1,local_invasion,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+IDH1,intravasation,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+IDH1,circulation_survival,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+IDH1,extravasation,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+IDH1,micrometastasis,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+IDH1,angiogenesis,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+IDH1,colonization,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+IDH2,primary_growth,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+IDH2,local_invasion,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+IDH2,intravasation,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+IDH2,circulation_survival,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+IDH2,extravasation,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+IDH2,micrometastasis,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+IDH2,angiogenesis,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+IDH2,colonization,1,40,Metastatic/progressive IDH-mutant glioma,2024-08-06,NCT04164901,
+PIK3CA,primary_growth,1,50,Metastatic PIK3CA-mutant breast cancer,2024-10-10,NCT04252339,
+PIK3CA,local_invasion,1,50,Metastatic PIK3CA-mutant breast cancer,2024-10-10,NCT04252339,
+PIK3CA,intravasation,1,50,Metastatic PIK3CA-mutant breast cancer,2024-10-10,NCT04252339,
+PIK3CA,circulation_survival,1,50,Metastatic PIK3CA-mutant breast cancer,2024-10-10,NCT04252339,
+PIK3CA,extravasation,1,50,Metastatic PIK3CA-mutant breast cancer,2024-10-10,NCT04252339,
+PIK3CA,micrometastasis,1,50,Metastatic PIK3CA-mutant breast cancer,2024-10-10,NCT04252339,
+PIK3CA,angiogenesis,1,50,Metastatic PIK3CA-mutant breast cancer,2024-10-10,NCT04252339,
+PIK3CA,colonization,1,50,Metastatic PIK3CA-mutant breast cancer,2024-10-10,NCT04252339,
+ERBB2,primary_growth,1,50,Metastatic HER2+ biliary tract cancer,2024-11-20,NCT04466891,
+ERBB2,local_invasion,1,50,Metastatic HER2+ biliary tract cancer,2024-11-20,NCT04466891,
+ERBB2,intravasation,1,50,Metastatic HER2+ biliary tract cancer,2024-11-20,NCT04466891,
+ERBB2,circulation_survival,1,50,Metastatic HER2+ biliary tract cancer,2024-11-20,NCT04466891,
+ERBB2,extravasation,1,50,Metastatic HER2+ biliary tract cancer,2024-11-20,NCT04466891,
+ERBB2,micrometastasis,1,50,Metastatic HER2+ biliary tract cancer,2024-11-20,NCT04466891,
+ERBB2,angiogenesis,1,50,Metastatic HER2+ biliary tract cancer,2024-11-20,NCT04466891,
+ERBB2,colonization,1,50,Metastatic HER2+ biliary tract cancer,2024-11-20,NCT04466891,
+KMT2A,primary_growth,1,50,Relapsed/refractory acute leukemia (metastatic),2024-11-15,NCT04065399,
+KMT2A,local_invasion,1,50,Relapsed/refractory acute leukemia (metastatic),2024-11-15,NCT04065399,
+KMT2A,intravasation,1,50,Relapsed/refractory acute leukemia (metastatic),2024-11-15,NCT04065399,
+KMT2A,circulation_survival,1,50,Relapsed/refractory acute leukemia (metastatic),2024-11-15,NCT04065399,
+KMT2A,extravasation,1,50,Relapsed/refractory acute leukemia (metastatic),2024-11-15,NCT04065399,
+KMT2A,micrometastasis,1,50,Relapsed/refractory acute leukemia (metastatic),2024-11-15,NCT04065399,
+KMT2A,angiogenesis,1,50,Relapsed/refractory acute leukemia (metastatic),2024-11-15,NCT04065399,
+KMT2A,colonization,1,50,Relapsed/refractory acute leukemia (metastatic),2024-11-15,NCT04065399,
+FGFR3,primary_growth,1,50,Metastatic urothelial carcinoma,2024-01-19,NCT03410693,
+FGFR3,local_invasion,1,50,Metastatic urothelial carcinoma,2024-01-19,NCT03410693,
+FGFR3,intravasation,1,50,Metastatic urothelial carcinoma,2024-01-19,NCT03410693,
+FGFR3,circulation_survival,1,50,Metastatic urothelial carcinoma,2024-01-19,NCT03410693,
+FGFR3,extravasation,1,50,Metastatic urothelial carcinoma,2024-01-19,NCT03410693,
+FGFR3,micrometastasis,1,50,Metastatic urothelial carcinoma,2024-01-19,NCT03410693,
+FGFR3,angiogenesis,1,50,Metastatic urothelial carcinoma,2024-01-19,NCT03410693,
+FGFR3,colonization,1,50,Metastatic urothelial carcinoma,2024-01-19,NCT03410693,
+NRG1,primary_growth,1,50,Metastatic NRG1 fusion+ pancreatic cancer and NSCLC,2024-12-04,NCT02912949,
+NRG1,local_invasion,1,50,Metastatic NRG1 fusion+ pancreatic cancer and NSCLC,2024-12-04,NCT02912949,
+NRG1,intravasation,1,50,Metastatic NRG1 fusion+ pancreatic cancer and NSCLC,2024-12-04,NCT02912949,
+NRG1,circulation_survival,1,50,Metastatic NRG1 fusion+ pancreatic cancer and NSCLC,2024-12-04,NCT02912949,
+NRG1,extravasation,1,50,Metastatic NRG1 fusion+ pancreatic cancer and NSCLC,2024-12-04,NCT02912949,
+NRG1,micrometastasis,1,50,Metastatic NRG1 fusion+ pancreatic cancer and NSCLC,2024-12-04,NCT02912949,
+NRG1,angiogenesis,1,50,Metastatic NRG1 fusion+ pancreatic cancer and NSCLC,2024-12-04,NCT02912949,
+NRG1,colonization,1,50,Metastatic NRG1 fusion+ pancreatic cancer and NSCLC,2024-12-04,NCT02912949,
+FOLR1,primary_growth,1,30,Metastatic platinum-resistant ovarian cancer,2024-03-01,,
+FOLR1,local_invasion,1,30,Metastatic platinum-resistant ovarian cancer,2024-03-01,,
+FOLR1,intravasation,1,30,Metastatic platinum-resistant ovarian cancer,2024-03-01,,
+FOLR1,circulation_survival,1,30,Metastatic platinum-resistant ovarian cancer,2024-03-01,,
+FOLR1,extravasation,1,30,Metastatic platinum-resistant ovarian cancer,2024-03-01,,
+FOLR1,micrometastasis,1,30,Metastatic platinum-resistant ovarian cancer,2024-03-01,,
+FOLR1,angiogenesis,1,30,Metastatic platinum-resistant ovarian cancer,2024-03-01,,
+FOLR1,colonization,1,30,Metastatic platinum-resistant ovarian cancer,2024-03-01,,
+ESR1,primary_growth,1,30,Metastatic ESR1-mutant breast cancer,2023-01-27,NCT03778931,
+ESR1,local_invasion,1,30,Metastatic ESR1-mutant breast cancer,2023-01-27,NCT03778931,
+ESR1,intravasation,1,30,Metastatic ESR1-mutant breast cancer,2023-01-27,NCT03778931,
+ESR1,circulation_survival,1,30,Metastatic ESR1-mutant breast cancer,2023-01-27,NCT03778931,
+ESR1,extravasation,1,30,Metastatic ESR1-mutant breast cancer,2023-01-27,NCT03778931,
+ESR1,micrometastasis,1,30,Metastatic ESR1-mutant breast cancer,2023-01-27,NCT03778931,
+ESR1,angiogenesis,1,30,Metastatic ESR1-mutant breast cancer,2023-01-27,NCT03778931,
+ESR1,colonization,1,30,Metastatic ESR1-mutant breast cancer,2023-01-27,NCT03778931,
+FGFR2,primary_growth,1,20,Metastatic cholangiocarcinoma,,,
+FGFR2,local_invasion,1,20,Metastatic cholangiocarcinoma,,,
+FGFR2,intravasation,1,20,Metastatic cholangiocarcinoma,,,
+FGFR2,circulation_survival,1,20,Metastatic cholangiocarcinoma,,,
+FGFR2,extravasation,1,20,Metastatic cholangiocarcinoma,,,
+FGFR2,micrometastasis,1,20,Metastatic cholangiocarcinoma,,,
+FGFR2,angiogenesis,1,20,Metastatic cholangiocarcinoma,,,
+FGFR2,colonization,1,20,Metastatic cholangiocarcinoma,,,
+GAPDH,primary_growth,0,0,"Ubiquitous housekeeping gene, not metastasis-related",,,housekeeping
+GAPDH,local_invasion,0,0,"Ubiquitous housekeeping gene, not metastasis-related",,,housekeeping
+GAPDH,intravasation,0,0,"Ubiquitous housekeeping gene, not metastasis-related",,,housekeeping
+GAPDH,circulation_survival,0,0,"Ubiquitous housekeeping gene, not metastasis-related",,,housekeeping
+GAPDH,extravasation,0,0,"Ubiquitous housekeeping gene, not metastasis-related",,,housekeeping
+GAPDH,micrometastasis,0,0,"Ubiquitous housekeeping gene, not metastasis-related",,,housekeeping
+GAPDH,angiogenesis,0,0,"Ubiquitous housekeeping gene, not metastasis-related",,,housekeeping
+GAPDH,colonization,0,0,"Ubiquitous housekeeping gene, not metastasis-related",,,housekeeping
+ACTB,primary_growth,0,0,"Beta-actin, structural protein, not metastasis driver",,,housekeeping
+ACTB,local_invasion,0,0,"Beta-actin, structural protein, not metastasis driver",,,housekeeping
+ACTB,intravasation,0,0,"Beta-actin, structural protein, not metastasis driver",,,housekeeping
+ACTB,circulation_survival,0,0,"Beta-actin, structural protein, not metastasis driver",,,housekeeping
+ACTB,extravasation,0,0,"Beta-actin, structural protein, not metastasis driver",,,housekeeping
+ACTB,micrometastasis,0,0,"Beta-actin, structural protein, not metastasis driver",,,housekeeping
+ACTB,angiogenesis,0,0,"Beta-actin, structural protein, not metastasis driver",,,housekeeping
+ACTB,colonization,0,0,"Beta-actin, structural protein, not metastasis driver",,,housekeeping
+TUBB3,primary_growth,0,0,"Beta-tubulin, structural protein, not metastasis driver",,,housekeeping
+TUBB3,local_invasion,0,0,"Beta-tubulin, structural protein, not metastasis driver",,,housekeeping
+TUBB3,intravasation,0,0,"Beta-tubulin, structural protein, not metastasis driver",,,housekeeping
+TUBB3,circulation_survival,0,0,"Beta-tubulin, structural protein, not metastasis driver",,,housekeeping
+TUBB3,extravasation,0,0,"Beta-tubulin, structural protein, not metastasis driver",,,housekeeping
+TUBB3,micrometastasis,0,0,"Beta-tubulin, structural protein, not metastasis driver",,,housekeeping
+TUBB3,angiogenesis,0,0,"Beta-tubulin, structural protein, not metastasis driver",,,housekeeping
+TUBB3,colonization,0,0,"Beta-tubulin, structural protein, not metastasis driver",,,housekeeping
+ALB,primary_growth,0,0,"Albumin, liver-specific, not metastasis-related",,,non-cancer
+ALB,local_invasion,0,0,"Albumin, liver-specific, not metastasis-related",,,non-cancer
+ALB,intravasation,0,0,"Albumin, liver-specific, not metastasis-related",,,non-cancer
+ALB,circulation_survival,0,0,"Albumin, liver-specific, not metastasis-related",,,non-cancer
+ALB,extravasation,0,0,"Albumin, liver-specific, not metastasis-related",,,non-cancer
+ALB,micrometastasis,0,0,"Albumin, liver-specific, not metastasis-related",,,non-cancer
+ALB,angiogenesis,0,0,"Albumin, liver-specific, not metastasis-related",,,non-cancer
+ALB,colonization,0,0,"Albumin, liver-specific, not metastasis-related",,,non-cancer
+INS,primary_growth,0,0,"Insulin, metabolic gene, not metastasis-related",,,non-cancer
+INS,local_invasion,0,0,"Insulin, metabolic gene, not metastasis-related",,,non-cancer
+INS,intravasation,0,0,"Insulin, metabolic gene, not metastasis-related",,,non-cancer
+INS,circulation_survival,0,0,"Insulin, metabolic gene, not metastasis-related",,,non-cancer
+INS,extravasation,0,0,"Insulin, metabolic gene, not metastasis-related",,,non-cancer
+INS,micrometastasis,0,0,"Insulin, metabolic gene, not metastasis-related",,,non-cancer
+INS,angiogenesis,0,0,"Insulin, metabolic gene, not metastasis-related",,,non-cancer
+INS,colonization,0,0,"Insulin, metabolic gene, not metastasis-related",,,non-cancer
+HBB,primary_growth,0,0,"Hemoglobin beta, blood protein, not metastasis-related",,,non-cancer
+HBB,local_invasion,0,0,"Hemoglobin beta, blood protein, not metastasis-related",,,non-cancer
+HBB,intravasation,0,0,"Hemoglobin beta, blood protein, not metastasis-related",,,non-cancer
+HBB,circulation_survival,0,0,"Hemoglobin beta, blood protein, not metastasis-related",,,non-cancer
+HBB,extravasation,0,0,"Hemoglobin beta, blood protein, not metastasis-related",,,non-cancer
+HBB,micrometastasis,0,0,"Hemoglobin beta, blood protein, not metastasis-related",,,non-cancer
+HBB,angiogenesis,0,0,"Hemoglobin beta, blood protein, not metastasis-related",,,non-cancer
+HBB,colonization,0,0,"Hemoglobin beta, blood protein, not metastasis-related",,,non-cancer
+TP53,primary_growth,0,0,"Primary tumor suppressor, not metastasis-specific",,,primary_tumor
+TP53,local_invasion,0,0,"Primary tumor suppressor, not metastasis-specific",,,primary_tumor
+TP53,intravasation,0,0,"Primary tumor suppressor, not metastasis-specific",,,primary_tumor
+TP53,circulation_survival,0,0,"Primary tumor suppressor, not metastasis-specific",,,primary_tumor
+TP53,extravasation,0,0,"Primary tumor suppressor, not metastasis-specific",,,primary_tumor
+TP53,micrometastasis,0,0,"Primary tumor suppressor, not metastasis-specific",,,primary_tumor
+TP53,angiogenesis,0,0,"Primary tumor suppressor, not metastasis-specific",,,primary_tumor
+TP53,colonization,0,0,"Primary tumor suppressor, not metastasis-specific",,,primary_tumor
+RB1,primary_growth,0,0,"Retinoblastoma, primary tumor suppressor",,,primary_tumor
+RB1,local_invasion,0,0,"Retinoblastoma, primary tumor suppressor",,,primary_tumor
+RB1,intravasation,0,0,"Retinoblastoma, primary tumor suppressor",,,primary_tumor
+RB1,circulation_survival,0,0,"Retinoblastoma, primary tumor suppressor",,,primary_tumor
+RB1,extravasation,0,0,"Retinoblastoma, primary tumor suppressor",,,primary_tumor
+RB1,micrometastasis,0,0,"Retinoblastoma, primary tumor suppressor",,,primary_tumor
+RB1,angiogenesis,0,0,"Retinoblastoma, primary tumor suppressor",,,primary_tumor
+RB1,colonization,0,0,"Retinoblastoma, primary tumor suppressor",,,primary_tumor

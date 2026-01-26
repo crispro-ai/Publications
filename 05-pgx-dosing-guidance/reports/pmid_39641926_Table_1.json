@@ -1,0 +1,55 @@
+{
+  "pmid": "39641926",
+  "pmc_id": "11624585",
+  "table": {
+    "label": "Table 1.",
+    "title": "Frequency of Genotype-Based Phenotypes and Recommended Dose Adjustments",
+    "rows": [
+      [
+        "Patients treated with fluoropyrimidines and/or irinotecan a",
+        "Control arm (n = 311), No. (%)",
+        "Intervention arm (n = 252)"
+      ],
+      [
+        "No. (%)",
+        "Pharmacogenetic-informed treatment according to DPWG guidelines"
+      ],
+      [
+        "Actionable genotype carriers",
+        "23 (7.4)",
+        "17 (6.7)",
+        ""
+      ],
+      [
+        "DPYD AS 0.5",
+        "1 (0.3)",
+        "0",
+        "Avoid fluoropyrimidines or perform DPD phenotyping"
+      ],
+      [
+        "DPYD AS 1",
+        "6 (1.9)",
+        "2 (0.8)",
+        "50% of the standard dosage"
+      ],
+      [
+        "DPYD AS 1.5",
+        "7 (2.3)",
+        "11 (4.4)",
+        "50% of the standard dosage"
+      ],
+      [
+        "UGT1A1 PM",
+        "9 (2.9)",
+        "4 (1.6)",
+        "70% of the standard dosage"
+      ],
+      [
+        "Nonactionable genotype carriers ( DPYD AS 2, UGT1A1 NM/IM)",
+        "288 (92.6)",
+        "235 (93.3)",
+        "Standard dosage"
+      ]
+    ]
+  }
+}

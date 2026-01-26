@@ -1,0 +1,6 @@
+Error Bin,n,%,Cumulative %
+Exact match (0 days),262,95.6,95.6
+1-7 days,0,0.0,95.6
+8-30 days,0,0.0,95.6
+31-90 days,1,0.4,96.0
+>90 days,11,4.0,100.0

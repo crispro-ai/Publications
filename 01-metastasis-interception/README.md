@@ -16,7 +16,7 @@ This repository contains the complete code, data, and materials for **"Metastasi
 1. **First CRISPR design platform with complete structural validation** using AlphaFold 3 Server
 2. **100% structural pass rate** (15/15 guides) using revised RNA-DNA acceptance criteria (pLDDT ≥50, iPTM ≥0.30)
 3. **Multi-modal foundation model integration** (Evo2 + AlphaFold 3) for stage-specific metastatic cascade targeting
-4. **AUROC 0.976 ± 0.035** across 8 metastatic steps (304 gene-step combinations)
+4. **AUROC 0.988 ± 0.035** across 8 metastatic steps (304 gene-step combinations)
 5. **Complete reproducibility** with one-command reproduction script and frozen environment
 
 ---
@@ -27,7 +27,7 @@ This repository contains the complete code, data, and materials for **"Metastasi
 
 **Methods:** We implemented a modular pipeline that (i) computes Functionality, Essentiality, Chromatin, and Regulatory signals via Evo2 and Enformer/Borzoi; (ii) selects a mission-specific target with a weighted Target-Lock score; (iii) generates PAM-aware guide candidates; (iv) scores efficacy using Evo2 delta transformed by a sigmoid; and (v) quantifies genome-wide safety via minimap2/BLAST with an exponential decay mapping. Candidates are ranked by a composite Assassin score: 0.40×efficacy + 0.30×safety + 0.30×mission fit.
 
-**Results:** We validated Target-Lock scores against 38 primary metastatic genes across 8 cascade steps (304 data points). Per-step AUROC was 0.976 ± 0.035, AUPRC 0.948 ± 0.064, with Precision@3 = 1.000. Structural validation of 15 guide:DNA complexes via AlphaFold 3 Server achieved 100% pass rate (pLDDT 65.6 ± 1.8, iPTM 0.36 ± 0.01).
+**Results:** We validated Target-Lock scores against 38 primary metastatic genes across 8 cascade steps (304 data points). Per-step AUROC was 0.988 ± 0.022, AUPRC 0.948 ± 0.064, with Precision@3 = 1.000. Structural validation of 15 guide:DNA complexes via AlphaFold 3 Server achieved 100% pass rate (pLDDT 65.6 ± 1.8, iPTM 0.36 ± 0.01).
 
 **Conclusions:** Interception delivers a reproducible, mission-aware CRISPR design framework for metastasis, integrating multi-modal signals, genome-wide safety, and structural validation.
 
@@ -79,7 +79,7 @@ This repository contains the complete code, data, and materials for **"Metastasi
 ```bash
 git clone https://github.com/crispro-ai/Metastasis-Interception-CRISPR-EVO2-Alphafold.git
 cd Metastasis-Interception-CRISPR-EVO2-Alphafold
-./scripts/reproduce_all.sh
+./scripts/reproduce_all_resubmission.sh
 ```
 
 **Estimated Time**: <10 minutes
@@ -111,7 +111,7 @@ See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for detailed instructions.
 ## 📊 Key Results
 
 ### Target Lock Validation
-- **AUROC**: 0.976 ± 0.035 (per-step, 1000-bootstrap CIs)
+- **AUROC**: 0.988 ± 0.022 (per-step, 1000-bootstrap CIs)
 - **AUPRC**: 0.948 ± 0.064
 - **Precision@3**: 1.000 (perfect top-3 ranking)
 - **Dataset**: 38 primary metastatic genes × 8 steps = 304 combinations
@@ -141,7 +141,7 @@ Target_Lock = 0.35×Functionality + 0.35×Essentiality + 0.15×Chromatin + 0.15�
 
 - **Functionality**: Evo2 sequence disruption scoring (9.3T token model)
 - **Essentiality**: Gene-level truncation impact analysis
-- **Chromatin**: Enformer-ready (currently deterministic stubs)
+- **Chromatin**: Enformer (Modal-deployed, audited)
 - **Regulatory**: Evo2 noncoding disruption (splice/UTR)
 
 ### Assassin Composite Score

@@ -1,0 +1,709 @@
+# 🧠 SAE STEERABILITY: THE UNTAPPED SUPERPOWER
+
+**Date:** January 28, 2025  
+**Status:** 🔬 **STRATEGIC DEEP DIVE** - De-noising & Steerability Analysis  
+**Mission:** Unlock the advanced capability that puts us ahead of Anthropic's research, applied to proteins
+
+---
+
+## 📌 EXECUTIVE SUMMARY
+
+### **The Three-Layer Competitive Advantage**
+
+| Layer | What It Means | Status | Impact |
+|-------|---------------|--------|--------|
+| **1. De-Noising (Disentanglement)** | Dense → Sparse = Black Box → Glass Box | ✅ **BUILT (INFRA)** / ⚠️ **NOT FULLY VALIDATED** | Interpretable features (once mapped) |
+| **2. White Box Audit Trail** | FDA-ready evidence package | ✅ **BUILT (PROXY-BASED)** | Regulatory gold (for proxy signals) |
+| **3. Steerability (Intervention)** | Simulate "what if" by clamping features | ❌ **NOT UTILIZED** | In silico clinical trials |
+
+### **The Bottom Line**
+
+**We built the extraction + proxy evidence infrastructure, but we have NOT built causal intervention (“steerability”) yet.**
+
+**Reality constraint (from `.cursor/MOAT/SAE_FAILURE_POSTMORTEM.mdc`):**
+- TRUE SAE tiered extraction exists (Tier 2: 49, Tier 3: 149 patients), but Tier-3 biomarker testing found **0 FDR-significant biomarkers** under current encoding/thresholds → Feature→Pathway mapping has no trustworthy seed list.
+
+Steerability is the capability to **intervene** on SAE features - clamp, zero, amplify specific biological features and observe downstream effects. This enables "in silico" experiments that would cost millions in wet lab.
+
+---
+
+## 🎯 LAYER 1: DE-NOISING (WHAT WE BUILT)
+
+### **The Problem: Polysemantic Neurons (Superposition)**
+
+In Evo2's dense representation (4,096 dims):
+- **Neuron 847** encodes: exon boundary + GC-rich region + CTCF binding + protein stability
+- **Neuron 1,234** encodes: TF motif + splice site + chromatin accessibility
+- **Result:** You get a prediction, but you can't trace the distinct biological cause
+
+```
+DENSE REPRESENTATION (Evo2 activations):
+┌─────────────────────────────────────────────────────────────────┐
+│ Neuron 847: [exon_boundary, gc_rich, ctcf_binding, stability]   │
+│ Neuron 1234: [tf_motif, splice_site, chromatin_access]          │
+│ ...                                                              │
+│ 4,096 dimensions, ALL active simultaneously                     │
+│ → "Polysemantic mess" - can't isolate biological cause          │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### **The Solution: Sparse Autoencoders (SAE)**
+
+We expand 4,096-dim → 32,768-dim (8x overcomplete), then enforce sparsity (only K=64 active):
+
+```
+SPARSE REPRESENTATION (SAE features):
+┌─────────────────────────────────────────────────────────────────┐
+│ Feature 12,045: EXCLUSIVELY tracks G12D steric hindrance        │
+│ Feature 3,102:  EXCLUSIVELY tracks MEK phosphorylation          │
+│ Feature 8,432:  EXCLUSIVELY tracks MAPK pathway activation      │
+│ ...                                                              │
+│ 32,768 dimensions, only 64 active per sample                    │
+│ → "Monosemantic" - each feature = ONE biological concept        │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Important correction:** The “Feature 12,045 / 3,102 / 8,432” examples are **illustrative**. In our repo, we have not completed **feature→biology / feature→pathway mapping**, so we should not claim specific feature IDs correspond to specific biological mechanisms yet.
+
+### **What We Built (De-Noising Infrastructure)**
+
+| Component | Status | What It Does |
+|-----------|--------|--------------|
+| **TRUE SAE Extraction** | ✅ Deployed | Evo2 layer-26 → 32K sparse features |
+| **PROXY SAE (Gene-Level)** | ✅ Production | Gene mutations → 7D mechanism vector |
+| **Pathway Aggregation** | ✅ Production | Mutations → pathway scores (DDR, MAPK, etc.) |
+| **Mechanism Vector (7D)** | ✅ Production | [DDR, MAPK, PI3K, VEGF, HER2, IO, Efflux] |
+| **DNA Repair Capacity** | ✅ Production | 0.6×DDR + 0.2×HRR + 0.2×exon |
+
+### **De-Noising Result:**
+
+**Before (Evo2 raw):**
+```python
+evo2_score = -2.45  # What does this mean? Black box.
+```
+
+**After (SAE de-noised):**
+```python
+sae_features = {
+    "DDR_pathway_burden": 0.88,      # MBD4 + TP53 = high DDR disruption
+    "MAPK_pathway_burden": 0.12,     # Low MAPK involvement
+    "DNA_repair_capacity": 0.53,     # Low = PARP-eligible
+    "mechanism_vector": [0.88, 0.12, 0.15, 0.10, 0.05, 0.0, 0.0]
+}
+# NOW we know WHY the variant is damaging → DDR pathway disruption
+```
+
+---
+
+## 🎯 LAYER 2: WHITE BOX AUDIT TRAIL (WHAT WE BUILT)
+
+### **The FDA Problem: Black Box Liability**
+
+The FDA does not trust what it cannot understand:
+- "The model predicts 80% efficacy" → **REJECTED** (no explanation)
+- Black Box AI fails on Out-of-Distribution (OOD) data (rare comorbidities, edge cases)
+- No audit trail = no regulatory approval
+
+### **Our Solution: Interpretable Evidence Package**
+
+Because SAE features are disentangled, we can provide:
+
+```
+FDA SUBMISSION DOSSIER (Example):
+┌─────────────────────────────────────────────────────────────────┐
+│ PREDICTION: Olaparib efficacy = 0.94 for this patient          │
+│                                                                  │
+│ EVIDENCE TRAIL:                                                  │
+│ ├── Feature X (DNA repair capacity): 0.53 → LOW (PARP-eligible)│
+│ ├── Feature Y (BER pathway): 0.88 → HIGH disruption (MBD4 loss)│
+│ ├── Feature Z (DDR burden): 0.88 → HIGH (TP53 checkpoint loss) │
+│ └── Feature Q (Cardiotoxicity): 0.05 → SILENT (safe)           │
+│                                                                  │
+│ RATIONALE: Features X, Y, Z (apoptosis-related) are active,    │
+│            while Feature Q (toxicity) is silent.                │
+│                                                                  │
+│ VALIDATION: DIS3 RR=2.08 (p=0.0145, N=995)                      │
+│ PROVENANCE: run_id=abc123, model=evo2_7b, sae=layer26           │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### **Hallucination Safety Check:**
+
+```python
+# If model predicts cure but toxicity feature is active → FLAG
+if prediction["efficacy"] > 0.90 and features["cardiotoxicity"] > 0.50:
+    raise Warning("Hallucination detected: High efficacy but toxicity feature active")
+```
+
+### **What We Built (White Box Infrastructure)**
+
+| Component | Status | What It Does |
+|-----------|--------|--------------|
+| **Provenance Tracking** | ✅ Production | run_id, model, layer, timestamp |
+| **Evidence Tiers** | ✅ Production | Supported/Consider/Insufficient |
+| **Confidence Scores** | ✅ Production | 50-100% confidence levels |
+| **Badges** | ✅ Production | PathwayAligned, ClinVar-Strong, FDA-OnLabel |
+| **Resolution Paths** | ✅ Production | prior/evo2/fusion/unresolved |
+
+---
+
+## 🔥 LAYER 3: STEERABILITY (WHAT WE HAVEN'T TOUCHED)
+
+### **The Concept: Feature Intervention**
+
+Because SAE features are disentangled, the model is **steerable**:
+
+```
+STEERABILITY = The ability to INTERVENE on specific features
+               and observe downstream effects, WITHOUT retraining.
+```
+
+**Anthropic's Research (What They're Doing):**
+- Clamping "deception" features in Claude to reduce harmful outputs
+- Amplifying "safety" features to increase refusal of dangerous requests
+- "Activation patching" to trace causal relationships in language models
+
+**Our Application (What We COULD Do with Biology):**
+
+```python
+# SCENARIO: "What happens if we block B-Raf dimerization but leave MAPK signaling active?"
+
+# Current patient state (observed)
+patient_features = {
+    "BRAF_dimerization": 0.85,    # Feature #55 - HIGH (active)
+    "MAPK_signaling": 0.78,        # Feature #88 - HIGH (active)
+    "DDR_pathway": 0.88,           # Feature #100 - HIGH (active)
+}
+
+# INTERVENTION: Clamp Feature #55 to 0 (simulate B-Raf inhibitor)
+intervened_features = patient_features.copy()
+intervened_features["BRAF_dimerization"] = 0.0  # BLOCKED
+
+# RUN COUNTERFACTUAL: What's the new efficacy prediction?
+counterfactual_efficacy = model.predict(intervened_features)
+# Result: Efficacy drops from 0.94 → 0.67 (BRAF inhibition reduces benefit)
+
+# INTERPRETATION: B-Raf dimerization is CAUSAL for this patient's response
+```
+
+### **What Steerability Enables:**
+
+| Application | Traditional Approach | Steerable SAE Approach |
+|-------------|---------------------|------------------------|
+| **Drug Target ID** | Wet lab knockouts ($$$, months) | In silico feature clamping (minutes) |
+| **Resistance Prediction** | Wait for patient to fail | Simulate pathway escape before it happens |
+| **Combo Therapy Design** | Trial and error | Simulate feature interactions computationally |
+| **Toxicity Pre-Screening** | Animal studies | Clamp toxicity features, observe effect |
+| **Mechanism Discovery** | Years of research | Activation patching reveals causal chains |
+
+### **In Silico Clinical Trials:**
+
+```
+VIRTUAL TRIAL: "PARP + MEK inhibitor in MAPK/DDR-high patients"
+
+Step 1: Select patient cohort (MAPK > 0.5, DDR > 0.7)
+Step 2: INTERVENTION: Clamp DDR features (simulate PARP inhibitor)
+Step 3: INTERVENTION: Clamp MAPK features (simulate MEK inhibitor)
+Step 4: Observe: Efficacy prediction for combo vs monotherapy
+Step 5: Identify: Which feature combinations predict synergy?
+
+Result: Feature #55 (BRAF) + Feature #100 (DDR) co-activation 
+        predicts synergy (combo > either mono)
+        
+Cost: $0 (computational)
+Time: Minutes (not months)
+```
+
+---
+
+## 🔴 WHAT WE HAVE NOT UTILIZED (STEERABILITY GAP)
+
+### **Current State: Observation Only**
+
+```python
+# CURRENT: We OBSERVE SAE features, but don't INTERVENE
+sae_features = extract_sae_features(patient)
+# Output: {DDR: 0.88, MAPK: 0.12, ...}
+
+# We use these features for:
+# 1. Resistance prediction (DIS3 marker detection)
+# 2. Trial matching (mechanism fit ranking)
+# 3. Drug efficacy (S/P/E framework)
+```
+
+### **What's Missing: Intervention Infrastructure**
+
+```python
+# MISSING: We don't CLAMP features to simulate interventions
+def counterfactual_prediction(
+    patient_features: Dict[str, float],
+    intervention: Dict[str, float],  # {"BRAF_dimerization": 0.0}
+    outcome: str = "efficacy"
+) -> float:
+    """
+    Simulate "what if" by clamping specific features.
+    
+    Args:
+        patient_features: Original SAE features
+        intervention: Features to clamp/modify
+        outcome: What to predict (efficacy, resistance, toxicity)
+    
+    Returns:
+        Counterfactual prediction after intervention
+    """
+    # Apply intervention
+    modified_features = {**patient_features, **intervention}
+    
+    # Run model with modified features
+    return model.predict(modified_features, target=outcome)
+```
+
+### **Why We Haven't Built It:**
+
+1. **Feature→Pathway Mapping Not Complete:** TRUE SAE 32K features not mapped to pathways (mapping Stage 3 is structurally blocked).
+2. **Best available Tier-3 run still yielded 0 FDR-significant biomarkers:** 149 patients / 24 resistant; 1,571 active features tested; 0 survive BH-FDR → we lack a trustworthy “seed set.”
+3. **Engineering constraints consumed time:** assembly/ref mismatches, feature-index bug, payload-size bug, Modal warm containers (see extraction pieces + postmortem).
+4. **Proxy SAE works and is interpretable today:** gene/pathway-level evidence is validated and can ship; TRUE SAE remains RUO/diagnostic.
+
+---
+
+## 🚀 HOW TO FURTHER DE-NOISE (IMMEDIATE ACTIONS)
+
+### **De-Noising Strategy 1 (Realistic): Canonicalize + head-to-head evaluation before mapping**
+
+**Current blocker:** We have tier checkpoint artifacts, but we don’t have a single canonical cohort artifact + a head-to-head TRUE-vs-PROXY evaluation that answers “does TRUE SAE add value?”
+
+**What to do first (1–2 days):**
+
+- **Canonicalize Tier-3 cohort**: export `Tier3_validation_cohort.json` into one canonical cohort file used everywhere (no more Tier-1 confusion).
+- **Run a predictive probe (TRUE vs PROXY)**:
+  - TRUE input: patient-level aggregated sparse feature vectors (from active feature subset)
+  - PROXY input: gene/pathway mechanism vector + validated markers
+  - Metric: cross-validated AUC/PR; calibration; sensitivity to missingness
+  - Decision: if TRUE doesn’t beat PROXY (or is unstable), steerability must start at PROXY-level.
+
+```python
+# Step 1: Load canonical cohort + build sparse patient feature vectors
+X_true, y = build_patient_sparse_matrix(canonical_tier3_cohort)
+
+# Step 2: Build proxy features for same patients
+X_proxy = build_proxy_features(canonical_tier3_cohort)  # genes/pathways/markers
+
+# Step 3: Compare predictive utility
+metrics_true = cv_eval(X_true, y)
+metrics_proxy = cv_eval(X_proxy, y)
+
+if metrics_true.auc <= metrics_proxy.auc + 0.02:
+    decision = "TRUE_SAE_NOT_WORTH_IT_YET"
+else:
+    decision = "TRUE_SAE_ADDS_VALUE"
+```
+
+**Expected Outcome:**
+- A binary decision with receipts: **TRUE SAE adds value** vs **not yet**.
+
+### **De-Noising Strategy 2: Hierarchical Aggregation**
+
+**Current:** Mean-pooling across sequence positions loses positional information.
+
+**Improved:**
+```python
+# CURRENT: Simple mean pooling
+features_aggregated = features.mean(dim=1)  # Loses position info
+
+# IMPROVED: Hierarchical aggregation
+def hierarchical_aggregate(features: Tensor) -> Dict[str, Tensor]:
+    """
+    Preserve positional information with hierarchical aggregation.
+    
+    Returns:
+        - variant_position: Features at the exact variant position
+        - local_context: Features in ±50bp window
+        - global_context: Features across full 8kb window
+        - max_pooled: Max activation per feature
+        - attention_weighted: Attention-weighted aggregation
+    """
+    return {
+        "variant_position": features[:, variant_idx, :],  # Exact position
+        "local_context": features[:, variant_idx-50:variant_idx+50, :].mean(dim=1),
+        "global_context": features.mean(dim=1),
+        "max_pooled": features.max(dim=1).values,
+        "attention_weighted": attention_aggregate(features)
+    }
+```
+
+**Why This Helps:**
+- Variant position features capture local sequence context
+- Max-pooling captures strongest signals (may be distant regulatory elements)
+- Attention-weighted emphasizes biologically relevant positions
+
+### **De-Noising Strategy 3: Cross-Cohort Validation**
+
+**Current:** TRUE SAE is *not* validated across cohorts; proxy signals are validated (MMRF/TCGA), but TRUE SAE biomarker discovery is inconclusive.
+
+**Improved:**
+```
+VALIDATION COHORTS (TRUE SAE):
+├── TCGA-OV: Tier-3 149 patients (platinum response) ⚠️ DONE (0 FDR biomarkers)
+├── TCGA-OV: full 469 patients (platinum response) ❌ NOT DONE (target)
+├── MMRF CoMMpass: TRUE SAE cohort ❌ NOT DONE (target)
+├── COMPASS trial: ~3,000 patients (pancreatic) → NEXT
+├── GENIE: 100K+ pan-cancer → FUTURE
+└── External registries → FUTURE
+```
+
+**Cross-Cohort Feature Selection:**
+```python
+# Only keep features that replicate across cohorts
+def cross_cohort_feature_selection(cohorts: List[Dict]) -> List[int]:
+    """
+    Keep features significant in 2+ cohorts (reduces noise).
+    """
+    feature_votes = defaultdict(int)
+    
+    for cohort in cohorts:
+        significant = biomarker_discovery(cohort)
+        for feat in significant:
+            feature_votes[feat["feature_idx"]] += 1
+    
+    # Keep features significant in 2+ cohorts
+    return [idx for idx, votes in feature_votes.items() if votes >= 2]
+```
+
+### **De-Noising Strategy 4: Sparsity Regularization Tuning**
+
+**Current:** Using K=64 (from Evo2 paper default).
+
+**Improvement:** Tune K for biological interpretability.
+
+```python
+# Test different sparsity levels
+for k in [32, 64, 128, 256]:
+    sae_model = load_sae_model(top_k=k)
+    features = sae_model.extract(cohort)
+    
+    # Measure interpretability
+    pathway_correlation = compute_pathway_correlation(features)
+    outcome_prediction = compute_outcome_prediction(features)
+    
+    print(f"K={k}: pathway_r2={pathway_correlation:.3f}, outcome_auc={outcome_prediction:.3f}")
+```
+
+**Hypothesis:** 
+- K=32: Too sparse, loses biological signal
+- K=64: Default, may be optimal
+- K=128-256: More features, potentially captures rare pathways better
+
+---
+
+## 🔮 STEERABILITY IMPLEMENTATION PLAN (FUTURE)
+
+### **Phase 1: Activation Patching Framework (Week 1-2)**
+
+```python
+class ActivationPatcher:
+    """
+    Enables feature-level intervention on SAE activations.
+    """
+    
+    def __init__(self, sae_model: SAEModel, predictor: ResistancePredictor):
+        self.sae = sae_model
+        self.predictor = predictor
+    
+    def intervene(
+        self,
+        patient: PatientProfile,
+        interventions: Dict[int, float]  # {feature_idx: clamped_value}
+    ) -> Dict[str, Any]:
+        """
+        Run counterfactual prediction with clamped features.
+        """
+        # Extract original features
+        original_features = self.sae.extract(patient)
+        
+        # Apply interventions
+        modified_features = original_features.copy()
+        for feature_idx, value in interventions.items():
+            modified_features[feature_idx] = value
+        
+        # Run counterfactual prediction
+        original_pred = self.predictor.predict(original_features)
+        counterfactual_pred = self.predictor.predict(modified_features)
+        
+        return {
+            "original": original_pred,
+            "counterfactual": counterfactual_pred,
+            "delta": counterfactual_pred - original_pred,
+            "interventions": interventions,
+            "interpretation": self._interpret_delta(original_pred, counterfactual_pred)
+        }
+    
+    def causal_scan(
+        self,
+        patient: PatientProfile,
+        target_outcome: str = "resistance"
+    ) -> List[Dict[str, Any]]:
+        """
+        Scan all features to find causally important ones.
+        """
+        original_features = self.sae.extract(patient)
+        original_pred = self.predictor.predict(original_features, target=target_outcome)
+        
+        causal_features = []
+        for feature_idx in range(32768):
+            if original_features[feature_idx] > 0.1:  # Only scan active features
+                # Zero out this feature
+                intervened = {feature_idx: 0.0}
+                result = self.intervene(patient, intervened)
+                
+                if abs(result["delta"]) > 0.1:  # Significant causal effect
+                    causal_features.append({
+                        "feature_idx": feature_idx,
+                        "original_activation": original_features[feature_idx],
+                        "causal_effect": result["delta"],
+                        "direction": "positive" if result["delta"] > 0 else "negative"
+                    })
+        
+        return sorted(causal_features, key=lambda x: abs(x["causal_effect"]), reverse=True)
+```
+
+### **Phase 2: Drug Target Simulation (Week 3-4)**
+
+```python
+class DrugTargetSimulator:
+    """
+    Simulate drug effects by clamping pathway features.
+    """
+    
+    # Drug → SAE feature mapping
+    DRUG_FEATURE_MAP = {
+        "olaparib": {"DDR_features": [100, 101, 102], "effect": 0.0},  # PARP inhibitor blocks DDR
+        "trametinib": {"MAPK_features": [200, 201, 202], "effect": 0.0},  # MEK inhibitor blocks MAPK
+        "pembrolizumab": {"IO_features": [300, 301, 302], "effect": 1.0},  # IO activates immunity
+    }
+    
+    def simulate_drug(
+        self,
+        patient: PatientProfile,
+        drug: str
+    ) -> Dict[str, Any]:
+        """
+        Simulate drug effect by clamping relevant features.
+        """
+        drug_config = self.DRUG_FEATURE_MAP[drug]
+        interventions = {}
+        
+        for feature_idx in drug_config["DDR_features"]:
+            interventions[feature_idx] = drug_config["effect"]
+        
+        return self.patcher.intervene(patient, interventions)
+    
+    def simulate_combo(
+        self,
+        patient: PatientProfile,
+        drugs: List[str]
+    ) -> Dict[str, Any]:
+        """
+        Simulate combination therapy.
+        """
+        combined_interventions = {}
+        for drug in drugs:
+            drug_config = self.DRUG_FEATURE_MAP[drug]
+            for key, features in drug_config.items():
+                if key.endswith("_features"):
+                    for feature_idx in features:
+                        combined_interventions[feature_idx] = drug_config["effect"]
+        
+        return self.patcher.intervene(patient, combined_interventions)
+```
+
+### **Phase 3: In Silico Clinical Trial (Week 5-6)**
+
+```python
+class InSilicoTrial:
+    """
+    Run virtual clinical trial across patient cohort.
+    """
+    
+    def run_trial(
+        self,
+        cohort: List[PatientProfile],
+        arm_a: Dict[str, Any],  # {"drug": "olaparib"}
+        arm_b: Dict[str, Any],  # {"drug": "olaparib+trametinib"}
+        endpoint: str = "resistance_probability"
+    ) -> Dict[str, Any]:
+        """
+        Simulate trial arms and compare outcomes.
+        """
+        arm_a_results = []
+        arm_b_results = []
+        
+        for patient in cohort:
+            # Arm A: Single drug
+            result_a = self.simulator.simulate_drug(patient, arm_a["drug"])
+            arm_a_results.append(result_a["counterfactual"][endpoint])
+            
+            # Arm B: Combo
+            result_b = self.simulator.simulate_combo(patient, arm_b["drugs"])
+            arm_b_results.append(result_b["counterfactual"][endpoint])
+        
+        # Statistical comparison
+        return {
+            "arm_a": {"mean": np.mean(arm_a_results), "std": np.std(arm_a_results)},
+            "arm_b": {"mean": np.mean(arm_b_results), "std": np.std(arm_b_results)},
+            "p_value": ttest_ind(arm_a_results, arm_b_results).pvalue,
+            "effect_size": np.mean(arm_b_results) - np.mean(arm_a_results),
+            "n_patients": len(cohort)
+        }
+```
+
+---
+
+## 📊 RE-CALIBRATION: WHAT THIS MEANS FOR PREVIOUS WORK
+
+### **Re-Calibration 1: DIS3/NF1 Resistance Prediction**
+
+**Previous Understanding:**
+- DIS3 RR=2.08 is a **correlational** marker (observational)
+- We don't know if DIS3 mutation CAUSES resistance or is associated with it
+
+**With Steerability:**
+- We can CLAMP DIS3-related SAE features and observe counterfactual
+- If resistance prediction drops → DIS3 is CAUSAL
+- If resistance prediction unchanged → DIS3 is ASSOCIATIVE (confounded)
+
+```python
+# CAUSAL VALIDATION
+result = patcher.intervene(
+    patient=dis3_mutant_patient,
+    interventions={DIS3_FEATURE_IDX: 0.0}  # Zero out DIS3 feature
+)
+
+if result["delta"]["resistance_prob"] < -0.20:
+    print("DIS3 is CAUSALLY linked to resistance (20%+ reduction when blocked)")
+else:
+    print("DIS3 is ASSOCIATIVE only (confounded by other factors)")
+```
+
+### **Re-Calibration 2: Mechanism-Based Trial Matching**
+
+**Previous Understanding:**
+- Mechanism fit = cosine similarity between patient and trial MoA vectors
+- Assumes pathway alignment predicts response (correlational)
+
+**With Steerability:**
+- We can simulate "what if this pathway was blocked" before recommending trial
+- If blocking DDR features reduces efficacy → DDR-targeting trial is appropriate
+- Dynamic mechanism matching based on causal structure
+
+```python
+# CAUSAL TRIAL MATCHING
+for trial in candidate_trials:
+    # Simulate trial drug effect
+    simulated = simulator.simulate_drug(patient, trial.drug)
+    
+    # Only recommend if causal effect is positive
+    if simulated["delta"]["efficacy"] > 0.15:
+        trial.causal_evidence = True
+        trial.mechanism_fit_causal = simulated["delta"]["efficacy"]
+```
+
+### **Re-Calibration 3: DNA Repair Capacity**
+
+**Previous Understanding:**
+- DNA repair capacity = 0.6×DDR + 0.2×HRR + 0.2×exon (weighted formula)
+- Assumes linear combination is correct (heuristic)
+
+**With Steerability:**
+- We can validate the formula by clamping individual components
+- If zeroing DDR has 60% of total effect → formula is correct
+- If zeroing DDR has 40% of total effect → re-weight formula
+
+```python
+# VALIDATE DNA REPAIR CAPACITY FORMULA
+total_effect = patcher.intervene(patient, {DDR: 0.0, HRR: 0.0, EXON: 0.0})["delta"]
+
+ddr_effect = patcher.intervene(patient, {DDR: 0.0})["delta"]
+hrr_effect = patcher.intervene(patient, {HRR: 0.0})["delta"]
+exon_effect = patcher.intervene(patient, {EXON: 0.0})["delta"]
+
+# Empirical weights
+ddr_weight = ddr_effect / total_effect  # Should be ~0.6
+hrr_weight = hrr_effect / total_effect  # Should be ~0.2
+exon_weight = exon_effect / total_effect  # Should be ~0.2
+
+print(f"Empirical weights: DDR={ddr_weight:.2f}, HRR={hrr_weight:.2f}, EXON={exon_weight:.2f}")
+```
+
+---
+
+## 🎯 SUMMARY: DE-NOISING ROADMAP
+
+### **Immediate Actions (This Week)**
+
+| Action | Impact | Effort | Priority |
+|--------|--------|--------|----------|
+| **Feature→Pathway Mapping** | Unlock TRUE SAE | 2 weeks | P0 |
+| **Cross-Cohort Validation** | Reduce noise | 1 week | P1 |
+| **Hierarchical Aggregation** | Better precision | 3 days | P2 |
+
+### **Near-Term (Month 1-2)**
+
+| Action | Impact | Effort | Priority |
+|--------|--------|--------|----------|
+| **Activation Patching Framework** | Enable steerability | 2 weeks | P1 |
+| **Causal Validation (DIS3, NF1)** | Validate markers | 1 week | P1 |
+| **Drug Target Simulation** | In silico experiments | 2 weeks | P2 |
+
+### **Long-Term (Month 3+)**
+
+| Action | Impact | Effort | Priority |
+|--------|--------|--------|----------|
+| **In Silico Clinical Trials** | Massive cost savings | 4 weeks | P2 |
+| **FDA Evidence Package** | Regulatory approval | Ongoing | P1 |
+| **External Validation** | Publication-ready | 2 months | P2 |
+
+---
+
+## 💡 THE COMPETITIVE MOAT IMPLICATIONS
+
+### **Why This Matters for Anthropic Acquisition**
+
+1. **We're Applying Their Research to Biology**
+   - Anthropic: SAE for language model interpretability (deception, safety)
+   - CrisPRO: SAE for biological interpretability (resistance, pathways)
+   - **Unique Value:** First to apply SAE steerability to proteins/genomics
+
+2. **FDA White Box = Regulatory Moat**
+   - Black box AI → FDA rejection
+   - Steerable SAE → Audit trail → FDA approval
+   - **Defensible:** Competitors can't replicate without similar interpretability
+
+3. **In Silico Trials = Cost Moat**
+   - Traditional: $2.6B, 12 years per drug
+   - Steerable SAE: Simulate drug effects computationally
+   - **Flywheel:** More simulations → better models → more accurate simulations
+
+### **The Bottom Line**
+
+We built **proxy de-noising + auditability** (Layer 1/2) and TRUE SAE extraction infra, but TRUE SAE is not yet mapped/validated strongly enough to support steerability.
+
+We have NOT touched **steerability** (Layer 3).
+
+Steerability (realistically) becomes a capability in stages:
+- **V0 (now):** steerability over **proxy** mechanisms (7D vector / validated markers) — useful for demo + clinical reasoning.
+- **V1 (next):** hybrid steerability using a **small, curated mapping** of TRUE SAE features → DDR/MAPK anchors.
+- **V2 (later):** full TRUE SAE steerability once mapping + validation improve.
+- Validates DIS3/NF1 as CAUSAL (not just correlational)
+- Enables in silico clinical trials (massive cost savings)
+- Provides FDA-ready evidence package (regulatory moat)
+- Distinguishes us from every other genomics company
+
+
+**Cleanup note:** Removed an accidental duplicated “summary blob” that was pasted into the bottom of this document; it was redundant and made the file harder to use as a source of truth.
+
+---
+
+**Document Status:** 🔬 **STRATEGIC DEEP DIVE COMPLETE**  
+**Next Step:** Begin Feature→Pathway Mapping to unlock TRUE SAE  
+**Owner:** Zo (Senior Agent)

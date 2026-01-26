@@ -1,0 +1,163 @@
+{
+  "version": "1.0",
+  "description": "Tier 2 ClinVar→dosing heuristic rules for non-CPIC variants",
+  "last_updated": "2025-01-04",
+  "rules": [
+    {
+      "rule_id": "RULE_1",
+      "name": "Strong Pathogenic Consensus",
+      "description": "≥3 Pathogenic/Likely Pathogenic submissions with no Benign submissions",
+      "condition": {
+        "pathogenic_count": ">= 3",
+        "likely_pathogenic_count": ">= 0",
+        "benign_count": "== 0",
+        "likely_benign_count": "== 0"
+      },
+      "recommendation": "REDUCE_50",
+      "adjustment_factor": 0.5,
+      "rationale": "Strong consensus for pathogenicity from multiple independent labs",
+      "confidence": "HIGH",
+      "flag_for_review": false
+    },
+    {
+      "rule_id": "RULE_2",
+      "name": "Very Strong Pathogenic (with conflicts)",
+      "description": "≥5 Pathogenic submissions even if conflicts exist",
+      "condition": {
+        "pathogenic_count": ">= 5",
+        "total_pathogenic_likely_pathogenic": ">= 5"
+      },
+      "recommendation": "REDUCE_50_FLAG",
+      "adjustment_factor": 0.5,
+      "rationale": "Very strong pathogenic signal (≥5 submissions) warrants dose reduction despite conflicts",
+      "confidence": "HIGH",
+      "flag_for_review": true,
+      "flag_reason": "Conflicting interpretations present but strong pathogenic consensus"
+    },
+    {
+      "rule_id": "RULE_3",
+      "name": "Conflicting Evidence",
+      "description": "2 Pathogenic + ≥2 Benign submissions",
+      "condition": {
+        "pathogenic_count": "== 2",
+        "benign_count": ">= 2",
+        "total_pathogenic_likely_pathogenic": ">= 2",
+        "total_benign_likely_benign": ">= 2"
+      },
+      "recommendation": "FLAG_FOR_EXPERT_REVIEW",
+      "adjustment_factor": null,
+      "rationale": "Conflicting evidence requires expert clinical judgment",
+      "confidence": "LOW",
+      "flag_for_review": true,
+      "flag_reason": "Conflicting pathogenicity interpretations"
+    },
+    {
+      "rule_id": "RULE_4",
+      "name": "Single Pathogenic Submission",
+      "description": "Only 1 Pathogenic submission (no consensus)",
+      "condition": {
+        "pathogenic_count": "== 1",
+        "likely_pathogenic_count": "== 0",
+        "total_pathogenic_likely_pathogenic": "== 1"
+      },
+      "recommendation": "SURFACE_EVIDENCE_ONLY",
+      "adjustment_factor": null,
+      "rationale": "Insufficient evidence for dosing change (single submission)",
+      "confidence": "VERY_LOW",
+      "flag_for_review": false,
+      "note": "No dosing adjustment recommended; evidence surfaced for clinician awareness"
+    },
+    {
+      "rule_id": "RULE_5",
+      "name": "Benign Consensus",
+      "description": "≥3 Benign/Likely Benign submissions with no Pathogenic submissions",
+      "condition": {
+        "benign_count": ">= 3",
+        "likely_benign_count": ">= 0",
+        "pathogenic_count": "== 0",
+        "likely_pathogenic_count": "== 0"
+      },
+      "recommendation": "NO_ACTION",
+      "adjustment_factor": 1.0,
+      "rationale": "Strong consensus for benign variant",
+      "confidence": "HIGH",
+      "flag_for_review": false
+    },
+    {
+      "rule_id": "RULE_6",
+      "name": "VUS Only",
+      "description": "Only VUS (Uncertain Significance) submissions, no Pathogenic or Benign",
+      "condition": {
+        "vus_count": ">= 1",
+        "pathogenic_count": "== 0",
+        "likely_pathogenic_count": "== 0",
+        "benign_count": "== 0",
+        "likely_benign_count": "== 0"
+      },
+      "recommendation": "SURFACE_EVIDENCE_ONLY",
+      "adjustment_factor": null,
+      "rationale": "VUS status provides no actionable dosing guidance",
+      "confidence": "VERY_LOW",
+      "flag_for_review": false,
+      "note": "No dosing adjustment recommended; VUS status surfaced for clinician awareness"
+    },
+    {
+      "rule_id": "RULE_7",
+      "name": "Moderate Pathogenic (2 submissions)",
+      "description": "2 Pathogenic/Likely Pathogenic submissions with no Benign",
+      "condition": {
+        "total_pathogenic_likely_pathogenic": "== 2",
+        "total_benign_likely_benign": "== 0",
+        "pathogenic_count": ">= 1"
+      },
+      "recommendation": "REDUCE_25_FLAG",
+      "adjustment_factor": 0.75,
+      "rationale": "Moderate pathogenic signal (2 submissions) warrants conservative dose reduction",
+      "confidence": "MODERATE",
+      "flag_for_review": true,
+      "flag_reason": "Limited evidence (2 submissions) - consider expert review"
+    }
+  ],
+  "evaluation_criteria": {
+    "true_positive": {
+      "definition": "System recommended 'REDUCE_50' or 'REDUCE_25_FLAG' AND patient had Grade 3-5 toxicity",
+      "examples": ["REDUCE_50 + Grade 4 neutropenia", "REDUCE_25_FLAG + Grade 3 mucositis"]
+    },
+    "true_negative": {
+      "definition": "System recommended 'NO_ACTION' or 'SURFACE_EVIDENCE_ONLY' AND patient had Grade 0-2 or no toxicity",
+      "examples": ["NO_ACTION + Grade 1 toxicity", "SURFACE_EVIDENCE_ONLY + no toxicity"]
+    },
+    "false_positive": {
+      "definition": "System recommended 'REDUCE_50' or 'REDUCE_25_FLAG' BUT patient had Grade 0-2 or no toxicity",
+      "examples": ["REDUCE_50 + Grade 1 toxicity", "REDUCE_25_FLAG + no toxicity"]
+    },
+    "false_negative": {
+      "definition": "System recommended 'NO_ACTION' or 'SURFACE_EVIDENCE_ONLY' BUT patient had Grade 3-5 toxicity",
+      "examples": ["NO_ACTION + Grade 4 toxicity", "SURFACE_EVIDENCE_ONLY + Grade 5 (fatal)"]
+    },
+    "indeterminate": {
+      "definition": "System recommended 'FLAG_FOR_EXPERT_REVIEW' - cannot be scored as TP/TN/FP/FN",
+      "note": "These cases should be analyzed separately"
+    }
+  },
+  "toxicity_grading": {
+    "positive_outcome": [3, 4, 5],
+    "negative_outcome": [0, 1, 2],
+    "grade_5_definition": "Fatal toxicity"
+  },
+  "notes": [
+    "These rules are heuristic and require clinical validation",
+    "Rules prioritize safety (conservative approach)",
+    "FLAG recommendations require expert clinical judgment",
+    "SURFACE_EVIDENCE_ONLY means no dosing change but evidence is presented to clinician"
+  ]
+}
+
+
+
+
+
+
+
+
+

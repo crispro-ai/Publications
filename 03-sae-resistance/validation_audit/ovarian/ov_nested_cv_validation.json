@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-01-25T04:42:43.997876",
+  "nested_cv_auroc": 0.47759999999999997,
+  "nested_cv_std": 0.027550680572356098,
+  "fold_scores": [
+    0.5,
+    0.448,
+    0.5,
+    0.44,
+    0.5
+  ],
+  "fold_results": [
+    {
+      "fold": 1,
+      "auroc": 0.5,
+      "n_features": 0,
+      "selected_features": []
+    },
+    {
+      "fold": 2,
+      "auroc": 0.448,
+      "n_features": 12,
+      "selected_features": [
+        27607,
+        16337,
+        6020,
+        27547,
+        22868,
+        12893,
+        32158,
+        31362,
+        9738,
+        32665,
+        18503,
+        28540
+      ]
+    },
+    {
+      "fold": 3,
+      "auroc": 0.5,
+      "n_features": 0,
+      "selected_features": []
+    },
+    {
+      "fold": 4,
+      "auroc": 0.44,
+      "n_features": 1,
+      "selected_features": [
+        3367
+      ]
+    },
+    {
+      "fold": 5,
+      "auroc": 0.5,
+      "n_features": 0,
+      "selected_features": []
+    }
+  ],
+  "feature_selection_log": [
+    {
+      "outer_fold": 1,
+      "selected_features": [],
+      "n_features": 0
+    },
+    {
+      "outer_fold": 2,
+      "selected_features": [],
+      "n_features": 0
+    },
+    {
+      "outer_fold": 3,
+      "selected_features": [],
+      "n_features": 0
+    },
+    {
+      "outer_fold": 4,
+      "selected_features": [],
+      "n_features": 0
+    },
+    {
+      "outer_fold": 5,
+      "selected_features": [],
+      "n_features": 0
+    }
+  ],
+  "comparison": {
+    "original_auroc": 0.783,
+    "nested_cv_auroc": 0.47759999999999997,
+    "performance_drop": 0.30540000000000006,
+    "leakage_assessment": "significant_leakage"
+  },
+  "parameters": {
+    "p_threshold": 0.05,
+    "cohen_d_threshold": 0.5,
+    "max_features": 29,
+    "n_patients": 149,
+    "n_resistant": 24,
+    "n_sensitive": 125
+  }
+}

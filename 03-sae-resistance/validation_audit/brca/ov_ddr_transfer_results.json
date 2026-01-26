@@ -1,0 +1,66 @@
+{
+  "test_date": "2026-01-25T03:57:18.630006",
+  "test_name": "OV DDR Transfer to BRCA",
+  "result": {
+    "ov_ddr_auroc": 0.3857484076433121,
+    "auroc_ci_lower": 0.24709794494720966,
+    "auroc_ci_upper": 0.5271701928053831,
+    "interpretation": "poor",
+    "next_action": "run_brca_specific",
+    "scenario": "Scenario C: Poor transfer (< 0.60)",
+    "n_patients": 173,
+    "recurrence_distribution": {
+      "true": 16,
+      "false": 157
+    },
+    "ddr_bin_stats": {
+      "mean": 0.2394223992276743,
+      "median": 0.21160064140955606,
+      "min": 0.0,
+      "max": 1.1944165809286966,
+      "std": 0.19673449466174006
+    },
+    "aggregation_method": "mean",
+    "ov_ddr_features": [
+      1407,
+      6020,
+      9738,
+      12893,
+      16337,
+      22868,
+      26220,
+      27607,
+      31362
+    ],
+    "missing_features_handled": "0.0 (automatic in mean aggregation)"
+  },
+  "stats": {
+    "total_patients": 200,
+    "with_recurrence_label": 173,
+    "recurrence_true": 16,
+    "recurrence_false": 157,
+    "ddr_bin_stats": {
+      "mean": 0.2394223992276743,
+      "median": 0.21160064140955606,
+      "min": 0.0,
+      "max": 1.1944165809286966,
+      "std": 0.19673449466174006
+    }
+  },
+  "provenance": {
+    "brca_checkpoint": "/Users/fahadkiani/Desktop/development/crispr-assistant-main/oncology-coPilot/oncology-backend-minimal/data/validation/sae_cohort/checkpoints/BRCA_TCGA_TRUE_SAE_cohort.json",
+    "recurrence_labels": "/Users/fahadkiani/Desktop/development/crispr-assistant-main/oncology-coPilot/oncology-backend-minimal/data/validation/sae_cohort/brca_recurrence_labels.json",
+    "aggregation_method": "mean",
+    "ov_ddr_features": [
+      1407,
+      6020,
+      9738,
+      12893,
+      16337,
+      22868,
+      26220,
+      27607,
+      31362
+    ]
+  }
+}

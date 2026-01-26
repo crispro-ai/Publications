@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-01-04T09:18:19Z",
+  "definitions": {
+    "cpic_coverage": "cases_with_cpic_match / total_cases in this dataset",
+    "cpic_concordance": "concordant recommendations among cases with CPIC match",
+    "toxicity_sensitivity": "flagged among toxicity-positive cases WITH drug + outcome labels",
+    "toxicity_specificity": "requires toxicity-negative cases WITH drug + outcome labels (often unavailable in this dataset)",
+    "clinvar_bridge_coverage": "ability to retrieve ClinVar evidence for non-CPIC variants (NOT dosing accuracy)"
+  },
+  "cohort": {
+    "total_cases": 59,
+    "by_gene": {
+      "DPYD": 44,
+      "TPMT": 9,
+      "UGT1A1": 6
+    },
+    "by_source": {
+      "PubMed": 10,
+      "cBioPortal": 1,
+      "GDC/TCGA": 48
+    },
+    "drug_present_n": 6
+  },
+  "cpic": {
+    "cases_with_cpic_match": 10,
+    "cpic_coverage_rate": 0.1694915254237288,
+    "cpic_concordant_in_matched": 10,
+    "cpic_concordance_rate_in_matched": 1.0
+  },
+  "toxicity_validation": {
+    "clinically_evaluable_n": 6,
+    "toxicity_positive_n": 6,
+    "toxicity_negative_n": 0,
+    "tp": 4,
+    "fn": 2,
+    "tn": 0,
+    "fp": 0,
+    "sensitivity": 0.6666666666666666,
+    "specificity": null,
+    "missed_cases": [
+      "LIT-DPYD-003",
+      "LIT-DPYD-007"
+    ]
+  },
+  "clinvar_bridge": {
+    "non_cpic_cases": 49,
+    "fetched_200": 49,
+    "heuristic_labeled": 49,
+    "label_distribution": {
+      "conflicting": 49
+    }
+  }
+}

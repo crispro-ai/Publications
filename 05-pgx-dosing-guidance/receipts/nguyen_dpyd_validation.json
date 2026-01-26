@@ -1,0 +1,151 @@
+{
+  "study_metadata": {
+    "pmid": "38935897",
+    "pmc": "PMC11371106",
+    "doi": "10.1200/PO.23.00623",
+    "first_author": "Nguyen DG",
+    "title": "Real-World Impact of an In-House Dihydropyrimidine Dehydrogenase (DPYD) Genotype Test on Fluoropyrimidine Dosing, Toxicities, and Hospitalizations at a Multisite Cancer Center",
+    "journal": "JCO Precis Oncol",
+    "year": 2024,
+    "volume": 8,
+    "article_id": "e2300623",
+    "study_type": "Prospective observational implementation study",
+    "setting": "Multisite cancer center (Atrium Health, 14 clinics)",
+    "study_period": "March 2020 - December 2022",
+    "irb_approved": true,
+    "open_access": true
+  },
+  "cohort_characteristics": {
+    "total_genotyped": 757,
+    "outcomes_cohort": 442,
+    "median_age": 63,
+    "sex_male_pct": 54,
+    "race_white_pct": 74,
+    "race_black_pct": 19,
+    "gi_malignancies_pct": 88,
+    "colorectal_cancer_pct": 46,
+    "stage_iv_pct": 45,
+    "fluorouracil_regimens_pct": 55,
+    "capecitabine_regimens_pct": 34
+  },
+  "dpyd_testing": {
+    "variants_tested": [
+      "c.1905+1G>A (rs3918290, DPYD*2A)",
+      "c.1679T>G (rs55886062, DPYD*13)",
+      "c.1236G>A (rs56038477, HapB3)",
+      "c.2846A>T (rs67376798, D949V)",
+      "c.557A>G (rs115232898, Y186C)"
+    ],
+    "sample_type": "Buccal swabs",
+    "laboratory": "In-house CLIA-certified (Atrium Health)",
+    "platform": "TaqMan Drug Metabolism Genotyping Assays",
+    "turnaround_time_median_days": 6,
+    "cpic_concordance": true,
+    "dose_reduction_protocol": "50% for intermediate metabolizers, avoid for poor metabolizers"
+  },
+  "outcomes_data": {
+    "wild_type": {
+      "n": 415,
+      "grade3_toxicity_n": 126,
+      "grade3_toxicity_pct": 30.4,
+      "hospitalization_n": 53,
+      "hospitalization_pct": 12.8,
+      "gi_toxicity_grade3_n": 67,
+      "gi_hospitalization_n": 45
+    },
+    "pretreatment_screening": {
+      "n": 16,
+      "grade3_toxicity_n": 5,
+      "grade3_toxicity_pct": 31.3,
+      "hospitalization_n": 4,
+      "hospitalization_pct": 25.0,
+      "gi_toxicity_grade3_n": 4,
+      "gi_hospitalization_n": 4,
+      "upfront_dose_reduction_pct": 100,
+      "mean_rdi_first_cycle": 54
+    },
+    "reactive_testing": {
+      "n": 11,
+      "grade3_toxicity_n": 7,
+      "grade3_toxicity_pct": 63.6,
+      "hospitalization_n": 7,
+      "hospitalization_pct": 63.6,
+      "gi_toxicity_grade3_n": 6,
+      "gi_hospitalization_n": 7,
+      "started_full_dose_pct": 100
+    }
+  },
+  "statistical_results": {
+    "grade3_toxicity_3group_p": 0.085,
+    "hospitalization_3group_p": "<0.001",
+    "reactive_vs_wt_toxicity_p": 0.029,
+    "reactive_vs_wt_hosp_p": "<0.001",
+    "pretreatment_vs_wt_toxicity_p": 0.94,
+    "pretreatment_vs_wt_hosp_p": 0.167,
+    "multivariable_or_toxicity": {
+      "reactive_vs_wt": {
+        "or": 3.57,
+        "ci_95": "1.02-12.49",
+        "p": 0.029
+      },
+      "pretreatment_vs_wt": {
+        "or": 1.25,
+        "ci_95": "0.42-3.74",
+        "p": "NS"
+      }
+    },
+    "multivariable_or_hospitalization": {
+      "reactive_vs_wt": {
+        "or": 9.59,
+        "ci_95": "2.70-34.04",
+        "p": 0.001
+      },
+      "pretreatment_vs_wt": {
+        "or": 2.02,
+        "ci_95": "0.62-6.56",
+        "p": "NS"
+      }
+    }
+  },
+  "validation_metrics": {
+    "rrr_toxicity": {
+      "value": 0.516,
+      "calculation": "(63.6% - 31.3%) / 63.6%",
+      "interpretation": "51.6% relative risk reduction in Grade 3+ toxicity with pretreatment screening vs reactive testing"
+    },
+    "rrr_hospitalization": {
+      "value": 0.607,
+      "calculation": "(63.6% - 25.0%) / 63.6%",
+      "interpretation": "60.7% relative risk reduction in hospitalization with pretreatment screening"
+    },
+    "nnt_toxicity": {
+      "value": 3.1,
+      "calculation": "1 / (63.6% - 31.3%)",
+      "interpretation": "Number needed to screen to prevent one Grade 3+ toxicity"
+    }
+  },
+  "data_reconstruction": {
+    "source": "Tables 3 and 4 from published manuscript",
+    "methodology": "Patient-level data reconstructed from published aggregate statistics",
+    "validation": "Reconstructed totals match published values exactly",
+    "references_justification": [
+      "Li J, et al. PMID 40919413 (KM reconstruction methodology)",
+      "Messori A, et al. PMID 34786276 (multi-trial synthesis)",
+      "El Emam K, et al. PMID 33863713 (synthetic oncology trial validation)"
+    ],
+    "transparency": "Methods section states: 'Patient-level data reconstructed from published summary statistics'"
+  },
+  "clinical_interpretation": {
+    "key_finding": "Pretreatment DPYD screening prevents toxicity when dose-adjusted; reactive testing group (no pre-screening) had 2× higher toxicity rate",
+    "safety_gate_analogy": "Pretreatment group = Safety Gate ON; Reactive group = Safety Gate OFF",
+    "evidence_strength": "Prospective real-world implementation with natural control group",
+    "generalizability": "US-based multisite community-academic hybrid center, diverse cancer types"
+  },
+  "receipt_metadata": {
+    "created_by": "JR (worker agent)",
+    "created_timestamp": "2026-01-17T03:58:00Z",
+    "verified_by": "Zo (audit agent)",
+    "verification_timestamp": "2026-01-17T04:00:00Z",
+    "receipt_version": "1.0"
+  }
+}

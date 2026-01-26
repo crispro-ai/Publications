@@ -1,0 +1,322 @@
+{
+  "validation_type": "7D_pathway_mapping",
+  "timestamp": "2026-01-18T15:53:48.599864",
+  "n_cell_lines": 500,
+  "label_distribution": {
+    "NONE": 639,
+    "DNA_PK": 74,
+    "ATR": 73,
+    "PARP": 103,
+    "WEE1": 56
+  },
+  "parameters": {
+    "min_ddr_threshold": 0.6,
+    "min_fit_threshold": 0.3,
+    "z_sensitive_threshold": -0.8,
+    "min_margin": 0.25,
+    "use_6d": false,
+    "dimension": "7D",
+    "use_hierarchical": true,
+    "evo2_enabled": false,
+    "evo2_api_base": null,
+    "evo2_model_id": null,
+    "max_variants_per_line": 30
+  },
+  "metrics": {
+    "accuracy": 0.3,
+    "macro_f1": 0.16063387557694958,
+    "precision_per_class": {
+      "PARP": 0.13846153846153847,
+      "ATR": 0.04950495049504951,
+      "WEE1": 0.0,
+      "DNA_PK": 0.061224489795918366,
+      "NONE": 0.7016574585635359
+    },
+    "recall_per_class": {
+      "PARP": 0.16666666666666666,
+      "ATR": 0.14705882352941177,
+      "WEE1": 0.0,
+      "DNA_PK": 0.23076923076923078,
+      "NONE": 0.3659942363112392
+    },
+    "f1_per_class": {
+      "PARP": 0.15126050420168066,
+      "ATR": 0.07407407407407407,
+      "WEE1": 0.0,
+      "DNA_PK": 0.0967741935483871,
+      "NONE": 0.4810606060606061
+    },
+    "parp_fpr": 0.12556053811659193,
+    "parp_ddr_correlation": 0.09440697657318883
+  },
+  "drug_moa_vectors": {
+    "PARP": {
+      "ddr": 0.95,
+      "ras_mapk": 0.05,
+      "pi3k": 0.0,
+      "vegf": 0.0,
+      "her2": 0.0,
+      "io": 0.0,
+      "efflux": 0.0
+    },
+    "ATR": {
+      "ddr": 0.8,
+      "ras_mapk": 0.2,
+      "pi3k": 0.0,
+      "vegf": 0.0,
+      "her2": 0.0,
+      "io": 0.0,
+      "efflux": 0.0
+    },
+    "WEE1": {
+      "ddr": 0.7,
+      "ras_mapk": 0.3,
+      "pi3k": 0.0,
+      "vegf": 0.0,
+      "her2": 0.0,
+      "io": 0.0,
+      "efflux": 0.0
+    },
+    "DNA_PK": {
+      "ddr": 0.9,
+      "ras_mapk": 0.1,
+      "pi3k": 0.0,
+      "vegf": 0.0,
+      "her2": 0.0,
+      "io": 0.0,
+      "efflux": 0.0
+    },
+    "NONE": {
+      "ddr": 0.0,
+      "ras_mapk": 0.0,
+      "pi3k": 0.0,
+      "vegf": 0.0,
+      "her2": 0.0,
+      "io": 0.0,
+      "efflux": 0.0
+    }
+  },
+  "predictions": {
+    "ACH-000001": {
+      "true_label": "NONE",
+      "predicted": "DNA_PK",
+      "fit_scores": {
+        "PARP": 0.29958534879975296,
+        "ATR": 0.2910427500435996,
+        "WEE1": 0.2757435090054174,
+        "DNA_PK": 0.2981651204020857
+      },
+      "ddr_score": 0.30000000000000004
+    },
+    "ACH-000002": {
+      "true_label": "DNA_PK",
+      "predicted": "NONE",
+      "fit_scores": {
+        "PARP": 0.005255883312276368,
+        "ATR": 0.024253562503633298,
+        "WEE1": 0.03939192985791677,
+        "DNA_PK": 0.011043152607484655
+      },
+      "ddr_score": 0.0
+    },
+    "ACH-000004": {
+      "true_label": "ATR",
+      "predicted": "DNA_PK",
+      "fit_scores": {
+        "PARP": 0.29958534879975296,
+        "ATR": 0.2910427500435996,
+        "WEE1": 0.2757435090054174,
+        "DNA_PK": 0.2981651204020857
+      },
+      "ddr_score": 0.30000000000000004
+    },
+    "ACH-000006": {
+      "true_label": "NONE",
+      "predicted": "NONE",
+      "fit_scores": {
+        "PARP": 0.14979267439987648,
+        "ATR": 0.1455213750217998,
+        "WEE1": 0.1378717545027087,
+        "DNA_PK": 0.14908256020104285
+      },
+      "ddr_score": 0.15000000000000002
+    },
+    "ACH-000007": {
+      "true_label": "NONE",
+      "predicted": "NONE",
+      "fit_scores": {
+        "PARP": 0.021023533249105473,
+        "ATR": 0.09701425001453319,
+        "WEE1": 0.15756771943166709,
+        "DNA_PK": 0.04417261042993862
+      },
+      "ddr_score": 0.0
+    },
+    "ACH-000008": {
+      "true_label": "NONE",
+      "predicted": "NONE",
+      "fit_scores": {
+        "PARP": 0.010511766624552736,
+        "ATR": 0.048507125007266595,
+        "WEE1": 0.07878385971583354,
+        "DNA_PK": 0.02208630521496931
+      },
+      "ddr_score": 0.0
+    },
+    "ACH-000009": {
+      "true_label": "NONE",
+      "predicted": "DNA_PK",
+      "fit_scores": {
+        "PARP": 0.29958534879975296,
+        "ATR": 0.2910427500435996,
+        "WEE1": 0.2757435090054174,
+        "DNA_PK": 0.2981651204020857
+      },
+      "ddr_score": 0.30000000000000004
+    },
+    "ACH-000012": {
+      "true_label": "NONE",
+      "predicted": "DNA_PK",
+      "fit_scores": {
+        "PARP": 0.29958534879975296,
+        "ATR": 0.2910427500435996,
+        "WEE1": 0.2757435090054174,
+        "DNA_PK": 0.2981651204020857
+      },
+      "ddr_score": 0.30000000000000004
+    },
+    "ACH-000015": {
+      "true_label": "NONE",
+      "predicted": "PARP",
+      "fit_scores": {
+        "PARP": 0.6990324805327569,
+        "ATR": 0.6790997501017323,
+        "WEE1": 0.6434015210126406,
+        "DNA_PK": 0.6957186142715333
+      },
+      "ddr_score": 0.7000000000000001
+    },
+    "ACH-000018": {
+      "true_label": "NONE",
+      "predicted": "DNA_PK",
+      "fit_scores": {
+        "PARP": 0.31009711542430574,
+        "ATR": 0.33954987505086615,
+        "WEE1": 0.35452736872125096,
+        "DNA_PK": 0.32025142561705505
+      },
+      "ddr_score": 0.30000000000000004
+    },
+    "ACH-000019": {
+      "true_label": "DNA_PK",
+      "predicted": "NONE",
+      "fit_scores": {
+        "PARP": 0.09986178293325099,
+        "ATR": 0.09701425001453319,
+        "WEE1": 0.09191450300180579,
+        "DNA_PK": 0.09938837346736189
+      },
+      "ddr_score": 0.1
+    },
+    "ACH-000020": {
+      "true_label": "PARP",
+      "predicted": "NONE",
+      "fit_scores": {
+        "PARP": 0.010511766624552736,
+        "ATR": 0.048507125007266595,
+        "WEE1": 0.07878385971583354,
+        "DNA_PK": 0.02208630521496931
+      },
+      "ddr_score": 0.0
+    },
+    "ACH-000021": {
+      "true_label": "NONE",
+      "predicted": "DNA_PK",
+      "fit_scores": {
+        "PARP": 0.29958534879975296,
+        "ATR": 0.2910427500435996,
+        "WEE1": 0.2757435090054174,
+        "DNA_PK": 0.2981651204020857
+      },
+      "ddr_score": 0.30000000000000004
+    },
+    "ACH-000023": {
+      "true_label": "NONE",
+      "predicted": "DNA_PK",
+      "fit_scores": {
+        "PARP": 0.31009711542430574,
+        "ATR": 0.33954987505086615,
+        "WEE1": 0.35452736872125096,
+        "DNA_PK": 0.32025142561705505
+      },
+      "ddr_score": 0.30000000000000004
+    },
+    "ACH-000024": {
+      "true_label": "ATR",
+      "predicted": "ATR",
+      "fit_scores": {
+        "PARP": 0.4993089146662549,
+        "ATR": 0.4850712500726659,
+        "WEE1": 0.45957251500902896,
+        "DNA_PK": 0.49694186733680945
+      },
+      "ddr_score": 0.5
+    },
+    "ACH-000030": {
+      "true_label": "WEE1",
+      "predicted": "DNA_PK",
+      "fit_scores": {
+        "PARP": 0.29958534879975296,
+        "ATR": 0.2910427500435996,
+        "WEE1": 0.2757435090054174,
+        "DNA_PK": 0.2981651204020857
+      },
+      "ddr_score": 0.30000000000000004
+    },
+    "ACH-000035": {
+      "true_label": "NONE",
+      "predicted": "ATR",
+      "fit_scores": {
+        "PARP": 0.39944713173300395,
+        "ATR": 0.38805700005813276,
+        "WEE1": 0.36765801200722315,
+        "DNA_PK": 0.39755349386944755
+      },
+      "ddr_score": 0.4
+    },
+    "ACH-000040": {
+      "true_label": "NONE",
+      "predicted": "DNA_PK",
+      "fit_scores": {
+        "PARP": 0.29958534879975296,
+        "ATR": 0.2910427500435996,
+        "WEE1": 0.2757435090054174,
+        "DNA_PK": 0.2981651204020857
+      },
+      "ddr_score": 0.30000000000000004
+    },
+    "ACH-000042": {
+      "true_label": "NONE",
+      "predicted": "ATR",
+      "fit_scores": {
+        "PARP": 0.46514567313645855,
+        "ATR": 0.5093248125762992,
+        "WEE1": 0.5317910530818765,
+        "DNA_PK": 0.48037713842558255
+      },
+      "ddr_score": 0.45000000000000007
+    },
+    "ACH-000045": {
+      "true_label": "NONE",
+      "predicted": "NONE",
+      "fit_scores": {
+        "PARP": 0.0,
+        "ATR": 0.0,
+        "WEE1": 0.0,
+        "DNA_PK": 0.0
+      },
+      "ddr_score": 0.0
+    }
+  },
+  "comparison": {}
+}

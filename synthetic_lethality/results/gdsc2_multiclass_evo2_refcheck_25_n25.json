@@ -1,0 +1,438 @@
+{
+  "n_cell_lines": 25,
+  "max_variants_per_line": 8,
+  "thresholds": {
+    "PARP": 0.0011283159255981447,
+    "ATR": 0.005690288543701173,
+    "WEE1": 0.004156470298767091,
+    "DNA_PK": 0.0023699879646301276
+  },
+  "accuracy": 0.12,
+  "parp_false_positive_rate": 0.08,
+  "labels": [
+    "PARP",
+    "ATR",
+    "WEE1",
+    "DNA_PK",
+    "NONE"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      3,
+      2,
+      16
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "notes": [
+    "Ground truth is in-vitro: best class = minimum mean AUC across drugs in class; NONE if best mean AUC >= 0.9.",
+    "Predictor uses Evo2 disruption on capped DDR SNVs per cell line via deployed Modal app variant-analysis-evo2.",
+    "Thresholds are set to 90th percentile of observed scores (safety-first; not yet held-out)."
+  ],
+  "per_cell_line": [
+    {
+      "ModelID": "ACH-001089",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.00252610445022583,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.00252610445022583,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000893",
+      "gt": "WEE1",
+      "pred": "WEE1",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.004953324794769287,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.004953324794769287,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-001702",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000627",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0021459460258483887,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0021459460258483887,
+        "n_variants_scored": 3,
+        "n_variants_considered": 3
+      }
+    },
+    {
+      "ModelID": "ACH-000950",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000971",
+      "gt": "WEE1",
+      "pred": "DNA_PK",
+      "features": {
+        "hrr_max": 0.0012093782424926758,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.003493666648864746,
+        "ddr_broad_max": 0.003493666648864746,
+        "n_variants_scored": 8,
+        "n_variants_considered": 8
+      }
+    },
+    {
+      "ModelID": "ACH-002107",
+      "gt": "WEE1",
+      "pred": "WEE1",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.005318105220794678,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.005318105220794678,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000295",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0013657212257385254,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0013657212257385254,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-002153",
+      "gt": "NONE",
+      "pred": "ATR",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.008214950561523438,
+        "ddr_broad_max": 0.008214950561523438,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-002211",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0036818981170654297,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0036818981170654297,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000573",
+      "gt": "WEE1",
+      "pred": "PARP",
+      "features": {
+        "hrr_max": 0.005938410758972168,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0021141767501831055,
+        "ddr_broad_max": 0.005938410758972168,
+        "n_variants_scored": 4,
+        "n_variants_considered": 4
+      }
+    },
+    {
+      "ModelID": "ACH-000654",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.002686142921447754,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.002686142921447754,
+        "n_variants_scored": 4,
+        "n_variants_considered": 4
+      }
+    },
+    {
+      "ModelID": "ACH-001227",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-002168",
+      "gt": "DNA_PK",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.002238035202026367,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.002238035202026367,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000620",
+      "gt": "WEE1",
+      "pred": "PARP",
+      "features": {
+        "hrr_max": 0.009698331356048584,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.009698331356048584,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-002317",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-000536",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0010067224502563477,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0026375651359558105,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0026375651359558105,
+        "n_variants_scored": 4,
+        "n_variants_considered": 4
+      }
+    },
+    {
+      "ModelID": "ACH-000665",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0015168190002441406,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0010590553283691406,
+        "ddr_broad_max": 0.0015168190002441406,
+        "n_variants_scored": 4,
+        "n_variants_considered": 4
+      }
+    },
+    {
+      "ModelID": "ACH-001625",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0033437013626098633,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0033437013626098633,
+        "n_variants_scored": 2,
+        "n_variants_considered": 2
+      }
+    },
+    {
+      "ModelID": "ACH-000360",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.00046008825302124023,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.003777027130126953,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.003777027130126953,
+        "n_variants_scored": 4,
+        "n_variants_considered": 4
+      }
+    },
+    {
+      "ModelID": "ACH-002139",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0,
+        "n_variants_scored": 0,
+        "n_variants_considered": 0
+      }
+    },
+    {
+      "ModelID": "ACH-001364",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.003750443458557129,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.003750443458557129,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-002251",
+      "gt": "WEE1",
+      "pred": "DNA_PK",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0025405287742614746,
+        "ddr_broad_max": 0.0025405287742614746,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-002307",
+      "gt": "WEE1",
+      "pred": "WEE1",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.004409432411193848,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.004409432411193848,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    },
+    {
+      "ModelID": "ACH-000626",
+      "gt": "WEE1",
+      "pred": "NONE",
+      "features": {
+        "hrr_max": 0.0,
+        "ber_max": 0.0,
+        "checkpoint_max": 0.0011382102966308594,
+        "atr_axis_max": 0.0,
+        "dnapk_max": 0.0,
+        "ddr_broad_max": 0.0011382102966308594,
+        "n_variants_scored": 1,
+        "n_variants_considered": 1
+      }
+    }
+  ]
+}

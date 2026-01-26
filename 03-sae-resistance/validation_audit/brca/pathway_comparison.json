@@ -1,0 +1,54 @@
+{
+  "comparison_date": "2026-01-25T04:05:29.739938",
+  "ov_ddr": {
+    "auroc": 0.3857484076433121,
+    "ci_lower": 0.24851797218984722,
+    "ci_upper": 0.5478494392559884,
+    "features": [
+      1407,
+      6020,
+      9738,
+      12893,
+      16337,
+      22868,
+      26220,
+      27607,
+      31362
+    ],
+    "n_features": 9,
+    "interpretation": "poor"
+  },
+  "brca_specific": {
+    "auroc": 0.7054140127388535,
+    "ci_lower": 0.5484882174949569,
+    "ci_upper": 0.8637170440548261,
+    "features": [
+      7220,
+      8917,
+      16407,
+      2737,
+      7067,
+      6878,
+      8848,
+      22217,
+      7359,
+      10065,
+      13562,
+      25333,
+      24538,
+      13979,
+      23920,
+      26851,
+      19758
+    ],
+    "n_features": 17,
+    "interpretation": "success"
+  },
+  "best_single_pathway": "brca_specific",
+  "recommendation": "use_brca_specific",
+  "n_patients": 173,
+  "recurrence_distribution": {
+    "true": 16,
+    "false": 157
+  }
+}

@@ -1,0 +1,253 @@
+{
+    "trial_id": "NCT02657889",
+    "trial_name": "TOPACIO/KEYNOTE-162",
+    "data_sources": [
+        "Konstantinopoulos PA, et al. JAMA Oncol 2019;5(8):1141-1149",
+        "Färkkilä A, et al. Nat Commun 2020;11(1):1459"
+    ],
+    "patient_population": {
+        "enrolled_ov": 62,
+        "efficacy_evaluable": 60,
+        "phase1_ov": 9,
+        "phase2_ov": 53,
+        "discontinued_no_scan": 2
+    },
+    "baseline_characteristics": {
+        "age_median": 60,
+        "age_range": [
+            46,
+            83
+        ],
+        "ecog_0": {
+            "n": 44,
+            "pct": 71
+        },
+        "ecog_1": {
+            "n": 18,
+            "pct": 29
+        },
+        "prior_lines_median": 3,
+        "prior_lines_range": [
+            1,
+            5
+        ],
+        "prior_bevacizumab": {
+            "n": 39,
+            "pct": 63
+        },
+        "platinum_status": {
+            "resistant": {
+                "n": 30,
+                "pct": 48
+            },
+            "refractory": {
+                "n": 17,
+                "pct": 27
+            },
+            "not_applicable": {
+                "n": 15,
+                "pct": 24
+            }
+        },
+        "tbrca_status": {
+            "brca1_mut": {
+                "n": 9,
+                "pct": 15
+            },
+            "brca2_mut": {
+                "n": 2,
+                "pct": 3
+            },
+            "brca_wt": {
+                "n": 49,
+                "pct": 79
+            },
+            "unknown": {
+                "n": 2,
+                "pct": 3
+            }
+        },
+        "hrd_status": {
+            "positive": {
+                "n": 22,
+                "pct": 35
+            },
+            "negative": {
+                "n": 33,
+                "pct": 53
+            },
+            "unknown": {
+                "n": 7,
+                "pct": 11
+            }
+        },
+        "pdl1_status": {
+            "positive": {
+                "n": 35,
+                "pct": 56
+            },
+            "negative": {
+                "n": 21,
+                "pct": 34
+            },
+            "unknown": {
+                "n": 6,
+                "pct": 10
+            }
+        }
+    },
+    "efficacy_results_n60": {
+        "complete_response": {
+            "n": 3,
+            "pct": 5
+        },
+        "partial_response": {
+            "n": 8,
+            "pct": 13
+        },
+        "stable_disease": {
+            "n": 28,
+            "pct": 47
+        },
+        "progressive_disease": {
+            "n": 20,
+            "pct": 33
+        },
+        "inconclusive": {
+            "n": 1,
+            "pct": 2
+        },
+        "orr": {
+            "pct": 18,
+            "ci_90": [
+                11,
+                29
+            ]
+        },
+        "dcr": {
+            "pct": 65,
+            "ci_90": [
+                54,
+                75
+            ]
+        },
+        "notes": [
+            "4 patients had unconfirmed PR"
+        ]
+    },
+    "correlative_science": {
+        "sig3_vs_clinical_benefit": {
+            "sig3_pos_benefit": 15,
+            "sig3_pos_no_benefit": 6,
+            "sig3_neg_benefit": 5,
+            "sig3_neg_no_benefit": 11,
+            "p_value": 0.02,
+            "test": "Fisher exact"
+        },
+        "immune_score_vs_or": {
+            "is_pos_or_pos": 6,
+            "is_pos_or_neg": 4,
+            "is_neg_or_pos": 5,
+            "is_neg_or_neg": 25,
+            "p_value": 0.01,
+            "test": "Fisher exact"
+        },
+        "combined_score_vs_clinical_benefit": {
+            "combined_pos_benefit": 15,
+            "combined_pos_no_benefit": 6,
+            "combined_neg_benefit": 3,
+            "combined_neg_no_benefit": 9,
+            "p_value": 0.01,
+            "test": "Fisher exact"
+        },
+        "combined_score_vs_pfs": {
+            "combined_pos_n": 21,
+            "combined_neg_n": 12,
+            "p_value": 0.002,
+            "test": "Log-rank"
+        },
+        "combined_score_vs_or": {
+            "combined_pos_or_pos": 6,
+            "combined_pos_or_neg": 15,
+            "combined_neg_or_pos": 0,
+            "combined_neg_or_neg": 12,
+            "p_value": 0.06,
+            "test": "Fisher exact",
+            "key_finding": "0 patients with combined-negative achieved OR"
+        },
+        "pathway_scores_responders_vs_nonresponders": {
+            "interferon_signaling": {
+                "p": 0.03,
+                "effect_r": 0.3
+            },
+            "ddx58_ifih1_interferon": {
+                "p": 0.008,
+                "effect_r": 0.3
+            },
+            "bcr_signaling": {
+                "p": 0.01,
+                "effect_r": 0.3
+            },
+            "death_receptor_signaling": {
+                "p": 0.04,
+                "effect_r": 0.3
+            },
+            "il1_family_signaling": {
+                "p": 0.02,
+                "effect_r": 0.3
+            },
+            "cytosolic_sensors_dna": {
+                "p": 0.04,
+                "effect_r": 0.3
+            }
+        },
+        "exhausted_cd8_t_cells": {
+            "responders_vs_nonresponders_p": 0.02,
+            "effect_r": 0.5,
+            "correlation_tumor_regression": {
+                "rho": 0.68,
+                "p": 0.01,
+                "n": 13
+            }
+        },
+        "pstat1_exhausted_cd8": {
+            "responders_n": 10,
+            "nonresponders_n": 16,
+            "p_value": 0.02,
+            "effect_r": 0.5
+        },
+        "ki67_effector_cd8": {
+            "responders_vs_nonresponders_p": 0.04,
+            "effect_r": 0.4
+        }
+    },
+    "computed_mechanism_fit": {
+        "note": "Computed by agent, not from published data",
+        "brca_mutant": {
+            "n": 11,
+            "ddr_score": 0.85,
+            "mechanism_fit": 0.85
+        },
+        "hrd_positive": {
+            "n": 22,
+            "ddr_score": 0.65,
+            "mechanism_fit": 0.86
+        },
+        "hrd_negative": {
+            "n": 33,
+            "ddr_score": 0.25,
+            "mechanism_fit": 0.58
+        }
+    },
+    "trial_moa_vector": {
+        "ddr": 0.90,
+        "io": 0.80,
+        "mapk": 0.05,
+        "pi3k": 0.10,
+        "vegf": 0.05,
+        "her2": 0.05,
+        "efflux": 0.10
+    },
+    "data_extraction_date": "2026-01-25",
+    "extracted_by": "Agent from published figures/tables"
+}

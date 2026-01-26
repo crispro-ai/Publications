@@ -1,0 +1,278 @@
+---
+alwaysApply: false
+description: SPD benchmark intent + receipts + next hypothesis plan for proving SL gene candidacy (and why), including proxy and improved validation tracks.
+---
+
+## SPD Benchmark + SL Candidacy Proof Plan (Single Source of Truth)
+
+### Context / Why this file exists
+We built an RUO **preclinical** benchmark to test whether our **S/P/D** architecture can predict synthetic lethality–relevant drug sensitivity classes (PARP/ATR/WEE1/DNA-PK vs NONE) from real datasets. This file records exactly what SPD was, why it was built, what the experiments were actually measuring, what went wrong / what we fixed, and the next validation path for the more direct hypothesis: **“which genes are SL candidates, and why.”**
+
+---
+
+## Part A — What we were trying to build with **SPD**
+
+### Definitions
+- **S (Sequence)**: per-variant Evo2-derived disruption proxy (zero-shot sequence impact proxy).
+- **P (Pathway)**: mechanistic aggregation from gene disruptions → pathway signals → drug-class scores.
+- **D (Dependency grounding)**: lineage-aware DepMap essentiality priors used as a safety/grounding penalty.
+- **SPD**: SP scores multiplied by DepMap-derived essentiality for the drug’s target gene (or class proxy), to reduce systematic false positives and reflect lineage dependency.
+
+### Intended clinical-style question (proxy task)
+“Given tumor/cell-line mutations, what SL drug class is most plausible (PARP vs ATR vs WEE1 vs DNA-PK), or NONE?”
+
+**Important honesty constraint:** In this benchmark, the “truth” is **in-vitro cell line drug sensitivity** (GDSC2), not patient response.
+
+---
+
+## Part B — What we actually tested (and why early numbers are low)
+
+### Benchmark task (current)
+Multi-class classification on a **balanced** sample:
+- Labels: `PARP`, `ATR`, `WEE1`, `DNA_PK`, `NONE`
+- Label source: **GDSC2 Z_SCORE** aggregated by drug class (transparent rule)
+- Inputs: **OmicsSomaticMutations** SNVs (filtered/selected) for each cell line
+- Optional grounding: **DepMap essentiality priors** by lineage
+
+### Why early performance is low (non-hand-wavy)
+- **DDR SNVs alone are not enough** to predict drug response in cell lines (drug response is driven by many modalities).
+- **S scale problem**: raw Evo2 delta magnitudes are tiny and not comparable across genes without calibration.
+- **Selection problem**: if you score too few variants or the “wrong” genes, S collapses to near-zero.
+- **Evaluation artifact risk**: non-stratified train/test splits can accidentally inflate/deflate metrics; fixed below.
+
+---
+
+## Part C — What we fixed already (so we don’t forget)
+
+### 1) Stratified train/test split (correctness)
+We changed the benchmark to do a **label-stratified split** (rather than random shuffling).
+- This prevents accidental skew in the test set.
+- It makes the reported metrics “honest” for the chosen label distribution.
+
+### 2) Train-only calibration of S (SPE doctrine alignment)
+We added a **train-only gene-specific calibration** in the benchmark:
+- Store per-gene raw disruption (max per gene)
+- Build a per-gene empirical distribution on **train only**
+- Convert raw disruption → **percentile** within gene (fallback to global)
+
+This is a minimal, practical version of “gene-specific calibration” to avoid cross-gene scale drift.
+
+---
+
+## Part D — Where the implementation lives (main repo)
+
+### Primary benchmark runner (preclinical proxy)
+- **Script**: `publications/synthetic_lethality/code/benchmark_gdsc2_multimodal_spd.py`
+- **Inputs**:
+  - `publications/synthetic_lethality/data/GDSC2_fitted_dose_response_27Oct23.xlsx`
+  - `publications/synthetic_lethality/data/OmicsSomaticMutations.csv`
+  - `publications/synthetic_lethality/data/depmap_essentiality_by_context.json`
+  - `data/depmap/Model.csv` (ModelID ↔ COSMIC_ID mapping)
+- **Outputs**: JSON receipts under `publications/synthetic_lethality/results/`
+
+### Receipts (recent “honest” run)
+- `publications/synthetic_lethality/results/gdsc2_multimodal_spd_full_n20_v5_stratsplit_n100.json`
+  - Balanced cohort, stratified split
+  - Reports test accuracy, macro-F1, and PARP false-positive rate per method
+
+---
+
+## Part E — What SPD is meant to be “good at” (metrics)
+
+### Primary metrics (RUO safety-first)
+- **Macro-F1** (multi-class, penalizes collapse to a single class)
+- **Accuracy** (coarse)
+- **PARP false-positive rate** (safety metric: avoid overcalling PARP)
+
+### Safety framing
+SPD is designed to **reduce false-positive overcalling** (especially PARP) even if it sacrifices some sensitivity.
+
+---
+
+## Part F — Known mismatch with “publication suite” (important clue)
+
+The synthetic 100-case publication benchmark (`test_cases_100.json`) is not a valid proof of real Evo2 allele scoring:
+- It contains many cases with **missing/placeholder alleles**, which triggers **curated fallback** in the Evo2 scoring service.
+- All 30 negatives are missing valid alleles, which biases “0% PARP FP” style claims.
+
+So: we treat the publication suite as a **deterministic demo**, not a scientific validation.
+
+---
+
+## Part G — Next: proving the new hypothesis (“SL gene candidacy + why”)
+
+### The new hypothesis (what we actually want to prove)
+**Given a gene perturbation (or mutation) and context, can we predict whether that gene creates an SL vulnerability (PARP vs ATR vs WEE1 vs DNA-PK), and explain *why* mechanistically?**
+
+This differs from the current proxy task because:
+- We’re not trying to predict a drug response from sparse SNVs alone.
+- We’re trying to predict **gene → vulnerability class** as the primary object.
+
+---
+
+## Part H — Keep the initial proxy approach (GDSC2/DepMap) but make it more appropriate
+
+### Proxy Track 1 (keep): “Drug response proxy” — GDSC2 multi-class
+Goal: improve predictive power without cheating.
+Changes (incremental, RUO):
+- **Use doctrine-aligned S**: call `/api/evo/score_variant_multi` (min_delta) and `/api/evo/score_variant_exon` (exon corroboration) rather than single-site delta.
+- **Add a learned combiner** on train-only (e.g., multinomial logistic regression over features):
+  - Inputs: calibrated S features + P pathway features + D grounding features
+  - This avoids the brittle argmax rule.
+- **Add at least one extra modality** (still preclinical):
+  - e.g., expression or CNV proxy (if available) for replication stress / HRD state
+
+Expected outcome: we should beat the “P-only” baseline honestly and move toward stable, reproducible improvements.
+
+### Proxy Track 2 (keep): “Dependency proxy” — DepMap gene dependency
+Goal: predict whether a gene perturbation creates dependency on a targetable backup pathway.
+Validation target:
+- Use DepMap (by lineage) as the outcome proxy for “dependency” rather than drug response.
+Metric:
+- AUROC/AUPRC for dependency ranking or top-k enrichment for known SL pairs.
+
+---
+
+## Part I — New main proof (preferred): “Gene candidacy benchmark”
+
+### What we will measure
+Task: Given a gene (and optionally a mutation + context), predict:
+- **Vulnerability class**: PARP / ATR / WEE1 / DNA-PK / NONE
+- **Mechanistic rationale**: which pathway breaks + which backup pathway becomes essential
+
+### What data we need (minimum viable)
+For each sample (cell line or patient-derived model; RUO):
+- **Gene alteration**:
+  - Preferably allele-resolved (chrom/pos/ref/alt) OR biallelic loss calls (CNV + LOH + truncation)
+- **Context**:
+  - Lineage / tissue
+  - Optional expression/CNV to represent replication stress / HRD state
+- **Outcome**:
+  - Either drug response for inhibitors (PARP/ATR/WEE1/DNA-PK), OR a dependency signal for target genes / pathways
+
+### Why this is “fast”
+Because it aligns the label with the question:
+- We validate “gene creates vulnerability” rather than “SNVs predict drug sensitivity.”
+
+---
+
+## Part J — Immediate next implementation steps (so we can resume quickly)
+
+1) **Upgrade S calls in the benchmark** to use backend `/api/evo/score_variant_multi` + `/api/evo/score_variant_exon`.
+2) Add a **train-only learned combiner** (logistic regression) as a new method alongside SP/SPD argmax.
+3) Expand feature set minimally (one extra modality if available).
+4) Produce a new receipt series under `publications/synthetic_lethality/results/` with:
+   - stratified split
+   - fixed seed
+   - per-method confusion matrices and PARP FPR
+
+---
+
+## Part K — “Why” explanations (how we will justify predictions)
+We will always output:
+- **Broken pathway evidence** (P layer)
+- **Sequence disruption signal** (S layer + calibration details + provenance)
+- **Dependency grounding** (D layer: lineage essentiality penalty and target gene)
+- A structured rationale suitable for clinician/researcher review (RUO-labeled).
+
+---
+
+## Part L — Progress log (what we actually did / trained; not a black box)
+
+### L1) Baseline reality check (pre-change)
+- We observed SP/SPD collapsing to `NONE` when S was weak and/or few variants were scored.
+- We fixed evaluation correctness with **label-stratified train/test splits** so metrics aren’t artifacts.
+
+### L2) Implemented a real “learned combiner” (train-only)
+In `publications/synthetic_lethality/code/benchmark_gdsc2_multimodal_spd.py` we added:
+- **`LR-SP`**: multinomial (softmax) regression trained on TRAIN only using SP score-vector features.
+- **`LR-SPD`**: multinomial regression trained on TRAIN only using SPD score-vector features + lineage essentiality scalars.
+- **Train-only tuning**: a probability threshold tuned on TRAIN only (supports the same PARP-FPR constraint concept).
+
+This replaced “argmax over 4 raw scores” with a real classifier while keeping strict no-leakage discipline.
+
+### L3) Upgraded S to doctrine-aligned multi-window + exon corroboration (real S)
+We added an Evo API scoring path (no synthetic shortcuts):
+- **`EvoApiVariantScorer`** calls the backend:
+  - `POST /api/evo/score_variant_multi` (min_delta across windows)
+  - `POST /api/evo/score_variant_exon` (exon-context corroboration)
+- For each variant, disruption is computed as:
+  - `disruption = max(abs(min_delta), abs(exon_delta))`
+- Cache keys were updated to include **ref/alt** to avoid REF ambiguity.
+
+CLI flags added to the benchmark:
+- `--evo_api_base`
+- `--evo_api_model_id`
+- `--evo_api_timeout_s`
+- `--evo_api_exon_flank`
+
+### L4) Local backend used for “real S” (no deployment changes)
+We ran the local backend (`oncology-coPilot/oncology-backend-minimal`) to provide `/api/evo/*` endpoints and proxy to upstream Evo services.
+
+### L5) Receipts produced (proxy validation artifacts)
+
+#### Medium run (n=50) — legacy modal scorer + LR
+- Receipt: `publications/synthetic_lethality/results/gdsc2_multimodal_spd_n10_lr_modal_n50.json`
+- Test:
+  - `LR-SPD`: acc=0.30, macro_f1=0.308, PARP_FPR=0.25
+
+#### Medium run (n=50) — **real evo-api S** + LR
+- Receipt: `publications/synthetic_lethality/results/gdsc2_multimodal_spd_n10_lr_evoapi_n50.json`
+- Test:
+  - `LR-SPD`: **acc=0.40**, **macro_f1=0.41**, **PARP_FPR=0.00**
+  - This was the first strong signal that real multi-window+exon S + learned combiner can materially help.
+
+#### Full run (n=100) — **real evo-api S** + LR
+- Receipt: `publications/synthetic_lethality/results/gdsc2_multimodal_spd_n20_lr_evoapi_n100.json`
+- Test:
+  - `Always NONE`: acc=0.20, macro_f1=0.00, PARP_FPR=0.00
+  - `P-only`: acc=0.15, macro_f1=0.071, PARP_FPR=0.188
+  - `SP`: acc=0.20, macro_f1=0.00, PARP_FPR=0.062
+  - `SPD`: acc=0.20, macro_f1=0.083, PARP_FPR=0.00
+  - `LR-SP`: acc=0.15, macro_f1=0.00, PARP_FPR=0.125
+  - `LR-SPD`: acc=0.20, macro_f1=0.194, PARP_FPR=0.125
+
+**Brutal takeaway:** the n=50 gain did not translate cleanly to n=100; this is now a generalization/stability problem, not “S doesn’t run.”
+
+---
+
+## Part M — Next A→Z execution (what we do next for breakthrough SL)
+
+### M1) A — Stabilize the learning setup (reduce variance)
+- Run **multiple seeds** and report mean±std for LR-SPD on n=100 (same protocol).
+- Add a simple early-stopping/learning-rate schedule (to avoid overfitting small TRAIN).
+
+### M2) B — Strengthen S coverage without cheating
+- Increase `--max_variants_per_line` (e.g., 40–80) and re-run n=100.
+- Expand the scored gene set beyond current DDR_BROAD (still mechanistically curated; not “all genes”).
+
+### M3) C — Add one missing modality (required for >~0.5 realistically)
+- Add **CNV/LOH/HRD proxy** or **expression** per ModelID (one minimal modality), then retrain LR-SPD.
+
+### M4) D — Improve safety tuning (PARP-specific)
+- Replace “single global probability threshold” with a **PARP-class constraint** (separate threshold) to keep PARP FPR low while allowing other classes to fire.
+
+### M5) E — Build the “gene candidacy” benchmark (preferred proof)
+- Switch target from “drug response from SNVs” to “gene → vulnerability class + rationale.”
+- Validate against DepMap dependency shifts and/or curated SL pairs with context controls.
+
+
+
+---
+
+## Part N — 7D Pathway Mapping Validation (Post-Pivot)
+
+We pivoted from SPD-ML to the 7D pathway framework for a deterministic, clinically interpretable validation track.
+
+### 7D Baseline (Mutation Counts)
+- Accuracy 62.2% (n=500)
+- PARP FPR 7.4% (safety compliant)
+- Binary behavior: PARP/NONE only (ATR/WEE1/DNA_PK still 0 recall)
+
+### CNA HRD Proxy Test (Gene-Level CNA Matrix)
+- Receipt: `publications/synthetic_lethality/results/gdsc2_7d_hrd_cna_n500.json`
+- Accuracy 61.6% (no improvement vs baseline)
+- PARP FPR 7.6% (unchanged)
+- Conclusion: Gene-level CNA proxy is insufficient; need genome-wide HRD metrics (LOH/LST/TAI) + biallelic status
+
+### Current RecommendatioDeploy binary PARP/NONE baseline while HRD+Evo2 upgrades are refined.

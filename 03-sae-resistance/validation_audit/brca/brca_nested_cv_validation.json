@@ -1,0 +1,110 @@
+{
+  "validation_date": "2026-01-25T04:11:48.425735",
+  "method": "nested_cross_validation",
+  "outer_cv_folds": 5,
+  "feature_selection": "inside_cv_fold",
+  "fdr_correction": true,
+  "max_features": 10,
+  "performance": {
+    "cv_auroc_mean": 0.6068212365591397,
+    "cv_auroc_std": 0.03945275988391795,
+    "cv_scores": [
+      0.6197916666666665,
+      0.6562499999999999,
+      0.5967741935483871,
+      0.5376344086021505,
+      0.6236559139784946
+    ],
+    "n_folds": 5
+  },
+  "fold_results": [
+    {
+      "fold": 1,
+      "n_features": 6,
+      "features": [
+        8917,
+        2737,
+        8848,
+        19758,
+        13562,
+        7359
+      ],
+      "auroc": 0.6197916666666665,
+      "n_train": 138,
+      "n_test": 35,
+      "n_pos_train": 13,
+      "n_pos_test": 3
+    },
+    {
+      "fold": 2,
+      "n_features": 2,
+      "features": [
+        2737,
+        23648
+      ],
+      "auroc": 0.6562499999999999,
+      "n_train": 138,
+      "n_test": 35,
+      "n_pos_train": 13,
+      "n_pos_test": 3
+    },
+    {
+      "fold": 3,
+      "n_features": 10,
+      "features": [
+        7220,
+        8848,
+        6878,
+        7359,
+        13562,
+        2737,
+        3765,
+        5827,
+        327,
+        23648
+      ],
+      "auroc": 0.5967741935483871,
+      "n_train": 138,
+      "n_test": 35,
+      "n_pos_train": 12,
+      "n_pos_test": 4
+    },
+    {
+      "fold": 4,
+      "n_features": 7,
+      "features": [
+        10065,
+        7220,
+        7359,
+        13562,
+        3670,
+        2737,
+        23648
+      ],
+      "auroc": 0.5376344086021505,
+      "n_train": 139,
+      "n_test": 34,
+      "n_pos_train": 13,
+      "n_pos_test": 3
+    },
+    {
+      "fold": 5,
+      "n_features": 3,
+      "features": [
+        2737,
+        7220,
+        5827
+      ],
+      "auroc": 0.6236559139784946,
+      "n_train": 139,
+      "n_test": 34,
+      "n_pos_train": 13,
+      "n_pos_test": 3
+    }
+  ],
+  "comparison": {
+    "original_cv_auroc": 0.844,
+    "nested_cv_auroc": 0.6068212365591397,
+    "difference": -0.2371787634408603
+  }
+}

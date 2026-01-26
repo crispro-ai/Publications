@@ -1,0 +1,51 @@
+{
+  "inputs": {
+    "gdsc_path": "data/GDSC2_fitted_dose_response_27Oct23.xlsx",
+    "omics_path": "data/OmicsSomaticMutations.csv",
+    "model_path": "data/depmap/Model.csv",
+    "drug_classes": [
+      "ATR",
+      "DNA_PK",
+      "PARP",
+      "WEE1"
+    ],
+    "z_sensitive_threshold": -0.8,
+    "min_margin": 0.25,
+    "max_lines": 1000
+  },
+  "counts": {
+    "n_gdsc_rows_after_filter": 9207,
+    "n_candidate_model_ids": 945,
+    "n_with_omics_mutations": 935,
+    "n_missing_omics_mutations": 10
+  },
+  "label_distribution": {
+    "NONE": 694,
+    "DNA_PK": 81,
+    "ATR": 51,
+    "WEE1": 59,
+    "PARP": 60
+  },
+  "top_lineages": {
+    "Lung": 162,
+    "Lymphoid": 122,
+    "Esophagus/Stomach": 62,
+    "Skin": 55,
+    "CNS/Brain": 55,
+    "Breast": 49,
+    "Bowel": 48,
+    "Myeloid": 42,
+    "Ovary/Fallopian Tube": 41,
+    "Bone": 40,
+    "Head and Neck": 39,
+    "Kidney": 36,
+    "Pancreas": 31,
+    "Peripheral Nervous System": 30,
+    "Pleura": 21
+  },
+  "notes": [
+    "This is a preclinical benchmark (cell-line outcomes).",
+    "Label is derived from mean GDSC2 Z_SCORE per drug class with ambiguity gating.",
+    "Next step: build a balanced evaluation split and run S/P/(DepMap) predictors with Evo2 scoring."
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "receipt_type": "recompute_outcome_metrics_verification",
+  "timestamp": "2026-01-09T02:03:01.643340Z",
+  "inputs": {
+    "prepare_receipt": "/Users/fahadkiani/.cursor/worktrees/crispr-assistant-main/kly/publications/05-pgx-dosing-guidance/reports/prepare_outcome_validation.json",
+    "cyp2c19_receipt": "/Users/fahadkiani/.cursor/worktrees/crispr-assistant-main/kly/publications/05-pgx-dosing-guidance/reports/cyp2c19_clopidogrel_efficacy_validation.json"
+  },
+  "recomputed": {
+    "prepare": {
+      "actionable": {
+        "control_rate": 0.34782608695652173,
+        "intervention_rate": 0.058823529411764705,
+        "rrr": 0.8308823529411764,
+        "counts": {
+          "control": {
+            "toxic_events": 8,
+            "total": 23
+          },
+          "intervention": {
+            "toxic_events": 1,
+            "total": 17
+          }
+        }
+      },
+      "nonactionable_negative_controls": {
+        "control_rate": 0.1597222222222222,
+        "intervention_rate": 0.15319148936170213,
+        "rrr": 0.040888066604995305,
+        "counts": {
+          "control": {
+            "toxic_events": 46,
+            "total": 288
+          },
+          "intervention": {
+            "toxic_events": 36,
+            "total": 235
+          }
+        }
+      }
+    },
+    "cyp2c19": {
+      "pm_im_vs_em": 4.280769230769231,
+      "rates": {
+        "pm_im": 0.20192307692307693,
+        "em": 0.04716981132075472
+      },
+      "counts": {
+        "pm_im": {
+          "events": 21,
+          "total": 104
+        },
+        "em": {
+          "events": 5,
+          "total": 106
+        }
+      }
+    }
+  },
+  "stored_receipt_metrics": {
+    "prepare": {
+      "actionable_rrr": 0.831,
+      "nonactionable_rrr": 0.041
+    },
+    "cyp2c19": {
+      "pm_im_vs_em_risk_ratio": 4.28
+    }
+  },
+  "comparisons": {
+    "prepare_actionable_rrr_match": true,
+    "prepare_nonactionable_rrr_match": true,
+    "cyp2c19_rr_match": true
+  },
+  "overall_verified": true,
+  "notes": {
+    "scope": "Recomputes only effect sizes from receipt raw tables; does not fetch PMC XML.",
+    "interpretation": "If all comparisons match, manuscript effect sizes are computationally reproducible from embedded tables."
+  }
+}

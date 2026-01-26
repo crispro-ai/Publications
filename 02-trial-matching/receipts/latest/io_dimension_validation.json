@@ -1,0 +1,159 @@
+{
+  "run": {
+    "generated_at": "2026-01-04T09:05:31.160371+00:00"
+  },
+  "patient_vector": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0
+  ],
+  "top_10": [
+    {
+      "nct_id": "NCT04123379",
+      "fit": 1.0,
+      "primary_moa": "IO pathway (nivolumab)",
+      "moa_vector": {
+        "ddr": 0.0,
+        "mapk": 0.0,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.0,
+        "io": 0.9,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT06631079",
+      "fit": 1.0,
+      "primary_moa": "IO pathway (pd-1)",
+      "moa_vector": {
+        "ddr": 0.0,
+        "mapk": 0.0,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.0,
+        "io": 0.9,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT03878979",
+      "fit": 1.0,
+      "primary_moa": "IO pathway (nivolumab)",
+      "moa_vector": {
+        "ddr": 0.0,
+        "mapk": 0.0,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.0,
+        "io": 0.9,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT02422979",
+      "fit": 1.0,
+      "primary_moa": "IO pathway (immunotherapy)",
+      "moa_vector": {
+        "ddr": 0.0,
+        "mapk": 0.0,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.0,
+        "io": 0.9,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT06108479",
+      "fit": 1.0,
+      "primary_moa": "IO pathway (pembrolizumab)",
+      "moa_vector": {
+        "ddr": 0.0,
+        "mapk": 0.0,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.0,
+        "io": 0.9,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT04164979",
+      "fit": 0.707107,
+      "primary_moa": "VEGF pathway (cabozantinib)",
+      "moa_vector": {
+        "ddr": 0.0,
+        "mapk": 0.0,
+        "pi3k": 0.0,
+        "vegf": 0.9,
+        "her2": 0.0,
+        "io": 0.9,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT06331130",
+      "fit": 0.0,
+      "primary_moa": "HER2-targeted therapy (Trastuzumab deruxtecan with Zanidatamab)",
+      "moa_vector": {
+        "ddr": 0.0,
+        "mapk": 0.0,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.95,
+        "io": 0.0,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT04284969",
+      "fit": 0.0,
+      "primary_moa": "DNA Damage Repair (PARP + ATR inhibitors)",
+      "moa_vector": {
+        "ddr": 0.95,
+        "mapk": 0.0,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.0,
+        "io": 0.0,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT04001023",
+      "fit": 0.0,
+      "primary_moa": "DNA Damage Repair (PARP inhibitor Olaparib)",
+      "moa_vector": {
+        "ddr": 0.9,
+        "mapk": 0.0,
+        "pi3k": 0.0,
+        "vegf": 0.0,
+        "her2": 0.0,
+        "io": 0.0,
+        "efflux": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT01000259",
+      "fit": 0.0,
+      "primary_moa": "VEGF Angiogenesis Inhibition (Bevacizumab)",
+      "moa_vector": {
+        "ddr": 0.0,
+        "mapk": 0.0,
+        "pi3k": 0.0,
+        "vegf": 0.9,
+        "her2": 0.0,
+        "io": 0.0,
+        "efflux": 0.0
+      }
+    }
+  ],
+  "notes": [
+    "This is a synthetic edge-case prototype for discrimination testing."
+  ]
+}

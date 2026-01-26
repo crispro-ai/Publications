@@ -1,0 +1,99 @@
+{
+  "batch_size": 10,
+  "total": 10,
+  "correct": 10,
+  "accuracy": 100.0,
+  "timestamp": "2026-01-22T23:15:29.238365",
+  "results": [
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_001",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_002",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_003",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_004",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_005",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_006",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_007",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_008",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_009",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    },
+    {
+      "case_id": "PROFOUND_BRCA2_SPOP_010",
+      "group": "BRCA2mut/SPOPmut",
+      "prediction": {
+        "top_dr": "olaparib",
+        "confidence": 0.695
+      },
+      "correct": true
+    }
+  ]
+}

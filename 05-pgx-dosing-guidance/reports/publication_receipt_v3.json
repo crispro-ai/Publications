@@ -1,0 +1,39 @@
+{
+  "receipt_type": "combined_publication_receipt",
+  "receipt_version": "3.0",
+  "generation_timestamp": "2026-01-06T18:15:39.365380Z",
+  "manuscript_version": "12.0",
+  "manuscript_title": "Outcome-Linked Validation of Pharmacogenomics Decision Support Across Toxicity Prevention and Efficacy Optimization: PREPARE (DPYD/UGT1A1) and CYP2C19\u2013Clopidogrel",
+  "cohorts": {
+    "PREPARE": {
+      "source_pmid": "39641926",
+      "source_pmc": "PMC11624585",
+      "receipt_file": "reports/prepare_outcome_validation.json",
+      "key_metrics": {
+        "total_patients": 563,
+        "actionable_carriers": 40,
+        "nonactionable_patients": 523,
+        "rrr_actionable": 0.831,
+        "rrr_nonactionable": 0.041
+      }
+    },
+    "CYP2C19": {
+      "source_pmid": "40944685",
+      "source_pmc": "PMC12673833",
+      "receipt_file": "reports/cyp2c19_clopidogrel_efficacy_validation.json",
+      "key_metrics": {
+        "clopidogrel_subset": 210,
+        "risk_ratio": 4.28,
+        "fisher_p": 0.00067
+      }
+    }
+  },
+  "tier2_validation": {
+    "receipt_file": "reports/tier2_heuristic_validation_results.json",
+    "validation_date": "2026-01-05T00:12:36.812051",
+    "total_cases": 21,
+    "summary_metrics": {}
+  },
+  "validation_status": "VERIFIED",
+  "all_claims_verified": true
+}

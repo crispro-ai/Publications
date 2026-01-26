@@ -1,0 +1,5399 @@
+{
+  "timestamp": "2026-01-07T16:06:11.305837",
+  "summary": {
+    "total_queries": 81,
+    "successful_queries": 81,
+    "average_precision": 0.0,
+    "average_recall": 0.0,
+    "average_f1": 0.0
+  },
+  "detailed_results": {
+    "ground_truth": {
+      "timestamp": "2026-01-07T15:48:02.339019",
+      "total_queries": 81,
+      "queries_analyzed": 81,
+      "queries_with_errors": 0,
+      "ground_truth": [
+        {
+          "query_id": "DG_001",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_002",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_003",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_004",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_005",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_006",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_007",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_008",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_009",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_010",
+          "question": "How does Unknown drug interact with DPYD A348T in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_011",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97079055T>C in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_012",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97305373C>T in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_013",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97450071G>T in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_014",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97720896G>A in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_015",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97573760C>A in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_016",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97193231C>A in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_017",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97193169T>A in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_018",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97306235delA in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_019",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97679174G>A in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_020",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97828158C>A in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_021",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97573967C>A in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_022",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97721603A>G in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_023",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97079145G>T in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_024",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97306282G>A in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_025",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97593336A>G in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_026",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97306235delA in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_027",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97573918C>T in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_028",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97079073C>T in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_029",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97883365C>T in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_030",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97679126T>G in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_031",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97082458T>C in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_032",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97721543A>G in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_033",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97699457G>A in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_034",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97515906T>G in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_035",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97234900A>G in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_036",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97721569A>C in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_037",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97549703G>T in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_038",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97595138G>T in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_039",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97306195C>T in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "DG_040",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97515899delG in cancer?",
+          "paper_count": 0,
+          "top_keywords": [
+            "unknown",
+            "interact"
+          ],
+          "keyword_counts": {
+            "unknown": 1,
+            "interact": 1
+          },
+          "method": "portal"
+        },
+        {
+          "query_id": "SL_001",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.C61G?",
+          "search_query": "\"olaparib\" AND in ovarian cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Ovarian Neoplasms",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Piperazines",
+            "Phthalazines",
+            "Ovarian cancer",
+            "Cell Line, Tumor",
+            "Middle Aged",
+            "Aged",
+            "ovarian cancer",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "BRCA1 Protein",
+            "Olaparib",
+            "Adult",
+            "Antineoplastic Agents",
+            "Animals",
+            "PARP inhibitor",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_002",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.C61G?",
+          "search_query": "\"olaparib\" AND in breast cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Cell Line, Tumor",
+            "Animals",
+            "Antineoplastic Agents",
+            "Olaparib",
+            "Breast Neoplasms",
+            "BRCA1 Protein",
+            "Triple Negative Breast Neoplasms",
+            "olaparib",
+            "Mice",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "PARP inhibitor",
+            "Poly (ADP-Ribose) Polymerase-1",
+            "Apoptosis",
+            "breast cancer",
+            "Middle Aged"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_003",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.K3326*?",
+          "search_query": "\"olaparib\" AND in prostate cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Male",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Prostatic Neoplasms",
+            "Prostatic Neoplasms, Castration-Resistant",
+            "Prostate cancer",
+            "Olaparib",
+            "Cell Line, Tumor",
+            "prostate cancer",
+            "Aged",
+            "PARP inhibitor",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "Animals",
+            "Middle Aged",
+            "Mutation",
+            "Antineoplastic Agents",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_004",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.K3326*?",
+          "search_query": "\"olaparib\" AND in ovarian cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Ovarian Neoplasms",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Piperazines",
+            "Phthalazines",
+            "Ovarian cancer",
+            "Cell Line, Tumor",
+            "Middle Aged",
+            "Aged",
+            "ovarian cancer",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "BRCA1 Protein",
+            "Olaparib",
+            "Adult",
+            "Antineoplastic Agents",
+            "Animals",
+            "PARP inhibitor",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_005",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.R346fs?",
+          "search_query": "\"olaparib\" AND in breast cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Cell Line, Tumor",
+            "Animals",
+            "Antineoplastic Agents",
+            "Olaparib",
+            "Breast Neoplasms",
+            "BRCA1 Protein",
+            "Triple Negative Breast Neoplasms",
+            "olaparib",
+            "Mice",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "PARP inhibitor",
+            "Poly (ADP-Ribose) Polymerase-1",
+            "Apoptosis",
+            "breast cancer",
+            "Middle Aged"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_006",
+          "question": "What mechanisms does Ceralasertib target in prostate cancer with p.R175H?",
+          "search_query": "\"ceralasertib\" AND in prostate cancer",
+          "paper_count": 4,
+          "top_keywords": [
+            "Humans",
+            "Indoles",
+            "Pyrimidines",
+            "Ataxia Telangiectasia Mutated Proteins",
+            "Morpholines",
+            "Sulfonamides",
+            "Animals",
+            "Mice",
+            "Cell Line, Tumor",
+            "Male",
+            "Phthalazines",
+            "Piperazines",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Xenograft Model Antitumor Assays",
+            "DNA Repair",
+            "Prostatic Neoplasms, Castration-Resistant",
+            "Aged",
+            "Middle Aged",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "Aged, 80 and over"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_007",
+          "question": "What mechanisms does Adavosertib target in ovarian cancer with p.R175H?",
+          "search_query": "\"adavosertib\" AND in ovarian cancer",
+          "paper_count": 36,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Pyrazoles",
+            "Pyrimidinones",
+            "Ovarian Neoplasms",
+            "Cell Cycle Proteins",
+            "Protein-Tyrosine Kinases",
+            "Cell Line, Tumor",
+            "Animals",
+            "Mice",
+            "Protein Kinase Inhibitors",
+            "Antineoplastic Agents",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "Tumor Suppressor Protein p53",
+            "Pyrimidines",
+            "Middle Aged",
+            "Aged",
+            "Gemcitabine",
+            "Double-Blind Method",
+            "Ovarian cancer"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_008",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+          "search_query": "\"olaparib\" AND in breast cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Cell Line, Tumor",
+            "Animals",
+            "Antineoplastic Agents",
+            "Olaparib",
+            "Breast Neoplasms",
+            "BRCA1 Protein",
+            "Triple Negative Breast Neoplasms",
+            "olaparib",
+            "Mice",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "PARP inhibitor",
+            "Poly (ADP-Ribose) Polymerase-1",
+            "Apoptosis",
+            "breast cancer",
+            "Middle Aged"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_009",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+          "search_query": "\"olaparib\" AND in prostate cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Male",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Prostatic Neoplasms",
+            "Prostatic Neoplasms, Castration-Resistant",
+            "Prostate cancer",
+            "Olaparib",
+            "Cell Line, Tumor",
+            "prostate cancer",
+            "Aged",
+            "PARP inhibitor",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "Animals",
+            "Middle Aged",
+            "Mutation",
+            "Antineoplastic Agents",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_010",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+          "search_query": "\"olaparib\" AND in ovarian cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Ovarian Neoplasms",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Piperazines",
+            "Phthalazines",
+            "Ovarian cancer",
+            "Cell Line, Tumor",
+            "Middle Aged",
+            "Aged",
+            "ovarian cancer",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "BRCA1 Protein",
+            "Olaparib",
+            "Adult",
+            "Antineoplastic Agents",
+            "Animals",
+            "PARP inhibitor",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_011",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+          "search_query": "\"olaparib\" AND in breast cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Cell Line, Tumor",
+            "Animals",
+            "Antineoplastic Agents",
+            "Olaparib",
+            "Breast Neoplasms",
+            "BRCA1 Protein",
+            "Triple Negative Breast Neoplasms",
+            "olaparib",
+            "Mice",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "PARP inhibitor",
+            "Poly (ADP-Ribose) Polymerase-1",
+            "Apoptosis",
+            "breast cancer",
+            "Middle Aged"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_012",
+          "question": "What mechanisms does Ceralasertib target in prostate cancer with p.??",
+          "search_query": "\"ceralasertib\" AND in prostate cancer",
+          "paper_count": 4,
+          "top_keywords": [
+            "Humans",
+            "Indoles",
+            "Pyrimidines",
+            "Ataxia Telangiectasia Mutated Proteins",
+            "Morpholines",
+            "Sulfonamides",
+            "Animals",
+            "Mice",
+            "Cell Line, Tumor",
+            "Male",
+            "Phthalazines",
+            "Piperazines",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Xenograft Model Antitumor Assays",
+            "DNA Repair",
+            "Prostatic Neoplasms, Castration-Resistant",
+            "Aged",
+            "Middle Aged",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "Aged, 80 and over"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_013",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+          "search_query": "\"olaparib\" AND in ovarian cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Ovarian Neoplasms",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Piperazines",
+            "Phthalazines",
+            "Ovarian cancer",
+            "Cell Line, Tumor",
+            "Middle Aged",
+            "Aged",
+            "ovarian cancer",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "BRCA1 Protein",
+            "Olaparib",
+            "Adult",
+            "Antineoplastic Agents",
+            "Animals",
+            "PARP inhibitor",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_014",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.C61G?",
+          "search_query": "\"olaparib\" AND in breast cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Cell Line, Tumor",
+            "Animals",
+            "Antineoplastic Agents",
+            "Olaparib",
+            "Breast Neoplasms",
+            "BRCA1 Protein",
+            "Triple Negative Breast Neoplasms",
+            "olaparib",
+            "Mice",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "PARP inhibitor",
+            "Poly (ADP-Ribose) Polymerase-1",
+            "Apoptosis",
+            "breast cancer",
+            "Middle Aged"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_015",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.C61G?",
+          "search_query": "\"olaparib\" AND in prostate cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Male",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Prostatic Neoplasms",
+            "Prostatic Neoplasms, Castration-Resistant",
+            "Prostate cancer",
+            "Olaparib",
+            "Cell Line, Tumor",
+            "prostate cancer",
+            "Aged",
+            "PARP inhibitor",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "Animals",
+            "Middle Aged",
+            "Mutation",
+            "Antineoplastic Agents",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_016",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.K3326*?",
+          "search_query": "\"olaparib\" AND in ovarian cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Ovarian Neoplasms",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Piperazines",
+            "Phthalazines",
+            "Ovarian cancer",
+            "Cell Line, Tumor",
+            "Middle Aged",
+            "Aged",
+            "ovarian cancer",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "BRCA1 Protein",
+            "Olaparib",
+            "Adult",
+            "Antineoplastic Agents",
+            "Animals",
+            "PARP inhibitor",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_017",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.K3326*?",
+          "search_query": "\"olaparib\" AND in breast cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Cell Line, Tumor",
+            "Animals",
+            "Antineoplastic Agents",
+            "Olaparib",
+            "Breast Neoplasms",
+            "BRCA1 Protein",
+            "Triple Negative Breast Neoplasms",
+            "olaparib",
+            "Mice",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "PARP inhibitor",
+            "Poly (ADP-Ribose) Polymerase-1",
+            "Apoptosis",
+            "breast cancer",
+            "Middle Aged"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_018",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.R346fs?",
+          "search_query": "\"olaparib\" AND in prostate cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Male",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Prostatic Neoplasms",
+            "Prostatic Neoplasms, Castration-Resistant",
+            "Prostate cancer",
+            "Olaparib",
+            "Cell Line, Tumor",
+            "prostate cancer",
+            "Aged",
+            "PARP inhibitor",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "Animals",
+            "Middle Aged",
+            "Mutation",
+            "Antineoplastic Agents",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_019",
+          "question": "What mechanisms does Ceralasertib target in ovarian cancer with p.R175H?",
+          "search_query": "\"ceralasertib\" AND in ovarian cancer",
+          "paper_count": 17,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Ovarian Neoplasms",
+            "Indoles",
+            "Phthalazines",
+            "Ataxia Telangiectasia Mutated Proteins",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Morpholines",
+            "Pyrimidines",
+            "Sulfonamides",
+            "Piperazines",
+            "Cell Line, Tumor",
+            "Animals",
+            "Mice",
+            "BRCA1 Protein",
+            "BRCA2 Protein",
+            "Protein Kinase Inhibitors",
+            "Xenograft Model Antitumor Assays",
+            "Antineoplastic Agents",
+            "DNA Damage"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_020",
+          "question": "What mechanisms does Adavosertib target in breast cancer with p.R175H?",
+          "search_query": "\"adavosertib\" AND in breast cancer",
+          "paper_count": 30,
+          "top_keywords": [
+            "Humans",
+            "Cell Cycle Proteins",
+            "Protein-Tyrosine Kinases",
+            "Pyrazoles",
+            "Pyrimidinones",
+            "Female",
+            "Cell Line, Tumor",
+            "Animals",
+            "Mice",
+            "Protein Kinase Inhibitors",
+            "Breast Neoplasms",
+            "Xenograft Model Antitumor Assays",
+            "Antineoplastic Agents",
+            "Pyrimidines",
+            "Drug Resistance, Neoplasm",
+            "Nuclear Proteins",
+            "Triple Negative Breast Neoplasms",
+            "Apoptosis",
+            "AZD1775",
+            "WEE1"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_021",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+          "search_query": "\"olaparib\" AND in prostate cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Male",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Prostatic Neoplasms",
+            "Prostatic Neoplasms, Castration-Resistant",
+            "Prostate cancer",
+            "Olaparib",
+            "Cell Line, Tumor",
+            "prostate cancer",
+            "Aged",
+            "PARP inhibitor",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "Animals",
+            "Middle Aged",
+            "Mutation",
+            "Antineoplastic Agents",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_022",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+          "search_query": "\"olaparib\" AND in ovarian cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Ovarian Neoplasms",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Piperazines",
+            "Phthalazines",
+            "Ovarian cancer",
+            "Cell Line, Tumor",
+            "Middle Aged",
+            "Aged",
+            "ovarian cancer",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "BRCA1 Protein",
+            "Olaparib",
+            "Adult",
+            "Antineoplastic Agents",
+            "Animals",
+            "PARP inhibitor",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_023",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+          "search_query": "\"olaparib\" AND in breast cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Cell Line, Tumor",
+            "Animals",
+            "Antineoplastic Agents",
+            "Olaparib",
+            "Breast Neoplasms",
+            "BRCA1 Protein",
+            "Triple Negative Breast Neoplasms",
+            "olaparib",
+            "Mice",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "PARP inhibitor",
+            "Poly (ADP-Ribose) Polymerase-1",
+            "Apoptosis",
+            "breast cancer",
+            "Middle Aged"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_024",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+          "search_query": "\"olaparib\" AND in prostate cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Male",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Prostatic Neoplasms",
+            "Prostatic Neoplasms, Castration-Resistant",
+            "Prostate cancer",
+            "Olaparib",
+            "Cell Line, Tumor",
+            "prostate cancer",
+            "Aged",
+            "PARP inhibitor",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "Animals",
+            "Middle Aged",
+            "Mutation",
+            "Antineoplastic Agents",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_025",
+          "question": "What mechanisms does Ceralasertib target in ovarian cancer with p.??",
+          "search_query": "\"ceralasertib\" AND in ovarian cancer",
+          "paper_count": 17,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Ovarian Neoplasms",
+            "Indoles",
+            "Phthalazines",
+            "Ataxia Telangiectasia Mutated Proteins",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Morpholines",
+            "Pyrimidines",
+            "Sulfonamides",
+            "Piperazines",
+            "Cell Line, Tumor",
+            "Animals",
+            "Mice",
+            "BRCA1 Protein",
+            "BRCA2 Protein",
+            "Protein Kinase Inhibitors",
+            "Xenograft Model Antitumor Assays",
+            "Antineoplastic Agents",
+            "DNA Damage"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_026",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+          "search_query": "\"olaparib\" AND in breast cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Cell Line, Tumor",
+            "Animals",
+            "Antineoplastic Agents",
+            "Olaparib",
+            "Breast Neoplasms",
+            "BRCA1 Protein",
+            "Triple Negative Breast Neoplasms",
+            "olaparib",
+            "Mice",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "PARP inhibitor",
+            "Poly (ADP-Ribose) Polymerase-1",
+            "Apoptosis",
+            "breast cancer",
+            "Middle Aged"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_027",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.C61G?",
+          "search_query": "\"olaparib\" AND in prostate cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Male",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Prostatic Neoplasms",
+            "Prostatic Neoplasms, Castration-Resistant",
+            "Prostate cancer",
+            "Olaparib",
+            "Cell Line, Tumor",
+            "prostate cancer",
+            "Aged",
+            "PARP inhibitor",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "Animals",
+            "Middle Aged",
+            "Mutation",
+            "Antineoplastic Agents",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_028",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.C61G?",
+          "search_query": "\"olaparib\" AND in ovarian cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Ovarian Neoplasms",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Piperazines",
+            "Phthalazines",
+            "Ovarian cancer",
+            "Cell Line, Tumor",
+            "Middle Aged",
+            "Aged",
+            "ovarian cancer",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "BRCA1 Protein",
+            "Olaparib",
+            "Adult",
+            "Antineoplastic Agents",
+            "Animals",
+            "PARP inhibitor",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_029",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.K3326*?",
+          "search_query": "\"olaparib\" AND in breast cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Cell Line, Tumor",
+            "Animals",
+            "Antineoplastic Agents",
+            "Olaparib",
+            "Breast Neoplasms",
+            "BRCA1 Protein",
+            "Triple Negative Breast Neoplasms",
+            "olaparib",
+            "Mice",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "PARP inhibitor",
+            "Poly (ADP-Ribose) Polymerase-1",
+            "Apoptosis",
+            "breast cancer",
+            "Middle Aged"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_030",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.K3326*?",
+          "search_query": "\"olaparib\" AND in prostate cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Male",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Prostatic Neoplasms",
+            "Prostatic Neoplasms, Castration-Resistant",
+            "Prostate cancer",
+            "Olaparib",
+            "Cell Line, Tumor",
+            "prostate cancer",
+            "Aged",
+            "PARP inhibitor",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "Animals",
+            "Middle Aged",
+            "Mutation",
+            "Antineoplastic Agents",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_031",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.R346fs?",
+          "search_query": "\"olaparib\" AND in ovarian cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Ovarian Neoplasms",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Piperazines",
+            "Phthalazines",
+            "Ovarian cancer",
+            "Cell Line, Tumor",
+            "Middle Aged",
+            "Aged",
+            "ovarian cancer",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "BRCA1 Protein",
+            "Olaparib",
+            "Adult",
+            "Antineoplastic Agents",
+            "Animals",
+            "PARP inhibitor",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_032",
+          "question": "What mechanisms does Ceralasertib target in breast cancer with p.R175H?",
+          "search_query": "\"ceralasertib\" AND in breast cancer",
+          "paper_count": 14,
+          "top_keywords": [
+            "Humans",
+            "Pyrimidines",
+            "Indoles",
+            "Morpholines",
+            "Sulfonamides",
+            "Phthalazines",
+            "Ataxia Telangiectasia Mutated Proteins",
+            "Female",
+            "Piperazines",
+            "Cell Line, Tumor",
+            "Animals",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Triple Negative Breast Neoplasms",
+            "Mice",
+            "Antineoplastic Agents",
+            "Sulfoxides",
+            "Breast Neoplasms",
+            "Xenograft Model Antitumor Assays",
+            "DNA Damage",
+            "Protein Kinase Inhibitors"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_033",
+          "question": "What mechanisms does Adavosertib target in prostate cancer with p.R175H?",
+          "search_query": "\"adavosertib\" AND in prostate cancer",
+          "paper_count": 6,
+          "top_keywords": [
+            "Humans",
+            "Pyrazoles",
+            "Cell Cycle Proteins",
+            "Protein-Tyrosine Kinases",
+            "Pyrimidinones",
+            "Male",
+            "Animals",
+            "Cell Line, Tumor",
+            "Mice",
+            "Female",
+            "Pyrimidines",
+            "Antineoplastic Agents",
+            "Mice, Nude",
+            "Protein Kinase Inhibitors",
+            "Prostatic Neoplasms",
+            "Drug Synergism",
+            "Apoptosis",
+            "Xenograft Model Antitumor Assays",
+            "Mice, Inbred BALB C",
+            "Neoplasms"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_034",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+          "search_query": "\"olaparib\" AND in ovarian cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Ovarian Neoplasms",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Piperazines",
+            "Phthalazines",
+            "Ovarian cancer",
+            "Cell Line, Tumor",
+            "Middle Aged",
+            "Aged",
+            "ovarian cancer",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "BRCA1 Protein",
+            "Olaparib",
+            "Adult",
+            "Antineoplastic Agents",
+            "Animals",
+            "PARP inhibitor",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_035",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+          "search_query": "\"olaparib\" AND in breast cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Cell Line, Tumor",
+            "Animals",
+            "Antineoplastic Agents",
+            "Olaparib",
+            "Breast Neoplasms",
+            "BRCA1 Protein",
+            "Triple Negative Breast Neoplasms",
+            "olaparib",
+            "Mice",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "PARP inhibitor",
+            "Poly (ADP-Ribose) Polymerase-1",
+            "Apoptosis",
+            "breast cancer",
+            "Middle Aged"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_036",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+          "search_query": "\"olaparib\" AND in prostate cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Male",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Prostatic Neoplasms",
+            "Prostatic Neoplasms, Castration-Resistant",
+            "Prostate cancer",
+            "Olaparib",
+            "Cell Line, Tumor",
+            "prostate cancer",
+            "Aged",
+            "PARP inhibitor",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "Animals",
+            "Middle Aged",
+            "Mutation",
+            "Antineoplastic Agents",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_037",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+          "search_query": "\"olaparib\" AND in ovarian cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Ovarian Neoplasms",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Piperazines",
+            "Phthalazines",
+            "Ovarian cancer",
+            "Cell Line, Tumor",
+            "Middle Aged",
+            "Aged",
+            "ovarian cancer",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "BRCA1 Protein",
+            "Olaparib",
+            "Adult",
+            "Antineoplastic Agents",
+            "Animals",
+            "PARP inhibitor",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_038",
+          "question": "What mechanisms does Ceralasertib target in breast cancer with p.??",
+          "search_query": "\"ceralasertib\" AND in breast cancer",
+          "paper_count": 14,
+          "top_keywords": [
+            "Humans",
+            "Pyrimidines",
+            "Indoles",
+            "Morpholines",
+            "Sulfonamides",
+            "Phthalazines",
+            "Ataxia Telangiectasia Mutated Proteins",
+            "Female",
+            "Piperazines",
+            "Cell Line, Tumor",
+            "Animals",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Triple Negative Breast Neoplasms",
+            "Mice",
+            "Antineoplastic Agents",
+            "Sulfoxides",
+            "Breast Neoplasms",
+            "Xenograft Model Antitumor Assays",
+            "DNA Damage",
+            "Protein Kinase Inhibitors"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_039",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+          "search_query": "\"olaparib\" AND in prostate cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Male",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Phthalazines",
+            "Piperazines",
+            "Prostatic Neoplasms",
+            "Prostatic Neoplasms, Castration-Resistant",
+            "Prostate cancer",
+            "Olaparib",
+            "Cell Line, Tumor",
+            "prostate cancer",
+            "Aged",
+            "PARP inhibitor",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "Animals",
+            "Middle Aged",
+            "Mutation",
+            "Antineoplastic Agents",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "SL_040",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.C61G?",
+          "search_query": "\"olaparib\" AND in ovarian cancer",
+          "paper_count": 100,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Ovarian Neoplasms",
+            "Poly(ADP-ribose) Polymerase Inhibitors",
+            "Piperazines",
+            "Phthalazines",
+            "Ovarian cancer",
+            "Cell Line, Tumor",
+            "Middle Aged",
+            "Aged",
+            "ovarian cancer",
+            "Antineoplastic Combined Chemotherapy Protocols",
+            "BRCA1 Protein",
+            "Olaparib",
+            "Adult",
+            "Antineoplastic Agents",
+            "Animals",
+            "PARP inhibitor",
+            "Mice",
+            "Drug Resistance, Neoplasm"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        },
+        {
+          "query_id": "HV_001",
+          "question": "How does foods help with [{'compound': 'Vitamin D', 'aliases': ['Cholecalciferol', 'Vitamin D3', 'Calciferol'], 'B_targets': ['VDR', 'TP53 pathway', 'DNA repair', 'Immune function', 'BRCA1'], 'mechanisms': ['Enhances BRCA1 function and homologous recombination repair', 'Modulates TP53 pathway through VDR-dependent transcription', 'Supports T-cell and NK cell function (immune surveillance)', 'Reduces inflammation via NF-\u03baB inhibition', 'May improve platinum sensitivity through DNA repair support'], 'evidence_grade': 'MODERATE', 'evidence_summary': '3 RCTs + large observational studies (n>1200) show survival benefit in ovarian cancer. Serum 25(OH)D >30 ng/mL associated with HR 0.77 for mortality.', 'ovarian_specific_data': {'survival_hr': 0.77, 'sample_size': 1200, 'serum_target': '40-60 ng/mL', 'citation': 'PMID:25489052'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Fat-soluble. Take with meals containing fat for optimal absorption. D3 (cholecalciferol) superior to D2 (ergocalciferol).', 'dosage': '2000-4000 IU daily (target serum 25(OH)D: 40-60 ng/mL). Check levels q3-6 months.', 'safety': 'GOOD', 'safety_notes': 'Monitor serum calcium and 25(OH)D levels. Avoid >10,000 IU daily unless supervised. May interact with digoxin.', 'cost': 'LOW ($10-15/month)', 'food_sources': ['Fatty fish (salmon, mackerel)', 'Egg yolks', 'Fortified dairy', 'Sun exposure (15-30 min daily)'], 'ab_relevance_ovarian': {'tp53_context': 'HIGH - VDR can partially restore TP53-like transcriptional programs', 'hrd_context': 'HIGH - Enhances BRCA1 function and HR repair', 'inflammation_context': 'MODERATE - Reduces NF-\u03baB activity'}}, {'compound': 'Omega-3 Fatty Acids (EPA/DHA)', 'aliases': ['Fish oil', 'EPA', 'DHA', 'Eicosapentaenoic acid', 'Docosahexaenoic acid'], 'B_targets': ['NF-\u03baB', 'COX-2', 'IL-6', 'Membrane integrity', 'Prostaglandins'], 'mechanisms': ['Inhibits NF-\u03baB signaling (anti-inflammatory)', 'Reduces COX-2 expression and prostaglandin E2 (PGE2)', 'Modulates immune cell function and reduces immunosuppression', 'Improves platinum sensitivity by reducing inflammation-driven resistance', 'Stabilizes cell membranes and reduces oxidative damage'], 'evidence_grade': 'MODERATE', 'evidence_summary': '2 RCTs in ovarian cancer show reduced systemic inflammation (CRP -45%) and improved platinum response. Observational data suggests survival benefit with high omega-3 intake.', 'ovarian_specific_data': {'inflammation_reduction': 0.45, 'platinum_sensitization': 0.3, 'cachexia_prevention': 'suggestive', 'citation': 'PMID:28765325, PMID:31234567'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Triglyceride form better absorbed than ethyl ester. Take with meals. Refrigerate to prevent oxidation.', 'dosage': '2-4g EPA+DHA daily (high-dose formulation). Prefer pharmaceutical-grade (low mercury, PCBs).', 'safety': 'GOOD', 'safety_notes': 'May increase bleeding risk with anticoagulants (warfarin, aspirin). Monitor INR. Use pharmaceutical-grade to avoid mercury/contaminants.', 'cost': 'MODERATE ($20-40/month for high-dose pharmaceutical grade)', 'food_sources': ['Fatty fish (salmon, sardines, mackerel)', 'Algae oil (vegetarian DHA)', 'Krill oil'], 'ab_relevance_ovarian': {'inflammation_context': 'HIGH - Directly targets ascites-driven NF-\u03baB/IL-6 axis', 'pi3k_context': 'MODERATE - PI3K/AKT activation drives NF-\u03baB', 'peritoneal_stress_context': 'HIGH - Reduces inflammatory cytokines in ascites'}}, {'compound': 'Folate + Vitamin B12', 'aliases': ['Methylfolate', '5-MTHF', 'L-methylfolate', 'Methylcobalamin', 'B9', 'B12'], 'B_targets': ['DNA synthesis', 'DNA repair', 'Methylation', 'One-carbon metabolism', 'Homocysteine metabolism'], 'mechanisms': ['Provides methyl donors for DNA synthesis and repair (critical for BRCA/HRD)', 'Supports one-carbon metabolism (required for nucleotide synthesis)', 'May reduce chemotherapy-induced DNA damage in normal cells', 'Lowers homocysteine (cardiovascular protection during chemotherapy)', 'Required cofactor for DNA repair enzymes'], 'evidence_grade': 'WEAK', 'evidence_summary': 'Observational data suggests benefit (HR 0.85 for high folate intake). RCT data mixed - some suggest benefit, others neutral. Mechanistic rationale strong for HRD context.', 'ovarian_specific_data': {'observational_hr': 0.85, 'mechanism_plausible': True, 'hrd_context': 'strong rationale', 'citation': 'PMID:26543123'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Use methylfolate (5-MTHF) - active form, bypasses MTHFR polymorphism. Use methylcobalamin (active B12). Avoid folic acid >1000 mcg (synthetic form may mask B12 deficiency).', 'dosage': '400-800 mcg methylfolate + 500-1000 mcg methylcobalamin daily. Higher doses (1-2mg) may be used under supervision.', 'safety': 'GOOD', 'safety_notes': 'High-dose folic acid may mask B12 deficiency (use methylated forms). Avoid mega-doses >5mg folate (conflicting data on cancer risk).', 'cost': 'LOW ($10-15/month)', 'food_sources': ['Leafy greens (spinach, kale)', 'Legumes', 'Eggs', 'Fortified grains', 'Liver'], 'ab_relevance_ovarian': {'hrd_context': 'MODERATE - Supports remaining DNA repair pathways', 'tp53_context': 'LOW - Indirect support for DNA integrity', 'chemo_context': 'MODERATE - May reduce platinum-induced DNA damage'}}, {'compound': 'Curcumin (Turmeric)', 'aliases': ['Turmeric', 'Curcuma longa', 'Diferuloylmethane'], 'B_targets': ['NF-\u03baB', 'COX-2', 'STAT3', 'Apoptosis', 'HSP90'], 'mechanisms': ['Inhibits NF-\u03baB activation (anti-inflammatory)', 'Reduces COX-2 expression', 'May enhance platinum sensitivity via oxidative stress modulation', 'Antioxidant effects (protects normal cells)', 'Inhibits STAT3 (IL-6 signaling)'], 'evidence_grade': 'WEAK', 'evidence_summary': '50+ preclinical studies show synergy with platinum. 2 small RCTs (n=50-80) show mixed results - likely due to poor bioavailability. Liposomal formulations more promising.', 'ovarian_specific_data': {'phase_2_orr': 0.12, 'preclinical_synergy': 'strong', 'bioavailability_barrier': 'critical limitation', 'citation': 'PMID:29030430'}, 'bioavailability': 'POOR', 'bioavailability_notes': 'Only 1-2% absorbed due to poor water solubility and rapid metabolism. MUST use enhanced formulations: liposomal, phytosome (Meriva), or with piperine (black pepper extract, 20mg). Avoid standard curcumin powder.', 'dosage': '500-1000mg curcumin (standardized 95% curcuminoids) + 20mg piperine OR 200-400mg liposomal curcumin daily. Divide into 2-3 doses.', 'safety': 'GOOD', 'safety_notes': 'High doses may cause GI upset. Avoid with blood thinners (warfarin) - may enhance anticoagulation. May interact with chemotherapy (check with oncologist).', 'cost': 'LOW ($15-25/month for basic; $30-50/month for liposomal)', 'food_sources': ['Turmeric powder (add to food with black pepper and fat)', 'Golden milk (turmeric + milk + pepper)'], 'ab_relevance_ovarian': {'inflammation_context': 'MODERATE - Targets NF-\u03baB/COX-2 axis', 'pi3k_context': 'LOW - Modest effect on PI3K/AKT', 'ascites_context': 'MODERATE - May reduce inflammatory cytokines', 'bioavailability_note': 'Clinical benefit requires enhanced formulation'}}, {'compound': 'Green Tea (EGCG)', 'aliases': ['Epigallocatechin gallate', 'EGCG', 'Green tea extract', 'Catechins'], 'B_targets': ['Proteasome', 'Autophagy', 'STAT3', 'VEGF', 'HSP90'], 'mechanisms': ['Inhibits proteasome activity (synergy with platinum-induced protein damage)', 'Induces autophagy (cellular cleanup of damaged proteins)', 'Anti-angiogenic effects (inhibits VEGF)', 'May reduce chemoresistance by targeting cancer stem cells', 'Modulates STAT3 (IL-6 signaling)'], 'evidence_grade': 'WEAK', 'evidence_summary': 'Preclinical data strong (proteasome inhibition + platinum synergy). Human RCT data limited but suggestive. Observational studies show protective association with high green tea intake.', 'ovarian_specific_data': {'preclinical_synergy': 'moderate', 'observational_benefit': 'suggestive (HR ~0.80 for high intake)', 'proteasome_context': 'strong mechanistic rationale', 'citation': 'PMID:27856789'}, 'bioavailability': 'MODERATE', 'bioavailability_notes': 'EGCG has modest bioavailability (~5-20%). Standardized extracts more reliable than tea. Take on empty stomach for better absorption. Avoid with iron supplementation (binds iron).', 'dosage': '400-800mg EGCG daily (standardized extract) OR 3-5 cups green tea daily. Prefer decaffeinated extract if taking high doses.', 'safety': 'GOOD', 'safety_notes': 'High doses (>800mg EGCG) may affect liver enzymes (rare). Monitor liver function if taking other hepatotoxic drugs. Avoid mega-doses >1200mg EGCG.', 'cost': 'LOW ($10-20/month for extract; $5-10/month for tea)', 'food_sources': ['Green tea (3-5 cups daily)', 'Matcha powder (higher EGCG)', 'Green tea extract supplements'], 'ab_relevance_ovarian': {'proteostasis_context': 'MODERATE - Targets proteasome/autophagy (post-platinum stress)', 'inflammation_context': 'LOW-MODERATE - STAT3 inhibition', 'angiogenesis_context': 'MODERATE - VEGF inhibition (complement to bevacizumab)'}}, {'compound': 'NAC (N-Acetylcysteine)', 'aliases': ['N-Acetylcysteine', 'N-Acetyl-L-cysteine', 'NAC', 'Acetylcysteine'], 'B_targets': ['Glutathione', 'Oxidative stress', 'Mitochondria', 'ROS buffering'], 'mechanisms': ['Glutathione precursor (master antioxidant)', 'Reduces platinum-induced oxidative damage (may protect normal cells)', 'Supports mitochondrial function', 'May buffer ROS in peritoneal environment', 'Potential to reduce neuropathy and nephrotoxicity from platinum'], 'evidence_grade': 'WEAK', 'evidence_summary': 'Mechanistic rationale strong. Limited RCT data in ovarian cancer. Some data suggest protection against platinum toxicity (neuropathy, kidney damage) without reducing efficacy.', 'ovarian_specific_data': {'oxidative_stress_reduction': 0.5, 'normal_tissue_protection': 'suggestive', 'platinum_efficacy': 'not compromised in preclinical studies', 'neuropathy_prevention': 'emerging evidence', 'citation': 'PMID:28123456'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Well-absorbed orally. Take on empty stomach for best absorption (or with food if GI upset). Divide into 2-3 doses. IV formulation exists but requires prescription.', 'dosage': '600-1200mg daily (divided doses: 600mg BID or 400mg TID). Higher doses (1800mg) used in some studies.', 'safety': 'GOOD', 'safety_notes': 'May cause nausea/GI upset at high doses (take with food). Generally well-tolerated. Avoid mega-doses >2400mg daily. May interact with nitroglycerin.', 'cost': 'LOW ($15-20/month)', 'food_sources': ['High-protein foods (eggs, chicken, turkey)', 'Whey protein', 'Not typically obtained from diet in therapeutic doses'], 'ab_relevance_ovarian': {'oxidative_stress_context': 'HIGH - Directly buffers peritoneal ROS and platinum-induced damage', 'hrd_context': 'MODERATE - Supports mitochondrial function under repair stress', 'chemo_toxicity_context': 'HIGH - May reduce neuropathy and kidney damage', 'platinum_timing': 'Take 2-3 hours AFTER platinum infusion to avoid antioxidant interference during treatment'}}]?",
+          "search_query": "\"foods\" AND in ovarian cancer",
+          "paper_count": 99,
+          "top_keywords": [
+            "Humans",
+            "Female",
+            "Ovarian Neoplasms",
+            "Diet",
+            "Middle Aged",
+            "Aged",
+            "ovarian cancer",
+            "Animals",
+            "Male",
+            "Adult",
+            "Prospective Studies",
+            "Risk Factors",
+            "Mice",
+            "Ovarian cancer",
+            "Cell Line, Tumor",
+            "Neoplasms",
+            "Proportional Hazards Models",
+            "Breast Neoplasms",
+            "Antioxidants",
+            "Fast Foods"
+          ],
+          "keyword_counts": {},
+          "method": "portal_analysis"
+        }
+      ]
+    },
+    "validation": {
+      "timestamp": "2026-01-07T15:54:38.408310",
+      "total_queries": 81,
+      "successful": 81,
+      "failed": 0,
+      "total_mechanisms": 0,
+      "total_pathways": 0,
+      "results": [
+        {
+          "query_id": "DG_001",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "elapsed_seconds": 3.871129,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "ee8e3baf-a83f-452e-89bd-38f1e4f28b4d"
+        },
+        {
+          "query_id": "DG_002",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "elapsed_seconds": 0.450004,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "d68e74d3-8b0c-4845-a1cf-cc024e3e6904"
+        },
+        {
+          "query_id": "DG_003",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "elapsed_seconds": 0.239025,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "657acfdb-a205-494f-9a9e-fc316ed2c754"
+        },
+        {
+          "query_id": "DG_004",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "elapsed_seconds": 0.238223,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "b80da18b-192d-485b-a468-906073f0d4ff"
+        },
+        {
+          "query_id": "DG_005",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "elapsed_seconds": 0.224641,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "7437ee4b-42e6-4a94-a5d7-a5d333c0b644"
+        },
+        {
+          "query_id": "DG_006",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "elapsed_seconds": 0.223804,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "075c1c42-0da8-4bc9-91dd-ea274ad75ef4"
+        },
+        {
+          "query_id": "DG_007",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "elapsed_seconds": 0.220352,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "9567c0c0-c92d-4d0c-9f7b-06bed7b62378"
+        },
+        {
+          "query_id": "DG_008",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "elapsed_seconds": 0.229243,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "119c6bbd-a771-4f99-9349-44bf2c35578f"
+        },
+        {
+          "query_id": "DG_009",
+          "question": "How does Unknown drug interact with DPYD in cancer?",
+          "elapsed_seconds": 0.23384,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "e357fada-a1b1-48fb-b789-3401f27ad86c"
+        },
+        {
+          "query_id": "DG_010",
+          "question": "How does Unknown drug interact with DPYD A348T in cancer?",
+          "elapsed_seconds": 0.236964,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "91df72e4-6e18-4052-ac90-5a8c5668dfa5"
+        },
+        {
+          "query_id": "DG_011",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97079055T>C in cancer?",
+          "elapsed_seconds": 0.223005,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "1dac30be-e348-4605-9e36-38d0e05959d4"
+        },
+        {
+          "query_id": "DG_012",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97305373C>T in cancer?",
+          "elapsed_seconds": 0.267948,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "dcd4db02-c2c9-48dc-831f-74e5bbec1a20"
+        },
+        {
+          "query_id": "DG_013",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97450071G>T in cancer?",
+          "elapsed_seconds": 0.269409,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "02446154-adc3-4bca-8faf-95da3f640c72"
+        },
+        {
+          "query_id": "DG_014",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97720896G>A in cancer?",
+          "elapsed_seconds": 0.25577,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "3284d253-ef2e-4794-a65d-961fb71b7bda"
+        },
+        {
+          "query_id": "DG_015",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97573760C>A in cancer?",
+          "elapsed_seconds": 0.263475,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "4c255cec-178a-4f9c-9d7b-60a21f19280e"
+        },
+        {
+          "query_id": "DG_016",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97193231C>A in cancer?",
+          "elapsed_seconds": 0.249312,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "7af80f97-f622-4042-b7f6-73c10a51ac94"
+        },
+        {
+          "query_id": "DG_017",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97193169T>A in cancer?",
+          "elapsed_seconds": 0.248676,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "27ff43f8-2ed5-4708-98af-5651fb63283c"
+        },
+        {
+          "query_id": "DG_018",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97306235delA in cancer?",
+          "elapsed_seconds": 0.247125,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "2ece74f1-3d0c-4c25-93de-1406af5a74f2"
+        },
+        {
+          "query_id": "DG_019",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97679174G>A in cancer?",
+          "elapsed_seconds": 0.242169,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "f74899c8-1b54-4bf0-8bff-a058e148d7f7"
+        },
+        {
+          "query_id": "DG_020",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97828158C>A in cancer?",
+          "elapsed_seconds": 0.220054,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "7fb16bc6-0930-4577-9cfe-4607fd4b3482"
+        },
+        {
+          "query_id": "DG_021",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97573967C>A in cancer?",
+          "elapsed_seconds": 0.277772,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "cbecd6ad-2d6e-47a4-9614-9e16f3ad7752"
+        },
+        {
+          "query_id": "DG_022",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97721603A>G in cancer?",
+          "elapsed_seconds": 0.26814,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "9ce0250c-5935-4306-9fd3-c6ff0fa35790"
+        },
+        {
+          "query_id": "DG_023",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97079145G>T in cancer?",
+          "elapsed_seconds": 0.257463,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "be0a58a3-9c86-4843-8bce-30bd78f30cdc"
+        },
+        {
+          "query_id": "DG_024",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97306282G>A in cancer?",
+          "elapsed_seconds": 0.369885,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "68145d0d-6763-461e-acc8-fb84a083c837"
+        },
+        {
+          "query_id": "DG_025",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97593336A>G in cancer?",
+          "elapsed_seconds": 0.246391,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "e6e5cd4b-8def-4319-ad9e-375683bf64c4"
+        },
+        {
+          "query_id": "DG_026",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97306235delA in cancer?",
+          "elapsed_seconds": 0.244463,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "2b01f384-53eb-4524-bff2-5573eff3139b"
+        },
+        {
+          "query_id": "DG_027",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97573918C>T in cancer?",
+          "elapsed_seconds": 0.234624,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "99151abb-90e6-46b8-8866-c89d0d6222e6"
+        },
+        {
+          "query_id": "DG_028",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97079073C>T in cancer?",
+          "elapsed_seconds": 0.222428,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "e4db50b2-f61d-4739-9eac-92cde6a432a2"
+        },
+        {
+          "query_id": "DG_029",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97883365C>T in cancer?",
+          "elapsed_seconds": 0.228922,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "ea6fb463-9315-42c5-ba1d-1b579271bbef"
+        },
+        {
+          "query_id": "DG_030",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97679126T>G in cancer?",
+          "elapsed_seconds": 0.246089,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "d66f67fb-c489-4faa-9bb6-52fb74786365"
+        },
+        {
+          "query_id": "DG_031",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97082458T>C in cancer?",
+          "elapsed_seconds": 0.248647,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "3006df25-49e3-437a-9c62-61474c70f01f"
+        },
+        {
+          "query_id": "DG_032",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97721543A>G in cancer?",
+          "elapsed_seconds": 0.261564,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "54560ba7-0884-4be3-b6fa-85bad164069b"
+        },
+        {
+          "query_id": "DG_033",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97699457G>A in cancer?",
+          "elapsed_seconds": 0.270678,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "51e2ff8a-7865-4eda-aff6-6b06754cea0e"
+        },
+        {
+          "query_id": "DG_034",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97515906T>G in cancer?",
+          "elapsed_seconds": 0.227922,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "dcd82868-413b-4d8a-82d2-dd129ba928fa"
+        },
+        {
+          "query_id": "DG_035",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97234900A>G in cancer?",
+          "elapsed_seconds": 0.396505,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "6032f9f0-5efd-491f-8273-5180c9639500"
+        },
+        {
+          "query_id": "DG_036",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97721569A>C in cancer?",
+          "elapsed_seconds": 0.247271,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "ef1c7fa9-ee21-435f-983e-f31d2f0831d2"
+        },
+        {
+          "query_id": "DG_037",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97549703G>T in cancer?",
+          "elapsed_seconds": 0.241469,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "ab6ab62e-150f-4872-81e6-1b80e4367f45"
+        },
+        {
+          "query_id": "DG_038",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97595138G>T in cancer?",
+          "elapsed_seconds": 0.246429,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "05a4ebbc-598e-4821-a416-dc4fe1c5bf0c"
+        },
+        {
+          "query_id": "DG_039",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97306195C>T in cancer?",
+          "elapsed_seconds": 0.249594,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "f9772a2b-ca6f-4c39-9d16-844a4aca7b71"
+        },
+        {
+          "query_id": "DG_040",
+          "question": "How does Unknown drug interact with DPYD chr1:g.97515899delG in cancer?",
+          "elapsed_seconds": 0.238398,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "b23022f4-312b-4a7e-a734-1a687053bcfc"
+        },
+        {
+          "query_id": "SL_001",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.C61G?",
+          "elapsed_seconds": 0.238576,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "67cf5cef-fb6e-4224-bc96-f7af52ae1f76"
+        },
+        {
+          "query_id": "SL_002",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.C61G?",
+          "elapsed_seconds": 0.241621,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "48ba3f51-9d51-49b9-9bdf-4bed1ef10de2"
+        },
+        {
+          "query_id": "SL_003",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.K3326*?",
+          "elapsed_seconds": 0.236197,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "69c376d8-7e2a-4628-8a18-20dab837eb27"
+        },
+        {
+          "query_id": "SL_004",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.K3326*?",
+          "elapsed_seconds": 0.23697,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "2d66952c-d99c-4754-875e-180e22dcae1d"
+        },
+        {
+          "query_id": "SL_005",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.R346fs?",
+          "elapsed_seconds": 0.273372,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "a3381c6c-7a88-4d03-976b-386c08d6042f"
+        },
+        {
+          "query_id": "SL_006",
+          "question": "What mechanisms does Ceralasertib target in prostate cancer with p.R175H?",
+          "elapsed_seconds": 0.247993,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "90de366f-d3cc-4ab5-a09c-a45905e2b609"
+        },
+        {
+          "query_id": "SL_007",
+          "question": "What mechanisms does Adavosertib target in ovarian cancer with p.R175H?",
+          "elapsed_seconds": 0.260524,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "7ffce802-7b65-44ef-b0fd-33d65f0a3a88"
+        },
+        {
+          "query_id": "SL_008",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+          "elapsed_seconds": 0.275657,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "dff3f92c-3368-4a77-8a5c-c8feb6b0fa4f"
+        },
+        {
+          "query_id": "SL_009",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+          "elapsed_seconds": 0.233696,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "5ef86039-4d35-4795-a7bd-ecf644b772ee"
+        },
+        {
+          "query_id": "SL_010",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+          "elapsed_seconds": 0.234122,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "76da38fc-fe9e-4503-ba54-661ccc4fe7e9"
+        },
+        {
+          "query_id": "SL_011",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+          "elapsed_seconds": 0.253139,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "ad0b0b3c-a783-4217-8db3-a61870c1c562"
+        },
+        {
+          "query_id": "SL_012",
+          "question": "What mechanisms does Ceralasertib target in prostate cancer with p.??",
+          "elapsed_seconds": 0.242221,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "b80e3689-dfd3-42ef-8310-0a680443d2db"
+        },
+        {
+          "query_id": "SL_013",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+          "elapsed_seconds": 0.247323,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "0891c53e-ed4f-41d3-89e6-d6bfd8f9fc06"
+        },
+        {
+          "query_id": "SL_014",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.C61G?",
+          "elapsed_seconds": 0.304254,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "be1b0d17-ef9d-4b1b-8f38-8a9e9234d94a"
+        },
+        {
+          "query_id": "SL_015",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.C61G?",
+          "elapsed_seconds": 0.24766,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "d7b240c5-1016-4298-accd-024a2ce67df9"
+        },
+        {
+          "query_id": "SL_016",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.K3326*?",
+          "elapsed_seconds": 0.244477,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "5a020fd8-65c1-4e72-b59b-a98de389bb89"
+        },
+        {
+          "query_id": "SL_017",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.K3326*?",
+          "elapsed_seconds": 0.230821,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "9942c82c-d410-4261-a202-2bc94a90b0f3"
+        },
+        {
+          "query_id": "SL_018",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.R346fs?",
+          "elapsed_seconds": 0.231711,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "b47afb00-6ac2-41e9-b3e6-0823d4ca1224"
+        },
+        {
+          "query_id": "SL_019",
+          "question": "What mechanisms does Ceralasertib target in ovarian cancer with p.R175H?",
+          "elapsed_seconds": 0.231211,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "d4b1ea46-bb66-4c05-9e98-118260bcd783"
+        },
+        {
+          "query_id": "SL_020",
+          "question": "What mechanisms does Adavosertib target in breast cancer with p.R175H?",
+          "elapsed_seconds": 0.227173,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "711096f3-d097-41da-8607-43bdbddac762"
+        },
+        {
+          "query_id": "SL_021",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+          "elapsed_seconds": 0.224606,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "a2f5005b-ee9f-4715-a0e5-ebfbb09258aa"
+        },
+        {
+          "query_id": "SL_022",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+          "elapsed_seconds": 0.238517,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "05de1feb-67a0-4491-b10a-e8d0bce7005a"
+        },
+        {
+          "query_id": "SL_023",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+          "elapsed_seconds": 0.250736,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "32ec9b72-bc04-4f09-95d5-0e776fd4918a"
+        },
+        {
+          "query_id": "SL_024",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+          "elapsed_seconds": 0.243313,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "05140aca-1adf-45e3-bc12-1cca89c450d0"
+        },
+        {
+          "query_id": "SL_025",
+          "question": "What mechanisms does Ceralasertib target in ovarian cancer with p.??",
+          "elapsed_seconds": 0.255933,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "a6fe7698-f982-4454-aaab-005cf8200243"
+        },
+        {
+          "query_id": "SL_026",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+          "elapsed_seconds": 0.233802,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "13461a71-c470-4a16-80bd-0a8bb9701be8"
+        },
+        {
+          "query_id": "SL_027",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.C61G?",
+          "elapsed_seconds": 0.240012,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "7abd7cc6-b218-45af-be34-7b665ad79bf2"
+        },
+        {
+          "query_id": "SL_028",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.C61G?",
+          "elapsed_seconds": 0.280679,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "b81d1fac-22a2-44b6-9afd-d559fa268ab3"
+        },
+        {
+          "query_id": "SL_029",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.K3326*?",
+          "elapsed_seconds": 0.365578,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "d0a9a50a-6c49-4139-9459-53c763acb15e"
+        },
+        {
+          "query_id": "SL_030",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.K3326*?",
+          "elapsed_seconds": 0.265602,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "e470144a-b79c-48e4-a86f-3ce1f4400860"
+        },
+        {
+          "query_id": "SL_031",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.R346fs?",
+          "elapsed_seconds": 0.260551,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "1a07850a-0b54-44cc-8cbd-76928f24f4a9"
+        },
+        {
+          "query_id": "SL_032",
+          "question": "What mechanisms does Ceralasertib target in breast cancer with p.R175H?",
+          "elapsed_seconds": 0.244143,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "131d8d0a-13dd-46e2-ac62-48592baae425"
+        },
+        {
+          "query_id": "SL_033",
+          "question": "What mechanisms does Adavosertib target in prostate cancer with p.R175H?",
+          "elapsed_seconds": 0.268149,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "039038c2-e1c6-428a-ba37-3e4e4559c2e2"
+        },
+        {
+          "query_id": "SL_034",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+          "elapsed_seconds": 0.244455,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "d86e9998-0ca2-4025-9501-0704b49f6399"
+        },
+        {
+          "query_id": "SL_035",
+          "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+          "elapsed_seconds": 0.252229,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "c991f87c-c055-458a-89e4-99c043670801"
+        },
+        {
+          "query_id": "SL_036",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+          "elapsed_seconds": 0.24469,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "14b97e26-54ab-4a84-b63e-88295fca6d54"
+        },
+        {
+          "query_id": "SL_037",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+          "elapsed_seconds": 0.251824,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "b3b0dc79-044b-4500-b0a3-0c118ecf4b7a"
+        },
+        {
+          "query_id": "SL_038",
+          "question": "What mechanisms does Ceralasertib target in breast cancer with p.??",
+          "elapsed_seconds": 0.259115,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "3f8b9b3a-46c9-48db-86d0-886d3d304e9b"
+        },
+        {
+          "query_id": "SL_039",
+          "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+          "elapsed_seconds": 0.251888,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "ac2e4908-6ae6-4f5c-84c0-00161a99a233"
+        },
+        {
+          "query_id": "SL_040",
+          "question": "What mechanisms does Olaparib target in ovarian cancer with p.C61G?",
+          "elapsed_seconds": 0.253253,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "395fd578-649d-4ce6-bc9a-5b952eb9e7d4"
+        },
+        {
+          "query_id": "HV_001",
+          "question": "How does foods help with [{'compound': 'Vitamin D', 'aliases': ['Cholecalciferol', 'Vitamin D3', 'Calciferol'], 'B_targets': ['VDR', 'TP53 pathway', 'DNA repair', 'Immune function', 'BRCA1'], 'mechanisms': ['Enhances BRCA1 function and homologous recombination repair', 'Modulates TP53 pathway through VDR-dependent transcription', 'Supports T-cell and NK cell function (immune surveillance)', 'Reduces inflammation via NF-\u03baB inhibition', 'May improve platinum sensitivity through DNA repair support'], 'evidence_grade': 'MODERATE', 'evidence_summary': '3 RCTs + large observational studies (n>1200) show survival benefit in ovarian cancer. Serum 25(OH)D >30 ng/mL associated with HR 0.77 for mortality.', 'ovarian_specific_data': {'survival_hr': 0.77, 'sample_size': 1200, 'serum_target': '40-60 ng/mL', 'citation': 'PMID:25489052'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Fat-soluble. Take with meals containing fat for optimal absorption. D3 (cholecalciferol) superior to D2 (ergocalciferol).', 'dosage': '2000-4000 IU daily (target serum 25(OH)D: 40-60 ng/mL). Check levels q3-6 months.', 'safety': 'GOOD', 'safety_notes': 'Monitor serum calcium and 25(OH)D levels. Avoid >10,000 IU daily unless supervised. May interact with digoxin.', 'cost': 'LOW ($10-15/month)', 'food_sources': ['Fatty fish (salmon, mackerel)', 'Egg yolks', 'Fortified dairy', 'Sun exposure (15-30 min daily)'], 'ab_relevance_ovarian': {'tp53_context': 'HIGH - VDR can partially restore TP53-like transcriptional programs', 'hrd_context': 'HIGH - Enhances BRCA1 function and HR repair', 'inflammation_context': 'MODERATE - Reduces NF-\u03baB activity'}}, {'compound': 'Omega-3 Fatty Acids (EPA/DHA)', 'aliases': ['Fish oil', 'EPA', 'DHA', 'Eicosapentaenoic acid', 'Docosahexaenoic acid'], 'B_targets': ['NF-\u03baB', 'COX-2', 'IL-6', 'Membrane integrity', 'Prostaglandins'], 'mechanisms': ['Inhibits NF-\u03baB signaling (anti-inflammatory)', 'Reduces COX-2 expression and prostaglandin E2 (PGE2)', 'Modulates immune cell function and reduces immunosuppression', 'Improves platinum sensitivity by reducing inflammation-driven resistance', 'Stabilizes cell membranes and reduces oxidative damage'], 'evidence_grade': 'MODERATE', 'evidence_summary': '2 RCTs in ovarian cancer show reduced systemic inflammation (CRP -45%) and improved platinum response. Observational data suggests survival benefit with high omega-3 intake.', 'ovarian_specific_data': {'inflammation_reduction': 0.45, 'platinum_sensitization': 0.3, 'cachexia_prevention': 'suggestive', 'citation': 'PMID:28765325, PMID:31234567'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Triglyceride form better absorbed than ethyl ester. Take with meals. Refrigerate to prevent oxidation.', 'dosage': '2-4g EPA+DHA daily (high-dose formulation). Prefer pharmaceutical-grade (low mercury, PCBs).', 'safety': 'GOOD', 'safety_notes': 'May increase bleeding risk with anticoagulants (warfarin, aspirin). Monitor INR. Use pharmaceutical-grade to avoid mercury/contaminants.', 'cost': 'MODERATE ($20-40/month for high-dose pharmaceutical grade)', 'food_sources': ['Fatty fish (salmon, sardines, mackerel)', 'Algae oil (vegetarian DHA)', 'Krill oil'], 'ab_relevance_ovarian': {'inflammation_context': 'HIGH - Directly targets ascites-driven NF-\u03baB/IL-6 axis', 'pi3k_context': 'MODERATE - PI3K/AKT activation drives NF-\u03baB', 'peritoneal_stress_context': 'HIGH - Reduces inflammatory cytokines in ascites'}}, {'compound': 'Folate + Vitamin B12', 'aliases': ['Methylfolate', '5-MTHF', 'L-methylfolate', 'Methylcobalamin', 'B9', 'B12'], 'B_targets': ['DNA synthesis', 'DNA repair', 'Methylation', 'One-carbon metabolism', 'Homocysteine metabolism'], 'mechanisms': ['Provides methyl donors for DNA synthesis and repair (critical for BRCA/HRD)', 'Supports one-carbon metabolism (required for nucleotide synthesis)', 'May reduce chemotherapy-induced DNA damage in normal cells', 'Lowers homocysteine (cardiovascular protection during chemotherapy)', 'Required cofactor for DNA repair enzymes'], 'evidence_grade': 'WEAK', 'evidence_summary': 'Observational data suggests benefit (HR 0.85 for high folate intake). RCT data mixed - some suggest benefit, others neutral. Mechanistic rationale strong for HRD context.', 'ovarian_specific_data': {'observational_hr': 0.85, 'mechanism_plausible': True, 'hrd_context': 'strong rationale', 'citation': 'PMID:26543123'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Use methylfolate (5-MTHF) - active form, bypasses MTHFR polymorphism. Use methylcobalamin (active B12). Avoid folic acid >1000 mcg (synthetic form may mask B12 deficiency).', 'dosage': '400-800 mcg methylfolate + 500-1000 mcg methylcobalamin daily. Higher doses (1-2mg) may be used under supervision.', 'safety': 'GOOD', 'safety_notes': 'High-dose folic acid may mask B12 deficiency (use methylated forms). Avoid mega-doses >5mg folate (conflicting data on cancer risk).', 'cost': 'LOW ($10-15/month)', 'food_sources': ['Leafy greens (spinach, kale)', 'Legumes', 'Eggs', 'Fortified grains', 'Liver'], 'ab_relevance_ovarian': {'hrd_context': 'MODERATE - Supports remaining DNA repair pathways', 'tp53_context': 'LOW - Indirect support for DNA integrity', 'chemo_context': 'MODERATE - May reduce platinum-induced DNA damage'}}, {'compound': 'Curcumin (Turmeric)', 'aliases': ['Turmeric', 'Curcuma longa', 'Diferuloylmethane'], 'B_targets': ['NF-\u03baB', 'COX-2', 'STAT3', 'Apoptosis', 'HSP90'], 'mechanisms': ['Inhibits NF-\u03baB activation (anti-inflammatory)', 'Reduces COX-2 expression', 'May enhance platinum sensitivity via oxidative stress modulation', 'Antioxidant effects (protects normal cells)', 'Inhibits STAT3 (IL-6 signaling)'], 'evidence_grade': 'WEAK', 'evidence_summary': '50+ preclinical studies show synergy with platinum. 2 small RCTs (n=50-80) show mixed results - likely due to poor bioavailability. Liposomal formulations more promising.', 'ovarian_specific_data': {'phase_2_orr': 0.12, 'preclinical_synergy': 'strong', 'bioavailability_barrier': 'critical limitation', 'citation': 'PMID:29030430'}, 'bioavailability': 'POOR', 'bioavailability_notes': 'Only 1-2% absorbed due to poor water solubility and rapid metabolism. MUST use enhanced formulations: liposomal, phytosome (Meriva), or with piperine (black pepper extract, 20mg). Avoid standard curcumin powder.', 'dosage': '500-1000mg curcumin (standardized 95% curcuminoids) + 20mg piperine OR 200-400mg liposomal curcumin daily. Divide into 2-3 doses.', 'safety': 'GOOD', 'safety_notes': 'High doses may cause GI upset. Avoid with blood thinners (warfarin) - may enhance anticoagulation. May interact with chemotherapy (check with oncologist).', 'cost': 'LOW ($15-25/month for basic; $30-50/month for liposomal)', 'food_sources': ['Turmeric powder (add to food with black pepper and fat)', 'Golden milk (turmeric + milk + pepper)'], 'ab_relevance_ovarian': {'inflammation_context': 'MODERATE - Targets NF-\u03baB/COX-2 axis', 'pi3k_context': 'LOW - Modest effect on PI3K/AKT', 'ascites_context': 'MODERATE - May reduce inflammatory cytokines', 'bioavailability_note': 'Clinical benefit requires enhanced formulation'}}, {'compound': 'Green Tea (EGCG)', 'aliases': ['Epigallocatechin gallate', 'EGCG', 'Green tea extract', 'Catechins'], 'B_targets': ['Proteasome', 'Autophagy', 'STAT3', 'VEGF', 'HSP90'], 'mechanisms': ['Inhibits proteasome activity (synergy with platinum-induced protein damage)', 'Induces autophagy (cellular cleanup of damaged proteins)', 'Anti-angiogenic effects (inhibits VEGF)', 'May reduce chemoresistance by targeting cancer stem cells', 'Modulates STAT3 (IL-6 signaling)'], 'evidence_grade': 'WEAK', 'evidence_summary': 'Preclinical data strong (proteasome inhibition + platinum synergy). Human RCT data limited but suggestive. Observational studies show protective association with high green tea intake.', 'ovarian_specific_data': {'preclinical_synergy': 'moderate', 'observational_benefit': 'suggestive (HR ~0.80 for high intake)', 'proteasome_context': 'strong mechanistic rationale', 'citation': 'PMID:27856789'}, 'bioavailability': 'MODERATE', 'bioavailability_notes': 'EGCG has modest bioavailability (~5-20%). Standardized extracts more reliable than tea. Take on empty stomach for better absorption. Avoid with iron supplementation (binds iron).', 'dosage': '400-800mg EGCG daily (standardized extract) OR 3-5 cups green tea daily. Prefer decaffeinated extract if taking high doses.', 'safety': 'GOOD', 'safety_notes': 'High doses (>800mg EGCG) may affect liver enzymes (rare). Monitor liver function if taking other hepatotoxic drugs. Avoid mega-doses >1200mg EGCG.', 'cost': 'LOW ($10-20/month for extract; $5-10/month for tea)', 'food_sources': ['Green tea (3-5 cups daily)', 'Matcha powder (higher EGCG)', 'Green tea extract supplements'], 'ab_relevance_ovarian': {'proteostasis_context': 'MODERATE - Targets proteasome/autophagy (post-platinum stress)', 'inflammation_context': 'LOW-MODERATE - STAT3 inhibition', 'angiogenesis_context': 'MODERATE - VEGF inhibition (complement to bevacizumab)'}}, {'compound': 'NAC (N-Acetylcysteine)', 'aliases': ['N-Acetylcysteine', 'N-Acetyl-L-cysteine', 'NAC', 'Acetylcysteine'], 'B_targets': ['Glutathione', 'Oxidative stress', 'Mitochondria', 'ROS buffering'], 'mechanisms': ['Glutathione precursor (master antioxidant)', 'Reduces platinum-induced oxidative damage (may protect normal cells)', 'Supports mitochondrial function', 'May buffer ROS in peritoneal environment', 'Potential to reduce neuropathy and nephrotoxicity from platinum'], 'evidence_grade': 'WEAK', 'evidence_summary': 'Mechanistic rationale strong. Limited RCT data in ovarian cancer. Some data suggest protection against platinum toxicity (neuropathy, kidney damage) without reducing efficacy.', 'ovarian_specific_data': {'oxidative_stress_reduction': 0.5, 'normal_tissue_protection': 'suggestive', 'platinum_efficacy': 'not compromised in preclinical studies', 'neuropathy_prevention': 'emerging evidence', 'citation': 'PMID:28123456'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Well-absorbed orally. Take on empty stomach for best absorption (or with food if GI upset). Divide into 2-3 doses. IV formulation exists but requires prescription.', 'dosage': '600-1200mg daily (divided doses: 600mg BID or 400mg TID). Higher doses (1800mg) used in some studies.', 'safety': 'GOOD', 'safety_notes': 'May cause nausea/GI upset at high doses (take with food). Generally well-tolerated. Avoid mega-doses >2400mg daily. May interact with nitroglycerin.', 'cost': 'LOW ($15-20/month)', 'food_sources': ['High-protein foods (eggs, chicken, turkey)', 'Whey protein', 'Not typically obtained from diet in therapeutic doses'], 'ab_relevance_ovarian': {'oxidative_stress_context': 'HIGH - Directly buffers peritoneal ROS and platinum-induced damage', 'hrd_context': 'MODERATE - Supports mitochondrial function under repair stress', 'chemo_toxicity_context': 'HIGH - May reduce neuropathy and kidney damage', 'platinum_timing': 'Take 2-3 hours AFTER platinum infusion to avoid antioxidant interference during treatment'}}]?",
+          "elapsed_seconds": 0.245977,
+          "mechanisms": [],
+          "pathways": [],
+          "evidence_tier": "Insufficient",
+          "badges": [],
+          "overall_confidence": 0.5,
+          "paper_count": 0,
+          "has_sub_question_answers": true,
+          "has_article_summaries": false,
+          "has_moat_analysis": true,
+          "run_id": "423440ea-f09a-4321-9309-f95beba5c59e"
+        }
+      ]
+    },
+    "metrics": {
+      "timestamp": "2026-01-07T16:00:27.702468",
+      "total_queries": 81,
+      "average_precision": 0.0,
+      "average_recall": 0.0,
+      "average_f1": 0.0,
+      "per_query_metrics": [
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_001",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_002",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_003",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_004",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_005",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_006",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_007",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_008",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_009",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_010",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_011",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_012",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_013",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_014",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_015",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_016",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_017",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_018",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_019",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_020",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_021",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_022",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_023",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_024",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_025",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_026",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_027",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_028",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_029",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_030",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_031",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_032",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_033",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_034",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_035",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_036",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_037",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_038",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_039",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "DG_040",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 2
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_001",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_002",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_003",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_004",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_005",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_006",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_007",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_008",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_009",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_010",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_011",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_012",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_013",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_014",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_015",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_016",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_017",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_018",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_019",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_020",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_021",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_022",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_023",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_024",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_025",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_026",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_027",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_028",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_029",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_030",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_031",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_032",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_033",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_034",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_035",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_036",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_037",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_038",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_039",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "SL_040",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        },
+        {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "query_id": "HV_001",
+          "mechanism_count": 0,
+          "ground_truth_keyword_count": 20
+        }
+      ]
+    },
+    "baselines": {
+      "timestamp": "2026-01-07T16:05:58.237255",
+      "total_queries": 81,
+      "baseline_results": {
+        "pubmed_abstract_only": [
+          {
+            "query_id": "DG_001",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_002",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_003",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_004",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_005",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_006",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_007",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_008",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_009",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_010",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_011",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_012",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_013",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_014",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_015",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_016",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_017",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_018",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_019",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_020",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_021",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_022",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_023",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_024",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_025",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_026",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_027",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_028",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_029",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_030",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_031",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_032",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_033",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_034",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_035",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_036",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_037",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_038",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_039",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "DG_040",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "fluoropyrimidine",
+              "testing",
+              "variants",
+              "clinical",
+              "study",
+              "chemotherapy",
+              "severe",
+              "sites",
+              "gastrointestinal"
+            ],
+            "paper_count": 98
+          },
+          {
+            "query_id": "SL_001",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "cancer",
+              "parpi",
+              "clinical",
+              "ovarian",
+              "olaparib",
+              "tumor",
+              "maintenance",
+              "treatment",
+              "therapy"
+            ],
+            "paper_count": 100
+          },
+          {
+            "query_id": "SL_002",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "breast",
+              "olaparib",
+              "cancer",
+              "pembrolizumab",
+              "efficacy",
+              "repair",
+              "inhibitors",
+              "these",
+              "clinical"
+            ],
+            "paper_count": 100
+          },
+          {
+            "query_id": "SL_003",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "olaparib",
+              "cancer",
+              "prostate",
+              "clinical",
+              "repair",
+              "metastatic",
+              "treatment",
+              "inhibitor",
+              "mcrpc"
+            ],
+            "paper_count": 100
+          },
+          {
+            "query_id": "SL_004",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "cancer",
+              "treatment",
+              "clinical",
+              "olaparib",
+              "parpi",
+              "primary",
+              "therapy",
+              "response",
+              "maintenance"
+            ],
+            "paper_count": 100
+          },
+          {
+            "query_id": "SL_005",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [],
+            "paper_count": 0
+          },
+          {
+            "query_id": "SL_006",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [],
+            "paper_count": 0
+          },
+          {
+            "query_id": "SL_007",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "cancer",
+              "patients",
+              "ovarian",
+              "efficacy",
+              "adavosertib",
+              "clinical",
+              "response",
+              "phase",
+              "treatment",
+              "gemcitabine"
+            ],
+            "paper_count": 9
+          },
+          {
+            "query_id": "SL_008",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "cancer",
+              "olaparib",
+              "breast",
+              "inhibitor",
+              "approved",
+              "treatment",
+              "mutations",
+              "these",
+              "cells"
+            ],
+            "paper_count": 54
+          },
+          {
+            "query_id": "SL_009",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "prostate",
+              "patients",
+              "olaparib",
+              "cancer",
+              "treatment",
+              "group",
+              "mutations",
+              "genes",
+              "pathogenic",
+              "metastatic"
+            ],
+            "paper_count": 19
+          },
+          {
+            "query_id": "SL_010",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "ovarian",
+              "cancer",
+              "patients",
+              "variants",
+              "olaparib",
+              "tumors",
+              "missense",
+              "identified",
+              "genomic",
+              "analysis"
+            ],
+            "paper_count": 11
+          },
+          {
+            "query_id": "SL_011",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "olaparib",
+              "cancer",
+              "group",
+              "patients",
+              "control",
+              "variants",
+              "median",
+              "ovarian",
+              "homologous",
+              "recombination"
+            ],
+            "paper_count": 5
+          },
+          {
+            "query_id": "SL_012",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [],
+            "paper_count": 0
+          },
+          {
+            "query_id": "SL_013",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "ovarian",
+              "olaparib",
+              "cancer",
+              "patients",
+              "genes",
+              "expression",
+              "could",
+              "combination",
+              "sensitivity",
+              "inhibitors"
+            ],
+            "paper_count": 8
+          },
+          {
+            "query_id": "SL_014",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "breast",
+              "olaparib",
+              "cancer",
+              "pembrolizumab",
+              "efficacy",
+              "repair",
+              "inhibitors",
+              "these",
+              "clinical"
+            ],
+            "paper_count": 100
+          },
+          {
+            "query_id": "SL_015",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "cancer",
+              "treatment",
+              "repair",
+              "olaparib",
+              "parpi",
+              "inhibitors",
+              "prostate",
+              "clinical",
+              "survival"
+            ],
+            "paper_count": 100
+          },
+          {
+            "query_id": "SL_016",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "cancer",
+              "treatment",
+              "clinical",
+              "olaparib",
+              "parpi",
+              "primary",
+              "therapy",
+              "response",
+              "maintenance"
+            ],
+            "paper_count": 100
+          },
+          {
+            "query_id": "SL_017",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "cancer",
+              "olaparib",
+              "breast",
+              "treatment",
+              "pembrolizumab",
+              "ctdna",
+              "clinical",
+              "testing",
+              "response"
+            ],
+            "paper_count": 100
+          },
+          {
+            "query_id": "SL_018",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [],
+            "paper_count": 0
+          },
+          {
+            "query_id": "SL_019",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [],
+            "paper_count": 0
+          },
+          {
+            "query_id": "SL_020",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "mitotic",
+              "clinical",
+              "inhibition",
+              "kinase",
+              "entry",
+              "preclinical",
+              "cancer",
+              "checkpoint",
+              "premature",
+              "synergizes"
+            ],
+            "paper_count": 2
+          },
+          {
+            "query_id": "SL_021",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "clinical",
+              "olaparib",
+              "mutations",
+              "tumor",
+              "cancer",
+              "response",
+              "prostate",
+              "tumors",
+              "survival"
+            ],
+            "paper_count": 65
+          },
+          {
+            "query_id": "SL_022",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "cancer",
+              "pathogenic",
+              "olaparib",
+              "ovarian",
+              "homologous",
+              "repair",
+              "mutations",
+              "recombination",
+              "tumors"
+            ],
+            "paper_count": 20
+          },
+          {
+            "query_id": "SL_023",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "cancer",
+              "olaparib",
+              "breast",
+              "group",
+              "control",
+              "variants",
+              "missense",
+              "ovarian",
+              "clinical"
+            ],
+            "paper_count": 9
+          },
+          {
+            "query_id": "SL_024",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "olaparib",
+              "group",
+              "control",
+              "patients",
+              "survival",
+              "progression",
+              "cohort",
+              "median",
+              "months",
+              "cancer"
+            ],
+            "paper_count": 1
+          },
+          {
+            "query_id": "SL_025",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "clear",
+              "patients",
+              "combination",
+              "ovarian",
+              "against",
+              "carcinoma",
+              "clinical",
+              "treatment",
+              "compounds",
+              "other"
+            ],
+            "paper_count": 2
+          },
+          {
+            "query_id": "SL_026",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "olaparib",
+              "patients",
+              "group",
+              "cancer",
+              "control",
+              "sensitivity",
+              "genes",
+              "months",
+              "homologous",
+              "disease"
+            ],
+            "paper_count": 7
+          },
+          {
+            "query_id": "SL_027",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "cancer",
+              "treatment",
+              "repair",
+              "olaparib",
+              "parpi",
+              "inhibitors",
+              "prostate",
+              "clinical",
+              "survival"
+            ],
+            "paper_count": 100
+          },
+          {
+            "query_id": "SL_028",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "cancer",
+              "parpi",
+              "clinical",
+              "ovarian",
+              "olaparib",
+              "tumor",
+              "maintenance",
+              "treatment",
+              "therapy"
+            ],
+            "paper_count": 100
+          },
+          {
+            "query_id": "SL_029",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "cancer",
+              "olaparib",
+              "breast",
+              "treatment",
+              "pembrolizumab",
+              "ctdna",
+              "clinical",
+              "testing",
+              "response"
+            ],
+            "paper_count": 100
+          },
+          {
+            "query_id": "SL_030",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "olaparib",
+              "cancer",
+              "prostate",
+              "clinical",
+              "repair",
+              "metastatic",
+              "treatment",
+              "inhibitor",
+              "mcrpc"
+            ],
+            "paper_count": 100
+          },
+          {
+            "query_id": "SL_031",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [],
+            "paper_count": 0
+          },
+          {
+            "query_id": "SL_032",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [],
+            "paper_count": 0
+          },
+          {
+            "query_id": "SL_033",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [],
+            "paper_count": 0
+          },
+          {
+            "query_id": "SL_034",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "cancer",
+              "ovarian",
+              "olaparib",
+              "cells",
+              "which",
+              "parpi",
+              "resistance",
+              "inhibitors",
+              "inhibition",
+              "treatment"
+            ],
+            "paper_count": 42
+          },
+          {
+            "query_id": "SL_035",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "olaparib",
+              "cancer",
+              "ctdna",
+              "treatment",
+              "mutations",
+              "inhibitor",
+              "these",
+              "genes",
+              "pathogenic"
+            ],
+            "paper_count": 32
+          },
+          {
+            "query_id": "SL_036",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "olaparib",
+              "patients",
+              "group",
+              "control",
+              "cancer",
+              "homologous",
+              "progression",
+              "patient",
+              "survival",
+              "repair"
+            ],
+            "paper_count": 3
+          },
+          {
+            "query_id": "SL_037",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "cancer",
+              "ovarian",
+              "variants",
+              "genomic",
+              "homologous",
+              "recombination",
+              "tumors",
+              "patients",
+              "olaparib",
+              "identified"
+            ],
+            "paper_count": 6
+          },
+          {
+            "query_id": "SL_038",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "clear",
+              "patients",
+              "combination",
+              "gynecological",
+              "activity",
+              "other",
+              "relapsed",
+              "carcinoma",
+              "mutations",
+              "subtypes"
+            ],
+            "paper_count": 1
+          },
+          {
+            "query_id": "SL_039",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "olaparib",
+              "survival",
+              "repair",
+              "months",
+              "cohort",
+              "control",
+              "prostate",
+              "treatment",
+              "cancer"
+            ],
+            "paper_count": 12
+          },
+          {
+            "query_id": "SL_040",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [
+              "patients",
+              "cancer",
+              "parpi",
+              "clinical",
+              "ovarian",
+              "olaparib",
+              "tumor",
+              "maintenance",
+              "treatment",
+              "therapy"
+            ],
+            "paper_count": 100
+          },
+          {
+            "query_id": "HV_001",
+            "baseline": "pubmed_abstract_only",
+            "mechanisms": [],
+            "paper_count": 0
+          }
+        ],
+        "chatgpt_direct": [],
+        "keyword_matching": [
+          {
+            "query_id": "DG_001",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_002",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_003",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_004",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_005",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_006",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_007",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_008",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_009",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_010",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_011",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_012",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_013",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_014",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_015",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_016",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_017",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_018",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_019",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_020",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_021",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_022",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_023",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_024",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_025",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_026",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_027",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_028",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_029",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_030",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_031",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_032",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_033",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_034",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_035",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_036",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_037",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_038",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_039",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "DG_040",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_001",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_002",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_003",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_004",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_005",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_006",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_007",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_008",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_009",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_010",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_011",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_012",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_013",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_014",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_015",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_016",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_017",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_018",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_019",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_020",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_021",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_022",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_023",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_024",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_025",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_026",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_027",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_028",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_029",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_030",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_031",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_032",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_033",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_034",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_035",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_036",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_037",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_038",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_039",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "SL_040",
+            "baseline": "keyword_matching",
+            "mechanisms": []
+          },
+          {
+            "query_id": "HV_001",
+            "baseline": "keyword_matching",
+            "mechanisms": [
+              "apoptosis",
+              "angiogenesis",
+              "metabolism",
+              "resistance",
+              "inhibition",
+              "activation",
+              "pathway",
+              "signaling",
+              "dna repair",
+              "inflammation",
+              "oxidative stress",
+              "autophagy"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

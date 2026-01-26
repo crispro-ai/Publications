@@ -28,10 +28,53 @@
 | Gate activations | IO boost | io_boosted=7 | Scenario suite JSON |
 | Gate activations | Confidence caps | conf_capped=5 | Scenario suite JSON |
 
-## Table 4. Clinical Validation Summary (TCGA-UCEC, n=527)
+## Table 4. Clinical validation (TCGA-UCEC overall survival)
 
-| Strategy | Usable N | Hazard Ratio (Cox) | 95% Confidence Interval | log-rank p-value | Receipt |
-| --- | --- | --- | --- | --- | --- |
-| TMB-only (≥20 mut/Mb) | 516 | 0.32 | 0.15 - 0.65 | 0.00105 | `baseline_comparison_io_tcga_ucec.json` |
-| MSI-only (MSI-H) | 527 | 0.49 | 0.29 - 0.83 | 0.00732 | `baseline_comparison_io_tcga_ucec.json` |
-| OR-gate (TMB or MSI) | 527 | 0.39 | 0.23 - 0.65 | 0.00017 | `baseline_comparison_io_tcga_ucec.json` |
+| Biomarker Strategy | N | Positive | Negative | Log-rank p | Cox HR (Pos vs Neg) | 95% CI |
+|---|---:|---:|---:|---:|---:|---|
+| TMB-high (≥20 mut/Mb) | 516 | 120 | 396 | 0.001045 | 0.316 | 0.152–0.654 |
+| MSI-high | 527 | 174 | 353 | 0.00732 | 0.491 | 0.289–0.835 |
+| OR gate (TMB-high or MSI-high) | 527 | 210 | 317 | 0.000168 | 0.389 | 0.234–0.648 |
+
+**Receipts:** `receipts/clinical/baseline_comparison_io_tcga_ucec.json`
+
+## Table 5. Negative control (TCGA-COADREAD overall survival)
+
+| Biomarker Strategy | N | Log-rank p | Cox HR (Pos vs Neg) | 95% CI |
+|---|---:|---:|---:|---|
+| TMB-high (≥20 mut/Mb) | 530 | 0.931 | 1.02 | 0.610–1.72 |
+| MSI-high | 588 | 0.756 | 0.927 | 0.573–1.50 |
+| OR gate (TMB-high or MSI-high) | 590 | 0.623 | 0.888 | 0.555–1.42 |
+
+**Receipts:** `receipts/clinical/baseline_comparison_io_tcga_coadread.json`
+
+## Table 6. Real-cohort safety audit (TCGA-OV)
+
+| Metric | Value | N | Receipt |
+|---|---:|---:|---|
+| PARP penalty applied | 460 | 469 | `receipts/clinical/real_cohort_behavioral_validation.json` |
+| Confidence cap (L1) applied | 469 | 469 | `receipts/clinical/real_cohort_behavioral_validation.json` |
+
+## Table 7. Comparison to standard clinical workflow
+
+| Scenario | Standard Practice | This System | Difference |
+| --- | --- | --- | --- |
+| Germline-negative HRD unknown | Vague recommendation, often no PARP inhibitor | PARP efficacy reduced (0.8x), confidence capped (L0/L1), provenance recorded | Quantified uncertainty, explicit rationale, auditable |
+| MSI-high IHC only | Immunotherapy recommended, no explicit confidence | IO efficacy boosted (1.3x), confidence capped (L0/L1), provenance recorded | Calibrated confidence, receipt-backed, actionable feedback |
+| No biomarker data | Broad recommendations, high uncertainty | Efficacy defaults, confidence capped (L0), provenance recorded | Safety-first, prevents overconfidence, transparent |
+
+## Table 8. Real Patient Examples: Tiered System Behavior
+
+| Patient ID | Mutations | HRD Proxy | Platinum Response | Level | TumorContext | Efficacy Change | Confidence Cap | Gates Applied | Clinical Interpretation |
+|---|---|---|---|---|---|---|---|---|---|
+| TCGA-23-2078 | 187 | 30.0 | Sensitive | L0 | `{"completeness_score": 0.2}` | -0.14 | L0 | PARP_UNKNOWN_HRD, CONFIDENCE_CAP_L0 | Conservative PARP penalty due to unknown HRD, capped confidence. |
+| | | | | L1 | `{"completeness_score": 0.5, "hrd_score": 30.0, "tmb": 5.0, "msi_status": "MSI-Stable"}` | -0.28 | L1 | PARP_HRD_LOW, CONFIDENCE_CAP_L1 | HRD known but low, PARP penalty applied, confidence capped. |
+| | | | | L2 | `{"completeness_score": 0.9, "hrd_score": 30.0, "tmb": 25.0, "msi_status": "MSI-Stable"}` | -0.28 | None | PARP_HRD_LOW | Full data, HRD low, PARP penalty applied, no confidence cap. |
+| TCGA-13-1482 | 56 | 30.0 | Sensitive | L0 | `{"completeness_score": 0.2}` | -0.14 | L0 | PARP_UNKNOWN_HRD, CONFIDENCE_CAP_L0 | Similar to TCGA-23-2078 at L0, conservative. |
+| | | | | L1 | `{"completeness_score": 0.5, "hrd_score": 30.0, "tmb": 5.0, "msi_status": "MSI-Stable"}` | -0.28 | L1 | PARP_HRD_LOW, CONFIDENCE_CAP_L1 | HRD known but low, PARP penalty, confidence capped. |
+| | | | | L2 | `{"completeness_score": 0.9, "hrd_score": 30.0, "tmb": 25.0, "msi_status": "MSI-Stable"}` | -0.28 | None | PARP_HRD_LOW | Full data, HRD low, PARP penalty, no confidence cap. |
+| TCGA-09-1661 | 0 | 0.0 | Resistant | L0 | `{"completeness_score": 0.2}` | -0.14 | L0 | PARP_UNKNOWN_HRD, CONFIDENCE_CAP_L0 | Conservative PARP penalty due to unknown HRD, capped confidence. |
+| | | | | L1 | `{"completeness_score": 0.5, "hrd_score": 0.0, "tmb": 5.0, "msi_status": "MSI-Stable"}` | -0.14 | L1 | PARP_HRD_LOW, CONFIDENCE_CAP_L1 | HRD known and very low, PARP penalty, confidence capped. |
+| | | | | L2 | `{"completeness_score": 0.9, "hrd_score": 0.0, "tmb": 25.0, "msi_status": "MSI-Stable"}` | -0.14 | None | PARP_HRD_LOW | Full data, HRD very low, PARP penalty, no confidence cap. |
+
+Receipt: `receipts/clinical/tcga_ov_l0_l1_l2_examples.json`

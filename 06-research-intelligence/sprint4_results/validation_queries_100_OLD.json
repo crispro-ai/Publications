@@ -1,0 +1,2270 @@
+{
+  "timestamp": "2026-01-07T16:27:01.184895",
+  "total_queries": 47,
+  "source_breakdown": {
+    "dosing_guidance": 6,
+    "synthetic_lethality": 40,
+    "hypothesis_validator": 1
+  },
+  "queries": [
+    {
+      "query_id": "DG_001",
+      "question": "How does capecitabine interact with DPYD c.2846A>T in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-DPYD-001",
+        "pmid": "41133273",
+        "drug": "capecitabine",
+        "gene": "DPYD",
+        "variant": "c.2846A>T",
+        "disease": "cancer",
+        "toxicity_occurred": true,
+        "toxicity_confidence": "high"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "c.2846A>T"
+        }
+      }
+    },
+    {
+      "query_id": "DG_002",
+      "question": "How does capecitabine interact with DPYD c.2846A>T in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-DPYD-002",
+        "pmid": "39376610",
+        "drug": "capecitabine",
+        "gene": "DPYD",
+        "variant": "c.2846A>T",
+        "disease": "cancer",
+        "toxicity_occurred": true,
+        "toxicity_confidence": "high"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "c.2846A>T"
+        }
+      }
+    },
+    {
+      "query_id": "DG_003",
+      "question": "How does 5-fluorouracil interact with DPYD in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-DPYD-003",
+        "pmid": "38528593",
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "",
+        "disease": "cancer",
+        "toxicity_occurred": true,
+        "toxicity_confidence": "high"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "WILDTYPE"
+        }
+      }
+    },
+    {
+      "query_id": "DG_004",
+      "question": "How does 5-fluorouracil interact with DPYD in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-DPYD-007",
+        "pmid": "31149530",
+        "drug": "5-fluorouracil",
+        "gene": "DPYD",
+        "variant": "",
+        "disease": "cancer",
+        "toxicity_occurred": true,
+        "toxicity_confidence": "moderate"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "WILDTYPE"
+        }
+      }
+    },
+    {
+      "query_id": "DG_005",
+      "question": "How does capecitabine interact with DPYD c.1903A>G in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-DPYD-008",
+        "pmid": "30915274",
+        "drug": "capecitabine",
+        "gene": "DPYD",
+        "variant": "c.1903A>G",
+        "disease": "cancer",
+        "toxicity_occurred": true,
+        "toxicity_confidence": "moderate"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "DPYD": "c.1903A>G"
+        }
+      }
+    },
+    {
+      "query_id": "DG_006",
+      "question": "How does mercaptopurine interact with TPMT *3A in cancer?",
+      "source": "dosing_guidance",
+      "source_data": {
+        "case_id": "LIT-TPMT-001",
+        "pmid": "31464791",
+        "drug": "mercaptopurine",
+        "gene": "TPMT",
+        "variant": "*3A",
+        "disease": "cancer",
+        "toxicity_occurred": true,
+        "toxicity_confidence": "moderate"
+      },
+      "context": {
+        "disease": "cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "TPMT": "*3A"
+        }
+      }
+    },
+    {
+      "query_id": "SL_001",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.C61G?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_001",
+        "drug": "Olaparib",
+        "gene": "BRCA1",
+        "mutation": "p.C61G",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA1+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA1": 0.44405918068595746
+          },
+          "clinical_evidence": {
+            "pmid": "25366685",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA1",
+            "hgvs_p": "p.C61G",
+            "chrom": "17",
+            "pos": 43070943,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA1": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_002",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.C61G?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_002",
+        "drug": "Olaparib",
+        "gene": "BRCA1",
+        "mutation": "p.C61G",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA1+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA1": 0.5136549385283461
+          },
+          "clinical_evidence": {
+            "pmid": "28569902",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA1",
+            "hgvs_p": "p.C61G",
+            "chrom": "17",
+            "pos": 43070943,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA1": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_003",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.K3326*?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_003",
+        "drug": "Olaparib",
+        "gene": "BRCA2",
+        "mutation": "p.K3326*",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA2": 0.5785124303033135
+          },
+          "clinical_evidence": {
+            "pmid": "25366685",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA2",
+            "hgvs_p": "p.K3326*",
+            "chrom": "13",
+            "pos": 32936750,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "stop_gained"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_004",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.K3326*?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_004",
+        "drug": "Olaparib",
+        "gene": "BRCA2",
+        "mutation": "p.K3326*",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA2": 0.49663622684497655
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA2",
+            "hgvs_p": "p.K3326*",
+            "chrom": "13",
+            "pos": 32936750,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "stop_gained"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_005",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.R346fs?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_005",
+        "drug": "Olaparib",
+        "gene": "MBD4",
+        "mutation": "p.R346fs",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "MBD4+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "BER"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "MBD4": 0.12484960719544597
+          },
+          "clinical_evidence": {
+            "pmid": "30111527",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "MBD4",
+            "hgvs_p": "p.R346fs",
+            "chrom": "3",
+            "pos": 129430488,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "frameshift_variant"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "MBD4": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_006",
+      "question": "What mechanisms does Ceralasertib target in prostate cancer with p.R175H?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_006",
+        "drug": "Ceralasertib",
+        "gene": "TP53",
+        "mutation": "p.R175H",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "TP53+ATR"
+          ],
+          "effective_drugs": [
+            "Ceralasertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "TP53": 0.0
+          },
+          "clinical_evidence": {
+            "pmid": "33115855",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "TP53",
+            "hgvs_p": "p.R175H",
+            "chrom": "17",
+            "pos": 7577120,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "TP53": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_007",
+      "question": "What mechanisms does Adavosertib target in ovarian cancer with p.R175H?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_007",
+        "drug": "Adavosertib",
+        "gene": "TP53",
+        "mutation": "p.R175H",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "TP53+WEE1"
+          ],
+          "effective_drugs": [
+            "Adavosertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "TP53": 0.0
+          },
+          "clinical_evidence": {
+            "pmid": "32592347",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "TP53",
+            "hgvs_p": "p.R175H",
+            "chrom": "17",
+            "pos": 7577120,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "TP53": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_008",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_008",
+        "drug": "Olaparib",
+        "gene": "ATM",
+        "mutation": "p.?",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "ATM+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "ATM": 0.03199998891214332
+          },
+          "clinical_evidence": {
+            "pmid": "29880560",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "ATM",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "ATM": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_009",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_009",
+        "drug": "Olaparib",
+        "gene": "PALB2",
+        "mutation": "p.?",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "PALB2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "PALB2": 0.4837245019947514
+          },
+          "clinical_evidence": {
+            "pmid": "32592347",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "PALB2",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "PALB2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_010",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_010",
+        "drug": "Olaparib",
+        "gene": "RAD51C",
+        "mutation": "p.?",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "RAD51C+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "RAD51C": 0.7061312400750432
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "RAD51C",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "RAD51C": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_011",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_011",
+        "drug": "Olaparib",
+        "gene": "RAD51D",
+        "mutation": "p.?",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "RAD51D+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "RAD51D": 0.7293221853155034
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "RAD51D",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "RAD51D": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_012",
+      "question": "What mechanisms does Ceralasertib target in prostate cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_012",
+        "drug": "Ceralasertib",
+        "gene": "ARID1A",
+        "mutation": "p.?",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "ARID1A+ATR"
+          ],
+          "effective_drugs": [
+            "Ceralasertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "ARID1A": 0.375561921664032
+          },
+          "clinical_evidence": {
+            "pmid": "30510156",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "ARID1A",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "ARID1A": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_013",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_013",
+        "drug": "Olaparib",
+        "gene": "CDK12",
+        "mutation": "p.?",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "CDK12+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "CDK12": 0.4085607197529356
+          },
+          "clinical_evidence": {
+            "pmid": "31320749",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "CDK12",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "CDK12": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_014",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.C61G?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_014",
+        "drug": "Olaparib",
+        "gene": "BRCA1",
+        "mutation": "p.C61G",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA1+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA1": 0.5136549385283461
+          },
+          "clinical_evidence": {
+            "pmid": "25366685",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA1",
+            "hgvs_p": "p.C61G",
+            "chrom": "17",
+            "pos": 43070943,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA1": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_015",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.C61G?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_015",
+        "drug": "Olaparib",
+        "gene": "BRCA1",
+        "mutation": "p.C61G",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA1+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA1": 0.31676202596271663
+          },
+          "clinical_evidence": {
+            "pmid": "28569902",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA1",
+            "hgvs_p": "p.C61G",
+            "chrom": "17",
+            "pos": 43070943,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA1": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_016",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.K3326*?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_016",
+        "drug": "Olaparib",
+        "gene": "BRCA2",
+        "mutation": "p.K3326*",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA2": 0.49663622684497655
+          },
+          "clinical_evidence": {
+            "pmid": "25366685",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA2",
+            "hgvs_p": "p.K3326*",
+            "chrom": "13",
+            "pos": 32936750,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "stop_gained"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_017",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.K3326*?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_017",
+        "drug": "Olaparib",
+        "gene": "BRCA2",
+        "mutation": "p.K3326*",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA2": 0.5194046762092465
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA2",
+            "hgvs_p": "p.K3326*",
+            "chrom": "13",
+            "pos": 32936750,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "stop_gained"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_018",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.R346fs?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_018",
+        "drug": "Olaparib",
+        "gene": "MBD4",
+        "mutation": "p.R346fs",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "MBD4+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "BER"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "MBD4": 0.1133053958772785
+          },
+          "clinical_evidence": {
+            "pmid": "30111527",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "MBD4",
+            "hgvs_p": "p.R346fs",
+            "chrom": "3",
+            "pos": 129430488,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "frameshift_variant"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "MBD4": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_019",
+      "question": "What mechanisms does Ceralasertib target in ovarian cancer with p.R175H?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_019",
+        "drug": "Ceralasertib",
+        "gene": "TP53",
+        "mutation": "p.R175H",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "TP53+ATR"
+          ],
+          "effective_drugs": [
+            "Ceralasertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "TP53": 0.0
+          },
+          "clinical_evidence": {
+            "pmid": "33115855",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "TP53",
+            "hgvs_p": "p.R175H",
+            "chrom": "17",
+            "pos": 7577120,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "TP53": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_020",
+      "question": "What mechanisms does Adavosertib target in breast cancer with p.R175H?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_020",
+        "drug": "Adavosertib",
+        "gene": "TP53",
+        "mutation": "p.R175H",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "TP53+WEE1"
+          ],
+          "effective_drugs": [
+            "Adavosertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "TP53": 0.0
+          },
+          "clinical_evidence": {
+            "pmid": "32592347",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "TP53",
+            "hgvs_p": "p.R175H",
+            "chrom": "17",
+            "pos": 7577120,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "TP53": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_021",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_021",
+        "drug": "Olaparib",
+        "gene": "ATM",
+        "mutation": "p.?",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "ATM+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "ATM": 0.05858248553710228
+          },
+          "clinical_evidence": {
+            "pmid": "29880560",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "ATM",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "ATM": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_022",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_022",
+        "drug": "Olaparib",
+        "gene": "PALB2",
+        "mutation": "p.?",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "PALB2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "PALB2": 0.33189795944643924
+          },
+          "clinical_evidence": {
+            "pmid": "32592347",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "PALB2",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "PALB2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_023",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_023",
+        "drug": "Olaparib",
+        "gene": "RAD51C",
+        "mutation": "p.?",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "RAD51C+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "RAD51C": 0.7042390620749244
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "RAD51C",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "RAD51C": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_024",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_024",
+        "drug": "Olaparib",
+        "gene": "RAD51D",
+        "mutation": "p.?",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "RAD51D+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "RAD51D": 0.5788916280524823
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "RAD51D",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "RAD51D": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_025",
+      "question": "What mechanisms does Ceralasertib target in ovarian cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_025",
+        "drug": "Ceralasertib",
+        "gene": "ARID1A",
+        "mutation": "p.?",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "ARID1A+ATR"
+          ],
+          "effective_drugs": [
+            "Ceralasertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "ARID1A": 0.2596675073474911
+          },
+          "clinical_evidence": {
+            "pmid": "30510156",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "ARID1A",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "ARID1A": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_026",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_026",
+        "drug": "Olaparib",
+        "gene": "CDK12",
+        "mutation": "p.?",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "CDK12+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "CDK12": 0.48274278092286904
+          },
+          "clinical_evidence": {
+            "pmid": "31320749",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "CDK12",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "CDK12": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_027",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.C61G?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_027",
+        "drug": "Olaparib",
+        "gene": "BRCA1",
+        "mutation": "p.C61G",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA1+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA1": 0.31676202596271663
+          },
+          "clinical_evidence": {
+            "pmid": "25366685",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA1",
+            "hgvs_p": "p.C61G",
+            "chrom": "17",
+            "pos": 43070943,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA1": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_028",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.C61G?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_028",
+        "drug": "Olaparib",
+        "gene": "BRCA1",
+        "mutation": "p.C61G",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA1+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA1": 0.44405918068595746
+          },
+          "clinical_evidence": {
+            "pmid": "28569902",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA1",
+            "hgvs_p": "p.C61G",
+            "chrom": "17",
+            "pos": 43070943,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA1": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_029",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.K3326*?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_029",
+        "drug": "Olaparib",
+        "gene": "BRCA2",
+        "mutation": "p.K3326*",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA2": 0.5194046762092465
+          },
+          "clinical_evidence": {
+            "pmid": "25366685",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA2",
+            "hgvs_p": "p.K3326*",
+            "chrom": "13",
+            "pos": 32936750,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "stop_gained"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_030",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.K3326*?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_030",
+        "drug": "Olaparib",
+        "gene": "BRCA2",
+        "mutation": "p.K3326*",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA2": 0.5785124303033135
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA2",
+            "hgvs_p": "p.K3326*",
+            "chrom": "13",
+            "pos": 32936750,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "stop_gained"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_031",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.R346fs?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_031",
+        "drug": "Olaparib",
+        "gene": "MBD4",
+        "mutation": "p.R346fs",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "MBD4+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "BER"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "MBD4": 0.1174664233026257
+          },
+          "clinical_evidence": {
+            "pmid": "30111527",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "MBD4",
+            "hgvs_p": "p.R346fs",
+            "chrom": "3",
+            "pos": 129430488,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "frameshift_variant"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "MBD4": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_032",
+      "question": "What mechanisms does Ceralasertib target in breast cancer with p.R175H?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_032",
+        "drug": "Ceralasertib",
+        "gene": "TP53",
+        "mutation": "p.R175H",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "TP53+ATR"
+          ],
+          "effective_drugs": [
+            "Ceralasertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "TP53": 0.0
+          },
+          "clinical_evidence": {
+            "pmid": "33115855",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "TP53",
+            "hgvs_p": "p.R175H",
+            "chrom": "17",
+            "pos": 7577120,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "TP53": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_033",
+      "question": "What mechanisms does Adavosertib target in prostate cancer with p.R175H?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_033",
+        "drug": "Adavosertib",
+        "gene": "TP53",
+        "mutation": "p.R175H",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "TP53+WEE1"
+          ],
+          "effective_drugs": [
+            "Adavosertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "TP53": 0.0
+          },
+          "clinical_evidence": {
+            "pmid": "32592347",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "TP53",
+            "hgvs_p": "p.R175H",
+            "chrom": "17",
+            "pos": 7577120,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "TP53": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_034",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_034",
+        "drug": "Olaparib",
+        "gene": "ATM",
+        "mutation": "p.?",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "ATM+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "ATM": 0.028631024194835045
+          },
+          "clinical_evidence": {
+            "pmid": "29880560",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "ATM",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "ATM": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_035",
+      "question": "What mechanisms does Olaparib target in breast cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_035",
+        "drug": "Olaparib",
+        "gene": "PALB2",
+        "mutation": "p.?",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "PALB2+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "PALB2": 0.3409024137324467
+          },
+          "clinical_evidence": {
+            "pmid": "32592347",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "PALB2",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "PALB2": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_036",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_036",
+        "drug": "Olaparib",
+        "gene": "RAD51C",
+        "mutation": "p.?",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "RAD51C+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "RAD51C": 0.6334293589307343
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "RAD51C",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "RAD51C": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_037",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_037",
+        "drug": "Olaparib",
+        "gene": "RAD51D",
+        "mutation": "p.?",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "RAD51D+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "RAD51D": 0.7360546282435787
+          },
+          "clinical_evidence": {
+            "pmid": "30345854",
+            "evidence_level": "Phase2"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "RAD51D",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "RAD51D": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_038",
+      "question": "What mechanisms does Ceralasertib target in breast cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_038",
+        "drug": "Ceralasertib",
+        "gene": "ARID1A",
+        "mutation": "p.?",
+        "disease": "breast cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "ARID1A+ATR"
+          ],
+          "effective_drugs": [
+            "Ceralasertib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "ATR/CHK1"
+          ],
+          "depmap_essentiality": {
+            "ARID1A": 0.2762992755625062
+          },
+          "clinical_evidence": {
+            "pmid": "30510156",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "ARID1A",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "breast_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "ARID1A": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_039",
+      "question": "What mechanisms does Olaparib target in prostate cancer with p.??",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_039",
+        "drug": "Olaparib",
+        "gene": "CDK12",
+        "mutation": "p.?",
+        "disease": "prostate cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "CDK12+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "G1/S Checkpoint"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "CDK12": 0.42475616619423795
+          },
+          "clinical_evidence": {
+            "pmid": "31320749",
+            "evidence_level": "Preclinical"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "CDK12",
+            "hgvs_p": "p.?",
+            "chrom": "?",
+            "pos": 0,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "unknown"
+          }
+        ]
+      },
+      "context": {
+        "disease": "prostate_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "CDK12": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "SL_040",
+      "question": "What mechanisms does Olaparib target in ovarian cancer with p.C61G?",
+      "source": "synthetic_lethality",
+      "source_data": {
+        "case_id": "SL_040",
+        "drug": "Olaparib",
+        "gene": "BRCA1",
+        "mutation": "p.C61G",
+        "disease": "ovarian cancer",
+        "ground_truth": {
+          "synthetic_lethality_detected": true,
+          "known_sl_pairs": [
+            "BRCA1+PARP1"
+          ],
+          "effective_drugs": [
+            "Olaparib",
+            "Niraparib"
+          ],
+          "broken_pathways": [
+            "HR"
+          ],
+          "essential_pathways": [
+            "PARP"
+          ],
+          "depmap_essentiality": {
+            "BRCA1": 0.44405918068595746
+          },
+          "clinical_evidence": {
+            "pmid": "25366685",
+            "evidence_level": "FDA"
+          }
+        },
+        "mutations": [
+          {
+            "gene": "BRCA1",
+            "hgvs_p": "p.C61G",
+            "chrom": "17",
+            "pos": 43070943,
+            "ref": "?",
+            "alt": "?",
+            "consequence": "missense"
+          }
+        ]
+      },
+      "context": {
+        "disease": "ovarian_cancer",
+        "treatment_line": "L1",
+        "biomarkers": {
+          "BRCA1": "MUTATED"
+        }
+      }
+    },
+    {
+      "query_id": "HV_001",
+      "question": "How does foods help with [{'compound': 'Vitamin D', 'aliases': ['Cholecalciferol', 'Vitamin D3', 'Calciferol'], 'B_targets': ['VDR', 'TP53 pathway', 'DNA repair', 'Immune function', 'BRCA1'], 'mechanisms': ['Enhances BRCA1 function and homologous recombination repair', 'Modulates TP53 pathway through VDR-dependent transcription', 'Supports T-cell and NK cell function (immune surveillance)', 'Reduces inflammation via NF-\u03baB inhibition', 'May improve platinum sensitivity through DNA repair support'], 'evidence_grade': 'MODERATE', 'evidence_summary': '3 RCTs + large observational studies (n>1200) show survival benefit in ovarian cancer. Serum 25(OH)D >30 ng/mL associated with HR 0.77 for mortality.', 'ovarian_specific_data': {'survival_hr': 0.77, 'sample_size': 1200, 'serum_target': '40-60 ng/mL', 'citation': 'PMID:25489052'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Fat-soluble. Take with meals containing fat for optimal absorption. D3 (cholecalciferol) superior to D2 (ergocalciferol).', 'dosage': '2000-4000 IU daily (target serum 25(OH)D: 40-60 ng/mL). Check levels q3-6 months.', 'safety': 'GOOD', 'safety_notes': 'Monitor serum calcium and 25(OH)D levels. Avoid >10,000 IU daily unless supervised. May interact with digoxin.', 'cost': 'LOW ($10-15/month)', 'food_sources': ['Fatty fish (salmon, mackerel)', 'Egg yolks', 'Fortified dairy', 'Sun exposure (15-30 min daily)'], 'ab_relevance_ovarian': {'tp53_context': 'HIGH - VDR can partially restore TP53-like transcriptional programs', 'hrd_context': 'HIGH - Enhances BRCA1 function and HR repair', 'inflammation_context': 'MODERATE - Reduces NF-\u03baB activity'}}, {'compound': 'Omega-3 Fatty Acids (EPA/DHA)', 'aliases': ['Fish oil', 'EPA', 'DHA', 'Eicosapentaenoic acid', 'Docosahexaenoic acid'], 'B_targets': ['NF-\u03baB', 'COX-2', 'IL-6', 'Membrane integrity', 'Prostaglandins'], 'mechanisms': ['Inhibits NF-\u03baB signaling (anti-inflammatory)', 'Reduces COX-2 expression and prostaglandin E2 (PGE2)', 'Modulates immune cell function and reduces immunosuppression', 'Improves platinum sensitivity by reducing inflammation-driven resistance', 'Stabilizes cell membranes and reduces oxidative damage'], 'evidence_grade': 'MODERATE', 'evidence_summary': '2 RCTs in ovarian cancer show reduced systemic inflammation (CRP -45%) and improved platinum response. Observational data suggests survival benefit with high omega-3 intake.', 'ovarian_specific_data': {'inflammation_reduction': 0.45, 'platinum_sensitization': 0.3, 'cachexia_prevention': 'suggestive', 'citation': 'PMID:28765325, PMID:31234567'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Triglyceride form better absorbed than ethyl ester. Take with meals. Refrigerate to prevent oxidation.', 'dosage': '2-4g EPA+DHA daily (high-dose formulation). Prefer pharmaceutical-grade (low mercury, PCBs).', 'safety': 'GOOD', 'safety_notes': 'May increase bleeding risk with anticoagulants (warfarin, aspirin). Monitor INR. Use pharmaceutical-grade to avoid mercury/contaminants.', 'cost': 'MODERATE ($20-40/month for high-dose pharmaceutical grade)', 'food_sources': ['Fatty fish (salmon, sardines, mackerel)', 'Algae oil (vegetarian DHA)', 'Krill oil'], 'ab_relevance_ovarian': {'inflammation_context': 'HIGH - Directly targets ascites-driven NF-\u03baB/IL-6 axis', 'pi3k_context': 'MODERATE - PI3K/AKT activation drives NF-\u03baB', 'peritoneal_stress_context': 'HIGH - Reduces inflammatory cytokines in ascites'}}, {'compound': 'Folate + Vitamin B12', 'aliases': ['Methylfolate', '5-MTHF', 'L-methylfolate', 'Methylcobalamin', 'B9', 'B12'], 'B_targets': ['DNA synthesis', 'DNA repair', 'Methylation', 'One-carbon metabolism', 'Homocysteine metabolism'], 'mechanisms': ['Provides methyl donors for DNA synthesis and repair (critical for BRCA/HRD)', 'Supports one-carbon metabolism (required for nucleotide synthesis)', 'May reduce chemotherapy-induced DNA damage in normal cells', 'Lowers homocysteine (cardiovascular protection during chemotherapy)', 'Required cofactor for DNA repair enzymes'], 'evidence_grade': 'WEAK', 'evidence_summary': 'Observational data suggests benefit (HR 0.85 for high folate intake). RCT data mixed - some suggest benefit, others neutral. Mechanistic rationale strong for HRD context.', 'ovarian_specific_data': {'observational_hr': 0.85, 'mechanism_plausible': True, 'hrd_context': 'strong rationale', 'citation': 'PMID:26543123'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Use methylfolate (5-MTHF) - active form, bypasses MTHFR polymorphism. Use methylcobalamin (active B12). Avoid folic acid >1000 mcg (synthetic form may mask B12 deficiency).', 'dosage': '400-800 mcg methylfolate + 500-1000 mcg methylcobalamin daily. Higher doses (1-2mg) may be used under supervision.', 'safety': 'GOOD', 'safety_notes': 'High-dose folic acid may mask B12 deficiency (use methylated forms). Avoid mega-doses >5mg folate (conflicting data on cancer risk).', 'cost': 'LOW ($10-15/month)', 'food_sources': ['Leafy greens (spinach, kale)', 'Legumes', 'Eggs', 'Fortified grains', 'Liver'], 'ab_relevance_ovarian': {'hrd_context': 'MODERATE - Supports remaining DNA repair pathways', 'tp53_context': 'LOW - Indirect support for DNA integrity', 'chemo_context': 'MODERATE - May reduce platinum-induced DNA damage'}}, {'compound': 'Curcumin (Turmeric)', 'aliases': ['Turmeric', 'Curcuma longa', 'Diferuloylmethane'], 'B_targets': ['NF-\u03baB', 'COX-2', 'STAT3', 'Apoptosis', 'HSP90'], 'mechanisms': ['Inhibits NF-\u03baB activation (anti-inflammatory)', 'Reduces COX-2 expression', 'May enhance platinum sensitivity via oxidative stress modulation', 'Antioxidant effects (protects normal cells)', 'Inhibits STAT3 (IL-6 signaling)'], 'evidence_grade': 'WEAK', 'evidence_summary': '50+ preclinical studies show synergy with platinum. 2 small RCTs (n=50-80) show mixed results - likely due to poor bioavailability. Liposomal formulations more promising.', 'ovarian_specific_data': {'phase_2_orr': 0.12, 'preclinical_synergy': 'strong', 'bioavailability_barrier': 'critical limitation', 'citation': 'PMID:29030430'}, 'bioavailability': 'POOR', 'bioavailability_notes': 'Only 1-2% absorbed due to poor water solubility and rapid metabolism. MUST use enhanced formulations: liposomal, phytosome (Meriva), or with piperine (black pepper extract, 20mg). Avoid standard curcumin powder.', 'dosage': '500-1000mg curcumin (standardized 95% curcuminoids) + 20mg piperine OR 200-400mg liposomal curcumin daily. Divide into 2-3 doses.', 'safety': 'GOOD', 'safety_notes': 'High doses may cause GI upset. Avoid with blood thinners (warfarin) - may enhance anticoagulation. May interact with chemotherapy (check with oncologist).', 'cost': 'LOW ($15-25/month for basic; $30-50/month for liposomal)', 'food_sources': ['Turmeric powder (add to food with black pepper and fat)', 'Golden milk (turmeric + milk + pepper)'], 'ab_relevance_ovarian': {'inflammation_context': 'MODERATE - Targets NF-\u03baB/COX-2 axis', 'pi3k_context': 'LOW - Modest effect on PI3K/AKT', 'ascites_context': 'MODERATE - May reduce inflammatory cytokines', 'bioavailability_note': 'Clinical benefit requires enhanced formulation'}}, {'compound': 'Green Tea (EGCG)', 'aliases': ['Epigallocatechin gallate', 'EGCG', 'Green tea extract', 'Catechins'], 'B_targets': ['Proteasome', 'Autophagy', 'STAT3', 'VEGF', 'HSP90'], 'mechanisms': ['Inhibits proteasome activity (synergy with platinum-induced protein damage)', 'Induces autophagy (cellular cleanup of damaged proteins)', 'Anti-angiogenic effects (inhibits VEGF)', 'May reduce chemoresistance by targeting cancer stem cells', 'Modulates STAT3 (IL-6 signaling)'], 'evidence_grade': 'WEAK', 'evidence_summary': 'Preclinical data strong (proteasome inhibition + platinum synergy). Human RCT data limited but suggestive. Observational studies show protective association with high green tea intake.', 'ovarian_specific_data': {'preclinical_synergy': 'moderate', 'observational_benefit': 'suggestive (HR ~0.80 for high intake)', 'proteasome_context': 'strong mechanistic rationale', 'citation': 'PMID:27856789'}, 'bioavailability': 'MODERATE', 'bioavailability_notes': 'EGCG has modest bioavailability (~5-20%). Standardized extracts more reliable than tea. Take on empty stomach for better absorption. Avoid with iron supplementation (binds iron).', 'dosage': '400-800mg EGCG daily (standardized extract) OR 3-5 cups green tea daily. Prefer decaffeinated extract if taking high doses.', 'safety': 'GOOD', 'safety_notes': 'High doses (>800mg EGCG) may affect liver enzymes (rare). Monitor liver function if taking other hepatotoxic drugs. Avoid mega-doses >1200mg EGCG.', 'cost': 'LOW ($10-20/month for extract; $5-10/month for tea)', 'food_sources': ['Green tea (3-5 cups daily)', 'Matcha powder (higher EGCG)', 'Green tea extract supplements'], 'ab_relevance_ovarian': {'proteostasis_context': 'MODERATE - Targets proteasome/autophagy (post-platinum stress)', 'inflammation_context': 'LOW-MODERATE - STAT3 inhibition', 'angiogenesis_context': 'MODERATE - VEGF inhibition (complement to bevacizumab)'}}, {'compound': 'NAC (N-Acetylcysteine)', 'aliases': ['N-Acetylcysteine', 'N-Acetyl-L-cysteine', 'NAC', 'Acetylcysteine'], 'B_targets': ['Glutathione', 'Oxidative stress', 'Mitochondria', 'ROS buffering'], 'mechanisms': ['Glutathione precursor (master antioxidant)', 'Reduces platinum-induced oxidative damage (may protect normal cells)', 'Supports mitochondrial function', 'May buffer ROS in peritoneal environment', 'Potential to reduce neuropathy and nephrotoxicity from platinum'], 'evidence_grade': 'WEAK', 'evidence_summary': 'Mechanistic rationale strong. Limited RCT data in ovarian cancer. Some data suggest protection against platinum toxicity (neuropathy, kidney damage) without reducing efficacy.', 'ovarian_specific_data': {'oxidative_stress_reduction': 0.5, 'normal_tissue_protection': 'suggestive', 'platinum_efficacy': 'not compromised in preclinical studies', 'neuropathy_prevention': 'emerging evidence', 'citation': 'PMID:28123456'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Well-absorbed orally. Take on empty stomach for best absorption (or with food if GI upset). Divide into 2-3 doses. IV formulation exists but requires prescription.', 'dosage': '600-1200mg daily (divided doses: 600mg BID or 400mg TID). Higher doses (1800mg) used in some studies.', 'safety': 'GOOD', 'safety_notes': 'May cause nausea/GI upset at high doses (take with food). Generally well-tolerated. Avoid mega-doses >2400mg daily. May interact with nitroglycerin.', 'cost': 'LOW ($15-20/month)', 'food_sources': ['High-protein foods (eggs, chicken, turkey)', 'Whey protein', 'Not typically obtained from diet in therapeutic doses'], 'ab_relevance_ovarian': {'oxidative_stress_context': 'HIGH - Directly buffers peritoneal ROS and platinum-induced damage', 'hrd_context': 'MODERATE - Supports mitochondrial function under repair stress', 'chemo_toxicity_context': 'HIGH - May reduce neuropathy and kidney damage', 'platinum_timing': 'Take 2-3 hours AFTER platinum infusion to avoid antioxidant interference during treatment'}}]?",
+      "source": "hypothesis_validator",
+      "source_data": {
+        "food": "foods",
+        "cancer": "[{'compound': 'Vitamin D', 'aliases': ['Cholecalciferol', 'Vitamin D3', 'Calciferol'], 'B_targets': ['VDR', 'TP53 pathway', 'DNA repair', 'Immune function', 'BRCA1'], 'mechanisms': ['Enhances BRCA1 function and homologous recombination repair', 'Modulates TP53 pathway through VDR-dependent transcription', 'Supports T-cell and NK cell function (immune surveillance)', 'Reduces inflammation via NF-\u03baB inhibition', 'May improve platinum sensitivity through DNA repair support'], 'evidence_grade': 'MODERATE', 'evidence_summary': '3 RCTs + large observational studies (n>1200) show survival benefit in ovarian cancer. Serum 25(OH)D >30 ng/mL associated with HR 0.77 for mortality.', 'ovarian_specific_data': {'survival_hr': 0.77, 'sample_size': 1200, 'serum_target': '40-60 ng/mL', 'citation': 'PMID:25489052'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Fat-soluble. Take with meals containing fat for optimal absorption. D3 (cholecalciferol) superior to D2 (ergocalciferol).', 'dosage': '2000-4000 IU daily (target serum 25(OH)D: 40-60 ng/mL). Check levels q3-6 months.', 'safety': 'GOOD', 'safety_notes': 'Monitor serum calcium and 25(OH)D levels. Avoid >10,000 IU daily unless supervised. May interact with digoxin.', 'cost': 'LOW ($10-15/month)', 'food_sources': ['Fatty fish (salmon, mackerel)', 'Egg yolks', 'Fortified dairy', 'Sun exposure (15-30 min daily)'], 'ab_relevance_ovarian': {'tp53_context': 'HIGH - VDR can partially restore TP53-like transcriptional programs', 'hrd_context': 'HIGH - Enhances BRCA1 function and HR repair', 'inflammation_context': 'MODERATE - Reduces NF-\u03baB activity'}}, {'compound': 'Omega-3 Fatty Acids (EPA/DHA)', 'aliases': ['Fish oil', 'EPA', 'DHA', 'Eicosapentaenoic acid', 'Docosahexaenoic acid'], 'B_targets': ['NF-\u03baB', 'COX-2', 'IL-6', 'Membrane integrity', 'Prostaglandins'], 'mechanisms': ['Inhibits NF-\u03baB signaling (anti-inflammatory)', 'Reduces COX-2 expression and prostaglandin E2 (PGE2)', 'Modulates immune cell function and reduces immunosuppression', 'Improves platinum sensitivity by reducing inflammation-driven resistance', 'Stabilizes cell membranes and reduces oxidative damage'], 'evidence_grade': 'MODERATE', 'evidence_summary': '2 RCTs in ovarian cancer show reduced systemic inflammation (CRP -45%) and improved platinum response. Observational data suggests survival benefit with high omega-3 intake.', 'ovarian_specific_data': {'inflammation_reduction': 0.45, 'platinum_sensitization': 0.3, 'cachexia_prevention': 'suggestive', 'citation': 'PMID:28765325, PMID:31234567'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Triglyceride form better absorbed than ethyl ester. Take with meals. Refrigerate to prevent oxidation.', 'dosage': '2-4g EPA+DHA daily (high-dose formulation). Prefer pharmaceutical-grade (low mercury, PCBs).', 'safety': 'GOOD', 'safety_notes': 'May increase bleeding risk with anticoagulants (warfarin, aspirin). Monitor INR. Use pharmaceutical-grade to avoid mercury/contaminants.', 'cost': 'MODERATE ($20-40/month for high-dose pharmaceutical grade)', 'food_sources': ['Fatty fish (salmon, sardines, mackerel)', 'Algae oil (vegetarian DHA)', 'Krill oil'], 'ab_relevance_ovarian': {'inflammation_context': 'HIGH - Directly targets ascites-driven NF-\u03baB/IL-6 axis', 'pi3k_context': 'MODERATE - PI3K/AKT activation drives NF-\u03baB', 'peritoneal_stress_context': 'HIGH - Reduces inflammatory cytokines in ascites'}}, {'compound': 'Folate + Vitamin B12', 'aliases': ['Methylfolate', '5-MTHF', 'L-methylfolate', 'Methylcobalamin', 'B9', 'B12'], 'B_targets': ['DNA synthesis', 'DNA repair', 'Methylation', 'One-carbon metabolism', 'Homocysteine metabolism'], 'mechanisms': ['Provides methyl donors for DNA synthesis and repair (critical for BRCA/HRD)', 'Supports one-carbon metabolism (required for nucleotide synthesis)', 'May reduce chemotherapy-induced DNA damage in normal cells', 'Lowers homocysteine (cardiovascular protection during chemotherapy)', 'Required cofactor for DNA repair enzymes'], 'evidence_grade': 'WEAK', 'evidence_summary': 'Observational data suggests benefit (HR 0.85 for high folate intake). RCT data mixed - some suggest benefit, others neutral. Mechanistic rationale strong for HRD context.', 'ovarian_specific_data': {'observational_hr': 0.85, 'mechanism_plausible': True, 'hrd_context': 'strong rationale', 'citation': 'PMID:26543123'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Use methylfolate (5-MTHF) - active form, bypasses MTHFR polymorphism. Use methylcobalamin (active B12). Avoid folic acid >1000 mcg (synthetic form may mask B12 deficiency).', 'dosage': '400-800 mcg methylfolate + 500-1000 mcg methylcobalamin daily. Higher doses (1-2mg) may be used under supervision.', 'safety': 'GOOD', 'safety_notes': 'High-dose folic acid may mask B12 deficiency (use methylated forms). Avoid mega-doses >5mg folate (conflicting data on cancer risk).', 'cost': 'LOW ($10-15/month)', 'food_sources': ['Leafy greens (spinach, kale)', 'Legumes', 'Eggs', 'Fortified grains', 'Liver'], 'ab_relevance_ovarian': {'hrd_context': 'MODERATE - Supports remaining DNA repair pathways', 'tp53_context': 'LOW - Indirect support for DNA integrity', 'chemo_context': 'MODERATE - May reduce platinum-induced DNA damage'}}, {'compound': 'Curcumin (Turmeric)', 'aliases': ['Turmeric', 'Curcuma longa', 'Diferuloylmethane'], 'B_targets': ['NF-\u03baB', 'COX-2', 'STAT3', 'Apoptosis', 'HSP90'], 'mechanisms': ['Inhibits NF-\u03baB activation (anti-inflammatory)', 'Reduces COX-2 expression', 'May enhance platinum sensitivity via oxidative stress modulation', 'Antioxidant effects (protects normal cells)', 'Inhibits STAT3 (IL-6 signaling)'], 'evidence_grade': 'WEAK', 'evidence_summary': '50+ preclinical studies show synergy with platinum. 2 small RCTs (n=50-80) show mixed results - likely due to poor bioavailability. Liposomal formulations more promising.', 'ovarian_specific_data': {'phase_2_orr': 0.12, 'preclinical_synergy': 'strong', 'bioavailability_barrier': 'critical limitation', 'citation': 'PMID:29030430'}, 'bioavailability': 'POOR', 'bioavailability_notes': 'Only 1-2% absorbed due to poor water solubility and rapid metabolism. MUST use enhanced formulations: liposomal, phytosome (Meriva), or with piperine (black pepper extract, 20mg). Avoid standard curcumin powder.', 'dosage': '500-1000mg curcumin (standardized 95% curcuminoids) + 20mg piperine OR 200-400mg liposomal curcumin daily. Divide into 2-3 doses.', 'safety': 'GOOD', 'safety_notes': 'High doses may cause GI upset. Avoid with blood thinners (warfarin) - may enhance anticoagulation. May interact with chemotherapy (check with oncologist).', 'cost': 'LOW ($15-25/month for basic; $30-50/month for liposomal)', 'food_sources': ['Turmeric powder (add to food with black pepper and fat)', 'Golden milk (turmeric + milk + pepper)'], 'ab_relevance_ovarian': {'inflammation_context': 'MODERATE - Targets NF-\u03baB/COX-2 axis', 'pi3k_context': 'LOW - Modest effect on PI3K/AKT', 'ascites_context': 'MODERATE - May reduce inflammatory cytokines', 'bioavailability_note': 'Clinical benefit requires enhanced formulation'}}, {'compound': 'Green Tea (EGCG)', 'aliases': ['Epigallocatechin gallate', 'EGCG', 'Green tea extract', 'Catechins'], 'B_targets': ['Proteasome', 'Autophagy', 'STAT3', 'VEGF', 'HSP90'], 'mechanisms': ['Inhibits proteasome activity (synergy with platinum-induced protein damage)', 'Induces autophagy (cellular cleanup of damaged proteins)', 'Anti-angiogenic effects (inhibits VEGF)', 'May reduce chemoresistance by targeting cancer stem cells', 'Modulates STAT3 (IL-6 signaling)'], 'evidence_grade': 'WEAK', 'evidence_summary': 'Preclinical data strong (proteasome inhibition + platinum synergy). Human RCT data limited but suggestive. Observational studies show protective association with high green tea intake.', 'ovarian_specific_data': {'preclinical_synergy': 'moderate', 'observational_benefit': 'suggestive (HR ~0.80 for high intake)', 'proteasome_context': 'strong mechanistic rationale', 'citation': 'PMID:27856789'}, 'bioavailability': 'MODERATE', 'bioavailability_notes': 'EGCG has modest bioavailability (~5-20%). Standardized extracts more reliable than tea. Take on empty stomach for better absorption. Avoid with iron supplementation (binds iron).', 'dosage': '400-800mg EGCG daily (standardized extract) OR 3-5 cups green tea daily. Prefer decaffeinated extract if taking high doses.', 'safety': 'GOOD', 'safety_notes': 'High doses (>800mg EGCG) may affect liver enzymes (rare). Monitor liver function if taking other hepatotoxic drugs. Avoid mega-doses >1200mg EGCG.', 'cost': 'LOW ($10-20/month for extract; $5-10/month for tea)', 'food_sources': ['Green tea (3-5 cups daily)', 'Matcha powder (higher EGCG)', 'Green tea extract supplements'], 'ab_relevance_ovarian': {'proteostasis_context': 'MODERATE - Targets proteasome/autophagy (post-platinum stress)', 'inflammation_context': 'LOW-MODERATE - STAT3 inhibition', 'angiogenesis_context': 'MODERATE - VEGF inhibition (complement to bevacizumab)'}}, {'compound': 'NAC (N-Acetylcysteine)', 'aliases': ['N-Acetylcysteine', 'N-Acetyl-L-cysteine', 'NAC', 'Acetylcysteine'], 'B_targets': ['Glutathione', 'Oxidative stress', 'Mitochondria', 'ROS buffering'], 'mechanisms': ['Glutathione precursor (master antioxidant)', 'Reduces platinum-induced oxidative damage (may protect normal cells)', 'Supports mitochondrial function', 'May buffer ROS in peritoneal environment', 'Potential to reduce neuropathy and nephrotoxicity from platinum'], 'evidence_grade': 'WEAK', 'evidence_summary': 'Mechanistic rationale strong. Limited RCT data in ovarian cancer. Some data suggest protection against platinum toxicity (neuropathy, kidney damage) without reducing efficacy.', 'ovarian_specific_data': {'oxidative_stress_reduction': 0.5, 'normal_tissue_protection': 'suggestive', 'platinum_efficacy': 'not compromised in preclinical studies', 'neuropathy_prevention': 'emerging evidence', 'citation': 'PMID:28123456'}, 'bioavailability': 'GOOD', 'bioavailability_notes': 'Well-absorbed orally. Take on empty stomach for best absorption (or with food if GI upset). Divide into 2-3 doses. IV formulation exists but requires prescription.', 'dosage': '600-1200mg daily (divided doses: 600mg BID or 400mg TID). Higher doses (1800mg) used in some studies.', 'safety': 'GOOD', 'safety_notes': 'May cause nausea/GI upset at high doses (take with food). Generally well-tolerated. Avoid mega-doses >2400mg daily. May interact with nitroglycerin.', 'cost': 'LOW ($15-20/month)', 'food_sources': ['High-protein foods (eggs, chicken, turkey)', 'Whey protein', 'Not typically obtained from diet in therapeutic doses'], 'ab_relevance_ovarian': {'oxidative_stress_context': 'HIGH - Directly buffers peritoneal ROS and platinum-induced damage', 'hrd_context': 'MODERATE - Supports mitochondrial function under repair stress', 'chemo_toxicity_context': 'HIGH - May reduce neuropathy and kidney damage', 'platinum_timing': 'Take 2-3 hours AFTER platinum infusion to avoid antioxidant interference during treatment'}}]",
+        "targets": [],
+        "pathways": []
+      },
+      "context": {
+        "disease": "[{'compound':_'vitamin_d',_'aliases':_['cholecalciferol',_'vitamin_d3',_'calciferol'],_'b_targets':_['vdr',_'tp53_pathway',_'dna_repair',_'immune_function',_'brca1'],_'mechanisms':_['enhances_brca1_function_and_homologous_recombination_repair',_'modulates_tp53_pathway_through_vdr-dependent_transcription',_'supports_t-cell_and_nk_cell_function_(immune_surveillance)',_'reduces_inflammation_via_nf-\u03bab_inhibition',_'may_improve_platinum_sensitivity_through_dna_repair_support'],_'evidence_grade':_'moderate',_'evidence_summary':_'3_rcts_+_large_observational_studies_(n>1200)_show_survival_benefit_in_ovarian_cancer._serum_25(oh)d_>30_ng/ml_associated_with_hr_0.77_for_mortality.',_'ovarian_specific_data':_{'survival_hr':_0.77,_'sample_size':_1200,_'serum_target':_'40-60_ng/ml',_'citation':_'pmid:25489052'},_'bioavailability':_'good',_'bioavailability_notes':_'fat-soluble._take_with_meals_containing_fat_for_optimal_absorption._d3_(cholecalciferol)_superior_to_d2_(ergocalciferol).',_'dosage':_'2000-4000_iu_daily_(target_serum_25(oh)d:_40-60_ng/ml)._check_levels_q3-6_months.',_'safety':_'good',_'safety_notes':_'monitor_serum_calcium_and_25(oh)d_levels._avoid_>10,000_iu_daily_unless_supervised._may_interact_with_digoxin.',_'cost':_'low_($10-15/month)',_'food_sources':_['fatty_fish_(salmon,_mackerel)',_'egg_yolks',_'fortified_dairy',_'sun_exposure_(15-30_min_daily)'],_'ab_relevance_ovarian':_{'tp53_context':_'high_-_vdr_can_partially_restore_tp53-like_transcriptional_programs',_'hrd_context':_'high_-_enhances_brca1_function_and_hr_repair',_'inflammation_context':_'moderate_-_reduces_nf-\u03bab_activity'}},_{'compound':_'omega-3_fatty_acids_(epa/dha)',_'aliases':_['fish_oil',_'epa',_'dha',_'eicosapentaenoic_acid',_'docosahexaenoic_acid'],_'b_targets':_['nf-\u03bab',_'cox-2',_'il-6',_'membrane_integrity',_'prostaglandins'],_'mechanisms':_['inhibits_nf-\u03bab_signaling_(anti-inflammatory)',_'reduces_cox-2_expression_and_prostaglandin_e2_(pge2)',_'modulates_immune_cell_function_and_reduces_immunosuppression',_'improves_platinum_sensitivity_by_reducing_inflammation-driven_resistance',_'stabilizes_cell_membranes_and_reduces_oxidative_damage'],_'evidence_grade':_'moderate',_'evidence_summary':_'2_rcts_in_ovarian_cancer_show_reduced_systemic_inflammation_(crp_-45%)_and_improved_platinum_response._observational_data_suggests_survival_benefit_with_high_omega-3_intake.',_'ovarian_specific_data':_{'inflammation_reduction':_0.45,_'platinum_sensitization':_0.3,_'cachexia_prevention':_'suggestive',_'citation':_'pmid:28765325,_pmid:31234567'},_'bioavailability':_'good',_'bioavailability_notes':_'triglyceride_form_better_absorbed_than_ethyl_ester._take_with_meals._refrigerate_to_prevent_oxidation.',_'dosage':_'2-4g_epa+dha_daily_(high-dose_formulation)._prefer_pharmaceutical-grade_(low_mercury,_pcbs).',_'safety':_'good',_'safety_notes':_'may_increase_bleeding_risk_with_anticoagulants_(warfarin,_aspirin)._monitor_inr._use_pharmaceutical-grade_to_avoid_mercury/contaminants.',_'cost':_'moderate_($20-40/month_for_high-dose_pharmaceutical_grade)',_'food_sources':_['fatty_fish_(salmon,_sardines,_mackerel)',_'algae_oil_(vegetarian_dha)',_'krill_oil'],_'ab_relevance_ovarian':_{'inflammation_context':_'high_-_directly_targets_ascites-driven_nf-\u03bab/il-6_axis',_'pi3k_context':_'moderate_-_pi3k/akt_activation_drives_nf-\u03bab',_'peritoneal_stress_context':_'high_-_reduces_inflammatory_cytokines_in_ascites'}},_{'compound':_'folate_+_vitamin_b12',_'aliases':_['methylfolate',_'5-mthf',_'l-methylfolate',_'methylcobalamin',_'b9',_'b12'],_'b_targets':_['dna_synthesis',_'dna_repair',_'methylation',_'one-carbon_metabolism',_'homocysteine_metabolism'],_'mechanisms':_['provides_methyl_donors_for_dna_synthesis_and_repair_(critical_for_brca/hrd)',_'supports_one-carbon_metabolism_(required_for_nucleotide_synthesis)',_'may_reduce_chemotherapy-induced_dna_damage_in_normal_cells',_'lowers_homocysteine_(cardiovascular_protection_during_chemotherapy)',_'required_cofactor_for_dna_repair_enzymes'],_'evidence_grade':_'weak',_'evidence_summary':_'observational_data_suggests_benefit_(hr_0.85_for_high_folate_intake)._rct_data_mixed_-_some_suggest_benefit,_others_neutral._mechanistic_rationale_strong_for_hrd_context.',_'ovarian_specific_data':_{'observational_hr':_0.85,_'mechanism_plausible':_true,_'hrd_context':_'strong_rationale',_'citation':_'pmid:26543123'},_'bioavailability':_'good',_'bioavailability_notes':_'use_methylfolate_(5-mthf)_-_active_form,_bypasses_mthfr_polymorphism._use_methylcobalamin_(active_b12)._avoid_folic_acid_>1000_mcg_(synthetic_form_may_mask_b12_deficiency).',_'dosage':_'400-800_mcg_methylfolate_+_500-1000_mcg_methylcobalamin_daily._higher_doses_(1-2mg)_may_be_used_under_supervision.',_'safety':_'good',_'safety_notes':_'high-dose_folic_acid_may_mask_b12_deficiency_(use_methylated_forms)._avoid_mega-doses_>5mg_folate_(conflicting_data_on_cancer_risk).',_'cost':_'low_($10-15/month)',_'food_sources':_['leafy_greens_(spinach,_kale)',_'legumes',_'eggs',_'fortified_grains',_'liver'],_'ab_relevance_ovarian':_{'hrd_context':_'moderate_-_supports_remaining_dna_repair_pathways',_'tp53_context':_'low_-_indirect_support_for_dna_integrity',_'chemo_context':_'moderate_-_may_reduce_platinum-induced_dna_damage'}},_{'compound':_'curcumin_(turmeric)',_'aliases':_['turmeric',_'curcuma_longa',_'diferuloylmethane'],_'b_targets':_['nf-\u03bab',_'cox-2',_'stat3',_'apoptosis',_'hsp90'],_'mechanisms':_['inhibits_nf-\u03bab_activation_(anti-inflammatory)',_'reduces_cox-2_expression',_'may_enhance_platinum_sensitivity_via_oxidative_stress_modulation',_'antioxidant_effects_(protects_normal_cells)',_'inhibits_stat3_(il-6_signaling)'],_'evidence_grade':_'weak',_'evidence_summary':_'50+_preclinical_studies_show_synergy_with_platinum._2_small_rcts_(n=50-80)_show_mixed_results_-_likely_due_to_poor_bioavailability._liposomal_formulations_more_promising.',_'ovarian_specific_data':_{'phase_2_orr':_0.12,_'preclinical_synergy':_'strong',_'bioavailability_barrier':_'critical_limitation',_'citation':_'pmid:29030430'},_'bioavailability':_'poor',_'bioavailability_notes':_'only_1-2%_absorbed_due_to_poor_water_solubility_and_rapid_metabolism._must_use_enhanced_formulations:_liposomal,_phytosome_(meriva),_or_with_piperine_(black_pepper_extract,_20mg)._avoid_standard_curcumin_powder.',_'dosage':_'500-1000mg_curcumin_(standardized_95%_curcuminoids)_+_20mg_piperine_or_200-400mg_liposomal_curcumin_daily._divide_into_2-3_doses.',_'safety':_'good',_'safety_notes':_'high_doses_may_cause_gi_upset._avoid_with_blood_thinners_(warfarin)_-_may_enhance_anticoagulation._may_interact_with_chemotherapy_(check_with_oncologist).',_'cost':_'low_($15-25/month_for_basic;_$30-50/month_for_liposomal)',_'food_sources':_['turmeric_powder_(add_to_food_with_black_pepper_and_fat)',_'golden_milk_(turmeric_+_milk_+_pepper)'],_'ab_relevance_ovarian':_{'inflammation_context':_'moderate_-_targets_nf-\u03bab/cox-2_axis',_'pi3k_context':_'low_-_modest_effect_on_pi3k/akt',_'ascites_context':_'moderate_-_may_reduce_inflammatory_cytokines',_'bioavailability_note':_'clinical_benefit_requires_enhanced_formulation'}},_{'compound':_'green_tea_(egcg)',_'aliases':_['epigallocatechin_gallate',_'egcg',_'green_tea_extract',_'catechins'],_'b_targets':_['proteasome',_'autophagy',_'stat3',_'vegf',_'hsp90'],_'mechanisms':_['inhibits_proteasome_activity_(synergy_with_platinum-induced_protein_damage)',_'induces_autophagy_(cellular_cleanup_of_damaged_proteins)',_'anti-angiogenic_effects_(inhibits_vegf)',_'may_reduce_chemoresistance_by_targeting_cancer_stem_cells',_'modulates_stat3_(il-6_signaling)'],_'evidence_grade':_'weak',_'evidence_summary':_'preclinical_data_strong_(proteasome_inhibition_+_platinum_synergy)._human_rct_data_limited_but_suggestive._observational_studies_show_protective_association_with_high_green_tea_intake.',_'ovarian_specific_data':_{'preclinical_synergy':_'moderate',_'observational_benefit':_'suggestive_(hr_~0.80_for_high_intake)',_'proteasome_context':_'strong_mechanistic_rationale',_'citation':_'pmid:27856789'},_'bioavailability':_'moderate',_'bioavailability_notes':_'egcg_has_modest_bioavailability_(~5-20%)._standardized_extracts_more_reliable_than_tea._take_on_empty_stomach_for_better_absorption._avoid_with_iron_supplementation_(binds_iron).',_'dosage':_'400-800mg_egcg_daily_(standardized_extract)_or_3-5_cups_green_tea_daily._prefer_decaffeinated_extract_if_taking_high_doses.',_'safety':_'good',_'safety_notes':_'high_doses_(>800mg_egcg)_may_affect_liver_enzymes_(rare)._monitor_liver_function_if_taking_other_hepatotoxic_drugs._avoid_mega-doses_>1200mg_egcg.',_'cost':_'low_($10-20/month_for_extract;_$5-10/month_for_tea)',_'food_sources':_['green_tea_(3-5_cups_daily)',_'matcha_powder_(higher_egcg)',_'green_tea_extract_supplements'],_'ab_relevance_ovarian':_{'proteostasis_context':_'moderate_-_targets_proteasome/autophagy_(post-platinum_stress)',_'inflammation_context':_'low-moderate_-_stat3_inhibition',_'angiogenesis_context':_'moderate_-_vegf_inhibition_(complement_to_bevacizumab)'}},_{'compound':_'nac_(n-acetylcysteine)',_'aliases':_['n-acetylcysteine',_'n-acetyl-l-cysteine',_'nac',_'acetylcysteine'],_'b_targets':_['glutathione',_'oxidative_stress',_'mitochondria',_'ros_buffering'],_'mechanisms':_['glutathione_precursor_(master_antioxidant)',_'reduces_platinum-induced_oxidative_damage_(may_protect_normal_cells)',_'supports_mitochondrial_function',_'may_buffer_ros_in_peritoneal_environment',_'potential_to_reduce_neuropathy_and_nephrotoxicity_from_platinum'],_'evidence_grade':_'weak',_'evidence_summary':_'mechanistic_rationale_strong._limited_rct_data_in_ovarian_cancer._some_data_suggest_protection_against_platinum_toxicity_(neuropathy,_kidney_damage)_without_reducing_efficacy.',_'ovarian_specific_data':_{'oxidative_stress_reduction':_0.5,_'normal_tissue_protection':_'suggestive',_'platinum_efficacy':_'not_compromised_in_preclinical_studies',_'neuropathy_prevention':_'emerging_evidence',_'citation':_'pmid:28123456'},_'bioavailability':_'good',_'bioavailability_notes':_'well-absorbed_orally._take_on_empty_stomach_for_best_absorption_(or_with_food_if_gi_upset)._divide_into_2-3_doses._iv_formulation_exists_but_requires_prescription.',_'dosage':_'600-1200mg_daily_(divided_doses:_600mg_bid_or_400mg_tid)._higher_doses_(1800mg)_used_in_some_studies.',_'safety':_'good',_'safety_notes':_'may_cause_nausea/gi_upset_at_high_doses_(take_with_food)._generally_well-tolerated._avoid_mega-doses_>2400mg_daily._may_interact_with_nitroglycerin.',_'cost':_'low_($15-20/month)',_'food_sources':_['high-protein_foods_(eggs,_chicken,_turkey)',_'whey_protein',_'not_typically_obtained_from_diet_in_therapeutic_doses'],_'ab_relevance_ovarian':_{'oxidative_stress_context':_'high_-_directly_buffers_peritoneal_ros_and_platinum-induced_damage',_'hrd_context':_'moderate_-_supports_mitochondrial_function_under_repair_stress',_'chemo_toxicity_context':_'high_-_may_reduce_neuropathy_and_kidney_damage',_'platinum_timing':_'take_2-3_hours_after_platinum_infusion_to_avoid_antioxidant_interference_during_treatment'}}]",
+        "treatment_line": "L1",
+        "biomarkers": {}
+      }
+    }
+  ]
+}

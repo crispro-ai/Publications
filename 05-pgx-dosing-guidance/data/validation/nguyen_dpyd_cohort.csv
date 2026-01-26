@@ -1,0 +1,443 @@
+patient_id,group,dpyd_genotype,age,sex,race,cancer_type,stage,regimen,grade3_toxicity,hospitalization,gi_toxicity_grade3,gi_hospitalization
+NGUYEN_001,wild_type,none,48,Female,Black,GI,I-II,5-FU based,1,0,0,0
+NGUYEN_002,wild_type,none,58,Female,White,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_003,wild_type,none,87,Female,White,GI,IV,Capecitabine based,0,0,1,0
+NGUYEN_004,wild_type,none,54,Male,White,Colorectal,I-II,5-FU based,1,0,0,0
+NGUYEN_005,wild_type,none,64,Female,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_006,wild_type,none,76,Female,Asian,GI,I-II,Capecitabine based,0,0,0,0
+NGUYEN_007,wild_type,none,40,Male,White,Colorectal,I-II,Capecitabine based,0,1,0,1
+NGUYEN_008,wild_type,none,56,Female,White,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_009,wild_type,none,61,Male,White,Colorectal,I-II,Other,0,0,0,0
+NGUYEN_010,wild_type,none,48,Male,White,GI,III,5-FU based,0,0,0,0
+NGUYEN_011,wild_type,none,45,Male,White,GI,IV,Other,0,0,0,0
+NGUYEN_012,wild_type,none,66,Male,White,Colorectal,I-II,Capecitabine based,0,0,0,0
+NGUYEN_013,wild_type,none,77,Female,Black,GI,IV,5-FU based,0,0,0,0
+NGUYEN_014,wild_type,none,71,Female,White,Colorectal,IV,Capecitabine based,1,0,0,1
+NGUYEN_015,wild_type,none,75,Male,Black,Colorectal,I-II,5-FU based,1,0,0,0
+NGUYEN_016,wild_type,none,64,Female,Black,GI,I-II,5-FU based,0,0,0,1
+NGUYEN_017,wild_type,none,65,Female,White,GI,I-II,Capecitabine based,1,0,1,0
+NGUYEN_018,wild_type,none,73,Female,White,GI,III,Capecitabine based,0,1,0,0
+NGUYEN_019,wild_type,none,61,Male,White,GI,III,Capecitabine based,0,0,0,1
+NGUYEN_020,wild_type,none,80,Male,White,Colorectal,III,Capecitabine based,0,0,0,0
+NGUYEN_021,wild_type,none,56,Male,White,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_022,wild_type,none,62,Male,White,Colorectal,IV,Capecitabine based,1,0,0,0
+NGUYEN_023,wild_type,none,76,Female,White,Colorectal,III,5-FU based,1,0,0,0
+NGUYEN_024,wild_type,none,59,Female,White,GI,III,Capecitabine based,0,0,0,0
+NGUYEN_025,wild_type,none,52,Male,White,Colorectal,I-II,5-FU based,1,0,0,0
+NGUYEN_026,wild_type,none,46,Female,White,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_027,wild_type,none,52,Male,White,GI,IV,Capecitabine based,0,0,0,0
+NGUYEN_028,wild_type,none,61,Male,White,Colorectal,III,Capecitabine based,1,0,0,0
+NGUYEN_029,wild_type,none,46,Male,Black,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_030,wild_type,none,56,Male,White,GI,IV,5-FU based,0,0,0,1
+NGUYEN_031,wild_type,none,79,Male,White,GI,IV,Capecitabine based,0,1,0,0
+NGUYEN_032,wild_type,none,43,Female,White,GI,IV,5-FU based,1,0,0,0
+NGUYEN_033,wild_type,none,64,Male,White,Colorectal,III,Capecitabine based,0,0,0,0
+NGUYEN_034,wild_type,none,57,Male,White,Colorectal,IV,Other,1,0,0,1
+NGUYEN_035,wild_type,none,44,Male,White,Colorectal,IV,5-FU based,0,0,1,1
+NGUYEN_036,wild_type,none,69,Female,White,Colorectal,III,5-FU based,1,0,0,0
+NGUYEN_037,wild_type,none,72,Female,White,Colorectal,I-II,Capecitabine based,0,0,1,0
+NGUYEN_038,wild_type,none,48,Female,White,GI,III,Other,0,0,0,0
+NGUYEN_039,wild_type,none,69,Female,White,GI,IV,Capecitabine based,0,0,0,0
+NGUYEN_040,wild_type,none,74,Female,Black,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_041,wild_type,none,73,Female,White,Colorectal,IV,Capecitabine based,0,0,1,0
+NGUYEN_042,wild_type,none,61,Male,White,GI,IV,5-FU based,1,0,0,0
+NGUYEN_043,wild_type,none,75,Male,White,Colorectal,III,Capecitabine based,1,0,1,0
+NGUYEN_044,wild_type,none,89,Male,White,Other,I-II,Other,1,1,0,0
+NGUYEN_045,wild_type,none,64,Male,White,GI,III,Capecitabine based,1,0,0,0
+NGUYEN_046,wild_type,none,48,Male,Black,GI,IV,Other,0,0,0,0
+NGUYEN_047,wild_type,none,48,Male,White,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_048,wild_type,none,81,Female,Black,GI,IV,Capecitabine based,0,0,0,1
+NGUYEN_049,wild_type,none,66,Female,White,GI,I-II,5-FU based,0,0,0,1
+NGUYEN_050,wild_type,none,62,Male,Black,GI,IV,5-FU based,0,0,0,0
+NGUYEN_051,wild_type,none,57,Male,White,GI,III,Capecitabine based,1,0,0,1
+NGUYEN_052,wild_type,none,76,Female,White,Colorectal,I-II,Capecitabine based,0,0,0,0
+NGUYEN_053,wild_type,none,43,Male,White,GI,I-II,Capecitabine based,1,0,0,0
+NGUYEN_054,wild_type,none,67,Male,White,Colorectal,I-II,5-FU based,1,0,0,0
+NGUYEN_055,wild_type,none,47,Male,White,GI,IV,Capecitabine based,0,0,1,0
+NGUYEN_056,wild_type,none,64,Male,White,GI,III,5-FU based,0,1,0,0
+NGUYEN_057,wild_type,none,83,Male,White,GI,IV,Other,0,0,0,0
+NGUYEN_058,wild_type,none,58,Female,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_059,wild_type,none,76,Male,Black,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_060,wild_type,none,44,Female,White,Colorectal,IV,5-FU based,0,1,0,0
+NGUYEN_061,wild_type,none,45,Female,White,GI,IV,Other,1,0,0,0
+NGUYEN_062,wild_type,none,47,Female,Black,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_063,wild_type,none,62,Male,White,Other,IV,Capecitabine based,1,0,1,0
+NGUYEN_064,wild_type,none,67,Female,White,Colorectal,IV,Capecitabine based,1,1,0,0
+NGUYEN_065,wild_type,none,66,Male,White,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_066,wild_type,none,75,Male,White,Colorectal,I-II,5-FU based,0,0,0,0
+NGUYEN_067,wild_type,none,68,Female,White,Colorectal,IV,5-FU based,0,0,0,1
+NGUYEN_068,wild_type,none,56,Female,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_069,wild_type,none,56,Male,White,GI,III,Other,1,0,1,0
+NGUYEN_070,wild_type,none,74,Female,White,GI,IV,Other,1,0,0,0
+NGUYEN_071,wild_type,none,56,Female,Black,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_072,wild_type,none,74,Male,White,Colorectal,III,Other,1,0,0,0
+NGUYEN_073,wild_type,none,58,Female,White,GI,IV,5-FU based,1,1,0,0
+NGUYEN_074,wild_type,none,70,Female,White,Colorectal,I-II,Capecitabine based,1,0,0,0
+NGUYEN_075,wild_type,none,55,Male,White,Colorectal,IV,Capecitabine based,1,0,1,0
+NGUYEN_076,wild_type,none,42,Female,White,Colorectal,IV,5-FU based,1,0,0,1
+NGUYEN_077,wild_type,none,74,Female,Black,GI,IV,5-FU based,1,0,0,0
+NGUYEN_078,wild_type,none,68,Male,White,GI,IV,5-FU based,1,0,1,0
+NGUYEN_079,wild_type,none,79,Female,White,GI,IV,Capecitabine based,0,0,0,0
+NGUYEN_080,wild_type,none,58,Female,White,Colorectal,IV,5-FU based,0,1,1,0
+NGUYEN_081,wild_type,none,62,Male,White,GI,IV,Capecitabine based,1,1,0,0
+NGUYEN_082,wild_type,none,89,Female,White,Colorectal,I-II,5-FU based,0,0,0,0
+NGUYEN_083,wild_type,none,66,Female,Black,Colorectal,I-II,5-FU based,0,0,1,0
+NGUYEN_084,wild_type,none,54,Female,Black,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_085,wild_type,none,61,Female,White,Other,IV,5-FU based,0,0,0,0
+NGUYEN_086,wild_type,none,74,Male,Black,GI,IV,5-FU based,0,0,0,0
+NGUYEN_087,wild_type,none,33,Male,Other,Other,I-II,Capecitabine based,0,1,0,0
+NGUYEN_088,wild_type,none,65,Male,White,GI,IV,5-FU based,1,0,0,0
+NGUYEN_089,wild_type,none,63,Female,Black,GI,III,5-FU based,1,0,0,0
+NGUYEN_090,wild_type,none,52,Male,White,GI,III,Other,1,0,0,0
+NGUYEN_091,wild_type,none,53,Male,White,GI,III,Capecitabine based,0,0,0,0
+NGUYEN_092,wild_type,none,58,Male,White,GI,IV,5-FU based,1,1,1,0
+NGUYEN_093,wild_type,none,37,Male,White,Other,III,5-FU based,0,0,0,0
+NGUYEN_094,wild_type,none,74,Male,Other,Colorectal,I-II,5-FU based,1,0,0,0
+NGUYEN_095,wild_type,none,88,Male,Other,GI,IV,5-FU based,0,0,0,0
+NGUYEN_096,wild_type,none,71,Male,Black,GI,III,5-FU based,1,0,0,0
+NGUYEN_097,wild_type,none,55,Female,White,Colorectal,IV,Capecitabine based,1,0,0,0
+NGUYEN_098,wild_type,none,66,Female,White,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_099,wild_type,none,60,Male,White,GI,I-II,5-FU based,1,0,0,0
+NGUYEN_100,wild_type,none,75,Male,Black,Colorectal,III,Capecitabine based,0,0,0,0
+NGUYEN_101,wild_type,none,81,Male,White,GI,I-II,Capecitabine based,0,0,1,0
+NGUYEN_102,wild_type,none,74,Male,Black,GI,I-II,Capecitabine based,1,0,0,0
+NGUYEN_103,wild_type,none,65,Male,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_104,wild_type,none,22,Female,White,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_105,wild_type,none,45,Female,White,Colorectal,IV,Capecitabine based,0,0,1,1
+NGUYEN_106,wild_type,none,43,Male,White,GI,IV,5-FU based,0,1,0,0
+NGUYEN_107,wild_type,none,51,Female,Black,Other,IV,Capecitabine based,0,0,1,0
+NGUYEN_108,wild_type,none,67,Male,White,GI,IV,5-FU based,0,1,0,0
+NGUYEN_109,wild_type,none,72,Male,White,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_110,wild_type,none,73,Female,Black,GI,IV,Capecitabine based,0,0,1,0
+NGUYEN_111,wild_type,none,71,Female,White,Other,I-II,5-FU based,0,0,0,0
+NGUYEN_112,wild_type,none,83,Female,White,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_113,wild_type,none,64,Female,White,Breast,I-II,Capecitabine based,1,0,0,0
+NGUYEN_114,wild_type,none,66,Male,White,Colorectal,IV,Other,1,0,0,0
+NGUYEN_115,wild_type,none,59,Male,White,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_116,wild_type,none,62,Female,White,GI,IV,5-FU based,1,0,0,1
+NGUYEN_117,wild_type,none,75,Male,White,Colorectal,IV,Capecitabine based,0,0,1,1
+NGUYEN_118,wild_type,none,87,Female,White,Breast,IV,Capecitabine based,0,0,0,0
+NGUYEN_119,wild_type,none,69,Male,Other,GI,IV,5-FU based,0,0,0,0
+NGUYEN_120,wild_type,none,78,Male,Asian,Other,IV,5-FU based,1,0,1,0
+NGUYEN_121,wild_type,none,55,Male,White,GI,IV,5-FU based,0,1,1,0
+NGUYEN_122,wild_type,none,82,Female,Black,GI,IV,Capecitabine based,1,0,0,0
+NGUYEN_123,wild_type,none,49,Female,White,GI,III,Capecitabine based,0,1,1,0
+NGUYEN_124,wild_type,none,60,Male,Black,Colorectal,I-II,Capecitabine based,0,0,0,0
+NGUYEN_125,wild_type,none,37,Female,White,GI,IV,5-FU based,1,0,0,0
+NGUYEN_126,wild_type,none,62,Female,White,GI,III,Capecitabine based,1,0,0,0
+NGUYEN_127,wild_type,none,84,Male,White,Colorectal,I-II,5-FU based,0,1,0,0
+NGUYEN_128,wild_type,none,87,Male,White,Colorectal,IV,5-FU based,1,0,0,0
+NGUYEN_129,wild_type,none,59,Female,White,GI,IV,Other,0,0,0,0
+NGUYEN_130,wild_type,none,54,Male,White,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_131,wild_type,none,93,Male,White,GI,IV,Capecitabine based,0,0,1,0
+NGUYEN_132,wild_type,none,65,Female,Black,GI,IV,Other,0,0,0,0
+NGUYEN_133,wild_type,none,50,Female,White,Other,I-II,Capecitabine based,0,0,0,0
+NGUYEN_134,wild_type,none,62,Male,White,Colorectal,I-II,5-FU based,0,1,0,0
+NGUYEN_135,wild_type,none,66,Male,White,Breast,IV,Capecitabine based,0,0,0,0
+NGUYEN_136,wild_type,none,62,Female,Black,Colorectal,IV,Capecitabine based,1,0,0,0
+NGUYEN_137,wild_type,none,63,Male,White,GI,IV,Other,0,0,0,0
+NGUYEN_138,wild_type,none,75,Female,White,Colorectal,III,Capecitabine based,0,0,0,0
+NGUYEN_139,wild_type,none,68,Male,White,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_140,wild_type,none,67,Female,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_141,wild_type,none,73,Male,White,GI,IV,Capecitabine based,1,0,0,0
+NGUYEN_142,wild_type,none,58,Female,White,Colorectal,I-II,Capecitabine based,0,1,0,0
+NGUYEN_143,wild_type,none,58,Male,White,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_144,wild_type,none,49,Male,White,Colorectal,I-II,5-FU based,1,1,0,0
+NGUYEN_145,wild_type,none,69,Female,Other,GI,III,5-FU based,0,0,0,0
+NGUYEN_146,wild_type,none,73,Female,White,Colorectal,IV,5-FU based,1,1,0,0
+NGUYEN_147,wild_type,none,64,Male,Black,Colorectal,III,Capecitabine based,0,0,0,0
+NGUYEN_148,wild_type,none,56,Male,Black,Colorectal,IV,Other,0,0,0,0
+NGUYEN_149,wild_type,none,69,Female,White,Colorectal,I-II,Capecitabine based,0,0,0,0
+NGUYEN_150,wild_type,none,90,Female,White,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_151,wild_type,none,49,Male,White,GI,IV,Capecitabine based,0,0,0,0
+NGUYEN_152,wild_type,none,61,Female,White,Colorectal,I-II,Other,0,1,1,0
+NGUYEN_153,wild_type,none,52,Male,Other,Colorectal,I-II,5-FU based,1,0,1,0
+NGUYEN_154,wild_type,none,51,Male,White,Breast,IV,5-FU based,0,0,0,0
+NGUYEN_155,wild_type,none,46,Female,White,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_156,wild_type,none,31,Female,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_157,wild_type,none,45,Male,White,GI,IV,Capecitabine based,0,0,0,0
+NGUYEN_158,wild_type,none,59,Male,Black,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_159,wild_type,none,72,Male,White,GI,III,5-FU based,1,0,0,1
+NGUYEN_160,wild_type,none,61,Female,White,GI,III,Capecitabine based,1,1,0,0
+NGUYEN_161,wild_type,none,58,Female,Black,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_162,wild_type,none,69,Female,White,GI,IV,Capecitabine based,0,0,0,0
+NGUYEN_163,wild_type,none,72,Female,White,Colorectal,IV,5-FU based,1,0,0,0
+NGUYEN_164,wild_type,none,66,Female,Black,GI,I-II,Capecitabine based,0,0,0,0
+NGUYEN_165,wild_type,none,66,Male,White,GI,I-II,5-FU based,0,0,0,0
+NGUYEN_166,wild_type,none,85,Male,Black,Colorectal,I-II,5-FU based,0,0,0,0
+NGUYEN_167,wild_type,none,63,Female,White,Colorectal,III,Capecitabine based,0,1,0,0
+NGUYEN_168,wild_type,none,53,Female,White,Breast,IV,5-FU based,1,1,0,0
+NGUYEN_169,wild_type,none,62,Male,White,GI,IV,Capecitabine based,0,0,0,0
+NGUYEN_170,wild_type,none,58,Female,White,Colorectal,IV,5-FU based,1,0,0,0
+NGUYEN_171,wild_type,none,68,Male,Black,GI,III,Capecitabine based,1,1,0,0
+NGUYEN_172,wild_type,none,78,Male,White,Other,IV,Other,0,0,0,0
+NGUYEN_173,wild_type,none,49,Male,White,Breast,IV,5-FU based,0,0,0,0
+NGUYEN_174,wild_type,none,64,Male,White,Colorectal,I-II,5-FU based,0,0,0,0
+NGUYEN_175,wild_type,none,57,Male,Other,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_176,wild_type,none,35,Male,Other,GI,III,5-FU based,0,0,0,1
+NGUYEN_177,wild_type,none,56,Female,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_178,wild_type,none,54,Female,White,GI,IV,Capecitabine based,0,0,0,1
+NGUYEN_179,wild_type,none,56,Female,White,Colorectal,I-II,5-FU based,0,0,1,0
+NGUYEN_180,wild_type,none,69,Female,White,GI,I-II,5-FU based,1,0,0,0
+NGUYEN_181,wild_type,none,82,Male,White,GI,III,5-FU based,0,0,0,0
+NGUYEN_182,wild_type,none,81,Female,White,GI,I-II,5-FU based,0,0,0,0
+NGUYEN_183,wild_type,none,65,Male,White,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_184,wild_type,none,58,Female,Black,GI,I-II,5-FU based,0,0,0,0
+NGUYEN_185,wild_type,none,88,Female,Black,GI,IV,5-FU based,1,0,0,0
+NGUYEN_186,wild_type,none,48,Female,White,Colorectal,IV,5-FU based,1,0,0,0
+NGUYEN_187,wild_type,none,73,Female,White,GI,III,Capecitabine based,1,0,0,0
+NGUYEN_188,wild_type,none,72,Female,White,GI,I-II,Other,1,0,1,0
+NGUYEN_189,wild_type,none,61,Female,White,GI,I-II,Capecitabine based,0,0,0,0
+NGUYEN_190,wild_type,none,58,Female,White,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_191,wild_type,none,68,Female,White,Colorectal,IV,Capecitabine based,1,0,0,0
+NGUYEN_192,wild_type,none,40,Female,White,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_193,wild_type,none,74,Male,Black,Colorectal,IV,5-FU based,1,0,0,1
+NGUYEN_194,wild_type,none,77,Male,White,GI,IV,5-FU based,1,0,0,0
+NGUYEN_195,wild_type,none,58,Female,White,GI,III,Capecitabine based,1,0,0,0
+NGUYEN_196,wild_type,none,46,Female,White,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_197,wild_type,none,69,Male,Black,Colorectal,IV,Capecitabine based,1,0,0,0
+NGUYEN_198,wild_type,none,42,Female,White,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_199,wild_type,none,71,Female,Black,Colorectal,IV,Other,0,0,0,1
+NGUYEN_200,wild_type,none,74,Male,Asian,Colorectal,III,Capecitabine based,1,0,0,0
+NGUYEN_201,wild_type,none,73,Female,White,GI,III,5-FU based,0,0,0,0
+NGUYEN_202,wild_type,none,64,Male,White,Other,I-II,Capecitabine based,0,0,1,1
+NGUYEN_203,wild_type,none,58,Female,White,Colorectal,III,Other,0,0,0,0
+NGUYEN_204,wild_type,none,55,Male,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_205,wild_type,none,74,Male,White,GI,IV,Capecitabine based,0,0,0,0
+NGUYEN_206,wild_type,none,59,Male,White,GI,IV,Capecitabine based,0,0,0,0
+NGUYEN_207,wild_type,none,73,Female,Black,Colorectal,I-II,5-FU based,1,0,1,0
+NGUYEN_208,wild_type,none,78,Female,Other,GI,III,Capecitabine based,0,0,1,0
+NGUYEN_209,wild_type,none,75,Female,White,GI,IV,Other,0,0,0,0
+NGUYEN_210,wild_type,none,69,Female,White,Other,IV,Capecitabine based,1,0,0,0
+NGUYEN_211,wild_type,none,70,Male,White,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_212,wild_type,none,59,Male,White,Colorectal,I-II,Capecitabine based,0,0,0,0
+NGUYEN_213,wild_type,none,60,Male,White,Colorectal,IV,Capecitabine based,0,0,1,0
+NGUYEN_214,wild_type,none,54,Male,White,GI,III,5-FU based,0,0,0,0
+NGUYEN_215,wild_type,none,67,Female,Black,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_216,wild_type,none,72,Female,White,Other,III,5-FU based,0,0,0,0
+NGUYEN_217,wild_type,none,65,Female,Other,GI,III,Capecitabine based,0,0,0,0
+NGUYEN_218,wild_type,none,57,Female,Black,GI,III,Other,0,0,0,0
+NGUYEN_219,wild_type,none,57,Male,Other,GI,IV,Capecitabine based,0,0,0,0
+NGUYEN_220,wild_type,none,73,Female,Asian,GI,III,5-FU based,0,1,0,0
+NGUYEN_221,wild_type,none,76,Female,White,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_222,wild_type,none,76,Female,White,Other,I-II,Capecitabine based,0,0,0,0
+NGUYEN_223,wild_type,none,47,Male,White,Colorectal,I-II,Capecitabine based,1,0,0,0
+NGUYEN_224,wild_type,none,65,Male,Other,Colorectal,III,5-FU based,1,0,0,0
+NGUYEN_225,wild_type,none,62,Male,Asian,Colorectal,III,Other,0,0,0,0
+NGUYEN_226,wild_type,none,90,Male,White,Colorectal,I-II,Capecitabine based,0,0,0,0
+NGUYEN_227,wild_type,none,79,Male,Asian,Other,IV,Capecitabine based,0,0,0,0
+NGUYEN_228,wild_type,none,51,Female,White,Colorectal,I-II,Other,1,0,0,0
+NGUYEN_229,wild_type,none,69,Female,Black,Colorectal,III,Capecitabine based,0,0,0,0
+NGUYEN_230,wild_type,none,68,Male,Black,Colorectal,I-II,5-FU based,0,0,0,0
+NGUYEN_231,wild_type,none,56,Female,White,Breast,IV,Other,0,1,0,1
+NGUYEN_232,wild_type,none,45,Female,White,Colorectal,III,5-FU based,0,1,0,1
+NGUYEN_233,wild_type,none,42,Female,Other,GI,IV,Capecitabine based,1,0,1,1
+NGUYEN_234,wild_type,none,57,Female,Black,Other,IV,Capecitabine based,0,0,0,0
+NGUYEN_235,wild_type,none,53,Female,White,Colorectal,IV,Capecitabine based,0,1,0,1
+NGUYEN_236,wild_type,none,71,Female,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_237,wild_type,none,80,Female,Black,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_238,wild_type,none,56,Female,White,Colorectal,IV,Capecitabine based,0,0,1,0
+NGUYEN_239,wild_type,none,52,Female,White,GI,IV,Capecitabine based,0,0,0,0
+NGUYEN_240,wild_type,none,61,Male,White,Colorectal,I-II,5-FU based,0,0,0,0
+NGUYEN_241,wild_type,none,83,Female,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_242,wild_type,none,92,Male,White,Breast,IV,5-FU based,0,1,1,0
+NGUYEN_243,wild_type,none,76,Female,White,GI,I-II,Capecitabine based,0,0,0,0
+NGUYEN_244,wild_type,none,52,Male,White,Colorectal,I-II,5-FU based,0,0,1,0
+NGUYEN_245,wild_type,none,71,Female,White,Colorectal,I-II,5-FU based,0,0,0,0
+NGUYEN_246,wild_type,none,53,Male,White,GI,III,5-FU based,0,0,0,0
+NGUYEN_247,wild_type,none,64,Male,White,GI,IV,Other,0,0,1,0
+NGUYEN_248,wild_type,none,68,Male,White,Colorectal,I-II,5-FU based,1,1,0,0
+NGUYEN_249,wild_type,none,60,Male,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_250,wild_type,none,62,Female,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_251,wild_type,none,33,Female,White,Colorectal,I-II,Capecitabine based,1,0,0,0
+NGUYEN_252,wild_type,none,64,Female,White,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_253,wild_type,none,35,Male,White,GI,III,Other,0,0,0,0
+NGUYEN_254,wild_type,none,79,Male,Black,GI,III,5-FU based,1,0,0,1
+NGUYEN_255,wild_type,none,63,Male,White,Other,I-II,Other,1,0,0,0
+NGUYEN_256,wild_type,none,79,Female,White,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_257,wild_type,none,58,Female,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_258,wild_type,none,47,Male,White,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_259,wild_type,none,56,Female,Black,GI,IV,Other,0,0,0,0
+NGUYEN_260,wild_type,none,67,Female,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_261,wild_type,none,63,Male,White,Colorectal,IV,Capecitabine based,0,1,0,1
+NGUYEN_262,wild_type,none,67,Male,Black,GI,III,5-FU based,1,0,0,0
+NGUYEN_263,wild_type,none,48,Female,White,GI,III,5-FU based,0,0,0,1
+NGUYEN_264,wild_type,none,67,Female,White,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_265,wild_type,none,73,Male,White,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_266,wild_type,none,84,Female,White,Other,IV,Capecitabine based,1,0,0,0
+NGUYEN_267,wild_type,none,45,Male,White,GI,III,Other,0,0,0,0
+NGUYEN_268,wild_type,none,80,Male,White,GI,IV,Capecitabine based,1,1,0,0
+NGUYEN_269,wild_type,none,83,Male,Black,GI,I-II,Capecitabine based,1,1,0,1
+NGUYEN_270,wild_type,none,62,Male,White,Other,IV,5-FU based,0,0,1,1
+NGUYEN_271,wild_type,none,77,Male,White,Colorectal,I-II,5-FU based,0,0,0,0
+NGUYEN_272,wild_type,none,75,Male,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_273,wild_type,none,68,Female,White,GI,IV,5-FU based,1,1,0,0
+NGUYEN_274,wild_type,none,46,Male,Black,Colorectal,IV,Other,1,0,0,0
+NGUYEN_275,wild_type,none,74,Male,White,Colorectal,I-II,Other,1,0,1,0
+NGUYEN_276,wild_type,none,53,Female,White,Colorectal,I-II,Capecitabine based,0,0,0,0
+NGUYEN_277,wild_type,none,62,Male,White,Colorectal,III,Capecitabine based,0,0,0,0
+NGUYEN_278,wild_type,none,78,Female,White,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_279,wild_type,none,54,Female,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_280,wild_type,none,52,Female,Asian,GI,I-II,5-FU based,0,0,0,0
+NGUYEN_281,wild_type,none,61,Female,White,Colorectal,I-II,Capecitabine based,1,1,0,0
+NGUYEN_282,wild_type,none,72,Male,Black,GI,IV,5-FU based,1,0,1,0
+NGUYEN_283,wild_type,none,54,Female,White,Colorectal,III,Capecitabine based,0,0,0,0
+NGUYEN_284,wild_type,none,49,Female,White,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_285,wild_type,none,35,Female,White,Colorectal,III,Capecitabine based,0,0,0,0
+NGUYEN_286,wild_type,none,50,Male,Black,GI,IV,5-FU based,0,0,0,0
+NGUYEN_287,wild_type,none,69,Male,White,Colorectal,IV,5-FU based,1,0,0,0
+NGUYEN_288,wild_type,none,67,Male,White,Colorectal,III,Capecitabine based,0,0,0,0
+NGUYEN_289,wild_type,none,62,Female,Black,Colorectal,I-II,5-FU based,0,0,0,0
+NGUYEN_290,wild_type,none,65,Male,White,Colorectal,I-II,Capecitabine based,0,1,0,0
+NGUYEN_291,wild_type,none,72,Male,Other,Colorectal,I-II,Capecitabine based,0,0,0,0
+NGUYEN_292,wild_type,none,62,Female,Asian,GI,I-II,Capecitabine based,0,0,1,0
+NGUYEN_293,wild_type,none,74,Male,White,Breast,III,Capecitabine based,1,1,0,0
+NGUYEN_294,wild_type,none,60,Female,White,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_295,wild_type,none,75,Female,White,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_296,wild_type,none,94,Male,White,Colorectal,III,5-FU based,1,0,0,0
+NGUYEN_297,wild_type,none,70,Female,Other,Colorectal,I-II,5-FU based,0,0,0,0
+NGUYEN_298,wild_type,none,68,Female,White,Colorectal,III,Capecitabine based,0,0,0,0
+NGUYEN_299,wild_type,none,52,Male,White,GI,IV,Capecitabine based,0,1,0,0
+NGUYEN_300,wild_type,none,80,Female,White,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_301,wild_type,none,43,Female,White,GI,I-II,5-FU based,1,0,1,0
+NGUYEN_302,wild_type,none,84,Male,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_303,wild_type,none,57,Female,White,GI,III,Capecitabine based,0,0,1,0
+NGUYEN_304,wild_type,none,54,Male,White,Colorectal,III,5-FU based,1,0,1,0
+NGUYEN_305,wild_type,none,75,Female,White,GI,III,5-FU based,1,0,0,0
+NGUYEN_306,wild_type,none,66,Male,White,Other,IV,5-FU based,1,0,0,0
+NGUYEN_307,wild_type,none,89,Female,White,GI,III,5-FU based,0,0,0,0
+NGUYEN_308,wild_type,none,69,Female,Black,GI,I-II,5-FU based,0,0,0,0
+NGUYEN_309,wild_type,none,71,Male,White,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_310,wild_type,none,72,Female,White,GI,IV,5-FU based,1,0,1,0
+NGUYEN_311,wild_type,none,83,Male,White,GI,I-II,Capecitabine based,0,0,0,0
+NGUYEN_312,wild_type,none,64,Female,Black,Breast,I-II,Capecitabine based,0,0,0,0
+NGUYEN_313,wild_type,none,92,Male,White,Other,I-II,Capecitabine based,0,0,0,0
+NGUYEN_314,wild_type,none,48,Male,White,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_315,wild_type,none,65,Male,White,Colorectal,I-II,5-FU based,0,0,0,0
+NGUYEN_316,wild_type,none,68,Male,White,GI,III,Capecitabine based,0,0,0,0
+NGUYEN_317,wild_type,none,65,Female,Black,Colorectal,III,Capecitabine based,0,0,0,0
+NGUYEN_318,wild_type,none,50,Male,White,GI,III,Other,1,1,0,0
+NGUYEN_319,wild_type,none,70,Female,White,Colorectal,I-II,Capecitabine based,0,0,0,0
+NGUYEN_320,wild_type,none,63,Male,White,Other,IV,Capecitabine based,0,0,0,0
+NGUYEN_321,wild_type,none,72,Male,White,GI,III,Other,1,0,0,0
+NGUYEN_322,wild_type,none,70,Male,White,Colorectal,III,5-FU based,1,0,1,1
+NGUYEN_323,wild_type,none,70,Female,Asian,Breast,III,Capecitabine based,0,1,0,0
+NGUYEN_324,wild_type,none,66,Female,White,Colorectal,III,Capecitabine based,1,0,1,0
+NGUYEN_325,wild_type,none,65,Male,White,Colorectal,I-II,Capecitabine based,0,1,0,0
+NGUYEN_326,wild_type,none,71,Male,Black,Breast,IV,5-FU based,1,1,0,0
+NGUYEN_327,wild_type,none,71,Female,White,Other,I-II,5-FU based,0,0,0,0
+NGUYEN_328,wild_type,none,50,Male,White,GI,I-II,5-FU based,0,0,0,1
+NGUYEN_329,wild_type,none,80,Male,White,Colorectal,I-II,5-FU based,0,0,0,1
+NGUYEN_330,wild_type,none,66,Male,White,Other,IV,5-FU based,0,0,0,1
+NGUYEN_331,wild_type,none,69,Male,White,Colorectal,IV,5-FU based,0,0,0,1
+NGUYEN_332,wild_type,none,48,Female,White,Breast,I-II,5-FU based,0,0,0,0
+NGUYEN_333,wild_type,none,73,Male,White,Colorectal,IV,5-FU based,0,1,0,0
+NGUYEN_334,wild_type,none,81,Male,Black,GI,IV,Capecitabine based,0,0,0,0
+NGUYEN_335,wild_type,none,52,Male,White,GI,III,5-FU based,0,0,0,0
+NGUYEN_336,wild_type,none,46,Male,White,GI,I-II,5-FU based,0,0,1,0
+NGUYEN_337,wild_type,none,32,Female,White,GI,IV,Capecitabine based,0,0,0,0
+NGUYEN_338,wild_type,none,86,Male,White,Colorectal,I-II,Capecitabine based,0,0,0,0
+NGUYEN_339,wild_type,none,63,Female,White,Colorectal,I-II,Other,0,0,0,0
+NGUYEN_340,wild_type,none,79,Female,White,GI,IV,Capecitabine based,0,0,1,1
+NGUYEN_341,wild_type,none,32,Female,White,GI,IV,Capecitabine based,0,0,0,0
+NGUYEN_342,wild_type,none,59,Male,Asian,Breast,IV,Capecitabine based,0,1,1,1
+NGUYEN_343,wild_type,none,40,Female,White,Colorectal,III,Capecitabine based,0,1,0,0
+NGUYEN_344,wild_type,none,73,Female,White,Colorectal,IV,5-FU based,1,0,0,0
+NGUYEN_345,wild_type,none,67,Male,White,GI,I-II,Capecitabine based,0,0,0,0
+NGUYEN_346,wild_type,none,43,Female,Black,Colorectal,I-II,Capecitabine based,0,0,0,0
+NGUYEN_347,wild_type,none,79,Male,White,Other,IV,Capecitabine based,0,0,0,0
+NGUYEN_348,wild_type,none,70,Male,White,Colorectal,III,5-FU based,0,0,1,0
+NGUYEN_349,wild_type,none,58,Female,White,Colorectal,I-II,Other,1,0,0,1
+NGUYEN_350,wild_type,none,87,Female,Black,Colorectal,IV,5-FU based,1,0,0,1
+NGUYEN_351,wild_type,none,64,Male,Black,GI,IV,5-FU based,1,0,0,1
+NGUYEN_352,wild_type,none,64,Female,White,GI,I-II,Capecitabine based,1,0,0,0
+NGUYEN_353,wild_type,none,60,Male,Black,Colorectal,IV,5-FU based,1,0,1,0
+NGUYEN_354,wild_type,none,70,Male,White,Colorectal,III,Capecitabine based,0,0,0,0
+NGUYEN_355,wild_type,none,49,Male,White,Colorectal,IV,Other,1,1,0,0
+NGUYEN_356,wild_type,none,69,Male,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_357,wild_type,none,55,Male,White,Colorectal,I-II,5-FU based,1,1,0,0
+NGUYEN_358,wild_type,none,73,Female,Asian,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_359,wild_type,none,50,Male,White,Breast,IV,5-FU based,1,0,0,0
+NGUYEN_360,wild_type,none,74,Male,Black,Colorectal,IV,5-FU based,0,0,1,0
+NGUYEN_361,wild_type,none,60,Female,White,GI,IV,Capecitabine based,0,0,1,0
+NGUYEN_362,wild_type,none,80,Male,White,Colorectal,III,Other,0,0,0,0
+NGUYEN_363,wild_type,none,75,Female,White,Colorectal,III,Other,1,1,0,0
+NGUYEN_364,wild_type,none,66,Male,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_365,wild_type,none,63,Male,Black,GI,IV,Capecitabine based,1,0,0,0
+NGUYEN_366,wild_type,none,59,Female,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_367,wild_type,none,54,Female,White,Breast,I-II,Capecitabine based,0,0,0,0
+NGUYEN_368,wild_type,none,60,Female,Black,GI,I-II,Capecitabine based,0,0,0,0
+NGUYEN_369,wild_type,none,44,Male,Black,GI,IV,5-FU based,0,1,1,0
+NGUYEN_370,wild_type,none,67,Male,White,Colorectal,I-II,Capecitabine based,0,0,1,0
+NGUYEN_371,wild_type,none,67,Female,Black,GI,I-II,5-FU based,0,0,0,0
+NGUYEN_372,wild_type,none,53,Male,White,GI,IV,Other,0,0,0,0
+NGUYEN_373,wild_type,none,47,Male,White,GI,IV,5-FU based,0,0,0,1
+NGUYEN_374,wild_type,none,66,Male,White,Colorectal,III,Other,0,0,0,0
+NGUYEN_375,wild_type,none,49,Female,White,GI,I-II,5-FU based,1,0,0,0
+NGUYEN_376,wild_type,none,53,Male,White,Colorectal,III,Capecitabine based,0,0,0,0
+NGUYEN_377,wild_type,none,71,Female,White,Colorectal,I-II,Other,1,0,0,1
+NGUYEN_378,wild_type,none,49,Male,Black,GI,IV,5-FU based,0,0,0,0
+NGUYEN_379,wild_type,none,68,Male,Black,Colorectal,III,Capecitabine based,0,0,0,0
+NGUYEN_380,wild_type,none,41,Male,White,Other,IV,5-FU based,0,0,1,1
+NGUYEN_381,wild_type,none,35,Male,White,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_382,wild_type,none,55,Male,White,Breast,III,5-FU based,0,0,0,0
+NGUYEN_383,wild_type,none,66,Male,White,GI,IV,Other,1,0,1,0
+NGUYEN_384,wild_type,none,58,Male,Black,GI,III,Capecitabine based,1,0,0,1
+NGUYEN_385,wild_type,none,49,Male,Black,Colorectal,IV,5-FU based,0,0,1,0
+NGUYEN_386,wild_type,none,54,Female,White,GI,IV,5-FU based,0,0,1,0
+NGUYEN_387,wild_type,none,41,Male,White,Breast,IV,5-FU based,0,0,0,0
+NGUYEN_388,wild_type,none,55,Female,Black,GI,IV,Capecitabine based,1,1,0,0
+NGUYEN_389,wild_type,none,74,Male,Black,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_390,wild_type,none,76,Male,Black,Other,IV,5-FU based,0,0,1,0
+NGUYEN_391,wild_type,none,51,Male,Black,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_392,wild_type,none,51,Female,Asian,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_393,wild_type,none,74,Male,White,GI,I-II,5-FU based,0,0,0,1
+NGUYEN_394,wild_type,none,39,Male,White,Colorectal,IV,5-FU based,0,1,1,0
+NGUYEN_395,wild_type,none,49,Male,White,Colorectal,III,5-FU based,0,0,0,0
+NGUYEN_396,wild_type,none,52,Male,White,GI,I-II,Capecitabine based,0,0,0,0
+NGUYEN_397,wild_type,none,86,Female,White,Colorectal,I-II,5-FU based,0,0,0,0
+NGUYEN_398,wild_type,none,61,Female,White,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_399,wild_type,none,41,Female,White,Other,IV,5-FU based,0,0,0,0
+NGUYEN_400,wild_type,none,74,Male,White,GI,I-II,Capecitabine based,0,0,0,0
+NGUYEN_401,wild_type,none,64,Male,White,GI,IV,5-FU based,0,0,1,0
+NGUYEN_402,wild_type,none,49,Female,White,Colorectal,IV,5-FU based,1,0,1,0
+NGUYEN_403,wild_type,none,77,Male,White,Other,I-II,5-FU based,0,0,0,0
+NGUYEN_404,wild_type,none,54,Male,White,Colorectal,III,5-FU based,1,0,1,0
+NGUYEN_405,wild_type,none,42,Male,White,GI,IV,5-FU based,0,0,0,0
+NGUYEN_406,wild_type,none,56,Male,White,GI,I-II,Capecitabine based,0,0,0,0
+NGUYEN_407,wild_type,none,54,Male,White,Other,IV,5-FU based,1,0,1,0
+NGUYEN_408,wild_type,none,63,Female,Asian,Colorectal,IV,5-FU based,0,0,0,0
+NGUYEN_409,wild_type,none,71,Male,White,Colorectal,III,5-FU based,1,0,0,0
+NGUYEN_410,wild_type,none,62,Male,White,GI,IV,Capecitabine based,0,0,1,0
+NGUYEN_411,wild_type,none,51,Male,White,GI,III,Capecitabine based,1,0,0,0
+NGUYEN_412,wild_type,none,60,Female,White,GI,I-II,5-FU based,1,0,0,0
+NGUYEN_413,wild_type,none,67,Male,White,GI,I-II,5-FU based,0,0,0,0
+NGUYEN_414,wild_type,none,78,Female,Black,GI,I-II,Capecitabine based,0,0,1,0
+NGUYEN_415,wild_type,none,43,Female,White,Colorectal,I-II,5-FU based,1,0,0,0
+NGUYEN_416,pretreatment,c.2846A>T (D949V),73,Female,White,GI,I-II,Capecitabine based,0,0,0,0
+NGUYEN_417,pretreatment,c.1236G>A (HapB3),48,Male,White,Colorectal,IV,Capecitabine based,0,0,0,0
+NGUYEN_418,pretreatment,c.2846A>T (D949V),50,Female,White,GI,I-II,5-FU based,1,0,0,0
+NGUYEN_419,pretreatment,c.1236G>A (HapB3),48,Male,White,GI,I-II,5-FU based,0,0,1,1
+NGUYEN_420,pretreatment,c.1236G>A (HapB3),68,Female,White,GI,III,5-FU based,0,0,0,0
+NGUYEN_421,pretreatment,c.2846A>T (D949V),65,Female,White,GI,IV,5-FU based,0,0,0,1
+NGUYEN_422,pretreatment,c.2846A>T (D949V),52,Male,White,GI,I-II,Capecitabine based,0,1,0,1
+NGUYEN_423,pretreatment,c.1236G>A (HapB3),79,Male,White,GI,IV,Other,0,0,0,0
+NGUYEN_424,pretreatment,c.1236G>A (HapB3),46,Male,White,GI,IV,Capecitabine based,1,1,1,0
+NGUYEN_425,pretreatment,c.1236G>A (HapB3),59,Male,Asian,Colorectal,III,Other,0,0,0,0
+NGUYEN_426,pretreatment,c.1905+1G>A (DPYD*2A),82,Male,White,Colorectal,III,Other,0,1,0,0
+NGUYEN_427,pretreatment,c.1905+1G>A (DPYD*2A),49,Male,Black,Colorectal,III,5-FU based,1,0,0,0
+NGUYEN_428,pretreatment,c.1236G>A (HapB3),42,Male,Black,Other,III,Other,0,0,0,0
+NGUYEN_429,pretreatment,c.2846A>T (D949V),92,Female,White,Colorectal,IV,5-FU based,0,1,0,1
+NGUYEN_430,pretreatment,c.1236G>A (HapB3),56,Male,White,GI,I-II,Capecitabine based,1,0,1,0
+NGUYEN_431,pretreatment,c.1236G>A (HapB3),65,Male,White,Breast,IV,5-FU based,1,0,1,0
+NGUYEN_432,reactive,c.1236G>A (HapB3),79,Female,White,Other,IV,Capecitabine based,0,1,1,1
+NGUYEN_433,reactive,c.1236G>A (HapB3),60,Female,White,GI,I-II,5-FU based,0,1,0,1
+NGUYEN_434,reactive,c.2846A>T (D949V),50,Male,White,GI,III,5-FU based,1,1,0,0
+NGUYEN_435,reactive,c.1905+1G>A (DPYD*2A),78,Female,Black,Colorectal,I-II,5-FU based,0,0,0,0
+NGUYEN_436,reactive,c.2846A>T (D949V),65,Male,White,Colorectal,IV,Capecitabine based,1,1,1,1
+NGUYEN_437,reactive,c.1236G>A (HapB3),44,Female,White,Colorectal,IV,5-FU based,1,0,1,0
+NGUYEN_438,reactive,c.1236G>A (HapB3),64,Male,White,Colorectal,IV,Capecitabine based,1,0,1,1
+NGUYEN_439,reactive,c.1236G>A (HapB3),54,Male,White,GI,III,Other,1,0,1,1
+NGUYEN_440,reactive,c.557A>G (Y186C),63,Male,White,GI,III,5-FU based,1,1,0,0
+NGUYEN_441,reactive,c.1236G>A (HapB3),57,Male,White,Colorectal,III,5-FU based,1,1,1,1
+NGUYEN_442,reactive,c.1905+1G>A (DPYD*2A),72,Female,White,Other,IV,5-FU based,0,1,0,1

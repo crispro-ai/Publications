@@ -1,0 +1,55 @@
+{
+  "validation_date": "2026-01-25T04:07:40.510277",
+  "model_type": "brca_specific_multipathway",
+  "n_features": 17,
+  "feature_indices": [
+    7220,
+    8917,
+    16407,
+    2737,
+    7067,
+    6878,
+    8848,
+    22217,
+    7359,
+    10065,
+    13562,
+    25333,
+    24538,
+    13979,
+    23920,
+    26851,
+    19758
+  ],
+  "n_patients": 173,
+  "recurrence_distribution": {
+    "true": 16,
+    "false": 157
+  },
+  "performance": {
+    "cv_auroc_mean": 0.843850806451613,
+    "cv_auroc_std": 0.04644074927102988,
+    "cv_scores": [
+      0.8802083333333333,
+      0.90625,
+      0.7983870967741935,
+      0.8494623655913979,
+      0.7849462365591399
+    ],
+    "final_auroc": 0.9689490445859873,
+    "ci_lower": 0.9319098328025478,
+    "ci_upper": 0.9968601226017036
+  },
+  "comparison": {
+    "oncotype_dx_auroc": 0.65,
+    "sae_auroc": 0.9689490445859873,
+    "improvement": 0.3189490445859873,
+    "improvement_pct": 49.06908378245958
+  },
+  "provenance": {
+    "brca_checkpoint": "/Users/fahadkiani/Desktop/development/crispr-assistant-main/oncology-coPilot/oncology-backend-minimal/data/validation/sae_cohort/checkpoints/BRCA_TCGA_TRUE_SAE_cohort.json",
+    "recurrence_labels": "/Users/fahadkiani/Desktop/development/crispr-assistant-main/oncology-coPilot/oncology-backend-minimal/data/validation/sae_cohort/brca_recurrence_labels.json",
+    "pathway_comparison": "/Users/fahadkiani/Desktop/development/crispr-assistant-main/.cursor/MOAT/SAE_INTELLIGENCE/BRCA_VALIDATION/pathway_comparison.json",
+    "model_file": "/Users/fahadkiani/Desktop/development/crispr-assistant-main/.cursor/MOAT/SAE_INTELLIGENCE/BRCA_VALIDATION/brca_sae_model.pkl"
+  }
+}

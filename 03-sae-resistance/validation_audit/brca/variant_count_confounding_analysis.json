@@ -1,0 +1,16 @@
+{
+  "variant_count_correlation": 0.016800807725341524,
+  "variant_count_p_value": 0.8263434559024864,
+  "variant_count_auroc": 0.3776209677419355,
+  "variant_count_std": 0.09303376634299508,
+  "sum_features_auroc": 0.7663978494623656,
+  "mean_features_auroc": 0.7728494623655914,
+  "sum_with_count_auroc": 0.7734879032258064,
+  "sum_vs_count_correlation": 0.15086062450819987,
+  "sum_vs_count_p_value": 0.04756542014455872,
+  "confounding_assessment": {
+    "status": "LOW_CONFOUNDING",
+    "verdict": "Sum aggregation appears valid",
+    "recommendation": "Sum aggregation may be acceptable"
+  }
+}

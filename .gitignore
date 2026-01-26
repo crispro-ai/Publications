@@ -1,0 +1,8 @@
+# Large files that exceed GitHub's 100MB limit
+synthetic_lethality/data/OmicsSomaticMutations.csv
+sporadic_cancer/data/ov_tcga_pub/archived_files/data_mRNA_unified_Zscores.txt
+sporadic_cancer/data/ov_tcga_pub/data_mrna_agilent_microarray.txt
+sporadic_cancer/data/ov_tcga_pub/data_mrna_agilent_microarray_zscores_ref_diploid_samples.txt
+sporadic_cancer/data/ov_tcga_pub/data_mrna_mirna_merged_zscores.txt
+synthetic_lethality/data/OmicsCNGeneWGS.csv
+sporadic_cancer/data/ov_tcga_pub/data_mrna_agilent_microarray_zscores_ref_all_samples.txt
